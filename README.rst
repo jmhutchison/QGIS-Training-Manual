@@ -66,3 +66,42 @@ Theming
 
 To use the theme, run the command "git submodule update --init
 linfiniti-sphinx-theme" to load the theme submodule from git.
+
+
+Automated Deployment
+--------------------
+
+If you wish to deploy the docs under Apache on a Vagrant box (or other remote
+server), you can use the included fabfile tasks to auto-deploy and build the
+docs.
+
+Currently, it is only possible to build the entire training manual (in a number
+of localisations), but customised, automated deployments should be possible in
+the future. This will be useful if you plan to use the Training Manual in a
+networked teaching environment where internet access is unavailable, slow or
+expensive.
+
+You'll need a working python environment (a virtualenv is recommended) and
+Vagrant (http://vagrantup.com) must be installed (unless deploying to a remote
+server). To launch a Vagrant box, at the repository root, run::
+
+    vagrant up
+
+To install and boot an Ubuntu Precise 64 box.
+
+Inside your local virtualenv run::
+
+    pip install fabgis
+
+Then run::
+
+    fab vagrant deploy
+
+To deploy to a remote server, run::
+
+    fab -H 123.123.123.123:3456 deploy
+
+Or if you have a host specified in your SSH config file::
+
+    fab -H HostName deploy
+
