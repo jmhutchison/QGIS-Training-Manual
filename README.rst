@@ -97,6 +97,9 @@ Then run::
 
     fab vagrant deploy
 
+This will install all the necessary system requirements, setup the repository
+and setup Apache inside the Vagrant box.
+
 To deploy to a remote server, run::
 
     fab -H 123.123.123.123:3456 deploy
