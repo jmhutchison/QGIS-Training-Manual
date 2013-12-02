@@ -1,3 +1,12 @@
+**Please note that the QGIS Training Manual is being ported to QGIS 2.0 and has been
+incorporated into the main `QGIS-Documentation repository <https://github.com/qgis/QGIS-Documentation>`_.
+Work is currently being done in the 
+`manual_en_v2.0 branch <https://github.com/qgis/QGIS-Documentation/tree/manual_en_v2.0>`_.** 
+
+**Please read the new `wiki pages <https://github.com/qgis/QGIS-Documentation/wiki>`_ if you 
+wish to contribute to the porting of the Training Manual**
+
+
 About the Project
 =================
 
