@@ -13,3 +13,4 @@ i18n/*/LC_MESSAGES/.doctrees
 i18n/*/.doctrees
 make.bat
 *.mo
+.project
