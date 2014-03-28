@@ -1,5 +1,5 @@
 #!/bin/bash
-LOCALES='af id de ja ro'
+LOCALES='id'
 # Don't add the code "en" (English) here or bad things will happen!
 
 if [ $1 ]; then

@@ -1,5 +1,5 @@
 #!/bin/bash
-LOCALES='af id de ja ro'
+LOCALES='id'
 
 if [ $1 ]; then
   LOCALES=$1
@@ -23,7 +23,7 @@ fi
 # We need to flush the _build dir or the translations dont come through
 rm -rf _build
 #Add english to the list and generated docs
-LOCALES='en af id de ja ro'
+LOCALES='en id'
 
 if [ $1 ]; then
   LOCALES=$1
