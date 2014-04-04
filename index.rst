@@ -17,6 +17,7 @@
    assessment/index
    postgres/index
    postgis/index
+   animal_health/index
    appendix/contribute
 
    answers/answers
