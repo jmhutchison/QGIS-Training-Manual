@@ -21,14 +21,16 @@ data that you are familiar with.
 **The goal for this lesson:**
 
 Refresh the following skills learnt in previous chapters:
-*creating a new QGIS project
-*load vector shapefile layers
-*format styles
-*apply buffers to data points
+
+* creating a new QGIS project
+* load vector shapefile layers
+* format styles
+* apply buffers to data points
 
 Learn new skills, including:
-*how to subset a dataset spatially - selecting by location
-*identify particular records using SQL
+
+* how to subset a dataset spatially - selecting by location
+* identify particular records using SQL
 
 |basic| |TY| Create a new map
 --------------------------------------------------------------------------------
@@ -36,9 +38,9 @@ Learn new skills, including:
 Open QGIS. Using the :guilabel:`Add Vector Layer` button, add the following layers 
 from the course exercise data:
 
-*Sulawesi
-*Sul_sthn_dist
-*cases_gis
+* Sulawesi
+* Sul_sthn_dist
+* cases_gis
 
 Your map will now look something like this:
 
@@ -47,7 +49,7 @@ Your map will now look something like this:
    :align: center
 
 The colours will no doubt be different, and probably not suitable. Take the time now 
-to change the style to use the 'Style' tab in the :guilabel:`Layer Properties` to 
+to change the style to use the *Style* tab in the :guilabel:`Layer Properties` to 
 change the colours to those of your choice.
 
 We changed our colours to this:
@@ -65,11 +67,11 @@ Save your work as a new project.
 --------------------------------------------------------------------------------
 There are several ways of selecting records from layers, including:
 
-*Select Single Feature
-*Select Features by Rectangle
-*Select Features by Polygon
-*Select Features by Freehand
-*Select Features by Radius
+* Select Single Feature
+* Select Features by Rectangle
+* Select Features by Polygon
+* Select Features by Freehand
+* Select Features by Radius
 
 This are found by clicking on the :guilabel:`Select Features by Polygon` button, and 
 referring to the drop down menu.
@@ -96,7 +98,7 @@ with Sulawesi, and in particular, the cases that have been recorded in the South
 Currently our map shows all the cases recorded throughout Indonesia at the time the data was 
 downloaded.
 
-Open the :guilabel:`Select by Location'. We want to select the features in the *cases_gis* 
+Open the :guilabel:`Select by Location`. We want to select the features in the *cases_gis* 
 file that intersect with the *Sul_sthn_dist* file:
 
 .. image:: ../_static/ISIKHNAS/005.png
@@ -114,7 +116,7 @@ clicking on *Save Selection As...*:
 .. image:: ../_static/ISIKHNAS/007.png
    :align: center
    
-Save your new layer as *'Sul_sthn_cases* and add it to your map. If you feel the need, format 
+Save your new layer as *Sul_sthn_cases* and add it to your map. If you feel the need, format 
 the colour.
 
 You can now remove the *cases_gis* layer.
@@ -125,13 +127,13 @@ Let's say you have been asked to find out how many records for cattle showing si
 are in the ISIKHNAS database for the Southern Sulawesi region.
 How would you go about doing that?
 
-One answer lies in a layer's :guilabel:`Attribute Table'. Here you are able to see much more 
+One answer lies in a layer's :guilabel:`Attribute Table`. Here you are able to see much more 
 information about each record in the layer.
-The :guilabel:`Attribute Table' has been mentioned earlier, particularly in Chapters 3 and 4. 
+The :guilabel:`Attribute Table` has been mentioned earlier, particularly in Chapters 3 and 4. 
 Now we are going to use the information contained in the attribute table to select the records 
 we require.
 
-When we open the :guilabel:`Attribute Table' for the *Sul_sthn_cases* layer, we see several 
+When we open the :guilabel:`Attribute Table` for the *Sul_sthn_cases* layer, we see several 
 columns showing information about each record:
 
 .. image:: ../_static/ISIKHNAS/008.png
@@ -142,15 +144,15 @@ What information do you notice?
 In this example we can see there are 1728 records in total in this layer. These records have the 
 following information:
 
-*gid (Geographic identification)
-*reportdate
-*caseid
-*species
-*cases
-*reporttype
-*syndrome2
-*reporter
-*desa
+* gid (Geographic identification)
+* reportdate
+* caseid
+* species
+* cases
+* reporttype
+* syndrome2
+* reporter
+* desa
 
 We can use this screen to find (for example) all the records relating to cattle by typing in *cattle* 
 in the *Look for* box, choosing *species* in the drop down box and clicking on *Search*. 
