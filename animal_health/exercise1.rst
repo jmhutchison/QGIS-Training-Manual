@@ -32,7 +32,7 @@ Learn new skills, including:
 * how to subset a dataset spatially - selecting by location
 * identify particular records using SQL
 
-|basic| |TY| Create a new map
+|basic| |FA| Create a new map
 --------------------------------------------------------------------------------
 
 Open QGIS. Using the :guilabel:`Add Vector Layer` button, add the following layers 
@@ -63,7 +63,7 @@ This site contains a lot of useful information about appropriate colour schemes 
 
 Save your work as a new project.
 
-|basic| |FA| Selection by location
+|basic| |FA| Selecting records
 --------------------------------------------------------------------------------
 There are several ways of selecting records from layers, including:
 
@@ -90,7 +90,7 @@ To find the :guilabel:`Select by Location` tool, click on the menu *Vector - Res
 By selecting features of one layer that intersect with another, we can create a new 
 layer containing just the attributes we are interested in.
 
-|moderate| |TY| Selecting by location
+|moderate| |FA| Selecting by location
 --------------------------------------------------------------------------------
 
 Now that we have our map layers loaded into our project, we would like to work specifically 
@@ -141,8 +141,8 @@ columns showing information about each record:
 
 What information do you notice?
 
-In this example we can see there are 1728 records in total in this layer. These records have the 
-following information:
+In this example we can see there are 1728 records in total in this layer. The attribute table 
+has columns containing the following information:
 
 * gid (Geographic identification)
 * reportdate
