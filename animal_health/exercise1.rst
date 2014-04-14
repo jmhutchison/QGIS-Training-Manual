@@ -4,9 +4,9 @@
 In this chapter we are going to use some of what you have learned and apply it to 
 data taken from the ISIKHNAS database.
 
-GIS have become an essential tool in the understanding and management of animal 
+GIS has become an essential tool in the understanding and management of animal 
 movements and disease.
-They can provide valuable assistance in a range of tasks, including:
+It can provide valuable assistance in a range of tasks, including:
 
 1. monitoring animal distribution or movements
 2. describing the level and distribution of disease
@@ -20,17 +20,24 @@ data that you are familiar with.
 
 **The goal for this lesson:**
 
-Refresh the following skills learnt in previous chapters:
+Your supervisor has asked you to extract all the cases of sudden death in poultry in the 
+Sulawesi Selatan region. He/she would like you to provide a map showing where these cases 
+have occurred, and to create a 15 kilometre buffer around them.
 
-* creating a new QGIS project
-* load vector shapefile layers
-* format styles
+In order to do this you will have to:
+
+* load vector shapefile layers and create a new QGIS project
+* format the styles appropriately
+* subset a dataset spatially using select by location
+* identify particular records in the attribute table using SQL (structured query language)
+* save records to a new shapefile
+* save layers with a projection suitable for spatial exercises
 * apply buffers to data points
+* use the clip feature to create a layer including only the data required.
 
-Learn new skills, including:
 
-* how to subset a dataset spatially - selecting by location
-* identify particular records using SQL
+For the purpose of these exercises you will be using the shapefiles provided, however it 
+is possible to connect directly to the ISIKHNAS database and access the current data.
 
 |basic| |FA| Create a new map
 --------------------------------------------------------------------------------
@@ -94,9 +101,9 @@ layer containing just the attributes we are interested in.
 --------------------------------------------------------------------------------
 
 Now that we have our map layers loaded into our project, we would like to work specifically 
-with Sulawesi, and in particular, the cases that have been recorded in the South Sulawesi districts.
-Currently our map shows all the cases recorded throughout Indonesia at the time the data was 
-downloaded.
+with Sulawesi, and in particular, the cases that have been recorded in the Sulawesi Selatan 
+districts. Currently our map shows all the cases recorded throughout Indonesia at the time 
+the data was downloaded.
 
 Open the :guilabel:`Select by Location`. We want to select the features in the *cases_gis* 
 file that intersect with the *Sul_sthn_dist* file:
@@ -104,7 +111,7 @@ file that intersect with the *Sul_sthn_dist* file:
 .. image:: ../_static/ISIKHNAS/005.png
    :align: center
 
-Click 'OK' and check your map. You should see that the cases that occur in South Sulawesi 
+Click 'OK' and check your map. You should see that the cases that occur in Sulawesi Selatan
 are now highlighted:
 
 .. image:: ../_static/ISIKHNAS/006.png
@@ -123,9 +130,8 @@ You can now remove the *cases_gis* layer.
 
 |basic| |FA| Inspect the data
 --------------------------------------------------------------------------------
-Let's say you have been asked to find out how many records for cattle showing signs of diarrhoea 
-are in the ISIKHNAS database for the Southern Sulawesi region.
-How would you go about doing that?
+As mentioned above, you need to extract all the cases of sudden death in poultry in the 
+Sulawesi Selatan region. How would you go about doing that?
 
 One answer lies in a layer's :guilabel:`Attribute Table`. Here you are able to see much more 
 information about each record in the layer.
@@ -154,12 +160,14 @@ has columns containing the following information:
 * reporter
 * desa
 
-We can use this screen to find (for example) all the records relating to cattle by typing in *cattle* 
-in the *Look for* box, choosing *species* in the drop down box and clicking on *Search*. 
-Immediately, all the records with cattle recorded as the species are highlighted in the attribute 
-table.
+We can use this screen to find (for example) all the records relating to chickens by typing 
+in *chicken* in the *Look for* box, choosing *species* in the drop down box and clicking on 
+*Search*. 
+Immediately, all the records with chicken recorded as the species are highlighted in the 
+attribute table.
 
-However, we don't want just want cattle, we want cattle that have shown signs of diarrhoea. 
+However, we don't want just chickens, we want all poultry that are recorded with 'sudden death' 
+as the syndrome. 
 To select these records, we need to use the *Advanced search* features.
 
 |moderate| |FA| Selecting records using SQL (Simple Query Language)
@@ -171,21 +179,31 @@ the particular attributes we are interested in.
 .. image:: ../_static/ISIKHNAS/009.png
    :align: center
 
-Our query is asking for all the records that contain cattle as the species, **and** a value of 
-diarrhoea in the syndrome2 table.
+Our query is asking for all the records that contain chicken or duck or local chicken as the 
+species, **and** a value of `sudden death' in the syndrome2 table.
 
-By testing the query, we find that there are 351 records matching our query:
+By testing the query, we find that there are 11 records matching our query:
 
 .. image:: ../_static/ISIKHNAS/010.png
    :align: center
 
+Click 'OK' in the window saying 'Found 11 matching feature(s).', and click 'OK' in the 'Search query 
+builder' window. Note that at the top of the attribute table you will now see the heading 
+*Attribute table - Sul_cases_sthn (11 matching features)*. Click 'Close' on the attribute table.
+
 Now that we have our records selected, we will use the *Save selection as* option, and save 
-this layer to our map.
-   
-By turning off the *Sul_sthn_cases* layer, we can now see the records in the database of 
-cattle showing signs of diarrhoea (in southern Sulawesi).
+this layer to our map. Right-click on the *Sul_sthn_cases* layer, and click on *Save selection 
+as*. 
 
 .. image:: ../_static/ISIKHNAS/011.png
+   :align: center
+
+Name this new layer *Cases_PoultrySuddenDeath* and add it to your map.
+   
+By turning off the *Sul_sthn_cases* layer, we can now see the records in the database of sudden 
+death recorded in poultry in Sulawesi Selatan.
+
+.. image:: ../_static/ISIKHNAS/012.png
    :align: center
 
 Note we have used the *Advanced Labeling* tool referred to in Section 4.2.1 *Using labels* to 
