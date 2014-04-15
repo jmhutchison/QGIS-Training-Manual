@@ -22,7 +22,8 @@ data that you are familiar with.
 
 Your supervisor has asked you to extract all the cases of sudden death in poultry in the 
 Sulawesi Selatan region. He/she would like you to provide a map showing where these cases 
-have occurred, and to create a 15 kilometre buffer around them.
+have occurred, and to create a 15 kilometre buffer around the village in which they have 
+occurred.
 
 In order to do this you will have to:
 
@@ -32,7 +33,7 @@ In order to do this you will have to:
 * identify particular records in the attribute table using SQL (structured query language)
 * save records to a new shapefile
 * save layers with a projection suitable for spatial exercises
-* apply buffers to data points
+* create a buffer zone
 * use the clip feature to create a layer including only the data required.
 
 
@@ -180,9 +181,9 @@ the particular attributes we are interested in.
    :align: center
 
 Our query is asking for all the records that contain chicken or duck or local chicken as the 
-species, **and** a value of `sudden death' in the syndrome2 table.
+species, **and** a value of 'sudden death' in the syndrome2 table.
 
-By testing the query, we find that there are 11 records matching our query:
+By testing the query, we find that we have 11 matching records:
 
 .. image:: ../_static/ISIKHNAS/010.png
    :align: center
@@ -191,8 +192,8 @@ Click 'OK' in the window saying 'Found 11 matching feature(s).', and click 'OK' 
 builder' window. Note that at the top of the attribute table you will now see the heading 
 *Attribute table - Sul_cases_sthn (11 matching features)*. Click 'Close' on the attribute table.
 
-Now that we have our records selected, we will use the *Save selection as* option, and save 
-this layer to our map. Right-click on the *Sul_sthn_cases* layer, and click on *Save selection 
+Now that we have our records selected, we will use the *Save selection as* option that we used before, 
+and save this layer to our map. Right-click on the *Sul_sthn_cases* layer, and click on *Save selection 
 as*. 
 
 .. image:: ../_static/ISIKHNAS/011.png
@@ -209,6 +210,8 @@ death recorded in poultry in Sulawesi Selatan.
 Note we have used the *Advanced Labeling* tool referred to in Section 4.2.1 *Using labels* to 
 show the labels of each of the districts.
 
+Save your project.
+
 |moderate| |TY| Selection using SQL
 --------------------------------------------------------------------------------
 
@@ -221,9 +224,17 @@ village, species, syndrome etc.
 |IC|
 --------------------------------------------------------------------------------
 
+There are several ways available for selecting data. Which method you choose will depend upon 
+your needs. 
+Using SQL queries enables you to select records according to the particular attributes that are 
+of interest to you.
+  
 
 |WN|
 --------------------------------------------------------------------------------
 
-
+Now you have your basic map showing where the cases of interest are located. In order to create 
+buffer zones around these cases. In our next lesson we will review data points 
+versus polygons, and why we are going to need to project our layers in order to develop suitable 
+buffers.
 
