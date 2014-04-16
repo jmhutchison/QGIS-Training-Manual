@@ -233,8 +233,7 @@ of interest to you.
 |WN|
 --------------------------------------------------------------------------------
 
-Now you have your basic map showing where the cases of interest are located. In order to create 
-buffer zones around these cases. In our next lesson we will review data points 
-versus polygons, and why we are going to need to project our layers in order to develop suitable 
+Now you have your basic map showing where the cases of interest are located. In our next lesson 
+we will review why we are going to need to project our layers in order to develop suitable 
 buffers.
 

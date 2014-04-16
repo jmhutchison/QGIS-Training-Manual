@@ -22,7 +22,9 @@ What do you notice?
 .. image:: ../_static/ISIKHNAS/015.png
    :align: center
 
-Our cases are all positioned in the centre of the village boundaries. In other words, they are not 
-the exact coordinates of where the case occurred - the data is recorded at village level so it takes 
-the centre of the village. All we know is the case occurred somewhere in that particular village.
+Every case is positioned in the centre of the village boundaries. This indicates they are not 
+the exact coordinates of where the case occurred - all we know is the case occurred somewhere 
+in that particular village. The data is recorded at village level so it takes so it is positioned 
+using the centroid of the village polygon.
+
 
