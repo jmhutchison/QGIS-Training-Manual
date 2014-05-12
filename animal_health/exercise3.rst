@@ -68,5 +68,5 @@ Again, we move to the *Vector* menu, hover over the *Geoprocessing Tools*, and s
 .. image:: ../_static/ISIKHNAS/019.png
    :align: center
  
- Our input layer is the layer we want to change, in this case our new buffer layer. The clip layer is 
- the layer we will use cut around our buffered layer.
+Our input layer is the layer we want to change, in this case our new buffer layer. The clip layer is 
+the layer we will use cut around our buffered layer.
