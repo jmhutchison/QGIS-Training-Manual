@@ -70,3 +70,26 @@ Again, we move to the *Vector* menu, hover over the *Geoprocessing Tools*, and s
  
 Our input layer is the layer we want to change, in this case our new buffer layer. The clip layer is 
 the layer we will use cut around our buffered layer.
+
+Name your new shapefile :kbd:`PoultrySD15kmBufferClip_32750.shp` and add it to the map. Your screen should 
+now look similar to this:
+
+.. image:: ../_static/ISIKHNAS/020.png
+   :align: center
+ 
+Our new layer is fitting nicely within the coastlines of South Sulawesi and your supervisor can easily 
+see where the 15 kilometre buffers extend to. But is this the best depiction of a buffer zone for 
+the data? Remember we realised the data points were recorded in the database as being in the centre 
+of each village - in reality they are probably taken from somewhere else in the village. This means 
+our 15 kilometre buffers are not going to be as accurate as they might be. In the next section we will 
+create the buffer using the village polygon layer and compare the two results.
+
+|basic| |TY| Buffering using the village polygon
+--------------------------------------------------------------------------------
+
+Using the same skills you have learnt above to buffer and clip layers, create a 15 kilometre 
+buffer zone around the village polygons containing cases of sudden death in poultry. Clip your new
+layer and add it to your map.
+
+Rearrange the layers, so that the buffer zone created with the village centroids is visible over the 
+top of your new buffer zone created with the village polygons. What do you notice?
