@@ -12,3 +12,5 @@ The purpose of this module is to show how QGIS can be used to assist in animal h
    exercise1
    exercise2
    exercise3
+   exercise4
+   exercise5

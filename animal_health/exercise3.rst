@@ -93,3 +93,21 @@ layer and add it to your map.
 
 Rearrange the layers, so that the buffer zone created with the village centroids is visible over the 
 top of your new buffer zone created with the village polygons. What do you notice?
+
+.. image:: ../_static/ISIKHNAS/021.png
+   :align: center
+ 
+ 
+In this picture, the dark green shows the buffer zone around the village polygons (shown in the light 
+colour). The lighter green shows the buffer zones created using the case data points.
+
+Since we don't know exactly where each case occurred, it is a good idea to consider using the 
+village polygons when creating a buffer zone, not the village centroids.
+
+|WN|
+--------------------------------------------------------------------------------
+
+It would be useful if we could estimate by looking at our map how many cases have been 
+recorded in each village. In our next lesson we will review more styling, and how to colour 
+areas according to particular attributes we wish to display.
+
