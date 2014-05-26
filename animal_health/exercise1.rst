@@ -21,7 +21,7 @@ data that you are familiar with.
 **The goal for this lesson:**
 
 Your supervisor has asked you to extract all the cases of sudden death in poultry in the 
-Sulawesi Selatan region. He/she would like you to provide a map showing where these cases 
+Sulawesi Selatan region. S/he would like you to provide a map showing where these cases 
 have occurred, and to create a 15 kilometre buffer around the village in which they have 
 occurred.
 
@@ -29,7 +29,7 @@ In order to do this you will have to:
 
 * load vector shapefile layers and create a new QGIS project
 * format the styles appropriately
-* subset a dataset spatially using select by location
+* subset a dataset spatially using *Select by location*
 * identify particular records in the attribute table using SQL (structured query language)
 * save records to a new shapefile
 * save layers with a projection suitable for spatial exercises
@@ -46,9 +46,9 @@ is possible to connect directly to the ISIKHNAS database and access the current 
 Open QGIS. Using the :guilabel:`Add Vector Layer` button, add the following layers 
 from the course exercise data:
 
-* Sulawesi
-* Sul_sthn_dist
-* cases_gis
+* :kbd:`Sulawesi`
+* :kbd:`Sul_sthn_dist`
+* :kbd:`cases_gis`
 
 Your map will now look something like this:
 
@@ -106,8 +106,8 @@ with Sulawesi, and in particular, the cases that have been recorded in the Sulaw
 districts. Currently our map shows all the cases recorded throughout Indonesia at the time 
 the data was downloaded.
 
-Open the :guilabel:`Select by Location`. We want to select the features in the *cases_gis* 
-file that intersect with the *Sul_sthn_dist* file:
+Open the :guilabel:`Select by Location`. We want to select the features in the :kbd:`cases_gis` 
+file that intersect with the :kbd:`Sul_sthn_dist` file:
 
 .. image:: ../_static/ISIKHNAS/005.png
    :align: center
@@ -118,16 +118,16 @@ are now highlighted:
 .. image:: ../_static/ISIKHNAS/006.png
    :align: center
 
-Save this selection as a new layer by right-clicking on the *cases-gis* layer, and then 
+Save this selection as a new layer by right-clicking on the :kbd:`cases-gis` layer, and then 
 clicking on *Save Selection As...*:
 
 .. image:: ../_static/ISIKHNAS/007.png
    :align: center
    
-Save your new layer as *Sul_sthn_cases* and add it to your map. If you feel the need, format 
+Save your new layer as :kbd:`Sul_sthn_cases` and add it to your map. If you feel the need, format 
 the colour.
 
-You can now remove the *cases_gis* layer.
+You can now remove the :kbd:`cases_gis` layer.
 
 |basic| |FA| Inspect the data
 --------------------------------------------------------------------------------
@@ -140,7 +140,7 @@ The :guilabel:`Attribute Table` has been mentioned earlier, particularly in Chap
 Now we are going to use the information contained in the attribute table to select the records 
 we require.
 
-When we open the :guilabel:`Attribute Table` for the *Sul_sthn_cases* layer, we see several 
+When we open the :guilabel:`Attribute Table` for the :kbd:`Sul_sthn_cases` layer, we see several 
 columns showing information about each record:
 
 .. image:: ../_static/ISIKHNAS/008.png
@@ -193,15 +193,15 @@ builder' window. Note that at the top of the attribute table you will now see th
 *Attribute table - Sul_cases_sthn (11 matching features)*. Click 'Close' on the attribute table.
 
 Now that we have our records selected, we will use the *Save selection as* option that we used before, 
-and save this layer to our map. Right-click on the *Sul_sthn_cases* layer, and click on *Save selection 
+and save this layer to our map. Right-click on the :kbd:`Sul_sthn_cases` layer, and click on *Save selection 
 as*. 
 
 .. image:: ../_static/ISIKHNAS/011.png
    :align: center
 
-Name this new layer *Cases_PoultrySuddenDeath* and add it to your map.
+Name this new layer :kbd:`Cases_PoultrySuddenDeath` and add it to your map.
    
-By turning off the *Sul_sthn_cases* layer, we can now see the records in the database of sudden 
+By turning off the :kbd:`Sul_sthn_cases` layer, we can now see the records in the database of sudden 
 death recorded in poultry in Sulawesi Selatan.
 
 .. image:: ../_static/ISIKHNAS/012.png
@@ -215,7 +215,7 @@ Save your project.
 |moderate| |TY| Selection using SQL
 --------------------------------------------------------------------------------
 
-Using the `Advanced search` features in the `Attribute table` for the `Sul_sthn_cases` layer, 
+Using the `Advanced search` features in the `Attribute table` for the :kbd:`Sul_sthn_cases` layer, 
 try selecting specific records according to various combinations.
 
 Do not be afraid to experiment. Try selecting records different combinations such as the date, 

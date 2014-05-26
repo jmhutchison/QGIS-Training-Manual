@@ -11,7 +11,7 @@ To review map projections
 
 |basic| |FA| Projecting the layers
 --------------------------------------------------------------------------------
-Think back to Chapter 7 where you learnt about projections and take a look at the layers 
+Think back to Chapter 7 where you learnt about projections, and now take a look at the layers 
 on your map. Is their CRS (Coordinate Reference System) a Geographic Coordinate Reference 
 System (GCS) or a Projected Coordinate System (PCS)? How can you tell?
 
@@ -31,7 +31,7 @@ your layers will need to be projected.
 
 For this exercise we will use the Universal Transverse Mercator (UTM) zone 50s (EPSG 32750).
 
-* Right-click on the :guilabel:`Cases_PoultrySuddenDeath` layer in the :guilabel:`Layers list`.
+* Right-click on the :kbd:`Cases_PoultrySuddenDeath` layer in the :guilabel:`Layers list`.
 * Select :guilabel:`Save As...` in the menu that appears. You will be shown the :guilabel:`Save vector layer as...` dialog.
 * Click on the :guilabel:`Browse` button next to the :guilabel:`Save as` field.
 * Navigate to the folder you have nominated to store your exercise data and specify the name of the new layer as :kbd:`Cases_PoultrySuddenDeath_32750.shp`.

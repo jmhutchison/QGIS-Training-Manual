@@ -21,13 +21,13 @@ Tools' in the 'Vector' menu.
    :align: center
 
 
-Use the *VillagePolyBarSin_32750* file as the Target vector layer, and the *PoultrySuddenDeath_32750* 
+Use the :kbd:`VillagePolyBarSin_32750` file as the Target vector layer, and the :kbd:`PoultrySuddenDeath_32750` 
 file as the Join vector layer.
 
 Click on 'Take the attributes of the first located feature' under 'Attribute Summary'.
 
 Browse to where you are going to save your file, and name it appropriately (we used 
-*PoultrySDJoinLocation_32750*).
+:kbd:`PoultrySDJoinLocation_32750`).
 
 Only keep the matching records. Click 'OK' and add the new layer to your map. 
 Your results should look similar to this:

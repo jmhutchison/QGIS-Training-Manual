@@ -12,7 +12,7 @@ will have when creating a buffer zone.
 
 If you look at your map you will notice that the cases of sudden death in poultry occur mostly 
 in the districts of Barru and Sinjai. 
-For this exercise we are going to add a new vector layer, *VillagePolyBarSin_32750*, which shows the 
+For this exercise we are going to add a new vector layer, :kbd:`VillagePolyBarSin_32750`, which shows the 
 boundaries of the village polygons.
 Once you have loaded this layer, arrange the layers so the cases are on top of the village boundaries. 
 Look closely at where the cases lie within the village polygons (you may have to zoom in closer 
@@ -33,7 +33,7 @@ How will this affect our 15 kilometre buffer zone? Let's find out.
 |basic| |FA| Buffering from the village centroid
 --------------------------------------------------------------------------------
 
-For this buffering exercise we will use the *PoultrySuddenDeath_32750*. Select this layer, and go to 
+For this buffering exercise we will use the :kbd:`PoultrySuddenDeath_32750`. Select this layer, and go to 
 the *Vector* menu. Hover over *Geoprocessing Tools* and select *Buffer(s)*.
 
 .. image:: ../_static/ISIKHNAS/016.png
@@ -61,7 +61,7 @@ Notice the buffers naturally extend into the sea? We will now use the **Clip** f
 
 We can use one dataset to cut through another dataset, leaving us with only the 
 information we want.
-In this case, we are going to clip our new buffer layer with the *DistrictsSthnSul_32750* layer.
+In this case, we are going to clip our new buffer layer with the :kbd:`DistrictsSthnSul_32750` layer.
 
 Again, we move to the *Vector* menu, hover over the *Geoprocessing Tools*, and select *Clip*.
 
