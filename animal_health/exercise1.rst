@@ -22,7 +22,7 @@ data that you are familiar with.
 
 Your supervisor has asked you to extract all the cases of sudden death in poultry in the 
 Sulawesi Selatan region. S/he would like you to provide a map showing where these cases 
-have occurred, and to create a 15 kilometre buffer around the village in which they have 
+have occurred, and to create a 15 kilometre buffer around the villages in which they have 
 occurred.
 
 In order to do this you will have to:
