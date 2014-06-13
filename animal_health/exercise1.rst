@@ -1,4 +1,4 @@
-|LS| Putting it into practice - ISIKHNAS
+|LS| Putting it into practice - iSIKHNAS
 ===============================================================================
 
 In this chapter we are going to use some of what you have learned and apply it to 
@@ -37,8 +37,9 @@ In order to do this you will have to:
 * use the clip feature to create a layer including only the data required.
 
 
-For the purpose of these exercises you will be using the shapefiles provided, however it 
-is possible to connect directly to the ISIKHNAS database and access the current data.
+For the purpose of these exercises you will be using the shapefiles provided. It is possible to 
+connect directly to the iSIKHNAS database and access the current data however this is beyond the 
+scope of this exercise. 
 
 |basic| |FA| Create a new map
 --------------------------------------------------------------------------------
@@ -166,6 +167,9 @@ in *chicken* in the *Look for* box, choosing *species* in the drop down box and 
 *Search*. 
 Immediately, all the records with chicken recorded as the species are highlighted in the 
 attribute table.
+
+**Note:** Notice the 'Case sensitive' option. It is best to leave this box unticked. That way 
+your search will return results for 'Chicken' and 'chicken', and any other variations without 
 
 However, we don't want just chickens, we want all poultry that are recorded with 'sudden death' 
 as the syndrome. 

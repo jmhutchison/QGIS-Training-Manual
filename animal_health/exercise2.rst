@@ -27,7 +27,8 @@ Even greater detail is seen when you click on the *Metadata* tab.
    :align: center
    
 As a general rule, if you are going to manipulate spatial data using tools from the *Vector* menu, 
-your layers will need to be projected.
+your layers will need to be projected to a format where distance is expressed in measurement units 
+such as metres.
 
 For this exercise we will use the Universal Transverse Mercator (UTM) zone 50s (EPSG 32750).
 

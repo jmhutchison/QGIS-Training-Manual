@@ -23,7 +23,7 @@ What do you notice?
 .. image:: ../_static/ISIKHNAS/015.png
    :align: center
 
-Every case is positioned in the centre of the village boundaries. This indicates they are not 
+Every case is positioned in the centre of the village boundaries. This suggests they are not 
 the exact coordinates of where the case occurred - all we know is the case occurred somewhere 
 in that particular village. The data is recorded at village level, and it is positioned 
 using the centroid of the village polygon.
@@ -54,7 +54,8 @@ Add this layer to your map. The result should look something like this:
 .. image:: ../_static/ISIKHNAS/018.png
    :align: center
 
-Notice the buffers naturally extend into the sea? We will now use the **Clip** function to amend this.
+Do you see that the buffers naturally extend into the sea? We will now use the **Clip** function to 
+fix this.
 
 |basic| |FA| **Clipping** datasets
 --------------------------------------------------------------------------------
@@ -78,11 +79,12 @@ now look similar to this:
    :align: center
  
 Our new layer is fitting nicely within the coastlines of South Sulawesi and your supervisor can easily 
-see where the 15 kilometre buffers extend to. But is this the best depiction of a buffer zone for 
-the data? Remember we realised the data points were recorded in the database as being in the centre 
-of each village - in reality they are probably taken from somewhere else in the village. This means 
-our 15 kilometre buffers are not going to be as accurate as they might be. In the next section we will 
-create the buffer using the village polygon layer and compare the two results.
+see where the 15 kilometre buffers extend to. But is this the best buffer zone for 
+the data? Remember the data suggests the cases are recorded in the database as being in the centre 
+of each village - in reality they are probably taken from anywhere within the village boundary. This means 
+our 15 kilometre buffers are not going to be as accurate as they might be. 
+
+In the next section we will create the buffer using the village polygon layer and compare the two results.
 
 |basic| |TY| Buffering using the village polygon
 --------------------------------------------------------------------------------
