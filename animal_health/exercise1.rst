@@ -59,9 +59,48 @@ Your map will now look something like this:
 
 The colours will no doubt be different, and probably not suitable. Take the time now 
 to change the style to use the *Style* tab in the :guilabel:`Layer Properties` to 
-change the colours to those of your choice.
+change the colours to those of your choice. As a refresher:
 
-We changed our colours to this:
+* Right-click on the layer
+* Select *Properties*
+* Click on the *Style* tab as described above
+
+Here you can change the formatting of the layer in many ways, including colour, fill, symbols, 
+lines, and more.
+
+.. image:: ../_static/ISIKHNAS/001a.png
+   :align: center
+
+You can save the colours you choose as styles, so you can easily apply them to other projects.
+
+|basic| |TY| Saving styles
+--------------------------------------------------------------------------------
+
+You might want to save a particular colour to be used for your background layer, both in this 
+project and any future mapping projects. To do this, choose the layer you would like to work 
+with, for example :kbd:`Sulawesi`. Open the :guilabel:`Layer Properties`.
+
+Explore your options. As shown in the above image, there are two *Change* buttons.
+
+The first *Change* button, with the little spanner, allows you to format items including:
+
+* the symbol layer type
+* the colour
+* the fill style
+* the border colour
+* the border style
+* the border width
+
+If you only want to change the colour of the layer, click on the second *Change* button.
+
+Once you are happy with your layer style, click on *Save Style ...*
+
+Save your new style with a name that will make sense to you later, such as :kbd:`BaseCountry`. 
+It is a good idea to save all your styles in the one folder so you can easily find them again.
+
+To use a style you have saved, click on the *Load Style ...* button.
+
+We changed our colours of our layers to this:
 
 .. image:: ../_static/ISIKHNAS/002.png
    :align: center
@@ -69,6 +108,8 @@ We changed our colours to this:
 There is a very useful website named **Colorbrewer: Color Advice for Maps** found 
 here <http://colorbrewer2.org>' developed by Cynthia Brewer of Penn State.
 This site contains a lot of useful information about appropriate colour schemes for maps.
+
+
 
 Save your work as a new project.
 
