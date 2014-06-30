@@ -13,7 +13,7 @@ will have when creating a buffer zone.
 If you look at your map you will notice that the cases of sudden death in poultry occur mostly 
 in the districts of Barru and Sinjai. 
 For this exercise we are going to add a new vector layer, :kbd:`VillagePolyBarSin_32750`, which shows the 
-boundaries of the village polygons.
+boundaries of the village polygons in Barru and Sinjai.
 Once you have loaded this layer, arrange the layers so the cases are on top of the village boundaries. 
 Look closely at where the cases lie within the village polygons (you may have to zoom in closer 
 on your map).
@@ -33,8 +33,9 @@ How will this affect our 15 kilometre buffer zone? Let's find out.
 |basic| |FA| Buffering from the village centroid
 --------------------------------------------------------------------------------
 
-For this buffering exercise we will use the :kbd:`PoultrySuddenDeath_32750`. Select this layer, and go to 
-the *Vector* menu. Hover over *Geoprocessing Tools* and select *Buffer(s)*.
+For this buffering exercise we will use the :kbd:`PoultrySuddenDeath_32750` file we created. 
+Select this layer, and go to the *Vector* menu. Hover over *Geoprocessing Tools* and select 
+*Buffer(s)*.
 
 .. image:: ../_static/ISIKHNAS/016.png
    :align: center

@@ -35,7 +35,7 @@ For this exercise we will use the Universal Transverse Mercator (UTM) zone 50s (
 * Right-click on the :kbd:`Cases_PoultrySuddenDeath` layer in the :guilabel:`Layers list`.
 * Select :guilabel:`Save As...` in the menu that appears. You will be shown the :guilabel:`Save vector layer as...` dialog.
 * Click on the :guilabel:`Browse` button next to the :guilabel:`Save as` field.
-* Navigate to the folder you have nominated to store your exercise data and specify the name of the new layer as :kbd:`Cases_PoultrySuddenDeath_32750.shp`.
+* Navigate to the folder you have nominated to store your exercise data and specify the name of the new layer as :kbd:`PoultrySuddenDeath_32750.shp`.
 * Leave the :guilabel:`Encoding` unchanged.
 * Click the :guilabel:`Browse` button beneath the dropdown.
 * The :guilabel:`CRS Selector` dialog will now appear.

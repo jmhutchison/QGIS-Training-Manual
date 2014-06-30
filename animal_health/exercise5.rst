@@ -52,5 +52,10 @@ village. Experiment with the effect of choosing different intervals:
 
 Explore the effect of each of these, using 'Apply' to see the changes each makes to your map.
 
+|WN|
+--------------------------------------------------------------------------------
 
+In our next, and final, exercise, we will investigate some of the movements data (showing livestock 
+moving from one place to another). Here we will work through a simple and practical exercise as 
+another example of an actual task that you may be asked to complete. 
 
