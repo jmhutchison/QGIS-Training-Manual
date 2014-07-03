@@ -122,13 +122,17 @@ you can see that our widest line is a zero, and the narrowest line is a four. Th
 .. image:: ../_static/ISIKHNAS/032.png
    :align: center
 
-This shows our lines formatted according to the number of livestock movements, using colour and line width.
+This shows our lines formatted using colour and line width to show the number of animals in each movement. The 
+darker, thicker line has 
 
 |IC| 
 --------------------------------------------------------------------------------
 
 This chapter has been designed to show you how to use QGIS in a practical and useful way, using real data 
-obtained from the iSIKHNAS database. It is only a small example of what you can do using the QGIS software. 
-If you are interested, do not be afraid to explore the software. Use the internet to search for new ways to 
-create particular maps, or investigate different ways of doing things.
+obtained from the iSIKHNAS database. The exercises have been developed to show examples of actual tasks you 
+may be asked to carry out by your supervisor.
+
+It is only a small example of what you can do using the QGIS software. If you are interested, do not be 
+afraid to explore the software. Use the internet to search for new ways to create particular maps, or 
+investigate different ways of doing things.
 
