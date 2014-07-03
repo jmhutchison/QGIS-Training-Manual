@@ -123,7 +123,7 @@ you can see that our widest line is a zero, and the narrowest line is a four. Th
    :align: center
 
 This shows our lines formatted using colour and line width to show the number of animals in each movement. The 
-darker, thicker line has 
+darker, thicker line shows us there were between 860 and 1000 birds moved in this particular movement.
 
 |IC| 
 --------------------------------------------------------------------------------
