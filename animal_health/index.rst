@@ -17,3 +17,4 @@ map*, and chapter 7 - *Vector analysis*.
    exercise3
    exercise4
    exercise5
+   exercise6

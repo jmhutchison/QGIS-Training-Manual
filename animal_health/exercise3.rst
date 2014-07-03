@@ -63,7 +63,9 @@ fix this.
 
 We can use one dataset to cut through another dataset, leaving us with only the 
 information we want.
-In this case, we are going to clip our new buffer layer with the :kbd:`DistrictsSthnSul_32750` layer.
+In this case, we are going to clip our new buffer layer with the :kbd:`DistrictsSthnSul_32750` layer 
+that you should have created in section 16.2.2 **Try yourself... Project the remaining layers**. (Note: You 
+may have named it differently, such as :kbd:`Sul_sth_dist_32750`).
 
 Again, we move to the *Vector* menu, hover over the *Geoprocessing Tools*, and select *Clip*.
 
@@ -92,7 +94,7 @@ In the next section we will create the buffer using the village polygon layer an
 
 Using the same skills you have learnt above to buffer and clip layers, create a 15 kilometre 
 buffer zone around the village polygons containing cases of sudden death in poultry. Clip your new
-layer and add it to your map.
+layer and add it to your map, naming it :kbd:`PoultrySD15kmBufferPolyClip_32750`.
 
 Rearrange the layers, so that the buffer zone created with the village centroids is visible over the 
 top of your new buffer zone created with the village polygons. What do you notice?

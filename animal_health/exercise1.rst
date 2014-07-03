@@ -160,7 +160,7 @@ are now highlighted:
 .. image:: ../_static/ISIKHNAS/006.png
    :align: center
 
-Save this selection as a new layer by right-clicking on the :kbd:`cases-gis` layer, and then 
+Save this selection as a new layer by right-clicking on the :kbd:`cases_gis` layer, and then 
 clicking on *Save Selection As...*:
 
 .. image:: ../_static/ISIKHNAS/007.png

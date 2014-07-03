@@ -48,7 +48,7 @@ For this exercise we will use the Universal Transverse Mercator (UTM) zone 50s (
 
 Repeat these steps for your remaining layers, adding the new, projected layers to your map. You can 
 now remove the original, unprojected layers from your map. As we have determined that we are only 
-using maps from the areas in Sulawesi Selatan, you no longer need your 'Sulawesi' layer.
+using maps from the areas in Sulawesi Selatan, you no longer need your :kbd:`Sulawesi` layer.
 
 The option to project 'On the fly' should be turned off.
 
