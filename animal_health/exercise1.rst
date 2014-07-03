@@ -45,7 +45,7 @@ scope of this exercise.
 --------------------------------------------------------------------------------
 
 Open QGIS. Using the :guilabel:`Add Vector Layer` button, add the following layers 
-from the course exercise data:
+from the course exercise data, from the folder *ISIKHNAS*:
 
 * :kbd:`Sulawesi`
 * :kbd:`Sul_sthn_dist`

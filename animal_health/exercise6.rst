@@ -21,7 +21,7 @@ data folder:
 
 * :kbd:`Indonesia_32750`
 * :kbd:`Sulawesi_dist_32750`
-* :kbd:`Movements_32750`
+* :kbd:`movements_32750`
 
 Use the *Layer Properties* to style the layers as necessary like you have done in the 
 exercises.
