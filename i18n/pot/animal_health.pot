@@ -1,0 +1,1230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, Linfiniti Consulting CC
+# This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-10 15:16+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../animal_health/exercise1.rst:2
+# 829501b0f70e491ba47f754d22783d67
+msgid "|LS| Putting it into practice - iSIKHNAS"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:4
+# 49c22bdc8cdc433385d2276facdc5fd9
+msgid "In this chapter we are going to use some of what you have learned and apply it to data taken from the ISIKHNAS database."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:7
+# b6ffd76fa26945a89feffef71ea54150
+msgid "GIS has become an essential tool in the understanding and management of animal movements and disease. It can provide valuable assistance in a range of tasks, including:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:11
+# c30b922474454bdf83659d223ec3d0fb
+msgid "monitoring animal distribution or movements"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:12
+# 951de5de6caa405e92189e0253c5043b
+msgid "describing the level and distribution of disease"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:13
+# f0ae51d9dcc048eebb4425c4ece04d6b
+msgid "assessing the efficacy of control programs across space"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:14
+# 5fc3cae6a5ad48288e3ca64107a0b542
+msgid "developing zones for disease control"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:15
+# ab90cf784dfa4460a7f11bd9910549c2
+msgid "exploring spatially-linked risk factors"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:16
+# 7bbe4101077a4dae96ad4e7cabe0ab21
+msgid "management of animal health emergencies."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:18
+# 018eb6aaa8b1405ca11c0661a02c315c
+msgid "This exercise is designed to show you how you can use QGIS in a practical way, using data that you are familiar with."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:21
+#: ../../animal_health/exercise2.rst:8
+#: ../../animal_health/exercise3.rst:5
+#: ../../animal_health/exercise4.rst:7
+#: ../../animal_health/exercise5.rst:6
+#: ../../animal_health/exercise6.rst:6
+# 8f5256598b9f4ef898dfd18ed9825441
+# 3bf14000392d4f62ba9059dc983c04e5
+# 1fcd3267df2e4a0db4243a14e0f0c2fc
+# ac0d511dcec44150beefe27c5c6449fd
+# 82c4fcd4755e4edfb2238b0613cc4612
+# 3267a7302491439bbba08a0ebb869d63
+msgid "**The goal for this lesson:**"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:23
+# bc48b38040154217b978f379e803681a
+msgid "Your supervisor has asked you to extract all the cases of sudden death in poultry in the Sulawesi Selatan region. S/he would like you to provide a map showing where these cases have occurred, and to create a 15 kilometre buffer around the villages in which they have occurred."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:28
+# 2f2839f93316446cb2a301e5ba71fff4
+msgid "In order to do this you will have to:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:30
+# 959481eda066481baaa228fdbafae737
+msgid "load vector shapefile layers and create a new QGIS project"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:31
+# 02c44513d8964a3ba779c687ccd2ea3e
+msgid "format the styles appropriately"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:32
+# c2f29bfd4813401da39346c82b22c93d
+msgid "subset a dataset spatially using *Select by location*"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:33
+# 8249cc7813034f409ee5b104739ecfc7
+msgid "identify particular records in the attribute table using SQL (structured query language)"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:34
+# 76e3b543e61742f6bd7d84f5d2a9182a
+msgid "save records to a new shapefile"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:35
+# 0497092a25e74de6a4ae4c802b47c08b
+msgid "save layers with a projection suitable for spatial exercises"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:36
+# db09fd89e39a4108a6c039e5f109a406
+msgid "create a buffer zone"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:37
+# 07c25536f29b4596b783027d2e29972a
+msgid "use the clip feature to create a layer including only the data required."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:40
+# 1c821a1944d2425abf96d6fd06c4abd5
+msgid "For the purpose of these exercises you will be using the shapefiles provided. It is possible to connect directly to the iSIKHNAS database and access the current data however this is beyond the scope of this exercise."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:45
+# a74f08acca3c4d31808da6a7e21135e6
+msgid "|basic| |FA| Create a new map"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:47
+# 1a31a53cecc4465aa5ed46ae65d53f10
+msgid "Open QGIS. Using the :guilabel:`Add Vector Layer` button, add the following layers from the course exercise data, from the folder *ISIKHNAS*:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:50
+# 258f328c1495473aa1d1e417ec4425ec
+msgid ":kbd:`Sulawesi`"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:51
+# a993f20ecca3463fa31b8ae46a3b4a2c
+msgid ":kbd:`Sul_sthn_dist`"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:52
+# 829534cb3dd34cb489c14cad876ab922
+msgid ":kbd:`cases_gis`"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:54
+# 3b21a197eb2941e2bc69e060b178b700
+msgid "Your map will now look something like this:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:60
+# 93b5bfbdd5834dc1855dbc8215db96ee
+msgid "The colours will no doubt be different, and probably not suitable. Take the time now to change the style to use the *Style* tab in the :guilabel:`Layer Properties` to change the colours to those of your choice. As a refresher:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:64
+# b4681023717149f783d6d7f46b8cadb5
+msgid "Right-click on the layer"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:65
+# 44de90dcabba46c8a0e27f9e46705dd5
+msgid "Select *Properties*"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:66
+# 7f235b067cb2440ea11026fd641f261e
+msgid "Click on the *Style* tab as described above"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:68
+# 0fd8fa76202f487db15128d1ff97e87c
+msgid "Here you can change the formatting of the layer in many ways, including colour, fill, symbols, lines, and more."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:74
+# 362db539d6834ac7b43005ec7ab03e21
+msgid "You can save the colours you choose as styles, so you can easily apply them to other projects."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:77
+# 327240521e7445108709ece97d4b7ae6
+msgid "|basic| |TY| Saving styles"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:79
+# c3365223025c42b1aa951eda03515385
+msgid "You might want to save a particular colour to be used for your background layer, both in this project and any future mapping projects. To do this, choose the layer you would like to work with, for example :kbd:`Sulawesi`. Open the :guilabel:`Layer Properties`."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:83
+# a51ecae45ca747c180b448c6d9c3b1ea
+msgid "Explore your options. As shown in the above image, there are two *Change* buttons."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:85
+# ce549690764c41dd9aef59e043df3b51
+msgid "The first *Change* button, with the little spanner, allows you to format items including:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:87
+# a8e2ecceedd0426d86ced6654742d7fc
+msgid "the symbol layer type"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:88
+# a5c5692a19624e25aadcd0eae9312903
+msgid "the colour"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:89
+# c090bf4edfce4251a2bc01dab6f32f62
+msgid "the fill style"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:90
+# af53dfaea33a42ec834109b982e64bc2
+msgid "the border colour"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:91
+# cfdf38b1799b42589ad39cca8c309a7f
+msgid "the border style"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:92
+# 74f0016e970f4b35985e889e1c33b9ce
+msgid "the border width"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:94
+# d7d84f8369fa46f1bc67245fabea3958
+msgid "If you only want to change the colour of the layer, click on the second *Change* button."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:96
+# 7ce78a6233624e60a684751f408bb2ca
+msgid "Once you are happy with your layer style, click on *Save Style ...*"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:98
+# fd83dc0d862f49fa909dbb5a8ab62b89
+msgid "Save your new style with a name that will make sense to you later, such as :kbd:`BaseCountry`. It is a good idea to save all your styles in the one folder so you can easily find them again."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:101
+# d336d707958449bab89d5b7d270bf905
+msgid "To use a style you have saved, click on the *Load Style ...* button."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:103
+# a12ec089204c4070a051af7282a75028
+msgid "We changed our colours of our layers to this:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:108
+# 3f8d0678c4464f4cb01be0c649edc125
+msgid "There is a very useful website named **Colorbrewer: Color Advice for Maps** found here <http://colorbrewer2.org>' developed by Cynthia Brewer of Penn State. This site contains a lot of useful information about appropriate colour schemes for maps."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:114
+# e65258ed9f594b1fae9b7db8afe94f8c
+msgid "Save your work as a new project."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:117
+# a1ca2ccde39e45b084afe4d97f30a3c9
+msgid "|basic| |FA| Selecting records"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:118
+# c54158b59cf5474a9ac08b9281126459
+msgid "There are several ways of selecting records from layers, including:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:120
+# 7ec9f5b43c844fe4aa9a83615e682cf2
+msgid "Select Single Feature"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:121
+# 900a88b9f41f43309234445843f82cad
+msgid "Select Features by Rectangle"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:122
+# 454f4abfc6264ec7b7507ae14945a654
+msgid "Select Features by Polygon"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:123
+# bb094bf208c241f8a5e1a9f76d61be3b
+msgid "Select Features by Freehand"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:124
+# 4a9d419557154d32a5d98db805eed077
+msgid "Select Features by Radius"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:126
+# ba6b8a152dd64bf3a80dc3c863357d85
+msgid "This are found by clicking on the :guilabel:`Select Features by Polygon` button, and referring to the drop down menu."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:132
+# 1d6c85c08b1a4d8fa8ead8283b7b158b
+msgid "This is a useful tool for selecting one or two features, or quickly drawing around an area. When we want to be more accurate, we can use the *Select by Location* tool."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:135
+# 7115674a20844682a7bc5218879e7a65
+msgid "To find the :guilabel:`Select by Location` tool, click on the menu *Vector - Research Tools - Select by location*:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:140
+# 71e14b07bb634c549b7b8d8b6708c04e
+msgid "By selecting features of one layer that intersect with another, we can create a new layer containing just the attributes we are interested in."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:144
+# 4cf9bf9f7cca43b8b2fb398256173b9f
+msgid "|moderate| |FA| Selecting by location"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:146
+# bfc853d5f799460ca91b152e86db505f
+msgid "Now that we have our map layers loaded into our project, we would like to work specifically with Sulawesi, and in particular, the cases that have been recorded in the Sulawesi Selatan districts. Currently our map shows all the cases recorded throughout Indonesia at the time the data was downloaded."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:151
+# c7f86186a32b4d6abb6e7481c8343add
+msgid "Open the :guilabel:`Select by Location`. We want to select the features in the :kbd:`cases_gis` file that intersect with the :kbd:`Sul_sthn_dist` file:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:157
+# b20aaba071814da18c7625da6950bc4d
+msgid "Click 'OK' and check your map. You should see that the cases that occur in Sulawesi Selatan are now highlighted:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:163
+# 1869e7cb696d4b17abdb2f8b4df2e87c
+msgid "Save this selection as a new layer by right-clicking on the :kbd:`cases_gis` layer, and then clicking on *Save Selection As...*:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:169
+# c653912d6d374d818332d660d9c58c4b
+msgid "Save your new layer as :kbd:`Sul_sthn_cases` and add it to your map. If you feel the need, format the colour."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:172
+# 5223734b8b2f4e6284a2843129299e83
+msgid "You can now remove the :kbd:`cases_gis` layer."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:175
+# 272a2291d2364645998993b032d5a9dc
+msgid "|basic| |FA| Inspect the data"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:176
+# e091de4fab7749c59622f1e6bfeae9b3
+msgid "As mentioned above, you need to extract all the cases of sudden death in poultry in the Sulawesi Selatan region. How would you go about doing that?"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:179
+# 677a95af09ca40c2b4d051d138b8612f
+msgid "One answer lies in a layer's :guilabel:`Attribute Table`. Here you are able to see much more information about each record in the layer. The :guilabel:`Attribute Table` has been mentioned earlier, particularly in Chapters 3 and 4. Now we are going to use the information contained in the attribute table to select the records we require."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:185
+# 3b902bba93034a72ad3b480e9e212d74
+msgid "When we open the :guilabel:`Attribute Table` for the :kbd:`Sul_sthn_cases` layer, we see several columns showing information about each record:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:191
+# 2cce0c371b2542a29a242a0d815b6d7c
+msgid "What information do you notice?"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:193
+# d1c1d661b4d54b679818a7aaa101fa66
+msgid "In this example we can see there are 1728 records in total in this layer. The attribute table has columns containing the following information:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:196
+# 9ea00339140a48558f5cb210236f7e8e
+msgid "gid (Geographic identification)"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:197
+# d168e125fe084e62a16587af232e812c
+msgid "reportdate"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:198
+# d6bbb24aa2e046fe930c355d0b097c2c
+msgid "caseid"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:199
+# 309298b0eddb4cf9a4ee96b72a44c1c6
+msgid "species"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:200
+# dc92d78e18aa4b54ab3a4fc5ea7bc264
+msgid "cases"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:201
+# 7b8de4d87c43460ab9fb2d02e8508b7f
+msgid "reporttype"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:202
+# 970d5288fd3b4bf48b4ea10041635d89
+msgid "syndrome2"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:203
+# 2fe15bdeab8d4165a9ed7741820b1c8a
+msgid "reporter"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:204
+# fab8fbfef4624dd6865a0e8c52a0a87e
+msgid "desa"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:206
+# e91743381bf24070a4cddd049432e59b
+msgid "We can use this screen to find (for example) all the records relating to chickens by typing in *chicken* in the *Look for* box, choosing *species* in the drop down box and clicking on *Search*. Immediately, all the records with chicken recorded as the species are highlighted in the attribute table."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:212
+# 9a0628f941ae4649b64d1d774421e24a
+msgid "**Note:** Notice the 'Case sensitive' option. It is best to leave this box unticked. That way your search will return results for 'Chicken' and 'chicken', and any other variations without"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:215
+# 5bdb61ba9f8e4b9fa69ce40d3885878e
+msgid "However, we don't want just chickens, we want all poultry that are recorded with 'sudden death' as the syndrome. To select these records, we need to use the *Advanced search* features."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:220
+# d62141aaa4314777ad81595e6cfd5653
+msgid "|moderate| |FA| Selecting records using SQL (Simple Query Language)"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:221
+# c47da69ccde241e4accde9bfc146d3a0
+msgid "The *Advanced search features* allow us to create more specific queries, selecting records with the particular attributes we are interested in."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:228
+# 71493b096486412fbf817ffea0701b0a
+msgid "Our query is asking for all the records that contain chicken or duck or local chicken as the species, **and** a value of 'sudden death' in the syndrome2 table."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:231
+# 971a575270d84b568895784420dffc66
+msgid "By testing the query, we find that we have 11 matching records:"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:236
+# 43218d25364340b09e26a48a918a4749
+msgid "Click 'OK' in the window saying 'Found 11 matching feature(s).', and click 'OK' in the 'Search query builder' window. Note that at the top of the attribute table you will now see the heading *Attribute table - Sul_cases_sthn (11 matching features)*. Click 'Close' on the attribute table."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:240
+# 6082ffad490f4c60b195e787b9077576
+msgid "Now that we have our records selected, we will use the *Save selection as* option that we used before, and save this layer to our map. Right-click on the :kbd:`Sul_sthn_cases` layer, and click on *Save selection as*."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:247
+# 00b98ec159e94c9a8c129eefea89a19a
+msgid "Name this new layer :kbd:`Cases_PoultrySuddenDeath` and add it to your map."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:249
+# f8de1bc9623645b4a4f40ba35a1e7ddc
+msgid "By turning off the :kbd:`Sul_sthn_cases` layer, we can now see the records in the database of sudden death recorded in poultry in Sulawesi Selatan."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:255
+# a7ddd9a6f8b14da78ba08e934c18b34a
+msgid "Note we have used the *Advanced Labeling* tool referred to in Section 4.2.1 *Using labels* to show the labels of each of the districts."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:258
+#: ../../animal_health/exercise2.rst:62
+# 37691fb7c7d343f3a961ffcd4c8e0880
+# 7f47015c16974ddf92ebd3b8d8eb5211
+msgid "Save your project."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:261
+# deecea939a5f42dcb57f75f8f2959abb
+msgid "|moderate| |TY| Selection using SQL"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:263
+# 4dbc002fb1cb490e93f8b8d802363e91
+msgid "Using the `Advanced search` features in the `Attribute table` for the :kbd:`Sul_sthn_cases` layer, try selecting specific records according to various combinations."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:266
+# d461185f4e4441d685e4f17a37bda050
+msgid "Do not be afraid to experiment. Try selecting records different combinations such as the date, village, species, syndrome etc."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:270
+#: ../../animal_health/exercise6.rst:129
+# c3af687c78fb47309010531018e96140
+# b773c333c0594ac99dc2a357f081dc19
+msgid "|IC|"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:272
+# 1d012a44e81c45c1bff699f14699ea18
+msgid "There are several ways available for selecting data. Which method you choose will depend upon your needs. Using SQL queries enables you to select records according to the particular attributes that are of interest to you."
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:279
+#: ../../animal_health/exercise3.rst:113
+#: ../../animal_health/exercise4.rst:53
+#: ../../animal_health/exercise5.rst:56
+# 9fe02b4b3a5c486a9fa876dd1e3c1d40
+# da8a73b165cb4296b40a3d7f282aa9e5
+# 81fba0fa85814307983ae28b0f37760d
+# 6a11f5e0114541bd9cfb9c22646e33ed
+msgid "|WN|"
+msgstr ""
+
+#: ../../animal_health/exercise1.rst:281
+# 681ed8274a14441eab76a28e15779e82
+msgid "Now you have your basic map showing where the cases of interest are located. In our next lesson we will review why we are going to need to project our layers in order to develop suitable buffers."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:2
+# dae2f87045f24687b2593d7c054da272
+msgid "|LS| Projecting layers"
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:4
+# 2a30b980e3dd4ee18720f62072e731d5
+msgid "We have created a map showing all the cases of sudden death in poultry in the Sulawesi Selatan region. Now we need to consider our approach to creating the required 15 kilometre buffer zone around these cases."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:10
+# 34f0b29ba70a4203a5ebf00cb38fefc6
+msgid "To review map projections"
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:13
+# 716a46f4915948ec9934b1b895fe089e
+msgid "|basic| |FA| Projecting the layers"
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:14
+# 8602d5b3f16246d4853278e61c406855
+msgid "Think back to Chapter 7 where you learnt about projections, and now take a look at the layers on your map. Is their CRS (Coordinate Reference System) a Geographic Coordinate Reference System (GCS) or a Projected Coordinate System (PCS)? How can you tell?"
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:18
+# 2c5928c9df9040c59e5a18a83d2b2bcd
+msgid "The easiest way is to check the 'Coordinate' box at the bottom of the map canvas. It should be showing longitude and latitude values in decimal degrees, separated by a comma e.g. 120.723,-4.971."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:22
+# 78c4313a147f45128f0d8c927fb55473
+msgid "To find even more detail about a layer's CRS, right-click on the layer, and go to *Properties*, then click on the *General* tab you will see that the CRS is EPSG:4326 - WGS 84. Even greater detail is seen when you click on the *Metadata* tab."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:29
+# ae8a610e689c42dcac919aee6eab03ce
+msgid "As a general rule, if you are going to manipulate spatial data using tools from the *Vector* menu, your layers will need to be projected to a format where distance is expressed in measurement units such as metres."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:33
+# ffd4a2577854458e9c3112f5befa0852
+msgid "For this exercise we will use the Universal Transverse Mercator (UTM) zone 50s (EPSG 32750)."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:35
+# 70ea879598db4c889d56cc8fe34537f4
+msgid "Right-click on the :kbd:`Cases_PoultrySuddenDeath` layer in the :guilabel:`Layers list`."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:36
+# 1682cc35a4434ea3beecf31d23a75923
+msgid "Select :guilabel:`Save As...` in the menu that appears. You will be shown the :guilabel:`Save vector layer as...` dialog."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:37
+# f30989debbf246d6b61f63891b6af992
+msgid "Click on the :guilabel:`Browse` button next to the :guilabel:`Save as` field."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:38
+# 58857069abfa44e6a715f7274bf1f70b
+msgid "Navigate to the folder you have nominated to store your exercise data and specify the name of the new layer as :kbd:`PoultrySuddenDeath_32750.shp`."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:39
+# db9c667156014f089debec3d3eb0b1eb
+msgid "Leave the :guilabel:`Encoding` unchanged."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:40
+# 5173dc11d885415f91ccad098df4d01b
+msgid "Click the :guilabel:`Browse` button beneath the dropdown."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:41
+# d3b0c20a5b1f49c28cd313d55a9b91c4
+msgid "The :guilabel:`CRS Selector` dialog will now appear."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:42
+# 403f05a746874d859495a82cda9ce053
+msgid "In its :guilabel:`Filter` field, search for :kbd:`32750`."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:43
+# 968ec73e2d194a56b83ca1987ff4e043
+msgid "Choose :guilabel:`WGS 84 / UTM zone 50S` from the list."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:44
+# 4e141b18ff364af995a3d55e851a39fe
+msgid "Click :guilabel:`OK`."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:47
+# c3e45ade65eb4aba8807a048c8c4e363
+msgid "|basic| |TY| Project the remaining layers"
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:49
+# 81e01dc2b72947f6a77ca1aed6574a72
+msgid "Repeat these steps for your remaining layers, adding the new, projected layers to your map. You can now remove the original, unprojected layers from your map. As we have determined that we are only using maps from the areas in Sulawesi Selatan, you no longer need your :kbd:`Sulawesi` layer."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:53
+# 4775e431134949748e729431ce6382f8
+msgid "The option to project 'On the fly' should be turned off."
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:55
+# e1e8b022654b47f0b11f6eb7f635c397
+msgid "Your map should now look something like this:"
+msgstr ""
+
+#: ../../animal_health/exercise2.rst:60
+# df45575e5896401988b2b8050a9cd10b
+msgid "Note the 'Coordinate' box shows the units in metres instead of degrees."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:2
+# 2b5a1833e9dc4d59a114c1b9ca04a922
+msgid "|LS| Buffering"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:3
+# dafc52e389724bfaa6d22be2332a3d26
+msgid "Now we have have our layers necessary to create our 15 kilometre buffer. Or do we?"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:7
+# 7ae8c0c690664d2ba7aff5697b3f29e0
+msgid "To consider and understand point data versus polygon data, and how what effect each type will have when creating a buffer zone."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:11
+# 12eeacb06ddc4e57861774689e11b613
+msgid "|basic| |FA| Point data, centroids and polygons"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:13
+# d5b60eba1b404273ad3c17f04942e664
+msgid "If you look at your map you will notice that the cases of sudden death in poultry occur mostly in the districts of Barru and Sinjai. For this exercise we are going to add a new vector layer, :kbd:`VillagePolyBarSin_32750`, which shows the boundaries of the village polygons in Barru and Sinjai. Once you have loaded this layer, arrange the layers so the cases are on top of the village boundaries. Look closely at where the cases lie within the village polygons (you may have to zoom in closer on your map)."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:21
+#: ../../animal_health/exercise4.rst:35
+# d24ca1d2a57146c9a53e90972e5a733e
+# cf428ea39c8649fd96fa54bc132c5915
+msgid "What do you notice?"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:26
+# e4fc0e134718453a8df50ad75c342a38
+msgid "Every case is positioned in the centre of the village boundaries. This suggests they are not the exact coordinates of where the case occurred - all we know is the case occurred somewhere in that particular village. The data is recorded at village level, and it is positioned using the centroid of the village polygon."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:31
+# 4f607d68dabd4614b832acc7e977e061
+msgid "How will this affect our 15 kilometre buffer zone? Let's find out."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:34
+# 20ea25c80e9946bc8e5153f59a034bd3
+msgid "|basic| |FA| Buffering from the village centroid"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:36
+# 076f4f7159d3411b922b01883e291a41
+msgid "For this buffering exercise we will use the :kbd:`PoultrySuddenDeath_32750` file we created. Select this layer, and go to the *Vector* menu. Hover over *Geoprocessing Tools* and select *Buffer(s)*."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:43
+# c0e81630892a483bbf82abd8f3dede38
+msgid "The following window will open:"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:48
+# 054ec7479ebf4ed7baa1908cc2a5af56
+msgid "Choose :kbd:`PoultrySuddenDeath_32750` as the input vector layer, and use a buffer distance of 15000 (remember your layer units are metres)."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:51
+# 24a2d62504424fc88c4ff66808ab8583
+msgid "Click on 'Dissolve buffer results' and name your new shapefile :kbd:`PoultrySD15kmBuffer_32750.shp`."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:53
+# 67c986fdebc64f7bbb522b52ef3455ce
+msgid "Add this layer to your map. The result should look something like this:"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:58
+# 9883e41c16d841709bb8b6cc893cd10e
+msgid "Do you see that the buffers naturally extend into the sea? We will now use the **Clip** function to fix this."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:62
+# 7dda1948b64c493bbd5fda29ae9bf0de
+msgid "|basic| |FA| **Clipping** datasets"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:64
+# bdf3ecaa0c56455eb68fd193cec0c7f7
+msgid "We can use one dataset to cut through another dataset, leaving us with only the information we want. In this case, we are going to clip our new buffer layer with the :kbd:`DistrictsSthnSul_32750` layer that you should have created in section 16.2.2 **Try yourself... Project the remaining layers**. (Note: You may have named it differently, such as :kbd:`Sul_sth_dist_32750`)."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:70
+# 1c3b01d2837d4387a6630801805412e9
+msgid "Again, we move to the *Vector* menu, hover over the *Geoprocessing Tools*, and select *Clip*."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:75
+# 8ae3fe44d89f48b99c9ced97a64bfece
+msgid "Our input layer is the layer we want to change, in this case our new buffer layer. The clip layer is the layer we will use cut around our buffered layer."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:78
+# b62db221c4c84784b3daaaa4e9c141c5
+msgid "Name your new shapefile :kbd:`PoultrySD15kmBufferClip_32750.shp` and add it to the map. Your screen should now look similar to this:"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:84
+# 58499e067c714d11b23b7a2224e4d79a
+msgid "Our new layer is fitting nicely within the coastlines of South Sulawesi and your supervisor can easily see where the 15 kilometre buffers extend to. But is this the best buffer zone for the data? Remember the data suggests the cases are recorded in the database as being in the centre of each village - in reality they are probably taken from anywhere within the village boundary. This means our 15 kilometre buffers are not going to be as accurate as they might be."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:90
+# 57262c2c01d74ae88baee27a46b24758
+msgid "In the next section we will create the buffer using the village polygon layer and compare the two results."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:93
+# 90ba57e912504c7bb2d208f1c95b827e
+msgid "|basic| |TY| Buffering using the village polygon"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:95
+# e2cd0d2948d4446baccb112dbcdb4b7f
+msgid "Using the same skills you have learnt above to buffer and clip layers, create a 15 kilometre buffer zone around the village polygons containing cases of sudden death in poultry. Clip your new layer and add it to your map, naming it :kbd:`PoultrySD15kmBufferPolyClip_32750`."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:99
+# 23044c2bab9e437b8f2dd0496bad80a5
+msgid "Rearrange the layers, so that the buffer zone created with the village centroids is visible over the top of your new buffer zone created with the village polygons. What do you notice?"
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:106
+# 501549d26d954c2f8bf317566dd4d165
+msgid "In this picture, the dark green shows the buffer zone around the village polygons (shown in the light colour). The lighter green shows the buffer zones created using the case data points."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:109
+# 28696e034df446299c53fa5471dd67fb
+msgid "Since we don't know exactly where each case occurred, it is a good idea to consider using the village polygons when creating a buffer zone, not the village centroids."
+msgstr ""
+
+#: ../../animal_health/exercise3.rst:115
+# fb46d9167bbc4c52aec130aef758bcb7
+msgid "It would be useful if we could estimate by looking at our map how many cases have been recorded in each village. In our next lesson we will review more styling, and how to colour areas according to particular attributes we wish to display."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:2
+# 2d350711a0c34e73a5dfa0c27d212193
+msgid "|LS| Styling to show density"
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:3
+# 44c576f100724cf981379238bf32010e
+msgid "A good map is able to convey information quickly and clearly. For example, we can use colour to indicate the number of cases in each village of the particular syndrome we are investigating."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:9
+# 70459a7145e64400bc3231e2cfa84177
+msgid "To review ways of styling our maps so the information is displayed in the clearest possible way."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:13
+# a1d13e89e06844dfbec1c497284a3a7c
+msgid "|basic| |FA| Styling to show density"
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:15
+# a96dec05787d45e6be47297f7c4405c7
+msgid "Open the :kbd:`PoultrySuddenDeath_32750` attribute table and have a look at the columns. What do you notice? What information can you easily display on your map?"
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:18
+# 25b32a71438449e3aa507e458e9d7626
+msgid "Take a look at the 'cases' column. It tells you the number of cases recorded in each village. We can use colour coding to display this information on our map."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:21
+# 4948c84aa6c44473b49e2c6df843a88f
+msgid "To do this, open the layer properties for :kbd:`PoultrySuddenDeath_32750` and click on the 'Style' tab."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:24
+# f22ce101d1ba4123837f1335d6bd3814
+msgid "Select 'Graduated' from the pull-down rendering menu. This spreads our chosen colours from light to dark, or dark to light."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:27
+# 56063d3613d4400c9004316f1b00a285
+msgid "Set the 'Column' to 'cases', and the 'Classes' to 5."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:29
+# 2b29775b5efb4d4092b4a17a88dde041
+msgid "The 'Color ramp' can stay at blue for now, and the 'Mode' can be set to 'Equal Interval'. QGIS should immediately provide a set of five blue colours, with five equally spaced intervals. (If not, click on 'Classify'.)"
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:33
+# 10e2a9dfdf9546f592487f90edefba3f
+msgid "Click on 'Apply' to see how this looks on your map."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:40
+# 2593f55f941349f88010fcdccbf73e93
+msgid "Our points on the map are very small, and it is difficult to distinguish the colour variation. One way to change this is to experiment with the size of the points."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:43
+# 1bf9783cc1c647298a022a924e3abe97
+msgid "To do this, open the layer properties for :kbd:`PoultrySuddenDeath_32750` and click on the 'Style' tab again. This time, click on the change button next to 'Symbol'. Experiment with the size of the point until you think it is large enough to show the varying shades."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:47
+# 8d9a5abfe54c4c6d86f973c27e577094
+msgid "This is what it looks like when the size is set to 5 millimetres:"
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:55
+# 1f32496e62ee4839b62954bfaf50c268
+msgid "This improves our map for showing which villages have recorded the most cases, but it would be better if we could show this using the village boundaries."
+msgstr ""
+
+#: ../../animal_health/exercise4.rst:58
+# 6a94dd09b895463c916aeb9afb6a830a
+msgid "In our next lesson, we will learn how to join layers together by their location. This will enable us to create a new file that combines attributes such as the case numbers from the :kbd:`PoultrySuddenDeath_32750` shapefile and the village boundaries from the :kbd:`VillagePolyBarSin_32750` shapefile."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:2
+# 459a9b3c7f2c4e728189d5bc341cccdb
+msgid "|LS| Joining two layers together"
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:3
+# 89434f01c4b446a388720b4435862440
+msgid "We can use the 'Join by location' tool to create a new layer combining the attributes from two different layers."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:8
+# 80ed231f88194717859b4826c181641c
+msgid "To use create a new shapefile using the 'Join by location' tool"
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:11
+# fac687be42764e17bf1952b3c4082160
+msgid "|moderate| |FA| Join attributes by location"
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:12
+# 4eb424ce86ee45ca921aad0f39c943de
+msgid "In the last lesson we reviewed how to use colour to show the density of case records in each village however the results were not really adequate because our file containing the case records shows them on the map as point data. We would really like to colour the entire villages as shown in the file containing the village boundaries. We can't do this using the file as it is, because it does not contain the cases information. We need to join the two files using the 'Join attributes by location' tool, located under 'Data Management Tools' in the 'Vector' menu."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:24
+# 47c3706c6db245a5866b186360ce4995
+msgid "Use the :kbd:`VillagePolyBarSin_32750` file as the Target vector layer, and the :kbd:`PoultrySuddenDeath_32750` file as the Join vector layer."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:27
+# c6a84bed792e4d14921680a1e53a6988
+msgid "Click on 'Take the attributes of the first located feature' under 'Attribute Summary'."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:29
+# 6fe9490e40e347c7bcd073c377cce5c7
+msgid "Browse to where you are going to save your file, and name it appropriately (we used :kbd:`PoultrySDJoinLocation_32750`)."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:32
+# ff43bc687abf45b5b2fa51c4d384c926
+msgid "Only keep the matching records. Click 'OK' and add the new layer to your map. Your results should look similar to this:"
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:38
+# 210a64face4541fe8e96a33c4b96ffc5
+msgid "Now open the 'Attribute table' of your new layer. You can see that the new layer has the attributes of each original file, including the number of cases. We can now use this to improve our depiction of case density on the map."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:43
+# b93d6bdf799044ffa401ad472a7c62d2
+msgid "|basic| |TY| Style the villages to show the density of recorded cases"
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:45
+# 6b69e9e38b7540bf986636411b067990
+msgid "Using the skills from the previous lesson, amend the style to show the case density in each village. Experiment with the effect of choosing different intervals:"
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:48
+# 2b4a1ac6c6354a28b68ccd74cfe01ecb
+msgid "**Equal Interval:** Divides your data into equally-spaced groups."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:49
+# fd9aaf0f08894a27a94cc33c64a05cd9
+msgid "**Quantile:** Uses an equation to divide values into equal-sized subsets."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:50
+# 92d0aacdbb82401387caba75c4ebbe88
+msgid "**Natural breaks (Jenks):** Tries to minimise differences within classes whilst maximising the difference between classes. Standard deviation: Illustrates how values deviate from the average."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:51
+# a3d37465d3b44a81897a26cbff588e63
+msgid "**Pretty breaks:** Breaks the values into classes that are easily understood by non-statisticians."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:53
+# d8e34d57e46c45ae9a767a39821d6f4f
+msgid "Explore the effect of each of these, using 'Apply' to see the changes each makes to your map."
+msgstr ""
+
+#: ../../animal_health/exercise5.rst:58
+# dd0f481055b3411db21a9678644d4908
+msgid "In our next, and final, exercise, we will investigate some of the movements data (showing livestock moving from one place to another). Here we will work through a simple and practical exercise as another example of an actual task that you may be asked to complete."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:2
+# 10af1a2ec57a4a77b9a41e4bb6ffc676
+msgid "|LS| Working with movements data"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:3
+# d7481c5a4f4045bfb45fa2520740bbff
+msgid "iSIKHNAS contains many types of data. One of these is movements data, showing the movement of livestock from one place to another."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:8
+# a9d50a141e2f4b1fb472be1d774f3f0b
+msgid "To create a map that clearly shows livestock movements."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:10
+# 8828827f1c9241edafc17da010af3f13
+msgid "Your supervisor would like you to extract a dataset of poultry movements between certain dates. S/he would then like you to create a map that shows:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:13
+# 648e198b4d784d8ab9367dbe273f8aab
+msgid "Poultry movements between 1 December 2013 and 31 December 2013"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:14
+# 0ec2321bed0b4f54817a59b8106b5413
+msgid "Format the style to clearly show density"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:17
+# 88e88bb248514f6294b292118e82484a
+msgid "|moderate| |FA| Selecting data using SQL"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:19
+# 278e71bf5b124fcc88a7e7f8bdf38433
+msgid "For this exercise, start a new project. Load the following shapefiles supplied in your data folder:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:22
+# 06d0a44d39024e3e99c9d0cb7e0ec90a
+msgid ":kbd:`Indonesia_32750`"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:23
+# e6ab5ba1278c423e9aed9fc14aa3f663
+msgid ":kbd:`Sulawesi_dist_32750`"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:24
+# 91cfe78fc7724474826bf5b5c48f5ae5
+msgid ":kbd:`movements_32750`"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:26
+# 01ea5c8731954c96b157414f229817cd
+msgid "Use the *Layer Properties* to style the layers as necessary like you have done in the exercises."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:29
+# 7fd9a10685fa4c7a9fc634e8f127994e
+msgid "Your new map should look similar to this:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:34
+# ce0a49674b8547e9a6027dfa3e6ffa5c
+msgid "Open the *Attribute table* for the :kbd:`Movements_32750` layer. You can do this by either right-clicking on the :kbd:`Movements_32750` layer, and selecting *Open Attribute Table*, or you can click on the icon in the menu bar as shown below:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:41
+# a748012c5c07404b9bc9ca7c616d06e3
+msgid "Here we will select the records we want using SQL. Open the *Advanced search* option. You want to select all records relating to poultry, that are between 1 December 2013 and 31 December 2013."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:45
+# 0906b181cb9545889dcb4e0ddfdee437
+msgid "To do this, you need the following query:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:47
+# b0395aec88c5496e9e2997c4650b15e9
+msgid "(\"Tanggal\" >= '2013-12-01' AND  \"Tanggal\" <= '2013-12-31') AND ((\"Spesies\" = 'broiler') OR (\"Spesies\" = 'chicken') OR (\"Spesies\" = 'duck') OR (\"Spesies\" = 'pigeon'))"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:50
+# 8138dd2f1d1f448db825d270384b1835
+msgid "This query is asking to return records:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:52
+# 6cc4063a75db465db3eb4436056a18b7
+msgid "Between the two dates: (\"Tanggal\" >= '2013-12-01' AND  \"Tanggal\" <= '2013-12-31')"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:55
+# fb70ccc7f5b74ad79c5a6a68590b83b3
+msgid "AND"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:57
+# caf00eeb6efe452bb9ea0674012609b9
+msgid "With the following species:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:59
+# cdd4979ec4c3414aa319c65baaf4f07f
+msgid "((\"Spesies\" = 'broiler') OR (\"Spesies\" = 'chicken') OR (\"Spesies\" = 'duck') OR (\"Spesies\" = 'pigeon'))"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:61
+# 8b641d1590f741989a0a2e63fee38c89
+msgid "If you test the query, it should return 30 records:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:66
+# 6eb348c3eed749749746fe335dc85df2
+msgid "Close the attribute table. Your selected records should be highlighted in yellow on your map."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:68
+# c9d10467ca914d2abcbfc5e392aa1e25
+msgid "Right-click on the :kbd:`movements_32750` and choose the *Save selection as* option. Save your new layer with an appropriate name such as :kbd:`movements_poultry_32750`. You can now remove the :kbd:`movements_32750` layer."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:72
+# 775653d2e0b24d8c97bd994fe3d3a864
+msgid "When you look closely, you will see that all the movements take place in Sulawesi. If you like, you can remove the layer :kbd:`Indonesia_32750`."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:75
+# 956584545a344fee83a141e8e06ebd68
+msgid "In the next section we will review styling again, and show density in our movement data."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:78
+# db4361518fe14516828411614b8c28fa
+msgid "|moderate| |FA| Style formatting"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:79
+# 1e6ded2e026346298de862c7e67ee4bd
+msgid "Our movements data for is now showing on the map, but it doesn't really tell us too much about it. We can use styling to show more."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:82
+# 0c9f5ce02c2241bc99ae456b796615af
+msgid "Right-click on your new :kbd:`movements_poultry_32750` and click on the *Style* tab."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:84
+# 9d72bd6d478d4f3db7e32b6bcc6e0a79
+msgid "As you have learnt previously, here you can style your layer to show attributes such as density. You can also:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:86
+# 0997008738c94f4492433480108c3fce
+msgid "colour the movement lines according to the number of animals in each movement (density)"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:87
+# 4ad7400587994af3973e6cec00f2e8ee
+msgid "increase the width of the movement lines to show the number of animals in each movement"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:88
+# 5f16913cfac14269a8f74024465bfa1a
+msgid "layer the movement lines so thinner lines are displayed on top of the wider lines"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:91
+# eab6ba4bc20d4620a40b3ced6aeeab55
+msgid "|moderate| |TY| Style formatting"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:92
+# 1200e4d086634f7cb29381958e9eaebf
+msgid "Review Section 16.4.1 *Styling to show density* and Section 16.5.2 *Style the villages to show the density of the recorded cases*."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:95
+# 431c0f45de8144bd984b52e5c7019372
+msgid "Format the movement lines using colour to show the number of animals in each movement. The column you will use is *Jumlah Hew*."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:98
+# 8eb76b9b654547e291ffb6a4f7c2220b
+msgid "Once you have your individual lines, you can double-click on each one and a new window will open. Here you can edit your line for things such as width, colour, transparency:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:104
+# d4622c74e007467783bf1fccc4de35f0
+msgid "Experiment with the width of each line until you are happy with your results."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:106
+# e2055fb9792645cd90b038c279e72a0e
+msgid "After changing the width of each graduated line, you will then be able to order the lines so the widest lines appear underneath the thinnest ones."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:109
+# ae77a3c7f0524712852e6b89049cc6ce
+msgid "Still in the *Layer properties* window, click on *Advanced*, and then *Symbol levels*:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:114
+# a8564d20d5f8467c80fe36695c8aa62f
+msgid "This opens up a new window, where you can order your symbols:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:119
+# 9d426edc25f84db787cf552cbd3e345f
+msgid "When ordering symbols, the first symbol to be placed on the map is the one with a zero. In the image above, you can see that our widest line is a zero, and the narrowest line is a four. The result is this:"
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:125
+# 6accd2d0bd284b2d8b38a987c94fce80
+msgid "This shows our lines formatted using colour and line width to show the number of animals in each movement. The darker, thicker line shows us there were between 860 and 1000 birds moved in this particular movement."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:131
+# 371f37189bf7414db3d8f321a3957967
+msgid "This chapter has been designed to show you how to use QGIS in a practical and useful way, using real data obtained from the iSIKHNAS database. The exercises have been developed to show examples of actual tasks you may be asked to carry out by your supervisor."
+msgstr ""
+
+#: ../../animal_health/exercise6.rst:135
+# a119d62147d04340a6a6efd8afa59229
+msgid "It is only a small example of what you can do using the QGIS software. If you are interested, do not be afraid to explore the software. Use the internet to search for new ways to create particular maps, or investigate different ways of doing things."
+msgstr ""
+
+#: ../../animal_health/index.rst:3
+# b00e96c9aabe409888e297960379c1bd
+msgid "|MOD| Using QGIS in animal health"
+msgstr ""
+
+#: ../../animal_health/index.rst:5
+# 54d659b07c7940ce9ff2098180dc7903
+msgid "The purpose of this module is to show how QGIS can be used to assist in animal health scenarios. In order to do this, you will have needed to study, and be familiar with, the previous chapters of this manual, but in particular you need to be familiar with chapters 3 - *Creating a basic map*, and chapter 7 - *Vector analysis*."
+msgstr ""
+
