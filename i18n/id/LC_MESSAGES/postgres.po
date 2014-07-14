@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-10 00:00\n"
+"POT-Creation-Date: 2014-07-10 15:16+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "X-Language: id\n"
 
 # a547362853db42d29a85e20f2dd75a72
@@ -171,6 +171,12 @@ msgstr ""
 #: ../../postgres/adding_data.rst:107
 msgid "What error did you get?"
 msgstr "Apa kesalahan yang Anda peroleh?"
+
+# a4430f0ec0e241c1b35b7ece63b168cd
+#: ../../postgres/adding_data.rst:112
+#, fuzzy
+msgid "You should have noticed that:"
+msgstr "Anda seharusnya akan mendapatkan pesan seperti di bawah ini:"
 
 # 63fdc9141ad54e0a96e712f8ed60ef10
 #: ../../postgres/adding_data.rst:110
@@ -597,9 +603,9 @@ msgid ""
 msgstr ""
 ":kbd:`serial` dan :kbd:`varchar` adalah **tipe-tipe data**. :kbd:`serial` "
 "memerintahkan PostgreSQL agar memulai urutan *integer (AutoNumber)* untuk "
-"mengisi :kbd:`id` secara otomatis untuk setiap record baru. :kbd:`varchar(50)"
-"` memerintahkan PostgreSQL untuk membuat tipe data pada kolom berisi "
-"maksimal 50 karakter."
+"mengisi :kbd:`id` secara otomatis untuk setiap record baru. :kbd:"
+"`varchar(50)` memerintahkan PostgreSQL untuk membuat tipe data pada kolom "
+"berisi maksimal 50 karakter."
 
 # 1a96bc502c394130af8f8eb9143e69f4
 #: ../../postgres/data_model.rst:198
@@ -708,6 +714,11 @@ msgstr ""
 "memiliki hubungan logis. Untuk mengungkapkan hubungan ini, kita harus "
 "mendefinisikan *foreign key* yang menunjuk ke *primary key* dari tabel "
 "*streets*."
+
+# 625f6349ba9f4948ba1ab61f701a1a49
+#: ../../postgres/data_model.rst:338
+msgid "There are two ways to do this:"
+msgstr ""
 
 # c85e9be65a9f4a0a965343e296a73054
 #: ../../postgres/data_model.rst:337
@@ -935,8 +946,8 @@ msgstr ""
 "vertikal (yang diidentifikasi dengan nama data-data tersebut) dan baris "
 "horisontal. Sebuah tabel memiliki kolom dengan jumlah tertentu, dengan "
 "jumlah baris bisa berapa saja. Setiap baris diidentifikasi oleh nilai-nilai "
-"yang muncul dalam subset kolom tertentu yang merupakan kunci kandidat *"
-"(candidate key)*. *- Wikipedia*"
+"yang muncul dalam subset kolom tertentu yang merupakan kunci kandidat "
+"*(candidate key)*. *- Wikipedia*"
 
 # 218bb5509da6448b9b5c1137f63fdc88
 #: ../../postgres/db_intro.rst:40
@@ -1669,8 +1680,8 @@ msgid ""
 "typical example:"
 msgstr ""
 "Salah satu fitur canggih dari sebuah database adalah kemampuannya untuk "
-"meringkas data dalam tabel tersebut. Ringkasan ini disebut query agregat *"
-"(aggregate queries)*. Berikut adalah contohnya:"
+"meringkas data dalam tabel tersebut. Ringkasan ini disebut query agregat "
+"*(aggregate queries)*. Berikut adalah contohnya:"
 
 # 1002692ee6c7409c964846a865fb6459
 #: ../../postgres/queries.rst:246
@@ -1847,8 +1858,8 @@ msgstr ""
 #: ../../postgres/views.rst:8
 msgid "**The goal for this lesson:** To save a query as a view."
 msgstr ""
-"**Tujuan untuk pelajaran ini:** Menyimpan query sebagai sebuah Tampilan *"
-"(View)*."
+"**Tujuan untuk pelajaran ini:** Menyimpan query sebagai sebuah Tampilan "
+"*(View)*."
 
 # 88a96e9979ca40daae5b9c239fb0d7ef
 #: ../../postgres/views.rst:11

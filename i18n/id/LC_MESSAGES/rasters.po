@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-10 00:00\n"
+"POT-Creation-Date: 2014-07-10 15:16+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "X-Language: id_ID\n"
 
 # 14c5b5a93b6c42ca83fdca2ce6877229
@@ -620,8 +620,8 @@ msgid ""
 "dialog.  (Don't click :guilabel:`OK` again, otherwise it's going to start "
 "running that command again!)"
 msgstr ""
-"Klik  :guilabel:`Close` pada dialog :guilabel:`Build Virtual Raster (Catalog)"
-"`. (Jangan mengklik  :guilabel:`OK` lagi, karena hal tersebut akan "
+"Klik  :guilabel:`Close` pada dialog :guilabel:`Build Virtual Raster "
+"(Catalog)`. (Jangan mengklik  :guilabel:`OK` lagi, karena hal tersebut akan "
 "menjalankan perintah itu lagi!)"
 
 # 7a232786226248e6975183e05388d336
@@ -823,8 +823,8 @@ msgid ""
 "Click on the menu item :menuselection:`Raster --> Analysis --> DEM (Terrain "
 "models)`."
 msgstr ""
-"Klik item menu  :menuselection:`Raster --> Analysis --> DEM (Terrain models)"
-"`."
+"Klik item menu  :menuselection:`Raster --> Analysis --> DEM (Terrain "
+"models)`."
 
 # 751eaa093f774c9ea16ccb8e08c1a61b
 #: ../../rasters/terrain_analysis.rst:27
@@ -1003,6 +1003,15 @@ msgstr ""
 msgid "Remember to save your map when you are done."
 msgstr "Ingat untuk menyimpan peta Anda ketika telah selesai."
 
+# 05c81026bbc04b3595414beb0cdd98fb
+#: ../../rasters/terrain_analysis.rst:85
+msgid ""
+"For the next two exercises, please use a new map. Load only the :kbd:`DEM` "
+"raster dataset into it (:kbd:`exercise_data/raster/SRTM/srtm_41_19.tif`). "
+"This is to simplify matters while you're working with the raster analysis "
+"tools. Save the map as :kbd:`exercise_data/raster_analysis.qgs`."
+msgstr ""
+
 # f4b27dc2c77d4962b900da54e1dd99c9
 #: ../../rasters/terrain_analysis.rst:92
 msgid "|moderate| |FA| Calculating the Slope"
@@ -1098,8 +1107,8 @@ msgid ""
 "Use the :guilabel:`Aspect` mode of the :guilabel:`DEM (Terain models)` tool "
 "to calculate the aspect of the terrain."
 msgstr ""
-"Gunakan mode  :guilabel:`Aspect` dalam *tool*  :guilabel:`DEM (Terain models)"
-"` untuk menghting aspect dari terain."
+"Gunakan mode  :guilabel:`Aspect` dalam *tool*  :guilabel:`DEM (Terain "
+"models)` untuk menghting aspect dari terain."
 
 # d05f6d93d9904a1189a98e29a00deeb9
 #: ../../rasters/terrain_analysis.rst:132

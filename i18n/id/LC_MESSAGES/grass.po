@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-10 00:00\n"
+"POT-Creation-Date: 2014-07-10 15:16+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "X-Language: id_ID\n"
 
 # 81e32edd66d046e5ba328260d14b6d7c
@@ -225,6 +225,14 @@ msgid ""
 msgstr ""
 "Atur  layer yang  dimuat ke dalam   :guilabel:`streets` dan ubah nama file "
 "versi GRASS menjadi  :kbd:`g_streets`s untuk menghindari kebingungan."
+
+# 52196e47875b4cfcaf3fa09b7df8709b
+#: ../../grass/grass_setup.rst:104
+msgid ""
+"|hard| Note the extra import options provided under :guilabel:`Advanced "
+"Options`. These include the ability to add a WHERE clause for the SQL query "
+"used for importing the data."
+msgstr ""
 
 # 09ce4a47619640f1aefac829623cc4c6
 #: ../../grass/grass_setup.rst:108

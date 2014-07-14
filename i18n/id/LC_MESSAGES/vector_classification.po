@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-10 00:00\n"
+"POT-Creation-Date: 2014-07-10 15:16+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "X-Language: id\n"
 
 # 6027573e2c1847d8bd2e65552280db9b
@@ -271,9 +271,10 @@ msgstr "Klik pada :guilabel:`Classify` lagi, dan simbol baru akan muncul."
 
 # a5dc5e35f9a94769a4dab1e9fdc5d0c3
 #: ../../vector_classification/classification.rst:72
+#, fuzzy
 msgid ""
-"You'll notice they don't have outlines. This is because because you just "
-"removed the outlines!"
+"You'll notice they don't have outlines. This is because you just removed the "
+"outlines!"
 msgstr ""
 "Anda akan melihat bahwa simbol yang baru tidak memiliki garis luar, karena "
 "Anda telah menghilangkannya!"
@@ -840,6 +841,23 @@ msgstr ""
 "suatu suatu obyek. Setiap  layer vektor dapat memiliki label yang "
 "berhubungan dengannya. Isi dari label bergantung pada data atribut sebuah "
 "layer."
+
+# 772dd76b00bd42d1acb924a0a39ce0aa
+#: ../../vector_classification/label_tool.rst:8
+msgid ""
+"The :guilabel:`Layer Properties` dialog does have a :guilabel:`Labels` tab, "
+"but for this example we will not be using it. It has too few options and may "
+"be difficult to work with, which is why it will probably be taken out of new "
+"versions of QGIS (after 1.8). Instead, for this lesson we'll use the "
+"separate :guilabel:`Label tool`, which has more options and is more user-"
+"friendly."
+msgstr ""
+"Kotak dialog :guilabel:`Layer Properties`memang memiliki tab :guilabel:"
+"`Labels`, akan tetapi, untuk contoh ini kita tidak akan menggunakannya. Tab "
+"tersebut memiliki terlalu sedikit opsi, yang mana mungkin itulah sebabnya ia "
+"akan dihilangkan dari versi baru QGIS (setelah 1.8). Selain itu, untuk "
+"pelajaran ini kita akan menggunakan :guilabel:`Label tool`, yang mana "
+"memiliki lebih banyak opsi dan lebih *user friendly*. "
 
 # 6fbf6f12a06c4e2ea761f62d10130830
 #: ../../vector_classification/label_tool.rst:15
@@ -1498,19 +1516,3 @@ msgstr ""
 "tampilan pada peta Anda, lantas bagaimanakah kita menggunakannya untuk "
 "merubah simbologi obyek itu sendiri? Itulah topik untuk pelajaran "
 "selanjutnya!"
-
-# 772dd76b00bd42d1acb924a0a39ce0aa
-#~ msgid ""
-#~ "The :guilabel:`Layer Properties` dialog does have a :guilabel:`Labels` "
-#~ "tab, but for this example we will not be using it. It has too few options "
-#~ "and may be difficult to work with, which is why it will probably be taken "
-#~ "out of new versions of QGIS (after 1.8). Instead, for this lesson we'll "
-#~ "use the separate :guilabel:`Label tool`, which has more options and is "
-#~ "more user-friendly."
-#~ msgstr ""
-#~ "Kotak dialog :guilabel:`Layer Properties`memang memiliki tab :guilabel:"
-#~ "`Labels`, akan tetapi, untuk contoh ini kita tidak akan menggunakannya. "
-#~ "Tab tersebut memiliki terlalu sedikit opsi, yang mana mungkin itulah "
-#~ "sebabnya ia akan dihilangkan dari versi baru QGIS (setelah 1.8). Selain "
-#~ "itu, untuk pelajaran ini kita akan menggunakan :guilabel:`Label tool`, "
-#~ "yang mana memiliki lebih banyak opsi dan lebih *user friendly*. "

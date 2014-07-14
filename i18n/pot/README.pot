@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-10 00:00\n"
+"POT-Creation-Date: 2014-07-10 15:16+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,143 +16,203 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../README.rst:2
-# d9a49cb7a3034a0fbba47acea0ba0fd5
-msgid "About the Project"
+#: ../../README.rst:1
+# d4d18b5303a944109f0cbe1b23fc1851
+msgid "**Please note that the QGIS Training Manual is being ported to QGIS 2.0 and has been incorporated into the main QGIS-Documentation repository (https://github.com/qgis/QGIS-Documentation). Work is currently being done in the manual_en_v2.0 branch (https://github.com/qgis/QGIS-Documentation/tree/manual_en_v2.0)**"
 msgstr ""
 
-#: ../../README.rst:4
-# 6db7186674944458810c2ee42f1b2b37
-msgid "This manual was originally produced by Linfiniti Consulting CC (http://linfiniti.com) and is now a community effort."
-msgstr ""
-
-#: ../../README.rst:8
-# 87337f8b9fa4416980bd89f59e25c5a1
-msgid "Contributions"
+#: ../../README.rst:6
+# c48a029b7e734ac59ff50be74b24f0ee
+msgid "**Please read the new wiki pages (https://github.com/qgis/QGIS-Documentation/wiki) if you wish to contribute to the porting of the Training Manual**"
 msgstr ""
 
 #: ../../README.rst:10
-# 797d2969527542f6824a40e188de0bb7
-msgid "Make sure that you understand and agree to the license conditions for this project before contributing."
+# 073349261dad421c96d6a340f5a9cbe3
+msgid "About the Project"
 msgstr ""
 
-#: ../../README.rst:14
-# 33f181e502eb4dc68958cd17d8b18186
-msgid "To edit the source"
+#: ../../README.rst:12
+# 072157d1f8914dd697ee74d7e9767745
+msgid "This manual was originally produced by Linfiniti Consulting CC (http://linfiniti.com) and is now a community effort."
 msgstr ""
 
 #: ../../README.rst:16
-# e4df480455cb4fc595d8876f88b7ad89
-msgid "To add content to the (English) source, you will need:"
+# d6152557ba1f4b22a603b730aac3423e
+msgid "Contributions"
 msgstr ""
 
 #: ../../README.rst:18
-# 23738942f0ab494ea4d4ad36125c73e7
-msgid "Git version control software. Refer to git's documentation for help."
-msgstr ""
-
-#: ../../README.rst:19
-# 47ec3abc8f4f4625a144e876c5419f16
-msgid "A local clone of the manual's `repository <https://github.com/qgis/QGIS-Training-Manual>`_. You may wish to work on your own fork of this repository and submit a pull request later."
+# 5c7d9b843e5344018e5b5562b9fe2cd8
+msgid "Make sure that you understand and agree to the license conditions for this project before contributing."
 msgstr ""
 
 #: ../../README.rst:22
-# bed731f34a8944faac08e9d41ad5df5a
-msgid "The latest stable installation of `QGIS <http://qgis.org/>`_ software (in which to produce examples)."
+# da383132681d479f8f6ed3432b5573e9
+msgid "To edit the source"
 msgstr ""
 
 #: ../../README.rst:24
-# 7e93ee42ab7c4e5889daa57ccf394978
-msgid "A basic text editor to edit the RST text files which contain the content. Take care not to commit Windows line endings!"
+# 1c619b8ea9414652886523b35121138d
+msgid "To add content to the (English) source, you will need:"
 msgstr ""
 
 #: ../../README.rst:26
-# 99f02be97b96491fbc282d79cf2677b3
-msgid "A method to make and edit screenshots. When adding screenshots, put them in the \"_static_en\" directory. Use the existing structure as an example."
+# 38e4df73045f4348bceafe6f5c0e273a
+msgid "Git version control software. Refer to git's documentation for help."
+msgstr ""
+
+#: ../../README.rst:27
+# 8afb9a0582d24912875acff867d97f75
+msgid "A local clone of the manual's `repository <https://github.com/qgis/QGIS-Training-Manual>`_. You may wish to work on your own fork of this repository and submit a pull request later."
 msgstr ""
 
 #: ../../README.rst:30
-# ab19aecf9f4c401b802a20b29a0619ad
-msgid "To edit existing translations"
+# d89b049678154145ad74d262511f1814
+msgid "The latest stable installation of `QGIS <http://qgis.org/>`_ software (in which to produce examples)."
 msgstr ""
 
 #: ../../README.rst:32
-# 973526c882054e9f930b84a7a578ec86
+# f3bd17fc2723489a9d64c064628d4035
+msgid "A basic text editor to edit the RST text files which contain the content. Take care not to commit Windows line endings!"
+msgstr ""
+
+#: ../../README.rst:34
+# c7879049adba43e7b8911dc615feaf05
+msgid "A method to make and edit screenshots. When adding screenshots, put them in the \"_static_en\" directory. Use the existing structure as an example."
+msgstr ""
+
+#: ../../README.rst:38
+# 626a30d2cfe54336a981fbb775d5b626
+msgid "To edit existing translations"
+msgstr ""
+
+#: ../../README.rst:40
+# 12242f01dd23469a85425adf2c0bfc15
 msgid "You'll need a translation editor such as `Qt Linguist <http://code.google.com/p/qtlinguistdownload/>`_ or `Virtaal <http://translate.sourceforge.net/wiki/virtaal/index>`_. Use it to edit the .po files for your language, found under the i18n folder."
 msgstr ""
 
-#: ../../README.rst:36
-# f984d33a4d1e4c3fbfa01e188238c27e
+#: ../../README.rst:44
+# 74e606161f1b435da25283230173267e
 msgid "When creating new screenshots, always save them under the same name as the ones they are to replace. If you use your own file names, the images won't show up in the document."
 msgstr ""
 
-#: ../../README.rst:41
-# 5268b34598f1447184dc815371e7828a
+#: ../../README.rst:49
+# 99fed39a753041cc88bc5d5437a49fc5
 msgid "To add new translations"
 msgstr ""
 
-#: ../../README.rst:43
-# f170b2c2c76e45cea05638fd7e7a686c
+#: ../../README.rst:51
+# b78a2be4e01641e0bd546a22fb9eb876
 msgid "The languages that will be considered for translation are in the \"pre_translate.sh\" and \"post_translate.sh\" scripts."
 msgstr ""
 
-#: ../../README.rst:45
-# 3c973d286f8a428a93c55982ebb1d484
+#: ../../README.rst:53
+# 24a6498173bd4f0d89ef24f1454dd538
 msgid "In order to create a fully functional translation for a language, open each of these scripts and edit their LOCALE lists."
 msgstr ""
 
-#: ../../README.rst:47
-# 90ca2206950846c0976ad10f4595bd24
+#: ../../README.rst:55
+# 5b63e31fb3d142bc81cea02fc5b9d375
 msgid "Add the two-letter code for your chosen language to all of the LOCALE lists and save the files."
 msgstr ""
 
-#: ../../README.rst:49
-# 886f62cb28f044a5b32753bca55a92d5
+#: ../../README.rst:57
+# 0bb3d097eb5c489a9cd057ce9bda0262
 msgid "Run the \"pre_translate.sh\" script."
 msgstr ""
 
-#: ../../README.rst:52
-# 8a90c9dede0a4412a4c1351c3472c33c
+#: ../../README.rst:60
+# e766f50ade8843a19fef40201a672c32
 msgid "To render documentation"
 msgstr ""
 
-#: ../../README.rst:54
-# d7d908d137e44832859fb7a4a30ebe57
+#: ../../README.rst:62
+# bbb5d15eedbf4e2b9c075d18044132b6
 msgid "Run the \"post_translate.sh\" script."
 msgstr ""
 
-#: ../../README.rst:55
-# 1449a358265446bfbdd8d88a6583a8cb
+#: ../../README.rst:63
+# 09406f27826d4350adcd185a3612ffce
 msgid "You may add the two-letter language code of your language as a parameter to make the script only render documentation for the language you specified."
 msgstr ""
 
-#: ../../README.rst:57
-# 54c07ae96e9d4818a3b9883816e38ea4
+#: ../../README.rst:65
+# 49c24df4443b498095144d812b0e0e37
 msgid "The output directory is _build, which is not under version control."
 msgstr ""
 
-#: ../../README.rst:58
-# 6ffa3ecec5cc4bb6854ffb4be96e1c92
+#: ../../README.rst:66
+# a7eee19d8a894a5b85891ff0fb208804
 msgid "Alternatively, to render the English documentation only as html, run the command \"make html\"."
 msgstr ""
 
-#: ../../README.rst:60
-# a430718d94b7468687d0e972ff0d9fa0
+#: ../../README.rst:68
+# 8265087cd83b4d0fbff395221654c589
 msgid "The English PDF render target is specified by using \"make latexpdf\"."
 msgstr ""
 
-#: ../../README.rst:61
-# f4263fc84c33408dae98df95119be7b8
+#: ../../README.rst:69
+# 7f0a0311b7b242f382714382852b599f
 msgid "You may need to install \"texlive\" or \"texlive-full\" for PDF rendering to work."
 msgstr ""
 
-#: ../../README.rst:65
-# 785b404ed23b4ed386964fc7a31bd2fc
+#: ../../README.rst:73
+# e39902e95b89457f8e6f6010051c4205
 msgid "Theming"
 msgstr ""
 
-#: ../../README.rst:67
-# f419fde22aea46c2ae8e68380749b5f3
+#: ../../README.rst:75
+# 0f439ce1f46d4d83a041d935d25f6b9c
 msgid "To use the theme, run the command \"git submodule update --init linfiniti-sphinx-theme\" to load the theme submodule from git."
+msgstr ""
+
+#: ../../README.rst:80
+# 7a755a1e95ad468ea6f8de3e4682d679
+msgid "Automated Deployment"
+msgstr ""
+
+#: ../../README.rst:82
+# a7e01180f5f54bafa9202c2e699e0b67
+msgid "If you wish to deploy the docs under Apache on a Vagrant box (or other remote server), you can use the included fabfile tasks to auto-deploy and build the docs."
+msgstr ""
+
+#: ../../README.rst:86
+# fff1c2614aa74c2bb6954b55341fc0ee
+msgid "Currently, it is only possible to build the entire training manual (in a number of localisations), but customised, automated deployments should be possible in the future. This will be useful if you plan to use the Training Manual in a networked teaching environment where internet access is unavailable, slow or expensive."
+msgstr ""
+
+#: ../../README.rst:92
+# 746b8d917d5942cc8ac6db501e34d604
+msgid "You'll need a working python environment (a virtualenv is recommended) and Vagrant (http://vagrantup.com) must be installed (unless deploying to a remote server). To launch a Vagrant box, at the repository root, run::"
+msgstr ""
+
+#: ../../README.rst:98
+# c7ccb3f961bc45cf981c09fcbdbc7bc8
+msgid "To install and boot an Ubuntu Precise 64 box."
+msgstr ""
+
+#: ../../README.rst:100
+# 2b10b67e1c3048469cdc2e585e4231a5
+msgid "Inside your local virtualenv run::"
+msgstr ""
+
+#: ../../README.rst:104
+# 471fcb268df84a9d9097312df9d5c1c3
+msgid "Then run::"
+msgstr ""
+
+#: ../../README.rst:108
+# 60da2ff1d4a44711828cab559b567edd
+msgid "This will install all the necessary system requirements, setup the repository and setup Apache inside the Vagrant box."
+msgstr ""
+
+#: ../../README.rst:111
+# 5702097f8be344679ff128a4e1be2877
+msgid "To deploy to a remote server, run::"
+msgstr ""
+
+#: ../../README.rst:115
+# 5cf9cecf953d41cd9ec1881797f4fd8b
+msgid "Or if you have a host specified in your SSH config file::"
 msgstr ""
 
