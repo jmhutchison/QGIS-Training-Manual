@@ -209,10 +209,13 @@ in *chicken* in the *Look for* box, choosing *species* in the drop down box and 
 Immediately, all the records with chicken recorded as the species are highlighted in the 
 attribute table.
 
-**Note:** Notice the 'Case sensitive' option. It is best to leave this box unticked. That way 
-your search will return results for 'Chicken' and 'chicken', and any other variations without 
+.. note::  Notice the *Case sensitive* option. It is best to leave this box unticked. 
 
-However, we don't want just chickens, we want all poultry that are recorded with 'sudden death' 
+	That way your search will return results for *Chicken* and *chicken,* and any other variations of sentence case.
+
+::
+
+However, we don't want just chickens, we want all poultry that are recorded with *sudden death* 
 as the syndrome. 
 To select these records, we need to use the *Advanced search* features.
 
@@ -233,13 +236,13 @@ By testing the query, we find that we have 11 matching records:
 .. image:: ../_static/ISIKHNAS/010.png
    :align: center
 
-Click 'OK' in the window saying 'Found 11 matching feature(s).', and click 'OK' in the 'Search query 
+Click *OK* in the window saying *Found 11 matching feature(s),* and click *OK* in the 'Search query 
 builder' window. Note that at the top of the attribute table you will now see the heading 
-*Attribute table - Sul_cases_sthn (11 matching features)*. Click 'Close' on the attribute table.
+*Attribute table - Sul_cases_sthn (11 matching features)*. Click *Close* on the attribute table.
 
 Now that we have our records selected, we will use the *Save selection as* option that we used before, 
 and save this layer to our map. Right-click on the :kbd:`Sul_sthn_cases` layer, and click on *Save selection 
-as*. 
+as.* 
 
 .. image:: ../_static/ISIKHNAS/011.png
    :align: center
@@ -252,15 +255,17 @@ death recorded in poultry in Sulawesi Selatan.
 .. image:: ../_static/ISIKHNAS/012.png
    :align: center
 
-Note we have used the *Advanced Labeling* tool referred to in Section 4.2.1 *Using labels* to 
-show the labels of each of the districts.
+.. note::  We have used the *Advanced Labeling* tool referred to in Section 4.2.1 *Using labels* to 
+	show the labels of each of the districts.
 
+::
+	
 Save your project.
 
 |moderate| |TY| Selection using SQL
 --------------------------------------------------------------------------------
 
-Using the `Advanced search` features in the `Attribute table` for the :kbd:`Sul_sthn_cases` layer, 
+Using the *Advanced search* features in the *Attribute table* for the :kbd:`Sul_sthn_cases` layer, 
 try selecting specific records according to various combinations.
 
 Do not be afraid to experiment. Try selecting records different combinations such as the date, 
@@ -271,6 +276,7 @@ village, species, syndrome etc.
 
 There are several ways available for selecting data. Which method you choose will depend upon 
 your needs. 
+
 Using SQL queries enables you to select records according to the particular attributes that are 
 of interest to you.
   

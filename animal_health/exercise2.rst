@@ -15,7 +15,7 @@ Think back to Chapter 7 where you learnt about projections, and now take a look 
 on your map. Is their CRS (Coordinate Reference System) a Geographic Coordinate Reference 
 System (GCS) or a Projected Coordinate System (PCS)? How can you tell?
 
-The easiest way is to check the 'Coordinate' box at the bottom of the map canvas. It should 
+The easiest way is to check the *Coordinate* box at the bottom of the map canvas. It should 
 be showing longitude and latitude values in decimal degrees, separated by a comma e.g. 
 120.723,-4.971.
 
@@ -50,13 +50,13 @@ Repeat these steps for your remaining layers, adding the new, projected layers t
 now remove the original, unprojected layers from your map. As we have determined that we are only 
 using maps from the areas in Sulawesi Selatan, you no longer need your :kbd:`Sulawesi` layer.
 
-The option to project 'On the fly' should be turned off.
+The option to project *On the fly* should be turned off.
 
 Your map should now look something like this:
 
 .. image:: ../_static/ISIKHNAS/014.png
    :align: center
 
-Note the 'Coordinate' box shows the units in metres instead of degrees. 
+Note the *Coordinate* box shows the units in metres instead of degrees. 
 
 Save your project.

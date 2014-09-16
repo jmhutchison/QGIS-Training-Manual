@@ -42,10 +42,10 @@ You'll need to choose which field in the attributes will be used for the
 labels. In the previous lesson, you decided that the :kbd:`NAME` field was the
 most suitable one for this purpose.
 
-* Select :guilabel:`NAME` from the list:
-
-.. image:: ../_static/labels/004.png
-   :align: center
+.. * Select :guilabel:`NAME` from the list:
+.. 
+.. .. image:: ../_static/labels/004.png
+..    :align: center
 
 * Click :guilabel:`OK`.
   
@@ -74,7 +74,7 @@ this:
 .. image:: ../_static/labels/007.png
    :align: center
 
-That's the font problem solved! Now let's look at the problem of the labels
+This solves the font problem, and now let's look at the problem of the labels
 overlapping the points, but before we do that, let's take a look at the
 :guilabel:`Buffer` option.
 
@@ -112,10 +112,9 @@ This is the result:
 -------------------------------------------------------------------------------
 
 In many cases, the location of a point doesn't need to be very specific. For
-example, most of the points in the :guilabel:`places` layer refer to entire
-towns or suburbs, and the specific point associated with such features is not
-that specific on a large scale. In fact, giving a point that is too specific is
-often confusing for someone reading a map.
+example, when they refer to entire towns or suburbs, and the specific point 
+associated with such features is not that specific on a large scale. In fact, 
+giving a point that is too specific is often confusing for someone reading a map.
 
 To name an example: on a map of the world, the point given for the European
 Union may be somewhere in Poland, for instance. To someone reading the map,
@@ -163,7 +162,7 @@ a later exercise in this lesson.
 
 :ref:`Check your results <label-tool-1>`
 
-* Set the map to the scale :kbd:`1:50000`. You can do this by typing it into
+* Set the map to the scale :kbd:`1:20000`. You can do this by typing it into
   the :guilabel:`Scale` box in the :guilabel:`Status Bar`.
 * Modify your labels to be suitable for viewing at this scale.
 
@@ -183,11 +182,11 @@ way as the points, your results would look like this:
 This is not very useful! To make lines behave, we'll need to edit some options.
 
 * Hide the :guilabel:`places` layer so that it doesn't distract you.
+* Zoom in on the town area.
 * Activate labels for the :guilabel:`streets` layer as before. (Remember to use
   the :guilabel:`Label tool` on the toolbar, not the one in :guilabel:`Label
   Properties`!)
 * Set the font :guilabel:`Size` to :kbd:`9` so that you can see more labels.
-* Zoom in on the Swellendam town area.
 * In the :guilabel:`Label tool` dialog's :guilabel:`Advanced` tab, choose the
   following settings:
 
@@ -238,14 +237,14 @@ on what you think seems more useful or what looks better.
 * Reactivate labeling for the :guilabel:`places` layer.
 * Open the attribute table for :guilabel:`places`.
 
-It has two fields that are of interest to us now: :kbd:`ADDR_CITY` and
-:kbd:`IN_SWD`. :kbd:`ADDR_CITY` is the city that the feature is in.
-:kbd:`IN_SWD` is derived from it, and tells you whether or not that feature is
-in Swellendam (:kbd:`1` if it is, :kbd:`0` if not). We can use this data to
+It has two fields that are of interest to us now: :kbd:`AMENITY` and
+:kbd:`RESTAURANT`. :kbd:`AMENITY` is what type of place it is.
+:kbd:`RESTAURANT` is derived from it, and tells you whether or not that feature is
+a restaurant (:kbd:`1` if it is, :kbd:`0` if not). We can use this data to
 influence the label styles.
 
 * Navigate to the :guilabel:`Data defined settings` tab.
-* In the :guilabel:`Italic` dropdown, select :kbd:`IN_SWD` and click
+* In the :guilabel:`Italic` dropdown, select :kbd:`RESTAURANT` and click
   :guilabel:`Apply`.
 
 Notice its effects:
@@ -281,8 +280,8 @@ Notice its effects:
 .. image:: ../_static/labels/025.png
    :align: center
 
-* Use this to set custom font sizes for each different type of place (i.e.,
-  each key in the :kbd:`PLACE` field).
+* Use this to set custom font sizes for each different type of amenity (i.e.,
+  each key in the :kbd:`AMENITY` field).
 
 :ref:`Check your results <label-data-defined-1>`
 

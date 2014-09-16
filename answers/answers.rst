@@ -51,8 +51,9 @@ remember the names and functions of the screen elements.
 |basic| *Shapefiles*
 ...............................................................................
 
-There should be two layers on your map:
+There should be three layers on your map:
 
+* :guilabel:`waterways`
 * :guilabel:`places` and
 * :guilabel:`streets`.
 
@@ -84,7 +85,7 @@ nice yet:
 ...............................................................................
 
 * Verify that the colors are changing as you expect them to change.
-* It is enough to change only the :guilabel:`rural` layer for now. An example
+* It is enough to change only the :guilabel:`waterways` layer for now. An example
   is below, but may look different depending on the color you chose.
 
 .. image:: ../_static/symbology/018.png
@@ -93,7 +94,7 @@ nice yet:
 .. note::  If you want to work on only one layer at a time and don't want the
    other layers to distract you, you can hide a layer by clicking in the check
    box next to its name in the Layers list. If the box is blank, then the layer
-   is hidden.
+   is hidden. We have hidden some of the layers in this picture.
 
 :ref:`Back to text <backlink-symbology-colors-1>`
 
@@ -103,7 +104,7 @@ nice yet:
 |basic| *Symbol Structure*
 ...............................................................................
 
-Seen together, your rural and urban layers should look more or less like this:
+Seen together, your forests, waterways, and bandung_districts layers should look more or less like this:
 
 .. image:: ../_static/symbology/020.png
    :align: center
@@ -179,6 +180,7 @@ thin white dashed line.
 .. image:: ../_static/symbology/026.png
    :align: center
 
+* There are a lot of symbols with this style
 * Experiment with different values to get different results.
 * Open your original map again before continuing with the next exercise.
 
@@ -248,8 +250,8 @@ To arrive at this result:
 ...............................................................................
 
 * Still in edit mode, set the :kbd:`FONT_SIZE` values to whatever you prefer.
-  The example uses :kbd:`12` for towns, :kbd:`10` for suburbs and villages, and
-  :kbd:`8` for the null entries.
+  The example uses :kbd:`14` for universities, :kbd:`12` for hospitals, and
+  :kbd:`10` for the remaining places.
 * Remember to save changes and exit edit mode.
 * In :guilabel:`Data defined settings`, do this:
 

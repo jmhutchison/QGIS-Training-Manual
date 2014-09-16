@@ -16,16 +16,15 @@ In other words, having proper symbology is not a luxury or just nice to have.
 In fact, it's essential for you to use a GIS properly and produce maps and
 information that people will be able to use.
 
-**The goal for this lesson:** To be able to create any symbology you want for
-any vector layer.
+**The goal for this lesson:** To create different symbology for any vector layer.
 
 |basic| |FA| Changing colors
 -------------------------------------------------------------------------------
 
 To change a layer's symbology, open its :guilabel:`Layer Properties`. Let's
-begin by changing the color of the :guilabel:`urban` layer.
+begin by changing the color of the :guilabel:`waterways` layer.
 
-* Right-click on the :guilabel:`urban` layer in the Layers list.
+* Right-click on the :guilabel:`waterways` layer in the Layers list.
 * Select the menu item :guilabel:`Properties` in the menu that appears.
 
 .. note:: By default, you can also access a layer's properties by
@@ -42,7 +41,7 @@ In the :guilabel:`Properties` window:
 
 A standard color dialog will appear.
 
-* Choose a grey color and click :guilabel:`OK`.
+* Choose a blue color and click :guilabel:`OK`.
 * Click :guilabel:`OK` again in the :guilabel:`Layer Properties` window, and
   you will see the color change being applied to the layer.
 
@@ -55,20 +54,21 @@ A standard color dialog will appear.
 |basic| |TY|
 -------------------------------------------------------------------------------
 
-Change the :guilabel:`rural` layer to a new color that you associate with rural
-farming areas.
+Change the :guilabel:`forest` layer to a new color that you associate with forests.
 
 :ref:`Check your results <symbology-colors-1>`
 
 |basic| |FA| Changing symbol structure
 -------------------------------------------------------------------------------
 
-This is good stuff so far, but there's more to a layer's symbology than just
-its color. Next we want to change the color of the farms (the :guilabel:`rural`
-layer), but we also want to eliminate the lines between the different farms so
-as to make the map less visually cluttered.
+This is a good introduction, but there is more to a layer's symbology than just
+its color. To learn about some of the other options available, add the layer 
+:guilabel:`bandung_districts`. This layer has been made up of images originally 
+taken by satellite, and showing various types of land cover in the area around Bandung.
 
-* Open the :guilabel:`Layer Properties` window for the :guilabel:`rural`
+Using this layer we can learn how to remove the lines so the map does not appear cluttered.
+
+* Open the :guilabel:`Layer Properties` window for the :guilabel:`bandung_districts`
   layer.
 
 Under the :guilabel:`Style` tab, you will see the same kind of dialog as
@@ -85,17 +85,18 @@ The :guilabel:`Symbol properties` dialog will appear.
 * Change the color inside the polygons in the layer by clicking the button next
   to the :guilabel:`Color` label (if you haven't done so already during the
   previous lesson).
-* In the dialog that appears, choose a new color (that seems to suit a farm).
+* In the dialog that appears, choose a new color.
 * Click :guilabel:`OK`, but only once.
 
-Next, we want to get rid of the lines between all the farms.
+Next, we want to get rid of the lines between the different types of land cover.
 
 * Click on the :guilabel:`Border style` dropdown. At the moment, it should be
   showing a short line and the words :guilabel:`Solid Line`.
 * Change this to :guilabel:`No Pen`.
 * Click :guilabel:`OK`, and then :guilabel:`OK` again.
   
-Now the :guilabel:`rural` layer won't have any lines between farms.
+Now the :guilabel:`bandung_districts` layer won't have any lines between the different areas 
+of land cover.
 
 
 .. _backlink-symbology-structure-1:
@@ -103,9 +104,7 @@ Now the :guilabel:`rural` layer won't have any lines between farms.
 |basic| |TY|
 -------------------------------------------------------------------------------
 
-* Change the :guilabel:`urban` layer's symbology so that it is gray and without
-  outlines.
-* Change the :guilabel:`rural` layer again so that it has dotted outlines which
+* Change the :guilabel:`bandung_districts` layer again so that it has dotted outlines which
   are just a bit darker than the fill color for that layer.
 
 :ref:`Check your results <symbology-structure-1>`
@@ -156,11 +155,11 @@ Now that you know how to change simple symbology for layers, the next step is
 to create more complex symbology. QGIS allows you to do this using symbol
 layers.
 
-* Go back to the :guilabel:`rural` layer's :guilabel:`Symbol properties` dialog
+* Go back to the :guilabel:`bandung_districts` layer's :guilabel:`Symbol properties` dialog
   as before.
 
-In this example, the current symbol has no outline (i.e., it uses the
-:guilabel:`No Pen` border style).
+In this example, the current symbol has a dotted outline (i.e., it uses the
+:guilabel:`Dot Line` border style).
 
 .. image:: ../_static/symbology/054.png
    :align: center
@@ -185,7 +184,7 @@ Line` border style, which we don't want. Clearly this symbol has to be changed.
    This course will usually refer to a map layer as just a layer, but a symbol
    layer will always be called a symbol layer, to prevent confusion.
 
-* Set the border style to :guilabel:`No Pen`, as before.
+* Set the border styles to :guilabel:`No Pen`.
 * Change the fill style to something other than :guilabel:`Solid` or
   :guilabel:`No brush`. For example:
 
@@ -208,7 +207,7 @@ It's fun! But it probably has too many colors to use in a real map...
 |moderate| |TY|
 -------------------------------------------------------------------------------
 
-* Create a simple, but not distracting texture for the :guilabel:`rural` layer
+* Create a simple, but not distracting texture for the :guilabel:`forest` layer
   using the methods above.
 
 :ref:`Check your results <symbology-layers-1>`
@@ -221,10 +220,10 @@ When symbol layers are rendered, they are also rendered in a sequence, similar
 to how the different map layers are rendered. This means that in some cases,
 having many symbol layers in one symbol can cause unexpected results.
 
-* Give the :guilabel:`streets` layer an extra symbol layer (using the methid
+* Give the :guilabel:`streets` layer an extra symbol layer (using the method
   for adding symbol layers demonstrated above).
-* Give the base line a thickness of :kbd:`2.0`.
-* Give the top layer a thickness of :kbd:`0.5`.
+* Give the base line a thickness of :kbd:`0.5`.
+* Give the top layer a thickness of :kbd:`2.0`.
 
 You'll notice that this happens:
 
@@ -292,9 +291,8 @@ symbols).  Since we haven't covered classification yet, you will work with some
 rudimentary preclassified data.
 
 * Create a new map and add only the :guilabel:`streets` dataset.
-* Apply the style :kbd:`advanced_levels_demo.qml` provided in :kbd:`exercise_data/styles`.
-* Zoom to the Swellendam area (the cluster of roads near the center of the
-  layer).
+* Apply the style :kbd:`advanced_street_style_demo.qml` provided in :kbd:`exercise_data/styles`.
+* Zoom into the layer so it is easier to see.
 * Using symbol layers, ensure that the outlines of layers flow into one another
   as per the image below:
 
@@ -306,6 +304,8 @@ rudimentary preclassified data.
 
 |moderate| |FA| Symbol layer types
 -------------------------------------------------------------------------------
+
+To continue with the exercise, open your original map again.
 
 In addition to setting fill colors and using predefined patterns, you can use
 different symbol layer types entirely. The only type we've been using up to now
@@ -330,17 +330,13 @@ Point symbol layer types
 
 * Investigate the various options available to you, and choose a symbol layer
   type other than the default :guilabel:`Simple Marker`.
-* If in doubt, use an :guilabel:`Ellipse Marker`.
-* Choose a white outline and black fill, with a :guilabel:`symbol width` of
-  :kbd:`2,00` and :guilabel:`symbol height` of :kbd:`4,00`.
 
 Line symbol layer types
 ...............................................................................
 
 To see the various options available for line data:
 
-* Change the symbol layer type for the :guilabel:`street` layer's topmost
-  symbol layer:
+* Change the symbol layer type for the :guilabel:`street` layer's "residential" layer:
 
 .. image:: ../_static/symbology/030.png
    :align: center
@@ -358,8 +354,8 @@ To see the various options available for line data:
 
 * Ensure that the symbol levels are correct before applying the style.
 
-Once you have applied the style, take a look at its results on the map. As you
-can see, these symbols change direction along with the road but don't always
+Once you have applied the style, take a look at its results on the map. If you
+look closely, these symbols change direction along with the road but don't always
 bend along with it. This is useful for some purposes, but not for others. If
 you prefer, you can change the symbol layer in question back to the way it was
 before.
@@ -369,124 +365,47 @@ Polygon symbol layer types
 
 To see the various options available for polygon data:
 
-* Change the symbol layer type for the :guilabel:`urban` layer, as before for
-  the other layers.
+* Change one or more of the symbol layer type for the :guilabel:`bandung_districts` 
+layer, as before for the other layers.
 * Investigate what the different options on the list can do.
-* Choose one of them that you find suitable.
-* If in doubt, use the :guilabel:`Point pattern fill` with the following
-  options:
+* You can change each symbol by double-clicking on the symbol you want to change
 
-.. image:: ../_static/symbology/033.png
+.. image:: ../_static/symbology/033a.png
    :align: center
+
+* Choose one of them that you find suitable.
+* If in doubt, use a combination of two layers, using the :guilabel:`Point pattern fill` and a :guilabel:`Simple fill`:
 
 .. image:: ../_static/symbology/034.png
    :align: center
 
+* Use the :guilabel:`Symbol layer type` Point pattern fill
+* The :guilabel:`Marker` should be a Simple marker
+* Choose an appropriate border and fill colour (this can be the same colour)
+* Choose an appropriate marker size
+* Click :guilabel:`OK`
 * Add a new symbol layer with a normal :guilabel:`Simple fill`.
-* Make it gray with no outlines. 
+* Make it a contrasting colour to your first layer 
 * Move it underneath the point pattern symbol layer with the :guilabel:`Move
   down` button:
 
-.. image:: ../_static/symbology/035.png
-   :align: center
-
-As a result, you have a textured symbol for the urban layer, with the added
+As a result, you have a textured symbol for your chosen layers, with the added
 benefit that you can change the size, shape and distance of the individual dots
-that make up the texture.
+that make up the texture. The following screenshot shows we have changed two layers using 
+the above method.
 
-|hard| |FA| Creating a custom SVG fill
--------------------------------------------------------------------------------
-
-.. note::  To do this exercise, you will need to have the free vector editing
-   software Inkscape installed.
-
-* Start the Inkscape program.
-
-You will see the following interface:
-
-.. image:: ../_static/symbology/036.png
-   :align: center
-
-You should find this familiar if you have used other vector image editing
-programs, like Corel.
-
-* Change the canvas to a size appropriate for a small texture.
-* Click on the menu item :menuselection:`File --> Document Properties`. This
-  will give you the :guilabel:`Document Properties` dialog.
-* Change the :guilabel:`Units` to :guilabel:`px`.
-* Change the :guilabel:`Width` and :guilabel:`Height` to :kbd:`100`.
-* Close the dialog when you are done.
-* Click on the menu item :menuselection:`View --> Zoom --> Page` to see the
-  page you are working with.
-* Select the :guilabel:`Circle` tool:
-
-.. image:: ../_static/symbology/038.png
-   :align: center
-
-* Click and drag on the page to draw an ellipse. To make the ellipse turn into
-  a circle, hold the :kbd:`ctrl` button while you're drawing it.
-* Right-click on the circle you just created and open its :guilabel:`Fill and
-  Stroke`:
-
-.. image:: ../_static/symbology/039.png
-   :align: center
-
-* Change the :guilabel:`Stroke paint` to green:
-
-.. image:: ../_static/symbology/040.png
-   :align: center
-
-* Change the :guilabel:`Stroke style` to a thicker line:
-
-.. image:: ../_static/symbology/041.png
-   :align: center
-
-* Draw a line using the :guilabel:`Line` tool:
-
-.. image:: ../_static/symbology/042.png
-   :align: center
-
-* Click once to start the line. Hold :kbd:`ctrl` to make it snap to increments
-  of 15 degrees.
-* Click once to end the line segment, then right-click to finalize the line.
-* Change its color and width as before and move it around as necessary, so that
-  you end up with a symbol like this one:
-
-.. image:: ../_static/symbology/044.png
-   :align: center
-
-* Save it under the directory that the course is in, under
-  :kbd:`exercise_data/symbols`, as an SVG file.
-
-In QGIS:
-
-* Open the :guilabel:`Layer Properties` for the :guilabel:`rural` layer.
-* Change the symbol structure to the following:
-
-.. image:: ../_static/symbology/045.png
-   :align: center
-
-* Find your SVG image via the :guilabel:`Browse` button:
-
-.. image:: ../_static/symbology/046.png
-   :align: center
-
-* Change the settings as shown:
-
-.. image:: ../_static/symbology/047.png
-   :align: center
-
-Your rural layer should now have a texture like the one on this map:
-
-.. image:: ../_static/symbology/048.png
+.. image:: ../_static/symbology/035.png
    :align: center
 
 |IC|
 -------------------------------------------------------------------------------
 
-Changing the symbology for the different layers has transformed a collection of
+Changing the symbology for the different layers can transformed a collection of
 vector files into a legible map. Not only can you see what's happening, it's
 even nice to look at!
+
+You can even create your own, custom SVG fill using vector editing software such 
+as Inkscape, which is freely available on the internet.
 
 |FR|
 -------------------------------------------------------------------------------
@@ -504,3 +423,115 @@ still hidden. The next lesson will explain how to represent this data on your
 map.
 
 .. note::  Did you remember to save your map recently?
+
+.. |hard| |FA| Creating a custom SVG fill
+.. -------------------------------------------------------------------------------
+.. 
+.. .. note::  To do this exercise, you will need to have the free vector editing
+..    software Inkscape installed.
+.. 
+.. * Start the Inkscape program.
+.. 
+.. You will see the following interface:
+.. 
+.. .. image:: ../_static/symbology/036.png
+..    :align: center
+.. 
+.. You should find this familiar if you have used other vector image editing
+.. programs, like Corel.
+.. 
+.. * Change the canvas to a size appropriate for a small texture.
+.. * Click on the menu item :menuselection:`File --> Document Properties`. This
+..   will give you the :guilabel:`Document Properties` dialog.
+.. * Change the :guilabel:`Units` to :guilabel:`px`.
+.. * Change the :guilabel:`Width` and :guilabel:`Height` to :kbd:`100`.
+.. * Close the dialog when you are done.
+.. * Click on the menu item :menuselection:`View --> Zoom --> Page` to see the
+..   page you are working with.
+.. * Select the :guilabel:`Circle` tool:
+.. 
+.. .. image:: ../_static/symbology/038.png
+..    :align: center
+.. 
+.. * Click and drag on the page to draw an ellipse. To make the ellipse turn into
+..   a circle, hold the :kbd:`ctrl` button while you're drawing it.
+.. * Right-click on the circle you just created and open its :guilabel:`Fill and
+..   Stroke`:
+.. 
+.. .. image:: ../_static/symbology/039.png
+..    :align: center
+.. 
+.. * Change the :guilabel:`Stroke paint` to green:
+.. 
+.. .. image:: ../_static/symbology/040.png
+..    :align: center
+.. 
+.. * Change the :guilabel:`Stroke style` to a thicker line:
+.. 
+.. .. image:: ../_static/symbology/041.png
+..    :align: center
+.. 
+.. * Draw a line using the :guilabel:`Line` tool:
+.. 
+.. .. image:: ../_static/symbology/042.png
+..    :align: center
+.. 
+.. * Click once to start the line. Hold :kbd:`ctrl` to make it snap to increments
+..   of 15 degrees.
+.. * Click once to end the line segment, then right-click to finalize the line.
+.. * Change its color and width as before and move it around as necessary, so that
+..   you end up with a symbol like this one:
+.. 
+.. .. image:: ../_static/symbology/044.png
+..    :align: center
+.. 
+.. * Save it under the directory that the course is in, under
+..   :kbd:`exercise_data/symbols`, as an SVG file.
+.. 
+.. In QGIS:
+.. 
+.. * Open the :guilabel:`Layer Properties` for the :guilabel:`rural` layer.
+.. * Change the symbol structure to the following:
+.. 
+.. .. image:: ../_static/symbology/045.png
+..    :align: center
+.. 
+.. * Find your SVG image via the :guilabel:`Browse` button:
+.. 
+.. .. image:: ../_static/symbology/046.png
+..    :align: center
+.. 
+.. * Change the settings as shown:
+.. 
+.. .. image:: ../_static/symbology/047.png
+..    :align: center
+.. 
+.. Your rural layer should now have a texture like the one on this map:
+.. 
+.. .. image:: ../_static/symbology/048.png
+..    :align: center
+.. 
+.. |IC|
+.. -------------------------------------------------------------------------------
+.. 
+.. Changing the symbology for the different layers has transformed a collection of
+.. vector files into a legible map. Not only can you see what's happening, it's
+.. even nice to look at!
+.. 
+.. |FR|
+.. -------------------------------------------------------------------------------
+.. 
+.. `Examples of Beautiful Maps <http://gis.stackexchange.com/questions/3083/examples-of-beautiful-maps>`_
+.. 
+.. |WN|
+.. -------------------------------------------------------------------------------
+.. 
+.. Changing symbols for whole layers is useful, but the information contained
+.. within each layer is not yet available to someone reading these maps. What are
+.. the streets called? Which administrative regions do certain areas belong to?
+.. What are the relative surface areas of the farms? All of this information is
+.. still hidden. The next lesson will explain how to represent this data on your
+.. map.
+.. 
+.. .. note::  Did you remember to save your map recently? */
+.. 

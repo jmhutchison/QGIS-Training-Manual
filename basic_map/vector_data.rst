@@ -54,7 +54,7 @@ most GIS software can read them.
 Refer back to the introductory exercise in the previous section for
 instructions on how to add vector layers.
 
-* Load the "places" dataset into your map following the same method.
+* Load the "waterways", "places" and "forests" datasets into your map following the same method.
 
 :ref:`Check your results <vector-load-shapefiles-1>`
 
@@ -82,10 +82,10 @@ It will give you a new dialog.  In this dialog:
 
 * Click the :guilabel:`New` button.
 * In the same folder as the other data, you should find the file
-  :guilabel:`land_use.db`. Select it and click :guilabel:`Open`.
+  :guilabel:`land_use.sqlite`. Select it and click :guilabel:`Open`.
 
 You will now see the first dialog again. Notice that the dropdown select above
-the three buttons now reads "land_use.db@...", followed by the path of the
+the three buttons now reads "land_use.sqlite@...", followed by the path of the
 database file on your computer.
 
 * Click the :guilabel:`Connect` button. You should see this in the previously
@@ -94,9 +94,8 @@ database file on your computer.
 .. image:: ../_static/vector/007.png
    :align: center
 
-* Click on the first layer to select it, then use :kbd:`shift+click` to select
-  all of them at once.
-* Click :guilabel:`Add`. This will add all three layers to the map at once.
+* Click on the layer to select it
+* Click :guilabel:`Add`
 
 .. note::  Remember to save the map often! The map file doesn't contain any of
    the data directly, but it remembers which layers you loaded into your map.
@@ -120,16 +119,15 @@ change the order they are drawn in.
    is switched on by default and you don't need to worry about it.
 
 The order in which the layers have been loaded into the map is probably not
-logical at this stage. It's possible that the road layer is completely hidden
-because other layers are on top of it.
+logical at this stage.
 
 For example, this layer order...
 
 .. image:: ../_static/vector/002.png
    :align: center
 
-... would result in roads and places being hidden as they run *underneath*
-urban areas.
+... would result in some places being hidden as they run *underneath*
+the land_use areas.
 
 To resolve this problem:
 

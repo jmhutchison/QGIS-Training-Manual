@@ -11,9 +11,11 @@ will have when creating a buffer zone.
 --------------------------------------------------------------------------------
 
 If you look at your map you will notice that the cases of sudden death in poultry occur mostly 
-in the districts of Barru and Sinjai. 
+in the districts of Barru and Sinjai.
+
 For this exercise we are going to add a new vector layer, :kbd:`VillagePolyBarSin_32750`, which shows the 
 boundaries of the village polygons in Barru and Sinjai.
+
 Once you have loaded this layer, arrange the layers so the cases are on top of the village boundaries. 
 Look closely at where the cases lie within the village polygons (you may have to zoom in closer 
 on your map).
@@ -48,7 +50,9 @@ The following window will open:
 Choose :kbd:`PoultrySuddenDeath_32750` as the input vector layer, and use a buffer distance of  
 15000 (remember your layer units are metres).
 
-Click on 'Dissolve buffer results' and name your new shapefile :kbd:`PoultrySD15kmBuffer_32750.shp`.
+Click on *Dissolve buffer results*.
+
+Click on *Browse* and name your new shapefile :kbd:`PoultrySD15kmBuffer_32750.shp`.
 
 Add this layer to your map. The result should look something like this:
 
@@ -63,9 +67,13 @@ fix this.
 
 We can use one dataset to cut through another dataset, leaving us with only the 
 information we want.
+
 In this case, we are going to clip our new buffer layer with the :kbd:`DistrictsSthnSul_32750` layer 
-that you should have created in section 16.2.2 **Try yourself... Project the remaining layers**. (Note: You 
-may have named it differently, such as :kbd:`Sul_sth_dist_32750`).
+that you should have created in section 16.2.2 **Try yourself... Project the remaining layers**. 
+
+.. note::  You may have named it differently, such as :kbd:`Sul_sth_dist_32750`.
+
+::
 
 Again, we move to the *Vector* menu, hover over the *Geoprocessing Tools*, and select *Clip*.
 
@@ -75,17 +83,26 @@ Again, we move to the *Vector* menu, hover over the *Geoprocessing Tools*, and s
 Our input layer is the layer we want to change, in this case our new buffer layer. The clip layer is 
 the layer we will use cut around our buffered layer.
 
-Name your new shapefile :kbd:`PoultrySD15kmBufferClip_32750.shp` and add it to the map. Your screen should 
-now look similar to this:
+Click on the *Browse* button, and name your new shapefile :kbd:`PoultrySD15kmBufferClip_32750.shp`.
+
+Add it to the map. 
+
+Remove the :kbd:`PoultrySD15kmBuffer_32750.shp` layer.
+
+Your screen should now look similar to this:
 
 .. image:: ../_static/ISIKHNAS/020.png
    :align: center
  
 Our new layer is fitting nicely within the coastlines of South Sulawesi and your supervisor can easily 
-see where the 15 kilometre buffers extend to. But is this the best buffer zone for 
-the data? Remember the data suggests the cases are recorded in the database as being in the centre 
-of each village - in reality they are probably taken from anywhere within the village boundary. This means 
-our 15 kilometre buffers are not going to be as accurate as they might be. 
+see where the 15 kilometre buffers extend to. 
+
+But is this the best buffer zone for the data? 
+
+Remember the data suggests the cases are recorded in the database as being in the centre 
+of each village - in reality they are probably taken from anywhere within the village boundary. 
+
+This means our 15 kilometre buffers are not going to be as accurate as they might be. 
 
 In the next section we will create the buffer using the village polygon layer and compare the two results.
 

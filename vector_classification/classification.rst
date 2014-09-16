@@ -3,8 +3,8 @@
 
 Labels are a good way to communicate information such as the names of
 individual places, but they can't be used for everything. For example, let's
-say that someone wants to know which area the farms are in. Using labels, you'd
-get this:
+say that someone wants to know what types of land cover are in the Bandung districts area. 
+Using labels, you'd get this:
 
 .. image:: ../_static/classification/001.png
    :align: center
@@ -17,7 +17,8 @@ lesson is about!
 |basic| |FA| Classifying nominal data
 -------------------------------------------------------------------------------
 
-* Open :guilabel:`Layer Properties`.
+
+* Open :guilabel:`Layer Properties` for :guilabel:`bandung_districts`
 * Go to the :guilabel:`Style` tab.
 * Click on the dropdown that says :guilabel:`Single Symbol`:
 
@@ -29,7 +30,7 @@ lesson is about!
 .. image:: ../_static/classification/003.png
    :align: center
 
-* Change the :guilabel:`Column` to :guilabel:`TOWN` and the :guilabel:`Color
+* Change the :guilabel:`Column` to :guilabel:`LANDCOVER` and the :guilabel:`Color
   ramp` to :guilabel:`random`:
 
 .. image:: ../_static/classification/004.png
@@ -42,7 +43,7 @@ You'll see something like this:
 .. image:: ../_static/classification/005.png
    :align: center
 
-* Click the arrow (or plus sign) next to :guilabel:`rural` in the
+* Click the arrow (or plus sign) next to :guilabel:`bandung_districts` in the
   :guilabel:`Layer list`, you'll see the categories explained:
 
 .. image:: ../_static/classification/006.png
@@ -67,20 +68,20 @@ can do about that.
 
 This gets rid of the ugly classes so you can try again.
 
+* Choose a new option from the :guilabel:`Color ramp`
 * Click :guilabel:`Classify` again, and the new symbols will appear.
   
 You'll notice they don't have outlines. This is because you just
-removed the outlines!
+removed the outlines.
 
-* Change the color for each town by double-clicking on the colored block
+* Change the color for :guilabel:`Water bodies` by double-clicking on the colored block
   representing its symbol:
 
 .. image:: ../_static/classification/009.png
    :align: center
 
-Use your own colors, but make sure they're not too bright, so that the
-resulting map isn't as ugly as the old one. In the example, we'll use these
-colors:
+Use your own colors, so that the resulting map isn't as ugly as the old one. 
+In the example, we'll use these colors, with our water bodies colored blue:
 
 .. image:: ../_static/classification/011.png
    :align: center
@@ -90,9 +91,7 @@ This gives us a nice map:
 .. image:: ../_static/classification/010.png
    :align: center
 
-(Only :guilabel:`rural` and :guilabel:`water` are switched on here.)
-
-By the way, there's one category that's empty:
+There is one category that is empty:
 
 .. image:: ../_static/classification/012.png
    :align: center
