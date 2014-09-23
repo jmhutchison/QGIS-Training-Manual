@@ -69,7 +69,7 @@ will be enough to add one field called :kbd:`name`.
 
 * Click :guilabel:`OK`. A save dialog will appear.
 * Navigate to the :kbd:`exercise_data` directory.
-* Save your new layer as :kbd:`school_property.shp`.
+* Save your new layer as :kbd:`university_property.shp`.
 
 The new layer should appear in your :guilabel:`Layers list`.
 
@@ -96,12 +96,12 @@ are provided, so you'll need to import them as necessary.
    :align: center
 
 * Navigate to :kbd:`exercise_data/raster/`.
-* Select the file :kbd:`3420C_2010_327_RGB_LATLNG.tif`.
+* Select the file :kbd:`ITB_raster.tif`.
 * Click :guilabel:`Open`. An image will load into your map.
 * Find the new image in the :guilabel:`Layers list`.
-* Click and drag it to the bottom of the list so that you can still see your
-  other layers.
-* Find and zoom to this area:
+.. * Click and drag it to the bottom of the list so that you can still see your
+..   other layers.
+.. * Find and zoom to this area:
 
 .. image:: ../_static/create_vector_data/007.png
    :align: center
@@ -111,18 +111,18 @@ You'll be digitizing these three fields:
 .. image:: ../_static/create_vector_data/014.png
    :align: center
 
-* Hide all the layers except the raster and the :guilabel:`school_property`
+* Hide all the layers except the raster and the :guilabel:`university_property`
   layer.
 
 In order to begin digitizing, you'll need to enter **edit mode**. GIS software
 commonly requires this to prevent you from accidentally editing or deleting
 important data. Edit mode is switched on or off individually for each layer.
 
-To enter edit mode for the :guilabel:`school_property` layer:
+To enter edit mode for the :guilabel:`university_property` layer:
 
-* Click on the layer in the :guilabel:`Layer list` to select it. (Make very
+* Right click on the layer in the :guilabel:`Layer list` to select it. (Make very
   sure that the correct layer is selected, otherwise you'll edit the wrong
-  layer!)
+  layer)
 * Click on the :guilabel:`Toggle Editing` button:
 
 .. image:: ../_static/create_vector_data/008.png
@@ -165,7 +165,7 @@ you're using the digitizing tool, you can zoom in and out on your map by
 rolling the mouse wheel, and you can pan around by holding down the mouse wheel
 and dragging around in the map.
 
-The first feature you'll be digitizing is the athletics field:
+The first feature you'll be digitizing is the tennis courts:
 
 .. image:: ../_static/create_vector_data/010.png
    :align: center
@@ -205,53 +205,53 @@ You can use:
 |basic| |TY|
 -------------------------------------------------------------------------------
 
-* Digitize the school itself and the upper field. Use this image to assist you:
+* Digitize the athletics field and the swimming pools. Use this image to assist you:
 
 .. image:: ../_static/create_vector_data/014.png
    :align: center
 
-Remember that each new feature needs to have a unique :kbd:`id` value!
+Remember that each new feature needs to have a unique :kbd:`id` value.
 
 .. note::  When you're done adding features to a layer, remember to save your
    edits and then exit edit mode.
 
 .. _backlink-create-vector-digitize-1:
 
-|basic| |TY|
--------------------------------------------------------------------------------
-
-* Create a new line feature called :kbd:`river.shp` with attributes :kbd:`id`
-  and :kbd:`type`. (Use the approach above to guide you.)
-* Digitize the river that runs through town.
-
-Start where the sandy riverbanks first become visible:
-
-.. image:: ../_static/create_vector_data/015.png
-   :align: center
-
-And stop when our river joins another river:
-
-.. image:: ../_static/create_vector_data/016.png
-   :align: center
-
-It's not always clear where the river runs. In such cases, use your better
-judgment and estimate where the river goes. Remember that you're capturing the
-river at a large scale, so try to follow it in detail. Take some time, don't
-let the line become too straight or make the corners too sharp!
-
-When creating the feature, give it the :kbd:`type` attribute value of
-":kbd:`stream`".
-
-:ref:`Check your results <create-vector-digitize-1>`
+.. |basic| |TY|
+.. -------------------------------------------------------------------------------
+.. 
+.. * Create a new line feature called :kbd:`river.shp` with attributes :kbd:`id`
+..   and :kbd:`type`. (Use the approach above to guide you.)
+.. * Digitize the river that runs through town.
+.. 
+.. Start where the sandy riverbanks first become visible:
+.. 
+.. .. image:: ../_static/create_vector_data/015.png
+..    :align: center
+.. 
+.. And stop when our river joins another river:
+.. 
+.. .. image:: ../_static/create_vector_data/016.png
+..    :align: center
+.. 
+.. It's not always clear where the river runs. In such cases, use your better
+.. judgment and estimate where the river goes. Remember that you're capturing the
+.. river at a large scale, so try to follow it in detail. Take some time, don't
+.. let the line become too straight or make the corners too sharp!
+.. 
+.. When creating the feature, give it the :kbd:`type` attribute value of
+.. ":kbd:`stream`".
+.. 
+.. :ref:`Check your results <create-vector-digitize-1>`
 
 |IC|
 -------------------------------------------------------------------------------
 
-Now you know how to create features! This course doesn't cover adding point
-features, because that's not really necessary once you've worked with more
-complicated features (lines and polygons). It works exactly the same, except
-that you only click once where you want the point to be, give it attributes as
-usual, and then the feature is created.
+This lesson has shown you how to create new features in your dataset. This course 
+doesn't cover adding point features, because that's not really necessary now you 
+have worked with more complicated features (lines and polygons). Adding point features 
+works exactly the same, except that you only click once where you want the point 
+to be, give it attributes as usual, and then the feature is created.
 
 Knowing how to digitize is important because it's a very common activity in GIS
 programs.

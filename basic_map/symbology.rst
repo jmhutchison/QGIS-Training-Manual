@@ -365,14 +365,14 @@ Polygon symbol layer types
 
 To see the various options available for polygon data:
 
-* Change one or more of the symbol layer type for the :guilabel:`bandung_districts` 
-layer, as before for the other layers.
+* Change one or more of the symbol layer type for the :guilabel:`bandung_districts` layer, as before for the other layers.
 * Investigate what the different options on the list can do.
 * You can change each symbol by double-clicking on the symbol you want to change
 
 .. image:: ../_static/symbology/033a.png
    :align: center
 
+* In this particularl example we have categorised the data. You will learn more about this in the next chapter.
 * Choose one of them that you find suitable.
 * If in doubt, use a combination of two layers, using the :guilabel:`Point pattern fill` and a :guilabel:`Simple fill`:
 

@@ -138,7 +138,7 @@ To find the :guilabel:`Select by Location` tool, click on the menu *Vector - Res
    :align: center
 
 By selecting features of one layer that intersect with another, we can create a new 
-layer containing just the attributes we are interested in.
+layer containing just the features we are interested in.
 
 |moderate| |FA| Selecting by location
 --------------------------------------------------------------------------------

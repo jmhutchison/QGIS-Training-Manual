@@ -293,21 +293,22 @@ The settings you used might not be the same, but with the values
 |RF| *Creating a New Vector Dataset*
 -------------------------------------------------------------------------------
 
-.. _create-vector-digitize-1:
-
-|basic| *Digitizing*
-...............................................................................
-
-The symbology doesn't matter, but the results should look more or less like
-this:
-
-.. image:: ../_static/create_vector_data/017.png
-   :align: center
-
-:ref:`Back to text <backlink-create-vector-digitize-1>`
-
-
-.. _create-vector-topology-3:
+.. .. _create-vector-digitize-1:
+.. _backlink-create-vector-digitize-1:
+.. 
+.. |basic| *Digitizing*
+.. ...............................................................................
+.. 
+.. The symbology doesn't matter, but the results should look more or less like
+.. this:
+.. 
+.. .. image:: ../_static/create_vector_data/017.png
+..    :align: center
+.. 
+.. :ref:`Back to text <backlink-create-vector-digitize-1>`
+.. 
+.. 
+.. .. _create-vector-topology-3:
 
 |moderate| *Topology: Avoid Intersections*
 ...............................................................................

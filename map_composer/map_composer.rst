@@ -2,7 +2,7 @@
 ===============================================================================
 
 Now that you've got a map, you need to be able to print it or to export it to a
-document. The reason is, a GIS map file is not an image! Rather, it saves the
+document. The reason is, a GIS map file is not an image. It saves the
 state of the GIS program, with references to all the layers, their labels,
 colors, etc. So for someone who doesn't have the data or the same GIS program
 (such as QGIS), the map file will be useless. Luckily, QGIS can export its map
@@ -19,13 +19,14 @@ map with all the required settings.
 QGIS allows you to create multiple maps using the same map file. For this
 reason, it has a tool called the :guilabel:`Composer Manager`.
 
+* Zoom in on the area of your map showing the streets and places of Bandung.
 * Click on the :menuselection:`File --> Composer Manager` menu entry to open
   this tool.  You'll see a blank :guilabel:`Composer manager` dialog appear.
 * Click the :guilabel:`Add` button and a new composer will be added called
   :guilabel:`Composer 1` (it may be another number if you have tried using the
   :guilabel:`Composer Manager` before now). 
 * With your new composer selected, click on the :guilabel:`Rename` button and
-  rename it to :kbd:`Swellendam`.
+  rename it to :kbd:`Bandung`.
 * Click :guilabel:`OK`.
 * Click the :guilabel:`Show` button.
 
@@ -172,7 +173,7 @@ contents of the label:
 * Select the label by clicking on it.
 * Click on the :guilabel:`Item` tab in the side panel of the
   :guilabel:`Composer` window.
-* Change the text of the label to "Swellendam":
+* Change the text of the label to "Bandung":
 
 .. image:: ../_static/map_composer/017.png
    :align: center
@@ -183,7 +184,7 @@ contents of the label:
    :align: center
 
 * Choose a large but sensible font (the example will use the default font with
-  a size of :kbd:`48`), and keep the color subdued.
+  a size of :kbd:`36`), and keep the color subdued.
 
 In fact, it's probably best to keep it black as per the default. The key is
 that the font should not be distracting, otherwise people who see the page will
@@ -234,6 +235,9 @@ add a new legend.
 .. image:: ../_static/map_composer/025.png
    :align: center
 
+In this example, the legend is far too big. We will now learn how to customize the 
+legend.
+
 |moderate| |FA| Customizing Legend Items
 -------------------------------------------------------------------------------
 
@@ -246,6 +250,8 @@ Not everything on the legend is necessary, so let's remove some unwanted items.
 .. image:: ../_static/map_composer/026.png
    :align: center
 
+* Remove any other items that you don't think are necessary.
+
 You can also rename items.
 
 * Select a layer from the same list.
@@ -254,19 +260,15 @@ You can also rename items.
 .. image:: ../_static/map_composer/027.png
    :align: center
 
-* Rename the layers to :kbd:`Roads and Streets`, :kbd:`Surface Water`,
-  :kbd:`Urban Areas`, and :kbd:`Farms`.
+* Rename the layers to :kbd:`Roads and Streets`, :kbd:`Water ways`, and 
+  :kbd:`Land cover`.
 * Click the down arrow next to any item with multiple classes to rename the
   classes (using the same method as above).
+* Remove any layers not necessary (for example, areas of land cover that are 
+not displayed on the map).
 
-In the example, the :guilabel:`Farms` layer's areas were computed in units that
-aren't easy to convert to land area directly.  If your farms are classified by
-area or some other criteria, you should rename those classes to something that
-would make sense to the map reader. In the example, we renamed the smallest
-class :kbd:`small area` and the largest one :kbd:`large area`, with the one in
-the middle :kbd:`moderate area` and the rest blanked out.
-
-This is the result:
+This is the result in the example. We have moved the legend to the side of the map 
+and realigned the title with the map:
 
 .. image:: ../_static/map_composer/028.png
    :align: center

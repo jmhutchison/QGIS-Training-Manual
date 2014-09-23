@@ -134,9 +134,8 @@ values. For example: temparature above absolute zero (0 degrees Kelvin),
 distance from a point, the average amount of traffic on a given street per
 month, etc.
 
-In the example above, we used nominal classification to assign each farm to the
-town that it is administered by. Now we will use ratio classification to
-classify the farms by area.
+In the example above, we used nominal classification to show different land cover 
+areas. Now we will use ratio classification to classify the farms by area.
 
 * Save your rural symbology (if you want to keep it) by clicking on the
   :guilabel:`Save Style ...` button in the :guilabel:`Style` dialog.
