@@ -113,7 +113,6 @@ made sure that there was no overlap!
 
 :ref:`Check your results <create-vector-topology-3>`
 
-
 |moderate| |FA| Correct topology errors
 -------------------------------------------------------------------------------
 

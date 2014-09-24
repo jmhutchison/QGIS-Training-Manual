@@ -7,6 +7,7 @@ from two different layers, or,
 
 * we can join using a single matching attribute.
 
+
 **The goal for this lesson:**
 
 To use create a new shapefile using the *Join by location* tool

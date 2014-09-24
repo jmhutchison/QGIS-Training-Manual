@@ -424,6 +424,7 @@ map.
 
 .. note::  Did you remember to save your map recently?
 
+..
 .. |hard| |FA| Creating a custom SVG fill
 .. -------------------------------------------------------------------------------
 .. 
