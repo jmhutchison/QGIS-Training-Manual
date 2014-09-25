@@ -9,16 +9,8 @@
    map_composer/index
    create_vector_data/index
    vector_analysis/index
-   rasters/index
-   complete_analysis/index
    qgis_plugins/index
-   online_resources/index
-   grass/index
-   assessment/index
-   postgres/index
-   postgis/index
    animal_health/index
-   appendix/contribute
 
    answers/answers
 

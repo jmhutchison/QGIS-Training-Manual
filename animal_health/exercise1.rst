@@ -20,9 +20,10 @@ data that you are familiar with.
 
 **The goal for this lesson:**
 
-Your supervisor has asked you to extract all the cases of sudden death in poultry in the 
-Sulawesi Selatan region. S/he would like you to provide a map showing where these cases 
-have occurred, and to create a 15 kilometre buffer around the villages in which they have 
+Your supervisor has asked you to identify and extract all the cases in the Sulawesi 
+Selatan region, where the species is a type of poultry, and the syndrome recorded is 
+poultry mortality. S/he would like you to provide a map showing where these cases have 
+occurred, and to create a 15 kilometre buffer around the villages in which they have 
 occurred.
 
 In order to do this you will have to:
@@ -173,7 +174,7 @@ You can now remove the :kbd:`cases_gis` layer.
 
 |basic| |FA| Inspect the data
 --------------------------------------------------------------------------------
-As mentioned above, you need to extract all the cases of sudden death in poultry in the 
+As mentioned above, you need to extract all the cases of poultry mortality in poultry in the 
 Sulawesi Selatan region. How would you go about doing that?
 
 One answer lies in a layer's :guilabel:`Attribute Table`. Here you are able to see much more 
@@ -215,7 +216,7 @@ attribute table.
 
 ::
 
-However, we don't want just chickens, we want all poultry that are recorded with *sudden death* 
+However, we don't want just chickens, we want all poultry that are recorded with *poultry mortality* 
 as the syndrome. 
 To select these records, we need to use the *Advanced search* features.
 
@@ -229,7 +230,7 @@ the particular attributes we are interested in.
    :align: center
 
 Our query is asking for all the records that contain chicken or duck or local chicken as the 
-species, **and** a value of 'sudden death' in the syndrome2 table.
+species, **and** a value of 'poultry mortality' in the syndrome2 table.
 
 By testing the query, we find that we have 11 matching records:
 
@@ -247,10 +248,10 @@ as.*
 .. image:: ../_static/ISIKHNAS/011.png
    :align: center
 
-Name this new layer :kbd:`Cases_PoultrySuddenDeath` and add it to your map.
+Name this new layer :kbd:`Cases_PoultryMortality` and add it to your map.
    
-By turning off the :kbd:`Sul_sthn_cases` layer, we can now see the records in the database of sudden 
-death recorded in poultry in Sulawesi Selatan.
+By turning off the :kbd:`Sul_sthn_cases` layer, we can now see the records in the database of poultry  
+mortality recorded in poultry in Sulawesi Selatan.
 
 .. image:: ../_static/ISIKHNAS/012.png
    :align: center

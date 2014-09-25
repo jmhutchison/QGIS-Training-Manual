@@ -259,7 +259,11 @@ programs.
 |WN|
 -------------------------------------------------------------------------------
 
-Features in a GIS layer aren't just pictures, but objects in space. For
-example, adjacent polygons know where they are in relation to one another. This
-is called *topology*. In the next lesson you'll see an example of why this can
-be useful.
+Now that you have been introduced to vector data creation, you can learn how to
+analyze this data to solve problems. That is the topic of the next module.
+
+
+.. Features in a GIS layer aren't just pictures, but objects in space. For
+.. example, adjacent polygons know where they are in relation to one another. This
+.. is called *topology*. In the next lesson you'll see an example of why this can
+.. be useful.

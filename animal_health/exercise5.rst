@@ -78,7 +78,7 @@ To display the data for your supervisor, you are going to have to join the data
 file to a file that contains spatial data (such as a shapefile) and can be displayed.
 
 |basic| |FA| Load the required files
-===============================================================================
+--------------------------------------------------------------------------------
 
 Load the particular shapefile you wish to use. This could be:
 
@@ -142,7 +142,7 @@ Our example QGIS project now looks like this. Save this as a new project.
 
  
 |basic| |FA| Compare the loaded files
-===============================================================================
+--------------------------------------------------------------------------------
 
 Look closely at the Layers window, and the two files shown there. 
 
@@ -177,7 +177,7 @@ a join, we can display the attributes from the :kbd:`rph_prov_week_gis_centroid`
 the images from the :kbd:`Provinces` shapefile.
 
 |Moderate| |FA| Joining files
-===============================================================================
+--------------------------------------------------------------------------------
 
 Right-click on the :kbd:`Provinces` shapefile and open the layer *Properties*. Click on the 
 *Join* tab as shown below:
@@ -227,7 +227,7 @@ We can now use this to map the data from the :kbd:`rph_prov_week_gis_centroid` f
 :kbd:`Provinces` image.
 
 |basic| |TY| Format your new map using the styling tab
-===============================================================================
+--------------------------------------------------------------------------------
 
 Using the skills you learnt earlier about style formatting, look for ways that will 
 display your data in a way that is helpful.

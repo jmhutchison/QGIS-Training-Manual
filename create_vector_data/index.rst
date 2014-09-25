@@ -10,7 +10,4 @@ learn how to modify existing vector data and create new datasets entirely.
    :numbered:
 
    create_new_vector
-   topo_editing
-   forms
-   actions
 

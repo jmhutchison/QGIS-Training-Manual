@@ -16,10 +16,10 @@ representing data. But there's a problem, as we will see.
 * Save your current map.
 * Then open the map of the world which you'll find under
   :kbd:`exercise_data/world/world.qgs`.
-* Zoom in to South Africa by using the :guilabel:`Zoom In` tool. 
+* Zoom in to Indonesia by using the :guilabel:`Zoom In` tool. 
 * Try setting a scale in the :guilabel:`Scale` field, which is in the
-  :guilabel:`Status Bar` along the bottom of the screen. While over South
-  Africa, set this value to :kbd:`1:5000000` (one to five million).
+  :guilabel:`Status Bar` along the bottom of the screen. While over Indonesia, 
+  set this value to :kbd:`1:5000000` (one to five million).
 * Pan around the map while keeping an eye on the :guilabel:`Scale` field.
 
 Notice the scale changing? That's because you're moving away from the one point
@@ -37,9 +37,9 @@ this means on a map is that the longitude lines stay equally far apart from
 each other, even at the poles (where they are supposed to meet). This means
 that, as you travel away from the equator on your map, the scale of the objects
 that you see gets larger and larger. What this means for us, practically, is
-that there is no constant scale on our map!
+that there is no constant scale on our map.
 
-To solve this, let's use a Projected Coordinate System (PCS) instead. A PCS
+To solve this, we will use a Projected Coordinate System (PCS) instead. A PCS
 "projects" or converts the data in a way that makes allowance for the scale
 change and corrects it. Therefore, to keep the scale constant, we should
 reproject our data to use a PCS.
@@ -63,7 +63,7 @@ of your choice.
   (:guilabel:`NSIDC EASE-Grid Global`) will appear in the list below.
 * Click on it to select it, then click :kbd:`OK`.
 
-* Notice how the shape of South Africa changes. All projections work by
+* Notice how the shape of Indonesia changes. All projections work by
   changing the apparent shapes of objects on Earth.
 * Zoom in to a scale of :kbd:`1:5000000` again, as before.
 * Pan around the map.
@@ -78,8 +78,8 @@ different CRSs.
   * Uncheck the :guilabel:`Enable 'on the fly' CRS transformation` box.
   * Clicking :guilabel:`OK`.
 
-* Add another vector layer to your map which has the data for South Africa
-  only.  You'll find it as :kbd:`exercise_data/world/RSA.shp`.
+* Add another vector layer to your map which has the data for Indonesia 
+  only.  You'll find it as :kbd:`exercise_data/world/Indonesia_regions.shp`.
 
 What do you notice?
 
@@ -88,7 +88,7 @@ The layer isn't visible! But that's easy to fix, right?
 * Right-click on the layer in the :guilabel:`Layers list`.
 * Select :guilabel:`Zoom to Layer Extent`.
 
-OK, so now we see South Africa... but where is the rest of the world?
+OK, so now we see Indonesia... but where is the rest of the world?
 
 It turns out that we can zoom between these two layers, but we can't ever see
 them at the same time. That's because their Coordinate Reference Systems are so
@@ -200,66 +200,66 @@ will actually give you the area in hectares. This is why it's a good idea to
 reproject your data, if necessary, before calculating areas, distances, and
 other values that are dependent on the spatial properties of the layer.
 
-|hard| |FA| Creating Your Own Projection
--------------------------------------------------------------------------------
-
-There are many more projections than just those included in QGIS by default.
-You can also create your own projections.
-
-* Start a new map.
-* Load the :kbd:`world/oceans.shp` dataset.
-* Go to :menuselection:`Settings --> Custom CRS...` and you'll see this dialog:
-
-.. image:: ../_static/vector_analysis/009.png
-   :align: center
-
-* Click on the button with the star icon to create a new projection. You'll
-  notice that the name and parameters are now blank.
-
-An interesting projection to use is called :kbd:`Van der Grinten I`.
-
-* Enter its name in the :guilabel:`Name` field.
-
-This projection represents the Earth on a circular field instead of a
-rectangular one, as most other projections do. 
-
-* For its parameters, use the following string:
-
-:kbd:`+proj=vandg +lon_0=0 +x_0=0 +y_0=0 +R_A +a=6371000 +b=6371000 +units=m
-+no_defs`
-
-* Click the :guilabel:`Save` button:
-
-.. image:: ../_static/vector_analysis/010.png
-   :align: center
-
-* Click :guilabel:`OK`.
-* Enable "on the fly" reprojection.
-* Choose your newly defined projection (search for its name in the
-  :guilabel:`Filter` field).
-* On applying this projection, the map will be reprojected thus:
-
-.. image:: ../_static/vector_analysis/011.png
-   :align: center
-
-|IC|
--------------------------------------------------------------------------------
-
-Different projections are useful for different purposes. By choosing the
-correct projection, you can ensure that the features on your map are being
-represented accurately.
-
-|FR|
--------------------------------------------------------------------------------
-
-Materials for the *Advanced* section of this lesson were taken from `this
-article <http://tinyurl.com/75b92np>`_.
-
-Further information on Coordinate Reference Systems is available `here
-<http://linfiniti.com/dla/worksheets/7_CRS.pdf>`_.
-
-|WN|
--------------------------------------------------------------------------------
-
-In the next lesson you'll learn how to analyze vector data using QGIS' various
-vector analysis tools.
+.. |hard| |FA| Creating Your Own Projection
+.. -------------------------------------------------------------------------------
+.. 
+.. There are many more projections than just those included in QGIS by default.
+.. You can also create your own projections.
+.. 
+.. * Start a new map.
+.. * Load the :kbd:`world/oceans.shp` dataset.
+.. * Go to :menuselection:`Settings --> Custom CRS...` and you'll see this dialog:
+.. 
+.. .. image:: ../_static/vector_analysis/009.png
+..    :align: center
+.. 
+.. * Click on the button with the star icon to create a new projection. You'll
+..   notice that the name and parameters are now blank.
+.. 
+.. An interesting projection to use is called :kbd:`Van der Grinten I`.
+.. 
+.. * Enter its name in the :guilabel:`Name` field.
+.. 
+.. This projection represents the Earth on a circular field instead of a
+.. rectangular one, as most other projections do. 
+.. 
+.. * For its parameters, use the following string:
+.. 
+.. :kbd:`+proj=vandg +lon_0=0 +x_0=0 +y_0=0 +R_A +a=6371000 +b=6371000 +units=m
+.. +no_defs`
+.. 
+.. * Click the :guilabel:`Save` button:
+.. 
+.. .. image:: ../_static/vector_analysis/010.png
+..    :align: center
+.. 
+.. * Click :guilabel:`OK`.
+.. * Enable "on the fly" reprojection.
+.. * Choose your newly defined projection (search for its name in the
+..   :guilabel:`Filter` field).
+.. * On applying this projection, the map will be reprojected thus:
+.. 
+.. .. image:: ../_static/vector_analysis/011.png
+..    :align: center
+.. 
+.. |IC|
+.. -------------------------------------------------------------------------------
+.. 
+.. Different projections are useful for different purposes. By choosing the
+.. correct projection, you can ensure that the features on your map are being
+.. represented accurately.
+.. 
+.. |FR|
+.. -------------------------------------------------------------------------------
+.. 
+.. Materials for the *Advanced* section of this lesson were taken from `this
+.. article <http://tinyurl.com/75b92np>`_.
+.. 
+.. Further information on Coordinate Reference Systems is available `here
+.. <http://linfiniti.com/dla/worksheets/7_CRS.pdf>`_.
+.. 
+.. |WN|
+.. -------------------------------------------------------------------------------
+.. 
+.. In the next lesson you'll learn how to analyze vector data using QGIS' various
+.. vector analysis tools.
