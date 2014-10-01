@@ -29,15 +29,19 @@ Tools* in the *Vector* menu.
    :align: center
 
 
-Use the :kbd:`VillagePolyBarSin_32750` file as the Target vector layer, and the :kbd:`PoultrySuddenDeath_32750` 
-file as the Join vector layer.
+Use the :kbd:`VillagePolyBarSin_32750` file as the Target vector layer, and the :kbd:`PoultryMortality_32750` 
+file as the Join vector layer:
 
-Click on *Take the attributes of the first located feature* under *Attribute Summary*.
+* Click on *Take the summary of the first located feature* under *Attribute Summary*
+* Tick the :guilabel:`Sum` box underneath.
 
 Browse to where you are going to save your file, and name it appropriately (we used 
-:kbd:`PoultrySDJoinLocation_32750`).
+:kbd:`PoultryMJoinLocation_32750`).
 
-Only keep the matching records. Click *OK* and add the new layer to your map. 
+Only keep the matching records. Click *OK* and add the new layer to your map.
+
+Close the *Join attributes by location* dialog box.
+ 
 Your results should look similar to this:
 
 .. image:: ../_static/ISIKHNAS/025.png

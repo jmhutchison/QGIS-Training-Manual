@@ -125,14 +125,9 @@ you can see that our widest line is a zero, and the narrowest line is a four. Th
 This shows our lines formatted using colour and line width to show the number of animals in each movement. The 
 darker, thicker line shows us there were between 860 and 1000 birds moved in this particular movement.
 
-|IC| 
---------------------------------------------------------------------------------
+|WN|
+-------------------------------------------------------------------------------
 
-This chapter has been designed to show you how to use QGIS in a practical and useful way, using real data 
-obtained from the iSIKHNAS database. The exercises have been developed to show examples of actual tasks you 
-may be asked to carry out by your supervisor.
-
-It is only a small example of what you can do using the QGIS software. If you are interested, do not be 
-afraid to explore the software. Use the internet to search for new ways to create particular maps, or 
-investigate different ways of doing things.
-
+Our final lesson is to show how to load another type of data into QGIS. Sometimes you will receive data as a 
+spreadsheet, or you might download it from a source such as a database as a CSV file. We will now show  you 
+how to load this type of data into QGIS.
