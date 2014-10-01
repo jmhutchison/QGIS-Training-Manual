@@ -135,19 +135,22 @@ distance from a point, the average amount of traffic on a given street per
 month, etc.
 
 In the example above, we used nominal classification to show different land cover 
-areas. Now we will use ratio classification to classify the farms by area.
+areas. Now we will begin a new project, and look at ratio classification to classify 
+villages by area.
 
 * Save your rural symbology (if you want to keep it) by clicking on the
   :guilabel:`Save Style ...` button in the :guilabel:`Style` dialog.
-
-We're going to reclassify the layer, so existing classes will be lost if not
-saved.
-
 * Close the :guilabel:`Style` dialog.
-* Open the layer attributes for the :guilabel:`rural` layer.
+* Save and close your current project.
+
+Now we will begin our new exercise.
+
+* Open a new, blank project
+* Open the layers :guilabel:`Sulawesi_dist_32750` and :guilabel:VillagePolyBarSin_32750`.
+* Change the colour styles if necessary.
   
-We want to classify these farms by area, but there's a problem: they don't have
-an area field! We'll have to make one.
+We want to classify these villages by area, but there is a problem: they do not have
+an area field! We will have to make one.
 
 * Enter edit mode by clicking this button:
 
@@ -281,12 +284,12 @@ That's where rule-based classification comes in handy.
 * A new dialog that appears.
 * Click the ellipsis :guilabel:`...` button next to the :guilabel:`Filter` text area.
 * Using the query builder that appears, enter the criterion :kbd:`AREA >=
-  0.00085` and choose a dark color for it.
-* Add the criterion :kbd:`AREA <= 0.00085` and choose a light color.
-* Add the criterion :kbd:`TOWN != 'Swellendam Rural'` and assign it the color
-  black, with transparency at :kbd:`85%`.
-* Click on the :kbd:`TOWN ...` criterion in the list of rules, and then on
-  :guilabel:`Increase priority`.
+  30000000` and choose a light color for it.
+* Add the criterion :kbd:`AREA <= 30000000` and choose a dark color.
+* Add the criterion :kbd:`DESA = 'Ajakkang'` and assign it the color
+  black, with transparency at :kbd:`35%`.
+* Use the :guilabel:`Rendering order` to render the layers correctly so Ajakkang is 
+visible.
 
 Your dialog should look like this:
 
@@ -300,8 +303,7 @@ Your map will look like this:
 .. image:: ../_static/classification/031.png
    :align: center
 
-Now you have two area classes, with the farms in the Swellendam Rural area
-emphasized.
+Now you have two area classes, with the village Ajakkang highlighted.
 
 |IC|
 -------------------------------------------------------------------------------
