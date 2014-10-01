@@ -1,6 +1,21 @@
 Foreword
 ========
 
+About this course
+----------
+
+This course has adopted and modified an existing QGIS course developed by Linfiniti 
+Consulting CC. We have adopted their exercises using Indonesian data. We have also 
+created a new chapter showing you how to use these skills and apply them to animal 
+health problems using data from the new Indonesian animal health information system, 
+iSIKHNAS.
+
+The original manual was created using QGIS 1.8, and we have continued with this version 
+for this manual. The original manual, which includes more advanced exercises, is available 
+here: http://www.qgis.org/en/docs/index.html
+
+Below is Linfiniti Consulting CC.'s original Background and Foreword to the manual.
+
 Background
 ----------
 

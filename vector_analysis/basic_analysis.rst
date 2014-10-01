@@ -3,8 +3,14 @@
 
 Vector data can also be analyzed to reveal how different features interact with
 each other in space. There are many different analysis-related functions in
-GIS, so we won't go through them all. Rather, we'll pose a question and try to
-solve it using the tools that QGIS provides.
+GIS, so we won't go through them all. Instead, we will show show you the tools QGIS 
+provides to solve a realistic problem you might face.
+
+.. note::  For this lesson we are going to use the original exercise and data,
+   which is based in South Africa. You will have the opportunity in Chapter 9, 
+   *Using QGIS in animal health*, to use GIS for a specific animal health exercise 
+   using Indonesian data from iSIKHNAS.
+
 
 **The goal for this lesson:** To ask a question and solve it using analysis
 tools.
@@ -24,10 +30,10 @@ iv. Present the Results
 |basic| The problem
 -------------------------------------------------------------------------------
 
-Let's start off the process by deciding on a problem to solve. Let's say you're
-a property developer, and you need to buy a farm to build a new residential
-development for people who have had enough of Cape Town and Johannesburg.
-You've done some market research, and you've come up with the following
+We begin the process by deciding on a problem to solve. Let us say you are
+a property developer, and you need to buy a farm to build a new residential 
+development for people who have had enough of Cape Town and Johannesburg. 
+You have done some market research, and you’ve come up with the following 
 requirements that a farm needs to satisfy:
 
 #. It needs to be in Swellendam.
@@ -40,17 +46,14 @@ requirements that a farm needs to satisfy:
 |basic| The data
 -------------------------------------------------------------------------------
 
-To answer these questions, we're going to need the following data:
+To answer these questions, we are going to need the following data:
 
 #. The farms we're going to be choosing from.
 #. The roads that need to be running through these farms.
 #. The location of schools.
 
 For this exercise the data has been provided already, but in reality you may
-need to find a provider for the datasets in question. In South Africa, the
-Surveyor-General's Office is a good source of the kind of data you'd find on 1:
-50 000 topographic map sheets, which includes all of the data we need for this
-particular problem.
+need to find a provider for the datasets in question.
 
 |basic| |FA| Start a Project
 -------------------------------------------------------------------------------
@@ -62,13 +65,12 @@ So now that we know what we want to do, let's start doing it!
   :kbd:`exercise_data/projected_data` folder.
 * Add the :kbd:`schools_33S`, :kbd:`roads_33S` and :kbd:`farms_33S` layers.
 
-They'll probably look very familiar. They're the same data we've been working
-with all along, except that they're now in a Projected Coordinate System. This
-is necessary for analysis, for reasons we've covered in the previous lesson.
+These files are in a Projected Coordinate System, which is necessary for this 
+analysis, for reasons we have covered in the previous lesson.
 (We want to be able to calculate distances in meters and areas in hectares, not
 in degrees.)
 
-Once you've got these layers in your :guilabel:`Layers list`:
+Once you have got these layers in your :guilabel:`Layers list`:
 
 * Rename the layers by right-clicking on them and selecting the
   :guilabel:`Rename` option.
@@ -80,13 +82,13 @@ Once you've got these layers in your :guilabel:`Layers list`:
   where you'll save the datasets that will be the results of the analysis
   functions.
 
-Now that we've got the data, let's analyze the problem!
+Now that we've got the data, we can analyze the problem.
 
 |basic| |FA| Analyzing the Problem: Farms in Swellendam
 -------------------------------------------------------------------------------
 
-The first criterion we're facing is that the farm needs to be in Swellendam.
-So let's tell QGIS to only show us the farms that are, in fact, in Swellendam!
+The first criterion we are facing is that the farm needs to be in Swellendam.
+So let's tell QGIS to only show us the farms that are, in fact, in Swellendam.
 
 * Right-click on the :guilabel:`farms` layer in the :guilabel:`Layers list`.
 * Select the option :guilabel:`Query...`. This gives you a new :guilabel:`Query
@@ -209,6 +211,7 @@ Projected Coordinate System. This is why we needed to use projected data!
 * When it asks you if it should "add the new layer to the TOC", click
   :guilabel:`Yes`. ("TOC" stands for "Table of Contents", by which it means the
   :guilabel:`Layers list`).
+* Now click on :guilabel:`Close` on the dialog box.
 
 Now you've got this:
 
@@ -219,7 +222,7 @@ OK, that looks interesting! Those are all the areas that are within 500 meters
 of an important road. 
 
 But look closer: it looks like there are joins between different sections of
-road! That's not nice. Remove that layer and let's try again:
+road! That is not nice. Remove that layer and let us try again:
 
 .. image:: ../_static/vector_analysis/022.png
    :align: center
@@ -371,5 +374,5 @@ easily.
 |WN|
 -------------------------------------------------------------------------------
 
-In the next lesson, we'll look at how to calculate the shortest distance along
-the road from one point to another.
+In the next lesson, we will look at Plugins, and how they can help you with your 
+mapping tasks.

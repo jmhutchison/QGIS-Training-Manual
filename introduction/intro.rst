@@ -1,7 +1,7 @@
 |LS| A Brief Introduction
 ===============================================================================
 
-Welcome to our course! Over the next few days, we'll be showing you how to use
+Welcome to this course! We are going to show you how to use
 QGIS easily and efficiently. If you're new to GIS, we'll tell you what you need
 to get started. If you're an experienced user, you'll see how QGIS fulfills all
 the functions you expect from a GIS program, and more!

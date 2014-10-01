@@ -13,10 +13,10 @@ Launch QGIS from its desktop shortcut, menu item, etc., depending on how you
 configured its installation.
 
 .. note::  The screenshots for this course were taken in QGIS 1.8 running on
-   Ubuntu 11.10 and Windows XP. Depending on your setup, the screens you
+   Mac OS X 10.9.5. Depending on your setup, the screens you
    encounter may well appear somewhat different. However, all the same buttons
    will still be available, and the instructions will work on any OS. You will
-   need QGIS 1.8 (the latest version at time of writing) to use this course.
+   need QGIS 1.8 or above to use this course.
 
 Let's get started right away!
 

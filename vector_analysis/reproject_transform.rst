@@ -1,8 +1,8 @@
 |LS| Reprojecting and Transforming Data
 ===============================================================================
 
-Let's talk about Coordinate Reference Systems (CRSs) again. We've touched on
-this briefly before, but haven't discussed what it means practically.
+Let us talk about Coordinate Reference Systems (CRSs) again. We have touched on
+this briefly before, but have not discussed what it means practically.
 
 **The goal for this lesson:** To reproject and transform vector datasets.
 
@@ -79,88 +79,78 @@ different CRSs.
   * Clicking :guilabel:`OK`.
 
 * Add another vector layer to your map which has the data for Indonesia 
-  only.  You'll find it as :kbd:`exercise_data/world/Indonesia_regions.shp`.
+  only. You will find it as :kbd:`exercise_data/world/Indonesia_regions_32750.shp`.
 
 What do you notice?
 
-The layer isn't visible! But that's easy to fix, right?
+The layer is not visible! But that is easy to fix, right?
 
 * Right-click on the layer in the :guilabel:`Layers list`.
 * Select :guilabel:`Zoom to Layer Extent`.
 
-OK, so now we see Indonesia... but where is the rest of the world?
+So now we see Indonesia... but where is the rest of the world?
 
-It turns out that we can zoom between these two layers, but we can't ever see
-them at the same time. That's because their Coordinate Reference Systems are so
+It turns out that we can zoom between these two layers, but we can not ever see
+them at the same time. That is because their Coordinate Reference Systems are so
 different. The :guilabel:`continents` dataset is in *degrees*, but the
-:guilabel:`RSA` dataset is in *meters*. So, let's say that a given point in
-Cape Town in the :guilabel:`RSA` dataset is about :kbd:`4 100 000` meters away
+:guilabel:`Indonesia_regions_32750` dataset is in *meters*. So, let us say that a given point in
+Jakarta in the :guilabel:`Indonesia_regions_32750` dataset is about :kbd:`620 000` meters away
 from the equator. But in the :guilabel:`continents` dataset, that same point is
-about :kbd:`33.9` degrees away from the equator.
+about :kbd:`6.3` degrees away from the equator.
 
-This is the same distance - but QGIS doesn't know that! You haven't told it to
-reproject the data. So as far as it's concerned, the version of South Africa
-that we see in the :guilabel:`RSA` dataset has Cape Town at the correct
-distance of :kbd:`4 100 000` meters from the equator. But in the
-:guilabel:`continents` dataset, Cape Town is only :kbd:`33.9` *meters* away
+This is the same distance - but QGIS doesn't know that. You haven't told it to
+reproject the data. So as far as it's concerned, the version of Indonesia
+that we see in the :guilabel:`Indonesia_regions_32750` dataset has Jakarta at the correct
+distance of :kbd:`620 000` meters from the equator. But in the
+:guilabel:`continents` dataset, Jakarta is only :kbd:`6.3` *meters* away
 from the equator! You can see why this is a problem.
 
-QGIS doesn't know where Cape Town is *supposed* to be - that's what the data
-should be telling it. If the data tells QGIS that Cape Town is :kbd:`34` meters
-away from the equator and that South Africa is only about :kbd:`12` meters from
+QGIS does not know where Jakarta is *supposed* to be - that is what the data
+should be telling it. If the data tells QGIS that Jakarta is :kbd:`6.3` meters
+away from the equator and that Indonesia is only about :kbd:`12` meters from
 north to south, then that is what QGIS will draw.
 
 To correct this:
 
 * Switch :guilabel:`Enable 'on the fly' CRS transformation` on again as before.
-* Zoom to the extents of the :guilabel:`RSA` dataset.
+* Zoom to the extents of the :guilabel:`Indonesia_regions_32750` dataset.
 
-Now, because they're made to project in the same CRS, the two datasets fit
+Now, because they are made to project in the same CRS, the two datasets fit
 perfectly:
 
 .. image:: ../_static/vector_analysis/002.png
    :align: center
 
-When combining data from different sources, it's important to remember that
+When combining data from different sources, it is important to remember that
 they might not be in the same CRS. "On the fly" reprojection helps you to
 display them together.
 
 |moderate| |FA| Saving a Dataset to Another CRS
 -------------------------------------------------------------------------------
 
-Remember when you calculated areas for the farms in the
-:guilabel:`Classification` lesson? You did it so that you could classify the
-farms according to area.
+We have shown how using "On the fly" can make layers with different projections appear 
+on the same map. But how can we reproject the layers so they are the same projection?
 
-* Open your usual map again (containing the Swellendam data).
-* Open the attribute table for the :guilabel:`rural` layer.
-* Scroll to the right until you see the :kbd:`AREA` field.
+To truly reproject the data itself, you need to export it to a new file using a new projection.
 
-Notice how the areas are all very small; basically zero. This is because
-these areas are given in degrees - the data isn't in a Projected Coordinate
-System. In order to calculate the area for the farms in square meters, the data
-has to be in square meters as well. So, we'll need to reproject it.
+Our layer :guilabel:`Indonesian_regions_32750` is projected using the CRS 
+WGS 84 / UTM zone 50S, which is correct for most of Indonesia. What we will do now is 
+reproject this layer so it is the same as our :guilabel:`continents` layer.
 
-But it won't help to just use "on the fly" reprojection. "On the fly" does what
-it says - it doesn't change the data, it just reprojects the layers as they
-appear on the map. To truly reproject the data itself, you need to export it to
-a new file using a new projection.
-
-* Right-click on the :guilabel:`rural` layer in the :guilabel:`Layers list`.
-* Select :guilabel:`Save As...` in the menu that appears. You will be shown the
-  :guilabel:`Save vector layer as...` dialog.
-* Click on the :guilabel:`Browse` button next to the :guilabel:`Save as` field.
-* Navigate to :kbd:`exercise_data/` and specify the name of the new layer as
-  :kbd:`rural_reprojected.shp`.
+* Right-click on the :guilabel:`Indonesian_regions_32750`
+* Click on :guilabel:`Save as`
+* A new window :guilabel:`Save vector layer as...` will appear
+* Click on the :guilabel:`Browse` button next to the :guilabel:`Save as` field
+* Navigate to your :kbd:`exercise_data/` folder, and call your new file :kbd:`Indonesia_regions_WGS84.shp`
 * Leave the :guilabel:`Encoding` unchanged.
 * Change the value of the :guilabel:`Layer CRS` dropdown to :guilabel:`Selected
   CRS`.
 * Click the :guilabel:`Browse` button beneath the dropdown.
 * The :guilabel:`CRS Selector` dialog will now appear.
 * In its :guilabel:`Filter` field, search for :kbd:`33S`.
-* Choose :guilabel:`WGS 84 / UTM zone 33S` from the list.
+* Choose :guilabel:`WGS 84 EPSG:4326` from the list.
 * Click :guilabel:`OK`.
-  
+
 The :guilabel:`Save vector layer as...` dialog now looks like this:
 
 .. image:: ../_static/vector_analysis/004.png
@@ -172,33 +162,55 @@ The :guilabel:`Save vector layer as...` dialog now looks like this:
    :align: center
 
 * Click :guilabel:`OK`.
-* Start a new map:
 
+Now both layers have the same projection and are displayed correctly, without the need for "On the fly".
+
+Both the layers are now projected in degrees. If you want to measure distance using units of length 
+such as meters or kilometers, you will need to project the layers accordingly, using a different PCS.
+
+
+
+.. note::  It is very important to remember that to reproject a layer, you must save it as a new layer, with the new projection. You can not correctly change the projection of a layer using any other way.
+
+.. 
+
+|IC|
+-------------------------------------------------------------------------------
+
+Different projections are useful for different purposes. By choosing the
+correct projection, you can ensure that the features on your map are being
+represented accurately.
+
+
+
+
+.. * Start a new map:
+.. 
 .. image:: ../_static/vector_analysis/006.png
    :align: center
 
-Refer back to the lesson on :guilabel:`Classification` to remember how you
-calculated areas.
-
-* Update the :kbd:`AREAS` field by running the same expression as before:
-
-.. image:: ../_static/vector_analysis/007.png
-   :align: center
-
-This will update the :kbd:`AREAS` field with the areas of the farms in square
-meters.
-
-* To calculate the area in hectares, do this:
-
-.. image:: ../_static/vector_analysis/008.png
-   :align: center
-
-Look at the new values in your attribute table. This is much more useful, as
-people actually quote property areas in hectares, not in degrees. And
-projecting the data in an appropriate projection before calculating the area
-will actually give you the area in hectares. This is why it's a good idea to
-reproject your data, if necessary, before calculating areas, distances, and
-other values that are dependent on the spatial properties of the layer.
+.. Refer back to the lesson on :guilabel:`Classification` to remember how you
+.. calculated areas.
+.. 
+.. * Update the :kbd:`AREAS` field by running the same expression as before:
+.. 
+.. .. image:: ../_static/vector_analysis/007.png
+..    :align: center
+.. 
+.. This will update the :kbd:`AREAS` field with the areas of the farms in square
+.. meters.
+.. 
+.. * To calculate the area in hectares, do this:
+.. 
+.. .. image:: ../_static/vector_analysis/008.png
+..    :align: center
+.. 
+.. Look at the new values in your attribute table. This is much more useful, as
+.. people actually quote property areas in hectares, not in degrees. And
+.. projecting the data in an appropriate projection before calculating the area
+.. will actually give you the area in hectares. This is why it's a good idea to
+.. reproject your data, if necessary, before calculating areas, distances, and
+.. other values that are dependent on the spatial properties of the layer.
 
 .. |hard| |FA| Creating Your Own Projection
 .. -------------------------------------------------------------------------------
