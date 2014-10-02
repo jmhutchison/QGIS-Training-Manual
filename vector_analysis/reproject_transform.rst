@@ -51,15 +51,18 @@ QGIS allows you to reproject data "on the fly". What this means is that even if
 the data itself is in another CRS, QGIS can project it as if it were in a CRS
 of your choice.
 
-* To enable "on the fly" projection, click on the :guilabel:`CRS Status` button in the :guilabel:`Status Bar` along the bottom of the QGIS window:
+* To enable "on the fly" projection, click on the :guilabel:`CRS Status` button in the 
+  :guilabel:`Status Bar` along the bottom of the QGIS window:
 
 .. image:: ../_static/vector_analysis/001.png
    :align: center
 
 * In the dialog that appears, check the box next to :guilabel:`Enable 'on the fly' CRS transformation`. 
-* Type the word :kbd:`global` into the :guilabel:`Filter` field. One CRS (:guilabel:`NSIDC EASE-Grid Global`) will appear in the list below.
+* Type the word :kbd:`global` into the :guilabel:`Filter` field. One CRS 
+  (:guilabel:`NSIDC EASE-Grid Global`) will appear in the list below.
 * Click on it to select it, then click :kbd:`OK`.
-* Notice how the shape of Indonesia changes. All projections work by changing the apparent shapes of objects on Earth.
+* Notice how the shape of Indonesia changes. All projections work by changing 
+  the apparent shapes of objects on Earth.
 * Zoom in to a scale of :kbd:`1:5000000` again, as before.
 * Pan around the map.
 * Notice how the scale stays the same!
@@ -138,8 +141,7 @@ reproject this layer so it is the same as our :guilabel:`continents` layer.
 * Click on the :guilabel:`Browse` button next to the :guilabel:`Save as` field
 * Navigate to your :kbd:`exercise_data/` folder, and call your new file :kbd:`Indonesia_regions_WGS84.shp`
 * Leave the :guilabel:`Encoding` unchanged.
-* Change the value of the :guilabel:`Layer CRS` dropdown to :guilabel:`Selected
-  CRS`.
+* Change the value of the :guilabel:`Layer CRS` dropdown to :guilabel:`Selected CRS`.
 * Click the :guilabel:`Browse` button beneath the dropdown.
 * The :guilabel:`CRS Selector` dialog will now appear.
 * In its :guilabel:`Filter` field, search for :kbd:`33S`.
@@ -178,7 +180,7 @@ represented accurately.
 
 
 
-
+.. 
 .. * Start a new map:
 .. 
 .. image:: ../_static/vector_analysis/006.png
@@ -249,24 +251,25 @@ represented accurately.
 .. .. image:: ../_static/vector_analysis/011.png
 ..    :align: center
 .. 
- |IC|
- -------------------------------------------------------------------------------
- 
- Different projections are useful for different purposes. By choosing the
- correct projection, you can ensure that the features on your map are being
- represented accurately.
- 
- |FR|
- -------------------------------------------------------------------------------
- 
+
+|IC|
+-------------------------------------------------------------------------------
+
+Different projections are useful for different purposes. By choosing the
+correct projection, you can ensure that the features on your map are being
+represented accurately.
+
+|FR|
+-------------------------------------------------------------------------------
+
 .. Materials for the *Advanced* section of this lesson were taken from `this
 .. article <http://tinyurl.com/75b92np>`_.
  
- Further information on Coordinate Reference Systems is available `here
- <http://linfiniti.com/dla/worksheets/7_CRS.pdf>`_.
- 
- |WN|
- -------------------------------------------------------------------------------
- 
- In the next lesson you'll learn how to analyze vector data using QGIS' various
- vector analysis tools.
+Further information on Coordinate Reference Systems is available `here
+<http://linfiniti.com/dla/worksheets/7_CRS.pdf>`_.
+
+|WN|
+-------------------------------------------------------------------------------
+
+In the next lesson you'll learn how to analyze vector data using QGIS' various
+vector analysis tools.
