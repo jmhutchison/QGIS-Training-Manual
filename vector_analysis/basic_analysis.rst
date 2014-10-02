@@ -33,7 +33,7 @@ iv. Present the Results
 We begin the process by deciding on a problem to solve. Let us say you are
 a property developer, and you need to buy a farm to build a new residential 
 development for people who have had enough of Cape Town and Johannesburg. 
-You have done some market research, and you’ve come up with the following 
+You have done some market research, and you have come up with the following 
 requirements that a farm needs to satisfy:
 
 #. It needs to be in Swellendam.
@@ -335,7 +335,7 @@ to calculate their areas in hectares.
 .. image:: ../_static/vector_analysis/035.png
    :align: center
 
-* If you can't find :guilabel:`AREA` in the list, try this instead:
+* If you can not find :guilabel:`AREA` in the list, try this instead:
 
 .. image:: ../_static/vector_analysis/036.png
    :align: center

@@ -146,7 +146,7 @@ villages by area.
 Now we will begin our new exercise.
 
 * Open a new, blank project
-* Open the layers :guilabel:`Sulawesi_dist_32750` and :guilabel:VillagePolyBarSin_32750`.
+* Open the layers :guilabel:`Sulawesi_dist_32750` and :guilabel:`VillagePolyBarSin_32750`.
 * Change the colour styles if necessary.
   
 We want to classify these villages by area, but there is a problem: they do not have
@@ -283,13 +283,10 @@ That's where rule-based classification comes in handy.
 * Click the :guilabel:`Add` button.
 * A new dialog that appears.
 * Click the ellipsis :guilabel:`...` button next to the :guilabel:`Filter` text area.
-* Using the query builder that appears, enter the criterion :kbd:`AREA >=
-  30000000` and choose a light color for it.
+* Using the query builder that appears, enter the criterion :kbd:`AREA >= 30000000` and choose a light color for it.
 * Add the criterion :kbd:`AREA <= 30000000` and choose a dark color.
-* Add the criterion :kbd:`DESA = 'Ajakkang'` and assign it the color
-  black, with transparency at :kbd:`35%`.
-* Use the :guilabel:`Rendering order` to render the layers correctly so Ajakkang is 
-visible.
+* Add the criterion :kbd:`DESA = 'Ajakkang'` and assign it the color black, with transparency at :kbd:`35%`.
+* Use the :guilabel:`Rendering order` to render the layers correctly so Ajakkang is visible.
 
 Your dialog should look like this:
 

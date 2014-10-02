@@ -2,9 +2,7 @@
 ===============================================================================
 There are two ways we can join layers together:
 
-* we can use the *Join by location* tool to create a new layer combining the attributes 
-from two different layers, or, 
-
+* we can use the *Join by location* tool to create a new layer combining the attributes from two different layers, or, 
 * we can join using a single matching attribute.
 
 
@@ -118,12 +116,11 @@ QGIS 1.8 onwards, you are able to load an *Excel* file directly into QGIS as wel
 
 .. note::  QGIS 1.8 will import Excel files saved as .xls, NOT in the newer .xlsx format. 
 	
-	If you are using QGIS 2.0 onwards, it should be able to import an .xlsx file.
+If you are using QGIS 2.0 onwards, it should be able to import an .xlsx file.
 
 ::
 
-The second way is using the supplied user login details to connect directly with 
-the database.
+The second way is using the supplied user login details to connect directly with the database.
 
 .. image:: ../_static/ISIKHNAS/025c.png
    :align: center

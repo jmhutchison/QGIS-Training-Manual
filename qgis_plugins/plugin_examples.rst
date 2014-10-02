@@ -113,8 +113,7 @@ download and edit this kind of data easily.
 * The :guilabel:`OpenStreetMap plugin` should be installed by default, but if
   it isn't, you can get it by clicking the :guilabel:`Install plugin` button.
 * Once it's installed, activate it via the :guilabel:`Plugin Manager`.
-* A new buttons and, if activated in :menuselection:`View --> Panels --> OSM Feature`, 
-a new panel will be added to your interface:
+* A new buttons and, if activated in :menuselection:`View --> Panels --> OSM Feature`, a new panel will be added to your interface:
 
   .. image:: ../_static/qgis_plugins/007.png
      :align: center
@@ -174,6 +173,7 @@ buttons in the plugin's dock panel will become active:
 .. 
 * Double-click in the :guilabel:`<new tag here>` field.
 * Select a new tag (attribute) from a list. Let's choose :guilabel:`name`:
+
 
   .. image:: ../_static/qgis_plugins/016.png
      :align: center

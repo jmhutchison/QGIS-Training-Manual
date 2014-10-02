@@ -75,7 +75,7 @@ that you should have created in section 16.2.2 **Try yourself... Project the rem
 
 ::
 
-Again, we move to the *Vector* menu, hover over the *Geoprocessing Tools*, and select *Clip*.
+Again, we move to the *Vector* menu, hover over the *Geoprocessing Tools*, and select *Clip*. 
 
 .. image:: ../_static/ISIKHNAS/019.png
    :align: center

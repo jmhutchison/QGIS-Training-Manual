@@ -289,7 +289,7 @@ The settings you used might not be the same, but with the values
 
 :ref:`Back to text <backlink-classification-refine-1>`
 
-
+.. 
 .. |RF| *Creating a New Vector Dataset*
 .. -------------------------------------------------------------------------------
 .. 
@@ -432,12 +432,9 @@ Your layer should now have these roads:
 .. image:: ../_static/vector_analysis/017.png
    :align: center
 
-* Save this new layer (the same way you did before) under
-  :kbd:`exercise_data/residential_development/`, as :kbd:`important_roads.shp`.
+* Save this new layer (the same way you did before) under :kbd:`exercise_data/residential_development/`, as :kbd:`important_roads.shp`.
 * Once the new layer has been added to your map, remove the old layer.
-* If for some reason it gives you an error message saying that it can't add the
-  layer to the map (this can happen), remember that you can add the layer
-  yourself by using the :guilabel:`Add Vector Layer` button as you did before.
+* If for some reason it gives you an error message saying that it can't add the layer to the map (this can happen), remember that you can add the layer yourself by using the :guilabel:`Add Vector Layer` button as you did before.
 
 :ref:`Back to text <backlink-vector-analysis-basic-1>`
 
@@ -451,28 +448,26 @@ Your layer should now have these roads:
   .. image:: ../_static/vector_analysis/024.png
      :align: center
 
-  The :guilabel:`Buffer distance` is :kbd:`10000` meters (i.e., :kbd:`10`
-  kilometers).
+The :guilabel:`Buffer distance` is :kbd:`10000` meters (i.e., :kbd:`10` kilometers).
 
-* The :guilabel:`Segments to approximate` value is set to :kbd:`20`. This is
-  optional, but it's recommended, because it makes the output buffers look
-  smoother.  Compare this:
+* The :guilabel:`Segments to approximate` value is set to :kbd:`20`. This is optional, but it's recommended, because it makes the output buffers look smoother.  
+Compare this:
 
-  .. image:: ../_static/vector_analysis/025.png
-     :align: center
+.. image:: ../_static/vector_analysis/025.png
+   :align: center
 
-  To this:
+To this:
 
-  .. image:: ../_static/vector_analysis/026.png
-     :align: center
+.. image:: ../_static/vector_analysis/026.png
+   :align: center
 
-  The red circle is the buffer with :guilabel:`Segments to approximate` set to
-  :kbd:`20`; the gray circle on top of it is the buffer with
-  :guilabel:`Segments to approximate` set to :kbd:`5`.
+The red circle is the buffer with :guilabel:`Segments to approximate` set to
+:kbd:`20`; the gray circle on top of it is the buffer with
+:guilabel:`Segments to approximate` set to :kbd:`5`.
 
 :ref:`Back to text <backlink-vector-analysis-basic-2>`
 
-
+.. 
 .. |RF| *Raster Analysis*
 .. -------------------------------------------------------------------------------
 .. 

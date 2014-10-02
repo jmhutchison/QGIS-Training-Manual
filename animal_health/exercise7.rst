@@ -18,28 +18,28 @@ Often you might receive data in the form of a spreadsheet, so it is important to
 load this data into QGIS.
 
 Data is supplied in this way is often in a CSV file, which is a delimited text file. To load 
-these types of files, we will use the "Add Delimited Text Layer" plugin:
+these types of files, we will use the "Add Delimited Text Layer" plugin: 
 
 .. image:: ../_static/ISIKHNAS/033.png
    :align: center
    
- Click on this button, and the following dialog will open:
+Click on this button, and the following dialog will open:
  
  .. image:: ../_static/ISIKHNAS/034.png
    :align: center
    
- Browse to the course exercise data, and load :kbd:`PointData.csv` from the folder *ISIKHNAS*. This is 
- just randomly generated point data to use for this exercise.
- 
- The plugin does a very good job of reviewing the information contained in the file, but you will 
- need to give it some guidance. In this file, the delimiter is a comma, so we need to select "Comma" as 
- the delimiter.
- 
- Your dialog box now looks like this:
- 
- .. image:: ../_static/ISIKHNAS/035.png
-   :align: center
-   
+Browse to the course exercise data, and load :kbd:`PointData.csv` from the folder *ISIKHNAS*. This is 
+just randomly generated point data to use for this exercise.
+
+The plugin does a very good job of reviewing the information contained in the file, but you will 
+need to give it some guidance. In this file, the delimiter is a comma, so we need to select "Comma" as 
+the delimiter.
+
+Your dialog box now looks like this:
+
+.. image:: ../_static/ISIKHNAS/035.png
+  :align: center
+  
 Click on the :kbd:`OK` button. You will now be asked to specify the CRS. This should make you think 
 about what format the data was collected in. For now we will select WGS 84 EPSG:4326. Click :kbd:`OK`.
 
@@ -67,5 +67,3 @@ may be asked to carry out by your supervisor.
 It is only a small example of what you can do using the QGIS software. If you are interested, do not be 
 afraid to explore the software. Use the internet to search for new ways to create particular maps, or 
 investigate different ways of doing things.
-
- 

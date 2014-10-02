@@ -51,20 +51,15 @@ QGIS allows you to reproject data "on the fly". What this means is that even if
 the data itself is in another CRS, QGIS can project it as if it were in a CRS
 of your choice.
 
-* To enable "on the fly" projection, click on the :guilabel:`CRS Status` button
-  in the :guilabel:`Status Bar` along the bottom of the QGIS window:
+* To enable "on the fly" projection, click on the :guilabel:`CRS Status` button in the :guilabel:`Status Bar` along the bottom of the QGIS window:
 
 .. image:: ../_static/vector_analysis/001.png
    :align: center
 
-* In the dialog that appears, check the box next to :guilabel:`Enable 'on the
-  fly' CRS transformation`. 
-* Type the word :kbd:`global` into the :guilabel:`Filter` field. One CRS
-  (:guilabel:`NSIDC EASE-Grid Global`) will appear in the list below.
+* In the dialog that appears, check the box next to :guilabel:`Enable 'on the fly' CRS transformation`. 
+* Type the word :kbd:`global` into the :guilabel:`Filter` field. One CRS (:guilabel:`NSIDC EASE-Grid Global`) will appear in the list below.
 * Click on it to select it, then click :kbd:`OK`.
-
-* Notice how the shape of Indonesia changes. All projections work by
-  changing the apparent shapes of objects on Earth.
+* Notice how the shape of Indonesia changes. All projections work by changing the apparent shapes of objects on Earth.
 * Zoom in to a scale of :kbd:`1:5000000` again, as before.
 * Pan around the map.
 * Notice how the scale stays the same!
@@ -151,17 +146,17 @@ reproject this layer so it is the same as our :guilabel:`continents` layer.
 * Choose :guilabel:`WGS 84 EPSG:4326` from the list.
 * Click :guilabel:`OK`.
 
-The :guilabel:`Save vector layer as...` dialog now looks like this:
+The :guilabel:`Save vector layer as...` dialog now looks like this: 
 
 .. image:: ../_static/vector_analysis/004.png
    :align: center
 
-* Click :guilabel:`OK` and after an instant, you should be presented with:
+* Click :guilabel:`OK` and after an instant, you should be presented with: 
 
 .. image:: ../_static/vector_analysis/005.png
    :align: center
 
-* Click :guilabel:`OK`.
+* Click :guilabel:`OK`. 
 
 Now both layers have the same projection and are displayed correctly, without the need for "On the fly".
 
@@ -254,24 +249,24 @@ represented accurately.
 .. .. image:: ../_static/vector_analysis/011.png
 ..    :align: center
 .. 
-.. |IC|
-.. -------------------------------------------------------------------------------
-.. 
-.. Different projections are useful for different purposes. By choosing the
-.. correct projection, you can ensure that the features on your map are being
-.. represented accurately.
-.. 
-.. |FR|
-.. -------------------------------------------------------------------------------
-.. 
+ |IC|
+ -------------------------------------------------------------------------------
+ 
+ Different projections are useful for different purposes. By choosing the
+ correct projection, you can ensure that the features on your map are being
+ represented accurately.
+ 
+ |FR|
+ -------------------------------------------------------------------------------
+ 
 .. Materials for the *Advanced* section of this lesson were taken from `this
 .. article <http://tinyurl.com/75b92np>`_.
-.. 
-.. Further information on Coordinate Reference Systems is available `here
-.. <http://linfiniti.com/dla/worksheets/7_CRS.pdf>`_.
-.. 
-.. |WN|
-.. -------------------------------------------------------------------------------
-.. 
-.. In the next lesson you'll learn how to analyze vector data using QGIS' various
-.. vector analysis tools.
+ 
+ Further information on Coordinate Reference Systems is available `here
+ <http://linfiniti.com/dla/worksheets/7_CRS.pdf>`_.
+ 
+ |WN|
+ -------------------------------------------------------------------------------
+ 
+ In the next lesson you'll learn how to analyze vector data using QGIS' various
+ vector analysis tools.

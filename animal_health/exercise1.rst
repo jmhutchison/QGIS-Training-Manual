@@ -212,13 +212,12 @@ attribute table.
 
 .. note::  Notice the *Case sensitive* option. It is best to leave this box unticked. 
 
-	That way your search will return results for *Chicken* and *chicken,* and any other variations of sentence case.
+That way your search will return results for *Chicken* and *chicken,* and any other variations of sentence case.
 
 ::
 
-However, we don't want just chickens, we want all poultry that are recorded with *poultry mortality* 
-as the syndrome. 
-To select these records, we need to use the *Advanced search* features.
+However, we do not want just chickens, we want all poultry that are recorded with *poultry mortality* as the syndrome. 
+To select these records, we need to use the *Advanced search* features. 
 
 |moderate| |FA| Selecting records using SQL (Simple Query Language)
 --------------------------------------------------------------------------------
@@ -256,12 +255,11 @@ mortality recorded in poultry in Sulawesi Selatan.
 .. image:: ../_static/ISIKHNAS/012.png
    :align: center
 
-.. note::  We have used the *Advanced Labeling* tool referred to in Section 4.2.1 *Using labels* to 
-	show the labels of each of the districts.
+.. note::  We have used the *Advanced Labeling* tool referred to in Section 4.2.1 *Using labels* to show the labels of each of the districts.
 
 ::
 	
-Save your project.
+Save your project. 
 
 |moderate| |TY| Selection using SQL
 --------------------------------------------------------------------------------
