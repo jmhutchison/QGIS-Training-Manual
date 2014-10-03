@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-10 15:16+1000\n"
+"POT-Creation-Date: 2014-10-02 14:39+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -753,7 +753,6 @@ msgstr ""
 #: ../../create_vector_data/actions.rst:305
 #: ../../create_vector_data/create_new_vector.rst:248
 #: ../../create_vector_data/forms.rst:207
-#: ../../create_vector_data/topo_editing.rst:319
 msgid "|IC|"
 msgstr "Kesimpulan"
 
@@ -778,7 +777,6 @@ msgstr ""
 #: ../../create_vector_data/actions.rst:313
 #: ../../create_vector_data/create_new_vector.rst:260
 #: ../../create_vector_data/forms.rst:223
-#: ../../create_vector_data/topo_editing.rst:326
 msgid "|WN|"
 msgstr "Apa Selanjutnya?"
 
@@ -949,7 +947,8 @@ msgstr "Arahkan ke direktori  :kbd:`exercise_data`."
 
 # be75303b5edd483987ee4d108d1e255a
 #: ../../create_vector_data/create_new_vector.rst:72
-msgid "Save your new layer as :kbd:`school_property.shp`."
+#, fuzzy
+msgid "Save your new layer as :kbd:`university_property.shp`."
 msgstr "Simpan layer baru anda sebagai:kbd:`school_property.shp`."
 
 # c3738b8c381f4f78965999284ffea0ea
@@ -1010,7 +1009,8 @@ msgstr "Arahkan ke :kbd:`exercise_data/raster/`."
 
 # 5ec8755cd2534fef84c0c2e50cce9b4b
 #: ../../create_vector_data/create_new_vector.rst:99
-msgid "Select the file :kbd:`3420C_2010_327_RGB_LATLNG.tif`."
+#, fuzzy
+msgid "Select the file :kbd:`ITB_raster.tif`."
 msgstr "Pilih file :kbd:`3420C_2010_327_RGB_LATLNG.tif`."
 
 # d43a1a0842924ba389daefac4944a4e8
@@ -1023,20 +1023,6 @@ msgstr "Klik :guilabel:`Open`. Sebuah peta akan termuat pada peta Anda."
 msgid "Find the new image in the :guilabel:`Layers list`."
 msgstr "Cari citra tersebut dalam :guilabel:`Layers list`."
 
-# e086b8c69e7341dda84fc6cf45d5a1e4
-#: ../../create_vector_data/create_new_vector.rst:102
-msgid ""
-"Click and drag it to the bottom of the list so that you can still see your "
-"other layers."
-msgstr ""
-"Klik dan seret ke bagian bawah Layer list sehingga  layer yang lain dapat "
-"terlihat."
-
-# d10b1210a2d04ff8ac12404c1a19533a
-#: ../../create_vector_data/create_new_vector.rst:104
-msgid "Find and zoom to this area:"
-msgstr "Temukan dan perbesar daerah ini :"
-
 # e8dc7679c30e4489ab25e05dab2fc595
 #: ../../create_vector_data/create_new_vector.rst:109
 msgid "You'll be digitizing these three fields:"
@@ -1044,9 +1030,10 @@ msgstr "Anda akan mendigitasi tiga bidang di sini:"
 
 # 19a73eedcfdd42cabcb4d90e0a68ed8e
 #: ../../create_vector_data/create_new_vector.rst:114
+#, fuzzy
 msgid ""
-"Hide all the layers except the raster and the :guilabel:`school_property` "
-"layer."
+"Hide all the layers except the raster and the :guilabel:"
+"`university_property` layer."
 msgstr ""
 "Sembunyikan semua layer kecuali  layer raster dan :guilabel:"
 "`school_property`."
@@ -1066,16 +1053,18 @@ msgstr ""
 
 # 0f01ea3d494a462c9efe0021b10cc39f
 #: ../../create_vector_data/create_new_vector.rst:121
-msgid "To enter edit mode for the :guilabel:`school_property` layer:"
+#, fuzzy
+msgid "To enter edit mode for the :guilabel:`university_property` layer:"
 msgstr ""
 "Untuk masuk ke  mode edit untuk layer :guilabel:`school_property` layer:"
 
 # 73e3e81221bf48699f558558bc30caf8
 #: ../../create_vector_data/create_new_vector.rst:123
+#, fuzzy
 msgid ""
-"Click on the layer in the :guilabel:`Layer list` to select it. (Make very "
-"sure that the correct layer is selected, otherwise you'll edit the wrong "
-"layer!)"
+"Right click on the layer in the :guilabel:`Layer list` to select it. (Make "
+"very sure that the correct layer is selected, otherwise you'll edit the "
+"wrong layer)"
 msgstr ""
 "Klik pada layer didalam  Layer list untuk memilihnya. (Pastikan bahwa layer "
 "yang benar telah dipilih, supaya tidak mengedit layer yang salah!)"
@@ -1200,7 +1189,8 @@ msgstr ""
 
 # 2a8d3b42ace245cca32957e57c121823
 #: ../../create_vector_data/create_new_vector.rst:168
-msgid "The first feature you'll be digitizing is the athletics field:"
+#, fuzzy
+msgid "The first feature you'll be digitizing is the tennis courts:"
 msgstr "Fitur pertama yang akan didigitasi adalah lapangan olahraga:"
 
 # b8049046f63c46e4958d7de016c1f565
@@ -1295,21 +1285,23 @@ msgstr ""
 # eb664a5b688547cd8d6fd6bfa1ce287d
 # 402b4ee258df4a0989563753a31b5b07
 #: ../../create_vector_data/create_new_vector.rst:206
-#: ../../create_vector_data/create_new_vector.rst:221
 msgid "|basic| |TY|"
 msgstr "|basic| Coba Sendiri..."
 
 # d3d8057eace94a85a1058f20cb6c860b
 #: ../../create_vector_data/create_new_vector.rst:208
+#, fuzzy
 msgid ""
-"Digitize the school itself and the upper field. Use this image to assist you:"
+"Digitize the athletics field and the swimming pools. Use this image to "
+"assist you:"
 msgstr ""
 "Digitasi sekolah itu dan apangan diatasnya. Gunakan gambar ini untuk "
 "membantu Anda:"
 
 # 21005a5a837a4458a758121383440423
 #: ../../create_vector_data/create_new_vector.rst:213
-msgid "Remember that each new feature needs to have a unique :kbd:`id` value!"
+#, fuzzy
+msgid "Remember that each new feature needs to have a unique :kbd:`id` value."
 msgstr "Ingat bahwa setiap fitur baru perlu memiliki nilai :kbd:`id` unik!"
 
 # 9e0c49eab36e4140bfad13d11d27df4a
@@ -1321,66 +1313,16 @@ msgstr ""
 "Ketika Anda sudah menyelesaikan pengisian fitur ke layer: jangan lupa untuk "
 "menyimpan hasil editan Anda dan kemudian keluar dari mode edit."
 
-# be0474bb596f45778dd1a91745105c10
-#: ../../create_vector_data/create_new_vector.rst:223
-msgid ""
-"Create a new line feature called :kbd:`river.shp` with attributes :kbd:`id` "
-"and :kbd:`type`. (Use the approach above to guide you.)"
-msgstr ""
-"Buat garis fitur baru yang disebut :kbd:`river.shp` dengan atribut :kbd:"
-"`id`  dan :kbd:`type`. (Gunakan pendekatan di atas untuk membimbing Anda)"
-
-# 3d0c53fa80174c0d84c418100b74ee85
-#: ../../create_vector_data/create_new_vector.rst:225
-msgid "Digitize the river that runs through town."
-msgstr "Digitasi sungai yang mengalir sepanjang kota"
-
-# 41e2ee304ccd45d4afc4cc9c97323970
-#: ../../create_vector_data/create_new_vector.rst:227
-msgid "Start where the sandy riverbanks first become visible:"
-msgstr "Mulai dari tepi sungai berpasir yang pertama terlihat :"
-
-# ebcb5305f50441c6b535089ccf8c1271
-#: ../../create_vector_data/create_new_vector.rst:232
-msgid "And stop when our river joins another river:"
-msgstr "Dan berhenti ketika sungai sudah bergabung dengan sungai lainnya:"
-
-# 6678152a07e1436f98544528db2d11c3
-#: ../../create_vector_data/create_new_vector.rst:237
-msgid ""
-"It's not always clear where the river runs. In such cases, use your better "
-"judgment and estimate where the river goes. Remember that you're capturing "
-"the river at a large scale, so try to follow it in detail. Take some time, "
-"don't let the line become too straight or make the corners too sharp!"
-msgstr ""
-"Aliran sungainya tidak selalu terihat sehingga lebih baik menggunakan "
-"penilaian Anda dan perkiraan dimana aliran sungai itu. Ingat bahwa Anda "
-"mendigitasi sungai pada skala besar, jadi cobalah untuk mengikutinya secara "
-"detil. Luangkan waktu, jangan biarkan baris menjadi terlalu lurus atau "
-"membuat sudut terlalu tajam!"
-
-# 9032304bcd4f4748ac4717bcbb826c2b
-#: ../../create_vector_data/create_new_vector.rst:242
-msgid ""
-"When creating the feature, give it the :kbd:`type` attribute value of \":kbd:"
-"`stream`\"."
-msgstr ""
-"Ketika membuat fitur tersebut , berikan nilai atribut :kbd:`type` sebagai  "
-"\":kbd:`stream`\"."
-
-# 965495fd36a94a9ab85285caf53e7d84
-#: ../../create_vector_data/create_new_vector.rst:245
-msgid ":ref:`Check your results <create-vector-digitize-1>`"
-msgstr ":ref:`Periksa hasil Anda <create-vector-digitize-1>`"
-
 # fe7b6978bcc74fc6aeebc6e9138ceaab
 #: ../../create_vector_data/create_new_vector.rst:250
+#, fuzzy
 msgid ""
-"Now you know how to create features! This course doesn't cover adding point "
-"features, because that's not really necessary once you've worked with more "
-"complicated features (lines and polygons). It works exactly the same, except "
-"that you only click once where you want the point to be, give it attributes "
-"as usual, and then the feature is created."
+"This lesson has shown you how to create new features in your dataset. This "
+"course doesn't cover adding point features, because that's not really "
+"necessary now you have worked with more complicated features (lines and "
+"polygons). Adding point features works exactly the same, except that you "
+"only click once where you want the point to be, give it attributes as usual, "
+"and then the feature is created."
 msgstr ""
 "Sekarang Anda tahu cara membuat fitur! Latihan ini tidak meliputi "
 "menambahkan fitur titik, karena itu tidak terlalu diperlukan ketika Anda "
@@ -1397,18 +1339,16 @@ msgstr ""
 "Mengetahui bagaimana digitasi penting karena hal itu merupakan kegiatan yang "
 "sangat umum dalam program GIS."
 
-# f7585a8d3e2846cda873da5b091bb5da
+# f5c4d3c750f446648b065383085b351b
 #: ../../create_vector_data/create_new_vector.rst:262
+#, fuzzy
 msgid ""
-"Features in a GIS layer aren't just pictures, but objects in space. For "
-"example, adjacent polygons know where they are in relation to one another. "
-"This is called *topology*. In the next lesson you'll see an example of why "
-"this can be useful."
+"Now that you have been introduced to vector data creation, you can learn how "
+"to analyze this data to solve problems. That is the topic of the next module."
 msgstr ""
-"Fitur pada sebuah layer SIG tidak hanya gambar, tapi juga benda di ruang. "
-"Misalnya, polygon yang  berdekatan mengetahui di mana mereka dalam kaitannya "
-"dengan satu sama lain. Inilah yang disebut dengan *topology*. Dalam "
-"pelajaran berikutnya Anda akan melihat contoh mengapa ini bisa bermanfaat."
+"Anda telah menyelesaikan semua jenis pembuatan data vector. Materi latihan "
+"selanjutnya adalah belajar bagaimana menganalisis data untuk penyelesaian "
+"masalah."
 
 # 02cd003272ed4649bbb7e7643b2d2cc1
 #: ../../create_vector_data/forms.rst:2
@@ -1667,7 +1607,6 @@ msgstr ""
 # 9fb6866b27ad49b5b55abf34e0084238
 # f59154f30915467d9f77cfff7978999b
 #: ../../create_vector_data/forms.rst:108
-#: ../../create_vector_data/topo_editing.rst:108
 msgid "|moderate| |TY|"
 msgstr "|moderate| Coba Sendiri..."
 
@@ -1990,11 +1929,6 @@ msgstr ""
 "modul ini, Anda akan mempelajari bagaimana memodifikasi data vektor yang "
 "sudah tersedia dan membuat sebuah dataset yang sama sekali baru."
 
-# 83a1727827674915822e11685c3897c6
-#: ../../create_vector_data/topo_editing.rst:2
-msgid "|LS| Feature Topology"
-msgstr "Pelajaran: Topologi Fitur"
-
 # 3785431e020e4c5dbe05c4ff8e03ea0f
 #: ../../create_vector_data/topo_editing.rst:4
 msgid ""
@@ -2023,11 +1957,6 @@ msgid "**The goal for this lesson:** To understand topology using examples."
 msgstr ""
 "**Tujuan dari pelajaran ini:** Untuk memahami topologi menggunakan contoh-"
 "contoh."
-
-# 9a97e73d981542a7b90fad360944cabd
-#: ../../create_vector_data/topo_editing.rst:15
-msgid "|moderate| |FA| Snapping"
-msgstr "|moderate| Ikuti bersama: Snapping"
 
 # e63368199c9e46f2b94c809f7448274e
 #: ../../create_vector_data/topo_editing.rst:17
@@ -2123,11 +2052,6 @@ msgstr ""
 #: ../../create_vector_data/topo_editing.rst:55
 msgid "Those buttons will become your best friends..."
 msgstr "Tombol tersebut mungkin akan sering Anda gunakan...."
-
-# 89d6ef8e07fb4e399620800db050f562
-#: ../../create_vector_data/topo_editing.rst:58
-msgid "|moderate| |FA| Closing the Gaps"
-msgstr "|moderate| Ikuti bersama: Menutup gap"
 
 # 535e48d122184f86a47a9ea03993d9ef
 #: ../../create_vector_data/topo_editing.rst:60
@@ -2243,13 +2167,8 @@ msgstr ""
 msgid ":ref:`Check your results <create-vector-topology-3>`"
 msgstr ":ref:`Periksa hasil anda <create-vector-topology-3>`"
 
-# a22bbbba973249a88f7cc8fb421a5afb
-#: ../../create_vector_data/topo_editing.rst:118
-msgid "|moderate| |FA| Correct topology errors"
-msgstr "|moderate| Ikuti bersama : Mengoreksi kesalahan topologi"
-
 # 44e59cbb1cb840c291f56a4e0b80a77a
-#: ../../create_vector_data/topo_editing.rst:120
+#: ../../create_vector_data/topo_editing.rst:119
 msgid ""
 "Topology errors aren't always immediately visible. Let's change the :"
 "guilabel:`rural` layer's symbology to see some of them."
@@ -2258,7 +2177,7 @@ msgstr ""
 "layer rural untuk melihat beberapa kesalahan topologinya."
 
 # c5c0403bfae5458eada836d4791a496b
-#: ../../create_vector_data/topo_editing.rst:123
+#: ../../create_vector_data/topo_editing.rst:122
 msgid ""
 "Set the symbology for the :guilabel:`rural` layer to a single (preferably "
 "dark) color."
@@ -2267,17 +2186,17 @@ msgstr ""
 "gelap)."
 
 # be24aaa9211a48f4b30a4db2ab466762
-#: ../../create_vector_data/topo_editing.rst:125
+#: ../../create_vector_data/topo_editing.rst:124
 msgid "Set its :guilabel:`Transparency` slider to :kbd:`50%`."
 msgstr "Atur nilai :guilabel:`Transparency` menjadi :kbd:`50%`."
 
 # 6847a3b33cb64ff7bd8260ce764873f4
-#: ../../create_vector_data/topo_editing.rst:126
+#: ../../create_vector_data/topo_editing.rst:125
 msgid "You should see results like these:"
 msgstr "Anda harus melihat hasilnya seperti berikut:"
 
 # 1f0b96b7e04043c09dec4230544a601e
-#: ../../create_vector_data/topo_editing.rst:131
+#: ../../create_vector_data/topo_editing.rst:130
 msgid ""
 "There are several things to notice here. First, the new farm you added is "
 "lighter than the others. This is because in this dataset, there are several "
@@ -2296,7 +2215,7 @@ msgstr ""
 "masalah."
 
 # e36f955336d045c48b9a38bff133ee9b
-#: ../../create_vector_data/topo_editing.rst:138
+#: ../../create_vector_data/topo_editing.rst:137
 msgid ""
 "But you can also notice a definite problem: one of the farms is going "
 "underneath another one!  Obviously this is a mistake, because in the real "
@@ -2308,22 +2227,22 @@ msgstr ""
 "bidang pertanian tidak mempunyai pembagian yang sama."
 
 # b0438494ccd849058dd1646524c14d5d
-#: ../../create_vector_data/topo_editing.rst:142
+#: ../../create_vector_data/topo_editing.rst:141
 msgid "Let's correct this!"
 msgstr "Mari kita perbaiki!"
 
 # 58b1178fda904527aab3a2bc9865892a
-#: ../../create_vector_data/topo_editing.rst:144
+#: ../../create_vector_data/topo_editing.rst:143
 msgid "Enter edit mode, if it isn't active already."
 msgstr "Masuk ke mode  edit, jika belum diaktifkan."
 
 # 036478e690da45aa8f9a9e8b556223bc
-#: ../../create_vector_data/topo_editing.rst:145
+#: ../../create_vector_data/topo_editing.rst:144
 msgid "Select the :guilabel:`Node Tool`."
 msgstr "Pilih  :guilabel:`Node Tool`."
 
 # cc037c03ebcb40a0a6394c5e5e9e0eb8
-#: ../../create_vector_data/topo_editing.rst:146
+#: ../../create_vector_data/topo_editing.rst:145
 msgid ""
 "Click on one of the corners of the problematic farm. This will select that "
 "farm for editing and you'll see all the nodes appear:"
@@ -2333,32 +2252,27 @@ msgstr ""
 "berikut muncul:"
 
 # 0665bc319e78475aa92301cb3703b99b
-#: ../../create_vector_data/topo_editing.rst:152
+#: ../../create_vector_data/topo_editing.rst:151
 msgid "Click and drag the nodes until they snap into place."
 msgstr "Klik dan geser node-node tersebut  sampai snap pada tempatnya."
 
 # dca6c9713c5740febad45552e8188c33
-#: ../../create_vector_data/topo_editing.rst:157
+#: ../../create_vector_data/topo_editing.rst:156
 msgid "The topologically correct border looks like this:"
 msgstr "Batas yang benar secara topologi terlihat seperti berikut:"
 
-# ff6323c73f774a71b65370fd3b6cbcd6
-#: ../../create_vector_data/topo_editing.rst:163
-msgid "|moderate| |FA| Tool: Simplify Feature"
-msgstr "Ikuti bersama: Tool: Simplify Feature"
-
 # db03f7e10ddc484fa17f1145499a8657
-#: ../../create_vector_data/topo_editing.rst:165
+#: ../../create_vector_data/topo_editing.rst:164
 msgid "This is the :guilabel:`Simplify Feature` tool:"
 msgstr "Berikut adalah tool :guilabel:`Simplify Feature`:"
 
 # b32191fa19b1409593f6c3b8de33c200
-#: ../../create_vector_data/topo_editing.rst:170
+#: ../../create_vector_data/topo_editing.rst:169
 msgid "Click on it to activate it."
 msgstr "Klik pada tool tersebut untuk mengaktifkannya."
 
 # 3726519079dd4fb0aec7baa49316c232
-#: ../../create_vector_data/topo_editing.rst:171
+#: ../../create_vector_data/topo_editing.rst:170
 msgid ""
 "Click on the new farm you created previously. You'll be presented with this "
 "dialog:"
@@ -2367,12 +2281,12 @@ msgstr ""
 "kotak dialog sebagai berikut:"
 
 # 5ac0e8f423074e459b42b8e065d21756
-#: ../../create_vector_data/topo_editing.rst:177
+#: ../../create_vector_data/topo_editing.rst:176
 msgid "Move the slider from side to side and watch what happens:"
 msgstr "Pindahkan slider dari sisi ke sisi dan lihat apa yang terjadi:"
 
 # b584aedabf614f849d6aee92fd83fef4
-#: ../../create_vector_data/topo_editing.rst:182
+#: ../../create_vector_data/topo_editing.rst:181
 msgid ""
 "This allows you to recude the amount of nodes in complex features. However, "
 "notice what it does to the topology! The simplified farm is now no longer "
@@ -2389,33 +2303,28 @@ msgstr ""
 "yang akan terjadi sebelum Anda mengimplementasikannya."
 
 # 837bcd95465a4a0b93383b01464d32bd
-#: ../../create_vector_data/topo_editing.rst:189
+#: ../../create_vector_data/topo_editing.rst:188
 msgid "Before you go on, get the farm back in its previous state. Either:"
 msgstr "Sebelum Anda lanjut, kembalikan lahan pertanian ke posisi sebelumnya:"
 
 # 72daced3e8bd44cc948cb65b53c70bc9
-#: ../../create_vector_data/topo_editing.rst:191
+#: ../../create_vector_data/topo_editing.rst:190
 msgid "cancel the :guilabel:`Simplify Feature` dialog, or"
 msgstr "Batalkan kotak dialog :guilabel:`Simplify Feature, atau"
 
 # dcf02df278b14a1e84544d86338dcef7
-#: ../../create_vector_data/topo_editing.rst:192
+#: ../../create_vector_data/topo_editing.rst:191
 msgid "if you already clicked :guilabel:`OK`, just undo the last change."
 msgstr ""
 "Jika Anda telah klik :guilabel:`OK`, lakukan undo pada perubahan terakhir."
 
-# c0f91da1aa7e475c8f04d07e0d8da8e8
-#: ../../create_vector_data/topo_editing.rst:198
-msgid "|moderate| |TY| Tool: Add Ring"
-msgstr "|moderate| Coba sendiri... Tool: Add Ring"
-
 # 89d468321b7b4d5ea7bcbd654534becd
-#: ../../create_vector_data/topo_editing.rst:200
+#: ../../create_vector_data/topo_editing.rst:199
 msgid "This is the :guilabel:`Add Ring` tool:"
 msgstr "Berikut adalah tool :guilabel:`Add Ring`:"
 
 # f40474dadf20480c899e2d8815f71afd
-#: ../../create_vector_data/topo_editing.rst:205
+#: ../../create_vector_data/topo_editing.rst:204
 msgid ""
 "It allows you to take a hole out of a feature, as long as the hole is "
 "bounded on all side by the feature. For example, if you've digitized the "
@@ -2428,7 +2337,7 @@ msgstr ""
 "untuk Lesotho, Anda akan menggunakan tool ini."
 
 # 8c0088b3fd704c0e94f31cdf6ba762a4
-#: ../../create_vector_data/topo_editing.rst:210
+#: ../../create_vector_data/topo_editing.rst:209
 msgid "Try using this tool to create a gap in the middle of your farm."
 msgstr ""
 "Cobalah menggunakan tool ini untuk membuat gap di pertengahan layer farm  "
@@ -2436,28 +2345,23 @@ msgstr ""
 
 # 7035d4f938bf4767b85ba6bbad1a3c6b
 # 8b3fb460be2b46a199863074b1b6ba42
-#: ../../create_vector_data/topo_editing.rst:211
-#: ../../create_vector_data/topo_editing.rst:232
+#: ../../create_vector_data/topo_editing.rst:210
+#: ../../create_vector_data/topo_editing.rst:231
 msgid "Undo the edit when you are done."
 msgstr "Undo edit ketika Anda selesai."
 
 # e5170aab51c2442bad444f7b3c544dd8
-#: ../../create_vector_data/topo_editing.rst:213
+#: ../../create_vector_data/topo_editing.rst:212
 msgid ":ref:`Check your results <create-vector-topology-1>`"
 msgstr ":ref:`Periksa hasil anda <create-vector-topology-1>`"
 
-# bad92e43f4054325860a32adddd37c2b
-#: ../../create_vector_data/topo_editing.rst:219
-msgid "|moderate| |TY| Tool: Add Part"
-msgstr "|moderate| Coba sendiri... Tool: Add Part"
-
 # d9ea0d6bf097414f9821290578216132
-#: ../../create_vector_data/topo_editing.rst:221
+#: ../../create_vector_data/topo_editing.rst:220
 msgid "This is the :guilabel:`Add Part` tool:"
 msgstr "Berikut adalah tool :guilabel:`Add Part`:"
 
 # 7c01bac613164063aa31b5ad6e6fca42
-#: ../../create_vector_data/topo_editing.rst:226
+#: ../../create_vector_data/topo_editing.rst:225
 msgid ""
 "It allows you to create an extra part of the feature, not directly connected "
 "to the main feature. For example, if you've digitized the boundaries of "
@@ -2471,24 +2375,19 @@ msgstr ""
 "membuatnya:"
 
 # 8b08e68847fc42e9a952c2f911e44aa3
-#: ../../create_vector_data/topo_editing.rst:231
+#: ../../create_vector_data/topo_editing.rst:230
 msgid "Try using this tool to add an outlying property to your farm."
 msgstr ""
 "Coba gunakan tool ini untuk menambahkan properti terpencil ke dalam "
 "pertanian Anda."
 
 # 6a03e7a0cbcd4b7bb570c00e50c919d4
-#: ../../create_vector_data/topo_editing.rst:234
+#: ../../create_vector_data/topo_editing.rst:233
 msgid ":ref:`Check your results <create-vector-topology-2>`"
 msgstr ":ref:`Periksa hasil anda <create-vector-topology-2>`"
 
-# 133976205b0c4a868991c555762d5b80
-#: ../../create_vector_data/topo_editing.rst:238
-msgid "|moderate| |TY| Tools: Delete Ring and Delete Part"
-msgstr "|moderate| Coba sendiri... Tool : Delete Ring dan Delete Part"
-
 # 8956edce30894c47b4b6f290a790fe88
-#: ../../create_vector_data/topo_editing.rst:240
+#: ../../create_vector_data/topo_editing.rst:239
 msgid ""
 "These are the :guilabel:`Delete Ring` and :guilabel:`Delete Part` tools, "
 "respectively:"
@@ -2497,12 +2396,12 @@ msgstr ""
 "secara berturut-turut:"
 
 # 1ea545d923f845099c8d039faf06ef60
-#: ../../create_vector_data/topo_editing.rst:246
+#: ../../create_vector_data/topo_editing.rst:245
 msgid "Their functions should be obvious."
 msgstr "Fungsi dari tool tersebut harus jelas."
 
 # 0f3ab922e6f3460a9e0ec6bbc97023dd
-#: ../../create_vector_data/topo_editing.rst:248
+#: ../../create_vector_data/topo_editing.rst:247
 msgid ""
 "Create new parts and rings as above and delete them to try see how these "
 "tools work."
@@ -2511,7 +2410,7 @@ msgstr ""
 "bagaimana tool tersebut bekerja."
 
 # 8bb2fec09b704e86a7a42c829549cc19
-#: ../../create_vector_data/topo_editing.rst:250
+#: ../../create_vector_data/topo_editing.rst:249
 msgid ""
 "You need to click close to a node (corner) of a part or ring in order to "
 "delete it."
@@ -2519,72 +2418,62 @@ msgstr ""
 "Anda harus mengklik dekat node (pojok) dari part atau ring dengan tujuan "
 "untuk menghapusnya."
 
-# d03c7940248c4c6a807c64962fb17080
-#: ../../create_vector_data/topo_editing.rst:255
-msgid "|moderate| |FA| Tool: Reshape Features"
-msgstr "|moderate| Ikuti bersama : Tool : Reshape Features"
-
 # a3e3500e74284681bd0366eb34199235
-#: ../../create_vector_data/topo_editing.rst:257
+#: ../../create_vector_data/topo_editing.rst:256
 msgid "This is the :guilabel:`Reshape Features` tool:"
 msgstr "Berikut adalah tool :guilabel:`Reshape Features` :"
 
 # de5b332cbf274b459a1e3c4478a87c15
-#: ../../create_vector_data/topo_editing.rst:262
+#: ../../create_vector_data/topo_editing.rst:261
 msgid "It can add a bump to an existing feature. With this tool selected:"
 msgstr ""
 "Tool tersebut menambah sebuah tonjolan pada fiturs yang sudah ada. Dengan "
 "tool yang terpilih ini:"
 
 # 72e1be3fef384041a54db40e52297cb5
-#: ../../create_vector_data/topo_editing.rst:264
+#: ../../create_vector_data/topo_editing.rst:263
 msgid "Click inside your farm."
 msgstr "Klik di dalam lahan pertanian Anda."
 
 # 97c0e10a2ae746e7bc3f80804a79ba25
-#: ../../create_vector_data/topo_editing.rst:265
+#: ../../create_vector_data/topo_editing.rst:264
 msgid "Add an extra piece of land."
 msgstr "Tambahkan bagian tambahan pada lahan pertanian."
 
 # d8d4c6a41005490f8f0943c4916add9a
-#: ../../create_vector_data/topo_editing.rst:266
+#: ../../create_vector_data/topo_editing.rst:265
 msgid "Right-click back inside the farm:"
 msgstr "Klik kanan kembali ke lahan pertanian:"
 
 # 5bc7695727fb4dacb3e4c9acf2bfb3d6
 # 1c5a0626d41a443ea832f700b6fc5c28
-#: ../../create_vector_data/topo_editing.rst:271
-#: ../../create_vector_data/topo_editing.rst:285
+#: ../../create_vector_data/topo_editing.rst:270
+#: ../../create_vector_data/topo_editing.rst:284
 msgid "The result of the above:"
 msgstr "Hasil dari pekerjaan di atas adalah sebagai berikut:"
 
 # c124e6a006cc4441a446006854e9f44f
-#: ../../create_vector_data/topo_editing.rst:276
+#: ../../create_vector_data/topo_editing.rst:275
 msgid "You can do the opposite, too:"
 msgstr "Anda dapat melakukan kebalikannya:"
 
 # f60b34c07ad245a2ba8837c1f00c689a
-#: ../../create_vector_data/topo_editing.rst:278
+#: ../../create_vector_data/topo_editing.rst:277
 msgid "Click outside the feature."
 msgstr "Klik di luar fitur."
 
 # f3a85fbea5b44b63acec8b200afddf88
-#: ../../create_vector_data/topo_editing.rst:279
+#: ../../create_vector_data/topo_editing.rst:278
 msgid "Take a bite out of it."
 msgstr "Ambil bagian di luar fitur."
 
 # 56aff9771d9b47dd8a63312aef6a8772
-#: ../../create_vector_data/topo_editing.rst:280
+#: ../../create_vector_data/topo_editing.rst:279
 msgid "Right-click outside the farm again:"
 msgstr "Klik kanan di luar pertanian lagi:"
 
-# 1587c3748ad846d388e9c0a713196e4a
-#: ../../create_vector_data/topo_editing.rst:292
-msgid "|moderate| |TY| Tool: Split Features"
-msgstr "|moderate| Coba Sendiri.. Tool: Split Features"
-
 # f95b2fcfa577442da56de4e989fb9a0a
-#: ../../create_vector_data/topo_editing.rst:294
+#: ../../create_vector_data/topo_editing.rst:293
 msgid ""
 "The :guilabel:`Split Features` tool is similar to how you took part of the "
 "farm away, except that it doesn't delete either of the two parts. Instead, "
@@ -2594,28 +2483,23 @@ msgstr ""
 "tanpa menghilangkan salah satu atau kedua bagiannya."
 
 # 1a0e96a31cdb43b490497a9e68f3c8d9
-#: ../../create_vector_data/topo_editing.rst:298
+#: ../../create_vector_data/topo_editing.rst:297
 msgid "Try it and see!"
 msgstr "Coba dan lihat!"
 
 # b40c57393d3f41c48690bf02aeca1773
-#: ../../create_vector_data/topo_editing.rst:299
+#: ../../create_vector_data/topo_editing.rst:298
 msgid "Undo your edit before continuing with the exercise for the next tool."
 msgstr ""
 "Batalkan hasilnya sebelum melanjutkan dengan latihan untuk tool berikutnya."
 
-# a0fb6061efda4bb3972a4f9a881fc5ad
-#: ../../create_vector_data/topo_editing.rst:305
-msgid "|hard| |TY| Tool: Merge Features"
-msgstr "|hard| Coba sendiri... Tool : Merge Features"
-
 # 122a85b5a56d433d887557cba9039f3c
-#: ../../create_vector_data/topo_editing.rst:307
+#: ../../create_vector_data/topo_editing.rst:306
 msgid "Find and select these farms:"
 msgstr "Temukan dan pilih bidang pertanian ini:"
 
 # 3324e45c1142450196275245ed4782e5
-#: ../../create_vector_data/topo_editing.rst:312
+#: ../../create_vector_data/topo_editing.rst:311
 msgid ""
 "Use the :guilabel:`Merge Selected Features` and :guilabel:`Merge Attributes "
 "of Selected Features` tools."
@@ -2624,17 +2508,17 @@ msgstr ""
 "Attributes of Selected Features`."
 
 # f1dfa012bb9b4072a1321dcd2bebbac5
-#: ../../create_vector_data/topo_editing.rst:314
+#: ../../create_vector_data/topo_editing.rst:313
 msgid "Note the differences."
 msgstr "Lihat perbedaannya."
 
 # 7c616d10b32b4254ba2b26bdcfa9ec24
-#: ../../create_vector_data/topo_editing.rst:316
+#: ../../create_vector_data/topo_editing.rst:315
 msgid ":ref:`Check your results <create-vector-topology-4>`"
 msgstr ":ref:`Periksa hasil anda <create-vector-topology-4>`"
 
 # 1ce93ec2b57a4896b5f0f8be972fd206
-#: ../../create_vector_data/topo_editing.rst:321
+#: ../../create_vector_data/topo_editing.rst:320
 msgid ""
 "Topology editing is a powerful tool that allows you to create and modify "
 "objects quickly and easily, while ensuring that they remain topologically "
@@ -2645,7 +2529,7 @@ msgstr ""
 "tetap benar."
 
 # 817b362e39ba456e933d046c4c9bf731
-#: ../../create_vector_data/topo_editing.rst:328
+#: ../../create_vector_data/topo_editing.rst:327
 msgid ""
 "Now you know how to digitize the shape of the objects easily, but adding in "
 "the attributes is still a bit of a headache! Next we'll show you how to use "
@@ -2655,3 +2539,118 @@ msgstr ""
 "dengan mudah, tetapi menambahkan atribut masih sedikit memusingkan! "
 "Selanjutnya kami akan menunjukkan kepada Anda bagaimana untuk menggunakan "
 "formulir sehingga pengeditan atribut lebih sederhana dan lebih efektif."
+
+# e086b8c69e7341dda84fc6cf45d5a1e4
+#~ msgid ""
+#~ "Click and drag it to the bottom of the list so that you can still see "
+#~ "your other layers."
+#~ msgstr ""
+#~ "Klik dan seret ke bagian bawah Layer list sehingga  layer yang lain dapat "
+#~ "terlihat."
+
+# d10b1210a2d04ff8ac12404c1a19533a
+#~ msgid "Find and zoom to this area:"
+#~ msgstr "Temukan dan perbesar daerah ini :"
+
+# be0474bb596f45778dd1a91745105c10
+#~ msgid ""
+#~ "Create a new line feature called :kbd:`river.shp` with attributes :kbd:"
+#~ "`id` and :kbd:`type`. (Use the approach above to guide you.)"
+#~ msgstr ""
+#~ "Buat garis fitur baru yang disebut :kbd:`river.shp` dengan atribut :kbd:"
+#~ "`id`  dan :kbd:`type`. (Gunakan pendekatan di atas untuk membimbing Anda)"
+
+# 3d0c53fa80174c0d84c418100b74ee85
+#~ msgid "Digitize the river that runs through town."
+#~ msgstr "Digitasi sungai yang mengalir sepanjang kota"
+
+# 41e2ee304ccd45d4afc4cc9c97323970
+#~ msgid "Start where the sandy riverbanks first become visible:"
+#~ msgstr "Mulai dari tepi sungai berpasir yang pertama terlihat :"
+
+# ebcb5305f50441c6b535089ccf8c1271
+#~ msgid "And stop when our river joins another river:"
+#~ msgstr "Dan berhenti ketika sungai sudah bergabung dengan sungai lainnya:"
+
+# 6678152a07e1436f98544528db2d11c3
+#~ msgid ""
+#~ "It's not always clear where the river runs. In such cases, use your "
+#~ "better judgment and estimate where the river goes. Remember that you're "
+#~ "capturing the river at a large scale, so try to follow it in detail. Take "
+#~ "some time, don't let the line become too straight or make the corners too "
+#~ "sharp!"
+#~ msgstr ""
+#~ "Aliran sungainya tidak selalu terihat sehingga lebih baik menggunakan "
+#~ "penilaian Anda dan perkiraan dimana aliran sungai itu. Ingat bahwa Anda "
+#~ "mendigitasi sungai pada skala besar, jadi cobalah untuk mengikutinya "
+#~ "secara detil. Luangkan waktu, jangan biarkan baris menjadi terlalu lurus "
+#~ "atau membuat sudut terlalu tajam!"
+
+# 9032304bcd4f4748ac4717bcbb826c2b
+#~ msgid ""
+#~ "When creating the feature, give it the :kbd:`type` attribute value of \":"
+#~ "kbd:`stream`\"."
+#~ msgstr ""
+#~ "Ketika membuat fitur tersebut , berikan nilai atribut :kbd:`type` "
+#~ "sebagai  \":kbd:`stream`\"."
+
+# 965495fd36a94a9ab85285caf53e7d84
+#~ msgid ":ref:`Check your results <create-vector-digitize-1>`"
+#~ msgstr ":ref:`Periksa hasil Anda <create-vector-digitize-1>`"
+
+# f7585a8d3e2846cda873da5b091bb5da
+#~ msgid ""
+#~ "Features in a GIS layer aren't just pictures, but objects in space. For "
+#~ "example, adjacent polygons know where they are in relation to one "
+#~ "another. This is called *topology*. In the next lesson you'll see an "
+#~ "example of why this can be useful."
+#~ msgstr ""
+#~ "Fitur pada sebuah layer SIG tidak hanya gambar, tapi juga benda di ruang. "
+#~ "Misalnya, polygon yang  berdekatan mengetahui di mana mereka dalam "
+#~ "kaitannya dengan satu sama lain. Inilah yang disebut dengan *topology*. "
+#~ "Dalam pelajaran berikutnya Anda akan melihat contoh mengapa ini bisa "
+#~ "bermanfaat."
+
+# 83a1727827674915822e11685c3897c6
+#~ msgid "|LS| Feature Topology"
+#~ msgstr "Pelajaran: Topologi Fitur"
+
+# 9a97e73d981542a7b90fad360944cabd
+#~ msgid "|moderate| |FA| Snapping"
+#~ msgstr "|moderate| Ikuti bersama: Snapping"
+
+# 89d6ef8e07fb4e399620800db050f562
+#~ msgid "|moderate| |FA| Closing the Gaps"
+#~ msgstr "|moderate| Ikuti bersama: Menutup gap"
+
+# a22bbbba973249a88f7cc8fb421a5afb
+#~ msgid "|moderate| |FA| Correct topology errors"
+#~ msgstr "|moderate| Ikuti bersama : Mengoreksi kesalahan topologi"
+
+# ff6323c73f774a71b65370fd3b6cbcd6
+#~ msgid "|moderate| |FA| Tool: Simplify Feature"
+#~ msgstr "Ikuti bersama: Tool: Simplify Feature"
+
+# c0f91da1aa7e475c8f04d07e0d8da8e8
+#~ msgid "|moderate| |TY| Tool: Add Ring"
+#~ msgstr "|moderate| Coba sendiri... Tool: Add Ring"
+
+# bad92e43f4054325860a32adddd37c2b
+#~ msgid "|moderate| |TY| Tool: Add Part"
+#~ msgstr "|moderate| Coba sendiri... Tool: Add Part"
+
+# 133976205b0c4a868991c555762d5b80
+#~ msgid "|moderate| |TY| Tools: Delete Ring and Delete Part"
+#~ msgstr "|moderate| Coba sendiri... Tool : Delete Ring dan Delete Part"
+
+# d03c7940248c4c6a807c64962fb17080
+#~ msgid "|moderate| |FA| Tool: Reshape Features"
+#~ msgstr "|moderate| Ikuti bersama : Tool : Reshape Features"
+
+# 1587c3748ad846d388e9c0a713196e4a
+#~ msgid "|moderate| |TY| Tool: Split Features"
+#~ msgstr "|moderate| Coba Sendiri.. Tool: Split Features"
+
+# a0fb6061efda4bb3972a4f9a881fc5ad
+#~ msgid "|hard| |TY| Tool: Merge Features"
+#~ msgstr "|hard| Coba sendiri... Tool : Merge Features"
