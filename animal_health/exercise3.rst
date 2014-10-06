@@ -10,7 +10,7 @@ will have when creating a buffer zone.
 |basic| |FA| Point data, centroids and polygons
 --------------------------------------------------------------------------------
 
-If you look at your map you will notice that the cases of sudden death in poultry occur mostly 
+If you look at your map you will notice that the cases of poultry mortality occur mostly 
 in the districts of Barru and Sinjai.
 
 For this exercise we are going to add a new vector layer, :kbd:`VillagePolyBarSin_32750`, which shows the 
@@ -35,7 +35,7 @@ How will this affect our 15 kilometre buffer zone? Let's find out.
 |basic| |FA| Buffering from the village centroid
 --------------------------------------------------------------------------------
 
-For this buffering exercise we will use the :kbd:`PoultrySuddenDeath_32750` file we created. 
+For this buffering exercise we will use the :kbd:`PoultryMortality_32750` file we created. 
 Select this layer, and go to the *Vector* menu. Hover over *Geoprocessing Tools* and select 
 *Buffer(s)*.
 
@@ -47,12 +47,12 @@ The following window will open:
 .. image:: ../_static/ISIKHNAS/017.png
    :align: center
 
-Choose :kbd:`PoultrySuddenDeath_32750` as the input vector layer, and use a buffer distance of  
+Choose :kbd:`PoultryMortality_32750` as the input vector layer, and use a buffer distance of  
 15000 (remember your layer units are metres).
 
 Click on *Dissolve buffer results*.
 
-Click on *Browse* and name your new shapefile :kbd:`PoultrySD15kmBuffer_32750.shp`.
+Click on *Browse* and name your new shapefile :kbd:`PoultryM15kmBuffer_32750.shp`.
 
 Add this layer to your map. The result should look something like this:
 
@@ -83,11 +83,11 @@ Again, we move to the *Vector* menu, hover over the *Geoprocessing Tools*, and s
 Our input layer is the layer we want to change, in this case our new buffer layer. The clip layer is 
 the layer we will use cut around our buffered layer.
 
-Click on the *Browse* button, and name your new shapefile :kbd:`PoultrySD15kmBufferClip_32750.shp`.
+Click on the *Browse* button, and name your new shapefile :kbd:`PoultryM15kmBufferClip_32750.shp`.
 
 Add it to the map. 
 
-Remove the :kbd:`PoultrySD15kmBuffer_32750.shp` layer.
+Remove the :kbd:`PoultryM15kmBuffer_32750.shp` layer.
 
 Your screen should now look similar to this:
 
@@ -110,8 +110,8 @@ In the next section we will create the buffer using the village polygon layer an
 --------------------------------------------------------------------------------
 
 Using the same skills you have learnt above to buffer and clip layers, create a 15 kilometre 
-buffer zone around the village polygons containing cases of sudden death in poultry. Clip your new
-layer and add it to your map, naming it :kbd:`PoultrySD15kmBufferPolyClip_32750`.
+buffer zone around the village polygons containing cases of poultry mortality. Clip your new
+layer and add it to your map, naming it :kbd:`PoultryM15kmBufferPolyClip_32750`.
 
 Rearrange the layers, so that the buffer zone created with the village centroids is visible over the 
 top of your new buffer zone created with the village polygons. What do you notice?
