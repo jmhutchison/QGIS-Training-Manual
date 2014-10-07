@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-10 15:16+1000\n"
+"POT-Creation-Date: 2014-10-02 14:39+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,92 +17,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../create_vector_data/actions.rst:2
-# 5bb9330202c141d48770c3a52d1d8109
+# f0c6c4d32eb34bfdb73ed2714c3bcf0f
 msgid "|LS| Actions"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:4
-# 856194cd0a634394b3f5dd6a0fc7a843
+# a0d3db8ad9eb495a87759f390981c9ff
 msgid "Now that you've seen a default action in the previous lesson, it's time to define your own actions. An action is something that happens when you click on a feature. It can add a lot of extra functionality to your map, allowing you to retrieve additional information about an object, for example. Assigning actions can add a whole new dimension to your map!"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:10
-# be1adeb864ba458aa821ddf19df502a2
+# 66f9b1c8e8ea415e9165e5b3d45621f4
 msgid "**The goal for this lesson:** To learn how to add custom actions."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:13
-# 67de6a88f3ec4abfbf2a3873203c8b52
+# 10d897ae08e94996876ed7eb33e8d948
 msgid "|basic| |FA| The Actions Tab"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:15
-# c7412126119b47f0a5e19bb58e5d1b24
+# ec328a7dba154f08bd8f6d46e1b260b8
 msgid "Open the :guilabel:`Layer Properties` dialog for the :guilabel:`rural` layer."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:16
-# b84057d2f5864613a095376deebc98ac
+# 14205e60766a4954900d9db40ff54381
 msgid "Click on the :guilabel:`Actions` tab to see its contents."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:18
-# 596a078e7f564393b7b12098e6ee8cc5
+# b230d7c05f4c4e46b154642bc1595aa5
 msgid "Seems intimidating! But it doesn't need to be. Let's see how it works by adding a new action."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:22
-# 9789032912cd4574abb4bc6d4b7ead3d
+# 12fef88694f5419a8bd1707d97792edf
 msgid "|basic| |FA| Open an Image"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:24
-# d47287c32c4e41158fe50d728105fc8d
+# d2f64dd62d4248de89cdad9edd97a747
 msgid "Use the :guilabel:`school_property` layer you created previously. The course materials include photos of each of the three properties you digitized. What we're going to do next is to associate each property with its image. Then we'll create an action that will open the image for a property when clicking on the property."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:31
-# 10ffdee26a754f87a81d2339a5e7ac17
+# 2ef3ed0a9c7e49fa8037233b8808234c
 msgid "|basic| |FA| Add a Field for Images"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:33
-# 4eed20c36e98490990ac72b2fd61b50e
+# 786a946c36bf4ad2b9aa35c0cb48998e
 msgid "The :guilabel:`school_property` layer has no way to associate an image with a property yet. First we'll create a field for this purpose."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:36
-# 5570354fae7d4e2fb27e6ce50e543fea
+# 590138be62654725953f0dd13ccaecff
 msgid "Open the :guilabel:`Layer Properties` dialog."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:37
-# 5d41e549ab6c481ab3b8fe91f0eb67b8
+# d5ae8e4f561b4496a6b3f24d83828500
 msgid "Click on the :guilabel:`Fields` tab."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:38
-# 610adc1ecb0e4fa7a0b1d7943c79e880
+# bf6a297509064c8f859c8dd48cef10ba
 msgid "Toggle editing mode:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:43
-# f3e7fb6df59b4efd9b9932e921e691c3
+# 11b16b4150e34377a0ea03c7f8ed114c
 msgid "Add a new column:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:48
-# 948f0f22c8584203b096e9d0cf6563a8
+# 0b943825a0b94fca9c00e2aa0a05f349
 msgid "Enter the values below:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:53
-# d042dbf9684e49cc8e78962444863a6b
+# 8827b7ba64504f25819b482c3c4a3465
 msgid "After the field has been created, click on the :guilabel:`Line edit` button next to the new field."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:55
-# b64967528fec41babaf7a949f828bf1c
+# daab3198249d4990afdfd140759a65ec
 msgid "Set it up for a :guilabel:`File name`:"
 msgstr ""
 
@@ -110,1661 +110,1553 @@ msgstr ""
 #: ../../create_vector_data/actions.rst:129
 #: ../../create_vector_data/actions.rst:237
 #: ../../create_vector_data/forms.rst:195
-# 3ce1b0e2c9844734bd49b277457c5d4c
-# 9fe7fa275cd94c76bbf0354cdf835d0c
-# 89bcbfeefadc4156a929de0a1155f7cd
-# ab596839b656499ca94202497c6fd0be
+# 8b24225520cd40a68736787352b16bd7
+# ae771896afef4a6b8094c78ebfc6100d
+# f20f5aaf477a4da7aa40a9582f9e4f43
+# 9bb4d10e5e0045d0acc939951230fc1a
 msgid "Click :guilabel:`OK` on the :guilabel:`Layer Properties` dialog."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:61
-# e0a89949728e4e54be01f61afd08f24f
+# 56c3b703fddf469a9b78465a6001095b
 msgid "Use the :guilabel:`Identify` tool to click on one of the three features in the :guilabel:`school_property` layer."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:64
-# da9f1e09fbc148d79a50ec6c1a226700
+# 7e7be11917934f0c95cceec27c44cf4a
 msgid "Since you're still in edit mode, the dialog should be active and look like this:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:70
-# 99d3ad4b0d6f44d0a6b146d4fda8d18e
+# 7065ac0e8af84a11bfa07b270596e088
 msgid "Click on the browse button (the :guilabel:`...` next to the :guilabel:`image` field)."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:72
-# ecbff8c0b7704d41b6cfee6fec66ee8e
+# a91d54bf0eef42a5bbb02cc908783cce
 msgid "Select the path for your image. The images are in :kbd:`exercise_data/school_property_photos/` and are named the same as the features they should be associated with."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:75
 #: ../../create_vector_data/forms.rst:96
-# 3c1381088e5f49c7b7fb872531204712
-# e4c3c20647224610b258fff1c676c2db
+# 1ad07696d7ea4b42a4d5915f00b34ff5
+# 3694fb73151744638425f8cdd3a80a15
 msgid "Click :guilabel:`OK`."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:76
-# c3c738b9f39f43a3a6f957f60a514a21
+# ba5dbb78f61e43b4af9a7622f86f1972
 msgid "Associate all of the images with the correct features using this method."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:77
-# faeaa7d7f81f4bc09c7955451e22eebb
+# acb1b0f6e6d04009b70e5bf0c5f6f350
 msgid "Save your edits and exit edit mode."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:83
-# 38eb561d0393434caf8240255f0dfc93
+# c0db92c3873e4dc4bfde6d466c2a5fac
 msgid "|basic| |FA| Creating an Action"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:85
-# fc159bc314b044bea6ee107817347508
+# 4ee2af2cb89641fd95231d7c3613a846
 msgid "Open the :guilabel:`Actions` form for the :guilabel:`school_property` layer, as explained above for the :guilabel:`rural` layer."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:87
-# 358361a3e5604d1c88524bb36f68f87a
+# e54ec7a3f12645e1a71a83e0ab015d9d
 msgid "Enter the words :kbd:`Show Image` into the :guilabel:`Name` field:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:92
 #: ../../create_vector_data/actions.rst:170
-# 9324eb32eaee45ffa2e67b4ed6d2d001
-# ef8d8c7c9580482885e88f4f932ffba2
+# 271d8cae445044d9951b695e028501c0
+# 15ec1016f11846bba777a57891ac0423
 msgid "What to do next varies according to your operating system, so choose the appropriate course to follow:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:96
 #: ../../create_vector_data/actions.rst:174
-# 5d5d4053527742999a88dc5566cc5b7e
-# 1f35b3d5124247c788cb5ab2a45768f9
+# d51ec9c5360046518cd7230ab190dd89
+# b2091d174db24047a1e0577dc5bacc28
 msgid "Windows"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:98
-# 36cc31f063434369827ceec3fa6ab85a
+# 201f496fd3104c1da7f9a97807c7e7fc
 msgid "Click on the :guilabel:`Type` dropdown and choose :guilabel:`Open`."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:101
 #: ../../create_vector_data/actions.rst:180
-# 534d6ca4314e4397b0ffba943176c70b
-# 9c68d89920994159b9016ae764bb0743
+# ba4120d0972a4f1d9d56908a9d309a8a
+# f826a739d6d94e7a9919d609201f78f2
 msgid "Ubuntu Linux"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:103
-# bb22990d264c4a02ab17d2f71fe20505
+# 5c769d3dac40452b842669aaedfcfc65
 msgid "Under :guilabel:`Action`, write :kbd:`eog` for the *Gnome Image Viewer*, or write :kbd:`display` to use *ImageMagick*. Remember to put a space after the command!"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:108
 #: ../../create_vector_data/actions.rst:186
-# d1e547d59ed547c294e3362824861ba8
-# f0f4f12c8d784622aadef18b08b95ca2
+# 4e9733e076fe4baeb48f8c1dfb003c35
+# cea35c98f50f4b3e9bc39f04801d169e
 msgid "MacOS"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:110
-# 9611f798dd604d22a4210ce3e46b99ed
+# 41656dd2cc1e45848c025ecaf033ad5c
 msgid "Click on the :guilabel:`Type` dropdown and choose :guilabel:`Mac`."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:111
-# b1835fc943fe483b884f243be9bfa7d1
+# ed194c3ed9f54184b662bf87ceb924d6
 msgid "Under :guilabel:`Action`, write :kbd:`open`. Remember to put a space after the command!"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:115
 #: ../../create_vector_data/actions.rst:192
-# 3154ef45ee79402285d54dc36ffad9c4
-# eac7b846a82a40c68244a7340b2a68dd
+# 40822c6427634d3d927394b4e1f71c49
+# 5f43c6b85ac043058a33ecdeb81da76a
 msgid "Continue writing the command"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:117
-# 27f7f494132241d689a47a9e582dcff3
+# 05360c6a02b04e0db958e21490a28463
 msgid "The next part is easy! You want to open the image, and QGIS knows where the image is. All it needs to do is to tell the :guilabel:`Action` where the image is."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:121
-# ae330438a8c44659bbbbc965bf1b3461
+# 7fd66217659a40809d0f5c65b8c3f5e1
 msgid "Select :guilabel:`image` from the list:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:126
-# 235eeb7b6fab4d9081fa3d24f6587983
+# 042bfac7013f4801b2451835b6812fdb
 msgid "Click the :guilabel:`Insert field` button. QGIS will add the phrase :kbd:`[% \"image\" %]` in the :guilabel:`Action` field."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:128
-# 903cb15061574e39bcba59ce78af99db
+# 1b539e954a924f0fb5686d80857d1d9b
 msgid "Click the :guilabel:`Add to action list` button."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:131
 #: ../../create_vector_data/actions.rst:239
-# 381fd212522a4d22b6420876fc4d4d8e
-# fc7ad5f6d41a40c093866e5e1bc87b4a
+# 698213d7e8714b57b9e6d29c7b363d96
+# 4a5bcdc609b0493eb35a2cfd3f349253
 msgid "Now to test the new action!"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:133
-# 4bcc6aceff364050ac5b77aba59b8837
+# 6c17706651e04463ae669101a87f1ec3
 msgid "Click on the :guilabel:`school_property` layer in the :guilabel:`Layers list` so that it is highlighted."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:135
-# 5c13ee29fb7d437fb5879319cec2f8ca
+# 1895ddf307184f64813581507ef86d32
 msgid "Find the :guilabel:`Run feature action` button (on the same toolbar as the :guilabel:`Open Attribute Table` button):"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:141
-# 4c5c1463088043648a4ba6d2f4e50c85
+# 83fc19358a9b4a85b9f6cb6a02889830
 msgid "Click on the down arrow to the right of this button. There's only one action defined for this layer so far, which is the one you just created."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:143
-# 09a08fff84b248e485e85b179b77b492
+# a7b7b26d5f7347e6a7e43e36573e0b0b
 msgid "Click the button itself to activate the tool."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:144
-# a034f0369d4b4d89ad5b6a52ea92e2b0
+# 0edf570183364e7dbb628dd1e03a76bd
 msgid "Using this tool, click on any of the three school properties."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:145
-# a1accbda14254a228c37444f98c28268
+# cc90f6881bd64285a0cadc632ea2ade3
 msgid "The image for that property will now open. Congratulations!"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:148
-# 3a20d683d771499c9041f0eb58008adc
+# 48b56118e1224034a3c9b75bed340146
 msgid "|moderate| |FA| Searching the Internet"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:150
-# 8e8a4f0fb5314165850714ca01e930ae
+# 724cd7cb9b9b4b39bc5be23259d16771
 msgid "Let's say we're looking at the map and want to know more about the area that a farm is in. Suppose you know nothing of the area in question and want to find general information about it. Your first impulse, considering that you're using a computer right now, would probably be to Google the name of the area. So let's tell QGIS to do that automatically for us!"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:156
-# fa3a147c375b484a988e3debd381cf79
+# 828210cbf61b41a18c22e6c1d1b913c3
 msgid "Open the attribute table for the :guilabel:`rural` layer (you may need to close :guilabel:`Layer Properties` first)."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:159
-# 9b92ab9300b043acbf98ddf1532ef5db
+# 09adf87ea6a046c3a87ae215e6f05ad4
 msgid "There are several fields with names of the area that the farms are in, but many of them contain some rather strange names. The one field that contains names that are easy to search for on Google is the :guilabel:`SGADMIN` field. So we'll be using that field for our searches."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:165
-# 51fb4d1af1724931b99805f34cd1ff3f
+# 46e1c6c6cc5040e3b2985f682ceb6c65
 msgid "Close the attribute table."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:166
-# c4d9d0ca3807423c9d246c68298e12f6
+# a167eb2ac0a245b58a23a0cdfcac3ae6
 msgid "Go back to :guilabel:`Actions` in :guilabel:`Layer Properties`."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:167
-# 3738fee6c17149029a1e6a9703a1c853
+# d7cb193ef6224c3f8a8c3a5e26841584
 msgid "In the field :menuselection:`Action Properties --> Name`, write :kbd:`Google Search`."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:176
-# f79a9e858486440ba468111fe4234828
+# 06aa0d4689f04b3498b4c0a7a0a8c9f8
 msgid "Under :guilabel:`Type`, choose :guilabel:`Open`. This will tell Windows to open an Internet address in your default browser, such as Internet Explorer."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:182
-# 65a7b2c7883e4271b7d29a0e9e768422
+# c6e100a9990543efb517b5822b1023ea
 msgid "Under :guilabel:`Action`, write :kbd:`xdg-open`. This will tell Ubuntu to open an Internet address in your default browser, such as Chrome or Firefox."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:188
-# 9570306bc80b419e918f7a600f95e25c
+# 63048729a0bc44ea899fdc3fc5f2c68b
 msgid "Under :guilabel:`Action`, write :kbd:`open`. This will tell MacOS to open an Internet address in your default browser, such as Safari."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:194
-# 771dde7f1523486e92ed8d48a2efa4c1
+# 2c68ec62b2da42ed9d4a0f6b679ef757
 msgid "Whichever command you used above, you need to tell it which Internet address to open next. You want it to visit Google, and to search for a phrase automatically."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:198
-# 111c972e47a146708c2ddfda8ddf0fd0
+# 3a3658ebd7ff461db64c433bfcd97442
 msgid "Usually when you use Google, you enter your search phrase into the Google Search bar. But in this case, you want your computer to do this for you. The way you tell Google to search for something (if you don't want to use its search bar directly) is by giving your Internet browser the address :kbd:`http://www.google.co.za/search?q=SEARCH_PHRASE`, where :kbd:`SEARCH_PHRASE` is what you want to search for. Since we don't know what phrase to search for yet, we'll just enter the first part (without the search phrase)."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:207
-# 273a86609cfd4323af8f8d20f178e37c
+# 1eaa97b85a034eb3b3a00cb6504c34c2
 msgid "In the :guilabel:`Action` field, write :kbd:`http://www.google.co.za/search?q=`. Remember to add a space after your initial command before writing this in!"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:211
-# e4f9de14d98b4b3bb86c40b426a7be54
+# 79a5f124960a4622b6ec7dafd38d549c
 msgid "Now you want QGIS to tell the browser to tell Google to search for the value of :kbd:`SGADMIN` for any feature that you could click on. Sounds complicated, but QGIS lets you do this easily."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:215
-# a58a27723cd848eaa2176369928d01ab
+# 2ace6bdd54014455b0ec69c4f55f8ff8
 msgid "Select the :guilabel:`SGADMIN` field."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:216
-# 0a3edd3e1f174d50b93d1bd8ebd11dec
+# 222f6165e0804ba3a3248a08bf1cd85e
 msgid "Click :guilabel:`Insert field`:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:221
-# 4e30568a25174a8b831952e949f6dd9b
+# ccf8ec30ca11415b9c368123cb3f1efb
 msgid "This will tell QGIS to add the phrase next:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:226
-# 24694c7b919045acbc0a7f91d851dcd9
+# e14fe2f781dc4390b52f377a22f50c05
 msgid "What this means is that QGIS is going to open the browser and send it to the address :kbd:`http://www.google.co.za/search?q=[% \"SGADMIN\" %]`. But :kbd:`[% \"SGADMIN\" %]` tells QGIS to use the contents of the :kbd:`SGADMIN` field as the phrase to search for. So if, for example, the farm you clicked on is in the :kbd:`Montagu` area, then QGIS is going to send the browser to :kbd:`http://www.google.co.za/search?q=Montagu`, which will cause the browser to visit Google, which will in turn search for the word \"Montagu\"."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:234
-# 1052d2856c7348d082be813e56496352
+# 404c04298d7d458db2a90411db6aeb1b
 msgid "If you haven't done so already, set everything up as explained above."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:235
-# 6c08a55965d840e4860db6fddda2f3bd
+# c1ab704bcfd74250b44a75c931aecbab
 msgid "Click the :guilabel:`Add to action list` button. The new action will appear in the list above."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:241
-# d5286bd8f669495b9f2d540b6a63593a
+# 5a712d134ab5483da29ac3e27be3b52d
 msgid "With the :guilabel:`rural` layer active in the :guilabel:`Layers list`, click on the :guilabel:`Run feature action`."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:243
-# 7fc38ffbf0f6417fb0a394a309866f09
+# 123771a600ee419db53feaf580c1f0c7
 msgid "Click on any farm you can see on the map. Your browser will now open, and will automatically start a Google search for the town that is recorded as that farm's :kbd:`SGADMIN` value."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:247
-# 7cc7e2cba0ac4d159047a31da5940454
+# 0c5684c9d1ac46f2b3bb7347f3e61bd0
 msgid "If your action doesn't work, check that everything was entered correctly; typos are common with this kind of work!"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:251
-# 966c0358e11a4fcf9d616704e89f5d1a
+# 9eea98fe7a73480b91cc333615b66fcf
 msgid "|hard| |FA| Open a Webpage Directly in QGIS"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:253
-# 00a8bc827ae6445c8c79c1cb93fe03c2
+# d2c994674e4e4634bc5a701953bc9cd0
 msgid "Above, you've seen how to open a webpage in an external browser. There are some shortcomings with this approach in that it adds an unknowable dependency – will the end-user have the software required to execute the action on their system? As you've seen, they don't necessarily even have the same kind of base command for the same kind of action, if you don't know which OS they'll be using. With some OS versions, the above commands to open the browser might not work at all. It looks like quite the insurmountable problem."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:261
-# a8794219f87e40c4a32ad25920332dca
+# 2d37ef4d165e4650a31fec15f2b49a9d
 msgid "However, QGIS sits on top of the incredibly powerful and versatile Qt4 library. All that goodness is just a heartbeat away with a Python line or two. Also, QGIS actions can be arbitrary, tokenized (i.e. using variable information based on the contents of a field attribute) Python commands!"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:266
-# 3dd39bd64dff4dcb933110274964fd22
+# 2e3448a36f704a509a875d9a45d626c6
 msgid "Now you'll see how to use a python action to show a web page. It's the same general idea as opening a site in an external browser, but it requires no browser on the user’s system since it uses the Qt4 QWebView class (which is a webkit based html widget) to display the content in a pop up window."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:271
-# 8efc252f857f4f97ab40bee042fb7861
+# 10faafbffbe44da28307ac1e756a8dae
 msgid "Instead of Google, let's use Wikipedia this time. So the URL you request will look like this:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:274
-# 6396431415d54d82a63814788a0893a7
+# 07c5da65f37a4d2e93ae99b224867e53
 msgid ":kbd:`http://wikipedia.org/wiki/SEARCH_PHRASE`"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:276
-# a636745ab0b24fcbab7f93d8897773b8
+# 38305dcd42654c908cfddcd92c07bde5
 msgid "To create the layer action:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:278
-# c857bd7175c6480a899c18d732619b0e
+# 35e8422b87364c798729a8f777f5d96a
 msgid "Open the :guilabel:`Layer Properties` dialog and head over to the :guilabel:`Actions` tab."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:280
-# f3915e2307d64510aa843f2abc822a09
+# a5362368960f43adb443b27c4ac9a38a
 msgid "Set up a new action using the following properties for the action: * :guilabel:`Type`: :kbd:`Python` * :guilabel:`Name`: :kbd:`Wikipedia` * :guilabel:`Action` (all on one line): :kbd:`from PyQt4.QtCore import QUrl; from PyQt4.QtWebKit import QWebView;  myWV = QWebView(None); myWV.load(QUrl('http://wikipedia.org/wiki/[% \"SGADMIN\" %]')); myWV.show()`"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:285
-# 4ba7a07d9c6e4ba1a16e99b7e0509b9f
+# b60b23a505194008a40bc7bec10ba30e
 msgid "There are a couple of things going on here:"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:287
-# f3faffe5bdbf450eab3988d5e99118ca
+# de720c21405a40839b7ea5609811b9ff
 msgid "All the python code is in a single line with semi-colons separating commands (instead of newlines, the usual way of separating Python commands)."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:289
-# d5b6e9f134ce46d792f13fb87c36c1a6
+# 9d834e69cc124377aa5735d9a9566f0b
 msgid ":kbd:`[% \"SGADMIN\" %]` will be replaced by the actual attribute value when the action is invoked (as before)."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:291
-# e37ffd02face4de38a2c1c16d0769f7e
+# 4d04aca00abf44adb0b3b398c6a293fd
 msgid "The code simply creates a new :kbd:`QWebView` instance, sets its URL, and then calls :kbd:`show()` on it to make it visible as a window on the user’s desktop."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:295
-# 6285d4b9e8934c60916c978d9d64832a
+# 7a03c1bdddf04ee5a48ef30fd615309b
 msgid "Note that this is a somewhat contrived example. Python works with semantically significant indentation, so separating things with semicolons isn't the best way to write it. So, in the real world, you'd be more likely to import your logic from a Python module and then call a function with a field attribute as parameter."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:301
-# 45ccb0f871fd44d58de4f023de83d4c4
+# 6023ab434f7f49b79ecbbf7164ef0e26
 msgid "You could equally use the approach to display an image without requiring that the user has a particular image viewer on their system."
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:305
 #: ../../create_vector_data/create_new_vector.rst:248
 #: ../../create_vector_data/forms.rst:207
-#: ../../create_vector_data/topo_editing.rst:319
-# 0c14d94367544db29f206c77f946121b
-# cf9791061f594dc7a4347049e3d84bcb
-# 4aa6cc7805be4675b98f9ab5ba616bf5
-# 513fe425eda14a9ba2a05f43e06c3857
+# 850b2b9af1b040d0975e30d62ed3d728
+# f8bc09f6122a4fda8617c6c561f26bd3
+# cff6958d4c494907ad35f37a3dee1f28
 msgid "|IC|"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:307
-# 0ed169a05eac40de9baecc50a511676e
+# 43677d37f7b84bb9a699730cddde0aef
 msgid "Actions allow you to give your map extra functionality, useful to the end-user who views the same map in QGIS. Due to the fact that you can use shell commands for any operating system, as well as Python, the sky's the limit in terms of the functions you could incorporate!"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:313
 #: ../../create_vector_data/create_new_vector.rst:260
 #: ../../create_vector_data/forms.rst:223
-#: ../../create_vector_data/topo_editing.rst:326
-# 71877cde79764b33add17d947eae47c1
-# e1b95ec4c6374eb7876a28a368cb278e
-# 54d4945988c942219830e9c02c399832
-# 0281f876fab64b2fb8a5db02a67d9035
+# 01c524381c1041668c22567ae827bc91
+# 019bd87af1824466810167898d87ded5
+# 62f0ead19a9c4ae8bafdc9119f5d1252
 msgid "|WN|"
 msgstr ""
 
 #: ../../create_vector_data/actions.rst:315
-# 16c99d6bfb1a40cd8c572f4072b10957
+# 5329b89eff674a2dba3d016b3285e77e
 msgid "Now that you've done all kinds of vector data creation, you'll learn how to analyze this data to solve problems. That's the topic of the next module."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:2
-# 3439eb122dac41679955e65723b1af1e
+# a27806badd824ba9969d108da0164e14
 msgid "|LS| Creating a New Vector Dataset"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:4
-# 1386ab8059804593b8566b264074067f
+# 1bf2822724d549859886fd420656b9b6
 msgid "The data that you use has to come from somewhere. For most common applications, the data exists already; but the more particular and specialized the project, the less likely it is that the data will already be available. In such cases, you'll need to create your own new data."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:9
-# 755f57dd391f4022bca112255d7e5d18
+# d5c3d90bf1054dec8c0205a7ab52ae59
 msgid "**The goal for this lesson:** To create a new vector dataset."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:12
-# 6cf27e6e76e74dde9e7942664b9133b8
+# 32ffdb6f9e00417abb6a08548ede7a72
 msgid "|basic| |FA| The Layer Creation Dialog"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:14
-# b49d72c8e7ce4c0fb48b043b88222874
+# 1615b35cb3e6455394a91bbee8fc2247
 msgid "Before you can add new vector data, you need a vector dataset to add it to. In our case, you'll begin by creating new data entirely, rather than editing an existing dataset. Therefore, you'll need to define your own new dataset first."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:18
-# ebeee61e567b4229801461e25c3ad9c3
+# 128cf66320bd4df7b8e39dceab26cff7
 msgid "You'll need to open the :guilabel:`New Vector Layer` dialog that will allow you to define a new layer."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:21
-# ce277c16a74341feb2b0ddef37650ca6
+# ae191d069772428a833d8ecaf422c6c5
 msgid "Navigate to and click on the menu entry :menuselection:`Layer --> New --> New Shapefile Layer`."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:24
-# 652bdd9990004d80931ae034433c2d60
+# bb107cb50c104e0ab1e23c7890cc37ec
 msgid "You'll be presented with the following dialog:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:29
-# b64ddf96c6bd4e189630b9861c4d2ab5
+# 3ea2d804a3b44138b8791f09a17508fd
 msgid "It's important to decide which kind of dataset you want at this stage. Each different vector layer type is \"built differently\" in the background, so once you've created the layer, you can't change its type."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:33
-# 446dd92060d3419c831de885cf0cefec
+# 2746d9f0eb294b03b8381d5800ec47c8
 msgid "For the next exercise, we're going to be creating new features which describe areas. For such features, you'll need to create a polygon dataset."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:36
-# 7bc38378c4254e559c9f1e92af4b9510
+# 2b47f3a70b874dd39b9b8dd493807f87
 msgid "Click on the :guilabel:`Polygon` radio button:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:41
-# 9c947c2d49c6448a846a95d0fe8cb5bc
+# 1f24c96a1bbe415d9395c896dc6cc9b0
 msgid "This has no impact on the rest of the dialog, but it will cause the correct type of geometry to be used when the vector dataset is created."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:44
-# 08fee0ceafa64107b1cd8caff5828489
+# 3692ddff412b42e3aa3b3e75c776d9db
 msgid "The next field allows you to specify the Coordinate Reference System, or CRS. A CRS specifies how to describe a point on Earth in terms of coordinates, and because there are many different ways to do this, there are many different CRSs. The CRS of this project is WGS84, so it's already correct by default:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:52
-# bb2989f61c134c9799b4b5bb7a529803
+# f69d83d7e49a4bf1851d283aab429f03
 msgid "Next there is a collection of fields grouped under :guilabel:`New attribute`. By default, a new layer has only one attribute, the :kbd:`id` field (which you should see in the :guilabel:`Attributes list`) below. However, in order for the data you create to be useful, you actually need to say something about the features you'll be creating in this new layer! For our current purposes, it will be enough to add one field called :kbd:`name`."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:59
-# ac890e9481da48a98adc093aee51b3c9
+# 7983e3e283bf4da6a4b55f34d943c67b
 msgid "Replicate the setup below, then click the :guilabel:`Add to attributes list` button:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:65
-# 96682a04bc174409bdbbe825df96ae79
+# 58e07ae904f740ba91f9fec18d97ee64
 msgid "Check that your dialog now looks like this:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:70
-# eaae999b544a4b05b17f9bb6a7e9b471
+# 9795dab0738e48728317977cb7b09bf8
 msgid "Click :guilabel:`OK`. A save dialog will appear."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:71
-# 69ab954b51b14aa8983ff90fc1ab2711
+# 571cb6feb4ab44e9af058d81383e4dc4
 msgid "Navigate to the :kbd:`exercise_data` directory."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:72
-# da6a1541064142278ea9233b8660edda
-msgid "Save your new layer as :kbd:`school_property.shp`."
+# 947590a4bed045dea2c735b99d52a294
+msgid "Save your new layer as :kbd:`university_property.shp`."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:74
-# 78c93b2d058f4891b5a7a3b3205cbf0c
+# 9a00926b08994a9c97f1b549eeab88ee
 msgid "The new layer should appear in your :guilabel:`Layers list`."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:77
-# 0f2ff7d0d25a42b49b36c55a3e72377c
+# fc9d60475c80412883dfd49bf6f939ec
 msgid "|basic| |FA| Data sources"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:79
-# c9e974d27245482b9cdbf76053d22d6c
+# e31dd8f663a0488c95588579449c9dab
 msgid "When you create new data, it obviously has to be about objects that really exist on the ground. Therefore, you'll need to get your information from somewhere."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:83
-# 23678ec785c742b4989ce8d0fa5a5584
+# 3e833c192c4d4154b5509c3c48cc916a
 msgid "There are many different ways to obtain data about objects. For example, you could use a GPS to capture points in the real world, then import the data into QGS afterwards. Or you could survey points using a theodolite, and enter the coordinates manually to create new features. Or you could use the digitizing process to trace objects off of remote sensing data, such as satellite imagery or aerial photography."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:90
-# 4cc632f2f6924f97a3744197ff573a0f
+# 99e861099d364a9fafb664063ff7a920
 msgid "For our example, you'll be using the digitizing approach. Sample raster datasets are provided, so you'll need to import them as necessary."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:93
-# 1c434dc3118f4fb5bb8d88c77c38d141
+# fcd8c675c6fe4675bd0bbffe41bb06e9
 msgid "Click on the :guilabel:`Add Raster Layer` button:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:98
-# 5a4592ec5e7247629c3eeb7c57e9f140
+# e258b804509b4de09355a775e4d83aa9
 msgid "Navigate to :kbd:`exercise_data/raster/`."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:99
-# af693398f54b4387a9a47bd37b8485cd
-msgid "Select the file :kbd:`3420C_2010_327_RGB_LATLNG.tif`."
+# 2b121e471e584318b7899f3b0380fe5f
+msgid "Select the file :kbd:`ITB_raster.tif`."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:100
-# 611f1787e1d44b3fb02999db44692c57
+# d504bd224c9d496f84865c50d5b33e82
 msgid "Click :guilabel:`Open`. An image will load into your map."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:101
-# dfc2182ee3164699a369a25a69d62d29
+# eae20f190dad44e48513e07ab13b1dae
 msgid "Find the new image in the :guilabel:`Layers list`."
 msgstr ""
 
-#: ../../create_vector_data/create_new_vector.rst:102
-# e1d2b5c7520b4af294c28ef71e6b1b0d
-msgid "Click and drag it to the bottom of the list so that you can still see your other layers."
-msgstr ""
-
-#: ../../create_vector_data/create_new_vector.rst:104
-# bd5dfd8baac449fdadb2e35a8bdcbe0e
-msgid "Find and zoom to this area:"
-msgstr ""
-
 #: ../../create_vector_data/create_new_vector.rst:109
-# e1d7877a7637482e8074ab69f240ff70
+# e71a7ab57c7f4a09b6e9460a6f7dc70b
 msgid "You'll be digitizing these three fields:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:114
-# 2d8072486e414aed9447513d1f939397
-msgid "Hide all the layers except the raster and the :guilabel:`school_property` layer."
+# 9a7e51844e0a4bd0999142b211d00aa2
+msgid "Hide all the layers except the raster and the :guilabel:`university_property` layer."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:117
-# 5b30bb0efc4d4eba8072f7120673445d
+# ebde78449301405fac5b9ff5c673fc6c
 msgid "In order to begin digitizing, you'll need to enter **edit mode**. GIS software commonly requires this to prevent you from accidentally editing or deleting important data. Edit mode is switched on or off individually for each layer."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:121
-# 479d0321013f49258ac6c0072f33efc6
-msgid "To enter edit mode for the :guilabel:`school_property` layer:"
+# 7b290623dd354d97b9f5d649597c2dc7
+msgid "To enter edit mode for the :guilabel:`university_property` layer:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:123
-# 5a63d5662ef140f6aae9899f8fe8d674
-msgid "Click on the layer in the :guilabel:`Layer list` to select it. (Make very sure that the correct layer is selected, otherwise you'll edit the wrong layer!)"
+# 243c2b2656ca4189a9d09478135f4215
+msgid "Right click on the layer in the :guilabel:`Layer list` to select it. (Make very sure that the correct layer is selected, otherwise you'll edit the wrong layer)"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:126
-# 82906c6faa814442bcd6b163ccf23b89
+# e9c0f4e2bbde4dbf95c5e1878ff46e73
 msgid "Click on the :guilabel:`Toggle Editing` button:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:131
-# 84d4a81bb5ce4c709d19f771724c5d63
+# d2035fcf622c478d9d1843f6c30cc1dd
 msgid "If you can't find this button, check that the :guilabel:`Digitizing` toolbar is enabled. There should be a check mark next to the :menuselection:`View --> Toolbars --> Digitizing` menu entry."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:135
-# c96742c207a9462e914d06fc0ba6e292
+# 7adfd79eef6d45a0b54037723f7aa980
 msgid "As soon as you are in edit mode, you'll see the digitizing tools are now active:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:141
-# 121177b975de437a901d562153ad7e02
+# 2913899e1c8b4b65818ed1beab7b0bc8
 msgid "From left to right on the image above, they are:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:143
-# 0830e2f5e3334f478117875177d423c6
+# 58069effb4bb43389d83beea393bfe03
 msgid ":guilabel:`Toggle Edit`: activates / deactivates edit mode."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:144
-# 4bfc674e24d3461094a9e9df5b159467
+# 32c1ec30aac6423ba10e0faa5945385a
 msgid ":guilabel:`Save Edits`: saves changes made to the layer."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:145
-# f0d52a2f861a44e48bd2a86d481186f7
+# 9c65b890080b436f9f3184ab7a3fe264
 msgid ":guilabel:`Add Feature`: start digitizing a new feature."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:146
-# 3428ccc2f97f4ecd81aeeb6de3f8130b
+# a76b11b1a5b44d74953492f2091c88f8
 msgid ":guilabel:`Move Feature(s)`: move an entire feature around."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:147
-# 346a64b13ffb432e841b40fb4471b7f9
+# 9256840a2f014ace9a034a2503bf4260
 msgid ":guilabel:`Node Tool`: move only one part of a feature."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:148
-# 025409f7ae084fe99fc9d56754b9643b
+# 4cc6752ed72747918fa40083c7f32d2e
 msgid ":guilabel:`Delete Selected`: delete the selected feature (only active if a feature is selected)."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:150
-# fa20d62f62da473c8d825a29aca0c709
+# f570f2365499424c9f4c408e7bac38e3
 msgid ":guilabel:`Cut Features`: cut the selected feature (only active if a feature is selected)."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:152
-# fe421fac14184a9d8e002e3a06e1ee6a
+# 4dd0bedb6e844c878b43eff3827bdc47
 msgid ":guilabel:`Copy Features`: copy the selected feature (only active if a feature is selected)."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:154
-# 5fa0b08b0a0d4929bbbf4490fb9e7e42
+# 54c1d95026734db497120bf7832a5cb2
 msgid ":guilabel:`Paste Features`: paste a cut or copied feature back into the map (only active if a feature has been cut or copied)."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:157
-# 991090664d3747cc9b23bccc095b64cb
+# 9554d14d2b474735b4f12bb8a29ea090
 msgid "You want to add a new feature."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:159
-# 7820776cebe8492fa09cc73f856f9d63
+# dcbb51a511b14aad84ea295a5c8d7312
 msgid "Click on the :guilabel:`Add Feature` button now to begin digitizing right away!"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:162
-# e108f2619d844abe99243cdbbafedff6
+# 2ecb621a4c0c45c5a7d48cd35c92c341
 msgid "You'll notice that your mouse cursor has become a crosshair. This allows you to more accurately place the points you'll be digitizing. Remember that even as you're using the digitizing tool, you can zoom in and out on your map by rolling the mouse wheel, and you can pan around by holding down the mouse wheel and dragging around in the map."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:168
-# b54a556f260b4f7794f16696fbefcaf3
-msgid "The first feature you'll be digitizing is the athletics field:"
+# 7c05a1ea9b29499fae7e9764e5abefdb
+msgid "The first feature you'll be digitizing is the tennis courts:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:173
-# 4c6fa3f333ae4ae28da75f92283d56e8
+# 76bfd6628f03493994ff9f6f2c1e5583
 msgid "Start digitizing by clicking on a point somewhere along the edge of the field."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:175
-# 2ed6eae6747a47749206762d36e9870f
+# 08485a92972046789209ad37dccbab86
 msgid "Place more points by clicking further along the edge, until the shape you're drawing completely covers the field."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:177
-# 9c5aacabbf674fd5883078cdfc51606d
+# 161bf04a991949008d7e6ccfd67be5cd
 msgid "To place your last point, *right-click* where you want it to be. This will finalize the feature and show you the :guilabel:`Attributes` dialog."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:179
-# bf7bc294d32e4953a2688bf0966a63da
+# ebc8c35a254b4130a5e23cd7cbd1a838
 msgid "Fill in the values as below:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:184
-# 8f6c7145941e4e81a8feac3c6fe361b9
+# a398c3d17d524bd5b7c85339d9290670
 msgid "Click :guilabel:`OK` and you've created a new feature!"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:186
-# 661ce1513199463b8fbf7fd5cbf4f11a
+# 8ba6804c9075449990c50a442b0cc810
 msgid "Remember, if you've made a mistake while digitizing a feature, you can always edit it after you're done creating it. If you've made a mistake, continue digitizing until you're done creating the feature as above. Then:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:190
-# d3fb47dad4bb44cbaabd00d08418306b
+# 945e7598bb944dbebf64f18957ecde87
 msgid "Select the feature with the :guilabel:`Select Single Feature` tool:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:195
-# 8708bf0c434341a9bba3b352c84c26db
+# 87c0640aa04941acb501b286a810e47a
 msgid "You can use:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:197
-# 47db343830cf4ab387dca5893fa8df70
+# e20e81a3780741eba432ecc690be4308
 msgid "the :guilabel:`Move Feature(s)` tool to move the entire feature,"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:198
-# 428143139b854cdeaaf5740703d83f46
+# a57192dc35834667b328e5c548be6c93
 msgid "the :guilabel:`Node Tool` to move only one point where you may have misclicked,"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:200
-# 7bf2af191a3848dc9f898c40601c6cfc
+# 31f475859f444a38bfbd05e29b6efe5d
 msgid ":guilabel:`Delete Selected` to get rid of the feature entirely so you can try again, and"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:202
-# 7a20268e8d5a49128fb0eb1a8d32bb30
+# 738b4fc3208b4a86ac22e55c081fc510
 msgid "the :menuselection:`Edit --> Undo` menu item or the :kbd:`ctrl + z` keyboard shortcut to undo mistakes."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:206
-#: ../../create_vector_data/create_new_vector.rst:221
-# 55989d1b40f3480bac6329fa4de560c5
-# 17e67289381248f9b9664ed07e0f13ed
+# c8d580e5b5c842cbaa07494d728505c1
 msgid "|basic| |TY|"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:208
-# 69b57a9f4be44458b9393869861a2a91
-msgid "Digitize the school itself and the upper field. Use this image to assist you:"
+# 1a6be7760b30458faaefcdf7a52fe22e
+msgid "Digitize the athletics field and the swimming pools. Use this image to assist you:"
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:213
-# e30255fde2d740d9aa0247bb735603f3
-msgid "Remember that each new feature needs to have a unique :kbd:`id` value!"
+# ea5d69f9f3e3424d914f77398c022d22
+msgid "Remember that each new feature needs to have a unique :kbd:`id` value."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:215
-# a0125fd2f6a146c8ba2bb37acb6ca96e
+# dc51663d6bae42baadc8f246eda93b79
 msgid "When you're done adding features to a layer, remember to save your edits and then exit edit mode."
 msgstr ""
 
-#: ../../create_vector_data/create_new_vector.rst:223
-# 2ab8eecc928e40e2a8dbd9b19d7535ad
-msgid "Create a new line feature called :kbd:`river.shp` with attributes :kbd:`id` and :kbd:`type`. (Use the approach above to guide you.)"
-msgstr ""
-
-#: ../../create_vector_data/create_new_vector.rst:225
-# c183e6138e2341c89a40f3cfdd4037ba
-msgid "Digitize the river that runs through town."
-msgstr ""
-
-#: ../../create_vector_data/create_new_vector.rst:227
-# 27c8b1c6aabc4ca7a49e8247ec6e71de
-msgid "Start where the sandy riverbanks first become visible:"
-msgstr ""
-
-#: ../../create_vector_data/create_new_vector.rst:232
-# 63e92fd4664c4351894393bb06ac1b6e
-msgid "And stop when our river joins another river:"
-msgstr ""
-
-#: ../../create_vector_data/create_new_vector.rst:237
-# 694b2dfe696543dab8960da12e750b63
-msgid "It's not always clear where the river runs. In such cases, use your better judgment and estimate where the river goes. Remember that you're capturing the river at a large scale, so try to follow it in detail. Take some time, don't let the line become too straight or make the corners too sharp!"
-msgstr ""
-
-#: ../../create_vector_data/create_new_vector.rst:242
-# 1db0354227b74820873a3c8438bc2be2
-msgid "When creating the feature, give it the :kbd:`type` attribute value of \":kbd:`stream`\"."
-msgstr ""
-
-#: ../../create_vector_data/create_new_vector.rst:245
-# 793c7822b57e4f4eb8aadde00c3b3758
-msgid ":ref:`Check your results <create-vector-digitize-1>`"
-msgstr ""
-
 #: ../../create_vector_data/create_new_vector.rst:250
-# 76e0753b284a423dbedf260806563853
-msgid "Now you know how to create features! This course doesn't cover adding point features, because that's not really necessary once you've worked with more complicated features (lines and polygons). It works exactly the same, except that you only click once where you want the point to be, give it attributes as usual, and then the feature is created."
+# 15519bcd229c4137a6aea31334e99c7b
+msgid "This lesson has shown you how to create new features in your dataset. This course doesn't cover adding point features, because that's not really necessary now you have worked with more complicated features (lines and polygons). Adding point features works exactly the same, except that you only click once where you want the point to be, give it attributes as usual, and then the feature is created."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:256
-# 70d4026477954f839d5e83be81910cf7
+# 15c27c703d1b4170954514e846f1ce68
 msgid "Knowing how to digitize is important because it's a very common activity in GIS programs."
 msgstr ""
 
 #: ../../create_vector_data/create_new_vector.rst:262
-# 74bd989a3fdc4f2886991df844e04f98
-msgid "Features in a GIS layer aren't just pictures, but objects in space. For example, adjacent polygons know where they are in relation to one another. This is called *topology*. In the next lesson you'll see an example of why this can be useful."
+# 01a877a2412f4fad85df756f0e84aea6
+msgid "Now that you have been introduced to vector data creation, you can learn how to analyze this data to solve problems. That is the topic of the next module."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:2
-# 9c5056180df24313b496757136de78b6
+# 4074c9c420cf47c1855745b7c7943c28
 msgid "|LS| Forms"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:4
-# b5b1f8f1ad2841f9ba3b5b48e4d09625
+# 52c4aa5ee0ea4c438f8d91cf3076016c
 msgid "When you add new data via digitizing, you're presented with a dialog that lets you fill in the attributes for that feature. However, this dialog is not, by default, very nice to look at. This can cause a usability problem, especially if you have large datasets to create, or if you want other people to help you digitize and they find the default forms to be confusing."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:10
-# ea268f63887e4cd7bb1a0ca53bf9f46f
+# 595a9eaba5ec4788a05a95f237c5b020
 msgid "Fortunately, QGIS lets you create your own custom dialogs for a layer. This lesson shows you how."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:13
-# a03324b32ce54ecba2159143e27b145c
+# 609c145124884bfe8f401d35510a36b5
 msgid "**The goal for this lesson:** To create a form for a layer."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:16
-# d2262d5f305841acb28ad95a743f92ec
+# 1640fcc0baee4d7886c718c5f5852d4b
 msgid "|basic| |FA| Using QGIS' Form Design Functionality"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:18
 #: ../../create_vector_data/forms.rst:38
-# aaafdc2d89064608a8565dbdd5684283
-# dc93dee30c364828b4ff8d2c8ff0a0f5
+# 372a9c6e93884139887a60d2b1cfd39d
+# 55d83e7eabb4465dae965c8dc2a0729e
 msgid "Select the :guilabel:`streets` layer in the :guilabel:`Layers list`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:19
-# d35b486b9a24479d96fa64dba79d0d9e
+# 1602424c16164673a7b9420013049230
 msgid "Enter :guilabel:`Edit Mode` as before."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:20
-# e7e07a3ecb434a45acaee4f0c9810244
+# 8fa4a6f89ad24b8fab1d03c3a919bd00
 msgid "Open its :guilabel:`Attribute Table`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:21
-# 0bc97613419f483b9d1df404be50a250
+# 52fff8edc98c41729e9f7c46ee53119c
 msgid "Right-click on any cell in the table. A short menu will appear, with the only entry being :guilabel:`Open form`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:23
-# 89499ee6c4c44281897ab4d2e789c7bd
+# 13151e7e05bf43989bfc32cb5a9c5af0
 msgid "Click on it to see the form that QGIS generates for this layer."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:25
-# f20218e520b84390b638207a0e829abb
+# a9b5a6109aa44ee79fc287a233ac80ab
 msgid "Obviously it would be nice to be able to do this while looking at the map, rather than needing to search for a specific street in the :guilabel:`Attribute Table` all the time."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:29
-# d9f79112b1e245d086c97821cbcacd9d
+# 5a4ff68780944058b0e3f790d98aa6c7
 msgid "Go to the :menuselection:`Settings --> Options` menu (in the same row as the :menuselection:`File` menu, etc.)."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:31
-# f1ddf166e14d45a6a5aca5d13f0e4f2d
+# 65863912725b4f56a11221d856b6e20d
 msgid "In the dialog that appears, select the :guilabel:`Map Tools` tab."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:32
-# 77f0758b2f2e4e91b4ea853fda0ad104
+# 78ce86b42937431b978f926444b2fdd3
 msgid "Check the :guilabel:`Open feature form ...` checkbox:"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:37
-# 1eee22d8f643451087dde5c64d9e7d4c
+# 934d11c580b1403ea0ee0e8e78f4ae47
 msgid "Close the :guilabel:`Settings` dialog."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:39
-# 56f378b8917244849d3d63118314a7f2
+# 9bc9dbbb46c14656903dced9ee44eb09
 msgid "Using the :guilabel:`Identify` tool, click on any street in the map."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:44
-# 4f9384fa2d484413aca0cc1669757171
+# b7df468fa72b4dff93530819ca9fcc2d
 msgid "Instead of the normal :guilabel:`Identify` dialog, you'll see the now-familiar form instead:"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:51
-# 01cf8afc162e45299eeec887e653dc73
+# e8baa2ddc2144e34a5654c9d48cfab2c
 msgid "|basic| |TY| Using the Form to Edit Values"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:53
-# 713ac32f84a8418aa2c5b52e508a669b
+# c363019c939946d79f6ef74bd56d4fc5
 msgid "If you are in edit mode, you can use this form to edit a feature's attributes!"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:55
-# 8bf0f03a8dc8461bb9487a24c55116f4
+# df106b0037774e309aba87666e798573
 msgid "Activate edit mode."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:56
-# 4610275d2b0744fab315a7e0ccc01078
+# bac438ade5bb4c0b86c31aeb19865a87
 msgid "Using the :guilabel:`Identify` tool, click on the main street running through Swellendam:"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:62
-# 2e170502b4b443afb6ca28010651e330
+# e50ec7d7ca1543d38373a921f2a33fea
 msgid "Edit its :guilabel:`LANES` value to the correct value of :kbd:`2`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:63
-# 1c779e657c584d60b6fd7aba99d0599b
+# 1efb6dfc263a4a9294cde0fc6d86a54d
 msgid "Save your edits."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:64
-# fd9906ed0d2247849caffc055e1314bf
+# 5aa3ed4907dd4f8ca96cb4bc8ae771bd
 msgid "Exit edit mode."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:65
-# 025d995f8dbf48f3ba7a6a161de8bbe1
+# a81931c6b84d4bdeb7ce5e0287311788
 msgid "Open the :guilabel:`Attribute Table` and see your edit there!"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:67
-# 0e545f953c82497d8412ba75d749bad1
+# da4b3e1510654ae8bd6bad69eff96a48
 msgid "Note that there is more than one road on this map called :guilabel:`Voortrekker`. The one you edited had a :kbd:`TYPE` of :kbd:`tertiary`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:72
-# 86ae969e25b84515b335fbf1e39e9e1e
+# fdff031edefb445a92f35129ae774e53
 msgid "|moderate| |FA| Setting Form Field Types"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:74
-# 48ff4d3f7f17414c9c6075bcb3ceb0f3
+# a1e56d90c9c74bd9b0b0d8413523d9a1
 msgid "It's nice to edit things using a form, but you still have to enter everything by hand. Fortunately, forms have different kinds of so-called *\"widgets\"* that allow you to edit data in various different ways."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:78
-# 7750fc5685774818bc0bdbcb8e8efd06
+# cbe3b5c231c645b3b8a711ee4015bad2
 msgid "Open the :guilabel:`streets` layer's :guilabel:`Layer Properties`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:79
-# 6fc05e7782bb4720aa7afbd286f746de
+# 3dbaf2418bca4b3f9a32691ecbd3039b
 msgid "Switch to the :guilabel:`Fields` tab. You'll see this:"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:84
-# aeabe82d21fa4cf1b0b03fc710320f92
+# 0b26679ebc674dd182a3e1cc9b24ba0f
 msgid "Click on the :guilabel:`Line edit` button in the same row as :guilabel:`LANES` and you'll be given a new dialog."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:86
-# 052d25b0f70d45deb69550fc7d1a93af
+# ea9103d1a2df47f899067f1186ae69f4
 msgid "In its only dropdown list, set the value to :guilabel:`Range`:"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:91
-# e1be65110c344a9ebb29ae9bcfdf1705
+# 67080cc155bd46be842d7604bd8052d0
 msgid "Set the values to this:"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:97
-# 4eda6fc952b84832aab479bc43aed5ae
+# 349346e2d64d4324b73781f433b4348b
 msgid "Apply the changes to the :guilabel:`Layer Properties`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:98
-# 6829da2dfe194125897de364d2da8f91
+# f7a012bbecae4b18a6ddf8a72ca1568a
 msgid "Enter edit mode."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:99
-# 575935773fda4083a984bc7d04c3ca50
+# 1229e036d7bd440688c2479aac2c5d4b
 msgid "Click on the :guilabel:`Identify` tool."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:100
-# 5a060d41816b4cc7b2d8d4a43802efd1
+# 4612fb357dd04f12883d1f1c6d69af65
 msgid "Click on :guilabel:`Voortrekker` road."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:102
-# 12f228ff37be48dc866619824a1b34de
+# a382e15f522241f88471c510b9789d81
 msgid "Now instead of entering values manually, you can use the up and down arrows next to the :guilabel:`LANES` field to edit its values!"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:108
-#: ../../create_vector_data/topo_editing.rst:108
-# 1bf31f07618a48c18ab27b0dc6cc4225
-# 76a3a17687614b529d282fdd5292616f
+# cd5159269b2a49a582da487678288311
 msgid "|moderate| |TY|"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:110
-# 3cb3e4976d444daf95f73af46e19c657
+# 091dd52d1e3148478a728c0e700203d3
 msgid "Set new, more appropriate form widgets for these fields:"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:112
-# 29dd5438a7ff472f8ed5aa85ff0ef1d2
+# 6a723d7c40f84eceb190e0850072d9a3
 msgid ":guilabel:`TYPE`"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:113
-# 4b507d6623b24808b3c15f39bf9c458a
+# 7d12fb8d324e4dc8b2a318ad2c3eed29
 msgid ":guilabel:`ONEWAY`"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:115
-# 0c3ff44114f74a41bfde69a7f4af3f0c
+# 7eb3ae183b2041128af2a7c49d88e140
 msgid ":ref:`Check your results <create-vector-forms-1>`"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:118
-# beeae7bcfbc14d5b8b7666f7454c6915
+# 88b23f18e2e845ce9e1a68a0d2146f9d
 msgid "|hard| |TY| Creating Test Data"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:120
-# 6ef3f094cfd04e45a399ecfae89ab7f5
+# 354ff60951ef4b0a966ddf52f6c16a3d
 msgid "You can also design your own custom form completely from scratch."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:122
-# 5d610297dc0c484fab42a423fde63158
+# 2ddb3b9bdab74382ac2057cbd042bbf9
 msgid "Create a simple point layer with two attributes:"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:124
-# a7674fb92eb94d9e86f0034645965627
+# c4959ea613dc49bab12f7bf182526cc7
 msgid "Name (text)"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:125
-# 38b093f0afce43dfbe29edd1dd244690
+# 227366545b23420e8fcb5ad55a700be2
 msgid "Age (text)"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:130
-# 9c7a07adcb3445aabfda89e94ca83cc5
+# bc622a957b864425b8d671776150ef65
 msgid "Capture a couple of points to your new layer using the digitizing tools so that you have a little data to play with. You should be presented with the default QGIS generated attribute capture form each time you capture a new point."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:139
-# ffe0918bebbb473a93738d63dabf37de
+# 5936965ebf1445f880313cb74ef69901
 msgid "|hard| |FA| Creating a New Form"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:141
-# 271dc4734cdd402d8fee793cac8c9163
+# 8f900e0010d14d2192f917a5ab04f3bd
 msgid "Now we want to create our own custom form for the attribute data capture phase. To do this, you need to have *Qt4 Designer* installed (only needed for the person who creates the forms). It should be provided as part of your course materials, if you're using Windows. You may need to look for it if you're using another OS. In Ubuntu, do the following in the terminal:"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:147
-# 6c213f1529f249559b8e72b7c8656a59
+# a90aa28cdd3840548d3efa5f76c316a5
 msgid ":kbd:`sudo apt-get install qt4-designer`"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:149
-# b821214f7f6442f48458a809d63a9301
+# 2cef6940ed6a4c7ebd64556548f5a78e
 msgid "... and it should install automatically. Otherwise, look for it in the *Software Center*."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:152
-# 44c7c26831dd46db92c1650c21f7069d
+# 8d345d6a3dcd4a63a2fb0dbd2f75915d
 msgid "Start *Designer* by opening its *Start Menu* entry in Windows (or whatever approach is appropriate in your OS)."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:154
-# 33892d8584ff417592e8148c0b99a7f7
+# d311aaf7820a4d159e4005ba9366084b
 msgid "In the dialog that appears, create a new dialog:"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:159
-# b79b543839294dc4b86967d9df7895e7
+# 6fd7f99994cf426dbaee134a3e55ee4a
 msgid "Look for the :guilabel:`Widget Box` along the left of your screen (default). It contains an item called :guilabel:`Line Edit`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:161
-# a8200bf705d14ce5a4df0bbcf8902f79
+# b815bfe1c3a043f4908292b314fc1e15
 msgid "Click and drag this item into your form. This creats a new :guilabel:`Line Edit` in the form."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:163
-# 6f0a2f82fa504c8e9cb629252d2179ae
+# bd8704e068ab4aa09d03a6936f84bb74
 msgid "With the new line edit element selected, you'll see its *properties* along the side of your screen (on the right by default):"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:169
-# 98684f42d0124842b042db9f7a864fc6
+# 6d693ed8776a47fc8fe1203ba4b3a704
 msgid "Set its name to :kbd:`Name`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:170
-# d23e24623d7f4436abda54691804134f
+# fdf9163b29cd49929e9ef7f9deca5c79
 msgid "Using the same approach, create a new spinbox and set its name to :kbd:`Age`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:171
-# 4bdfc323b3c8468e894d18d618b739c9
+# 74385f6d14ee441f812685e222bae261
 msgid "Add a :guilabel:`Label` with the text :kbd:`Add a New Person` in a bold font (look in the object *properties* to find out how to set this). Alternatively, you may want to set the title of the dialog itself (rather than adding a label)."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:175
-# 0913d08b9775471f812fddbea56f120a
+# 2a33cc4c72b64764a4fdebc1f9a30c26
 msgid "Click anywhere in your dialog."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:176
-# 570f913f001943b593980e3b961601a6
+# b60fbd4e15044d029446110cc01b20b8
 msgid "Find the :guilabel:`Lay Out Vertically` button (in a toolbar along the top edge of the screen, by default). This lays out your dialog automatically."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:182
-# a723477880eb4e139f8d7f34bc0955e2
+# 26bb4bf12911431cb9d95da6c590dfa4
 msgid "Set the dialog's maximum size (in its properties) to :kbd:`200` (width) by :kbd:`100` (height)."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:184
-# 71483b7c395e46ffb4f9fb06ed62e629
+# d6be1e5b696245eaa6d1ce6e9430f184
 msgid "Save your new form as :kbd:`exercise_data/forms/add_people.ui`."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:185
-# 153772f16f9c4b9981cfb5e6825baacb
+# b6e4e14cecd9427bacfd4d0df8e74a7d
 msgid "When it's done saving, you can close the *Qt4 Designer* program."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:188
-# e3f9ab483e0a4809a1c986d8bfd1aeb7
+# d496e4d3d0bc4ffdb4fc71480bc4b55e
 msgid "|hard| |FA| Associating the Form with Your Layer"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:190
-# 1a6be89e3cc244e28da601afcacfe0ca
+# 0b88676e03f140818b46c83b4e2f037c
 msgid "Go back to QGIS."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:191
-# 5df7554537e34aa2bad77645590854e7
+# 8a45f4a318194773a7968654af99ddb5
 msgid "Double click the layer in the legend to access its properties."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:192
-# 24d69dedde22455b945e7aa8b8687a72
+# a20c0e576400476393489478dd7b7643
 msgid "Click on the :guilabel:`General` tab in the :guilabel:`Layer Properties` dialog."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:194
-# 5a4dbe95ab614a77b8e538ac7144374b
+# d29bf756c79a4b2ea03c449fea84d98b
 msgid "Specify the path to your ui file in the :guilabel:`Edit UI` field."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:196
-# d82d2c1bf6724fb98f4a901d79acfea9
+# 3c362f7abe3046319c8ebc0802b5c6b2
 msgid "Enter edit mode and capture a new point."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:197
-# de39f7257c6c4347bf23d6f7ab67e9aa
+# 5bef116b3ab04504bc108e2496692e0f
 msgid "When you do so, you will be presented with your custom dialog (instead of the generic one that QGIS usually creates)."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:199
-# 2500d64e32694242aa95c63ddb807a2a
+# 86dc66388c034be1af53a8117d7f08ff
 msgid "If you click on one of your points using the :guilabel:`Identify` tool, you can now bring up the form by right clicking in the identify results window and choosing :guilabel:`View Feature Form` from the context menu."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:202
-# 783fde1699e14a67ae8c87b86457a57c
+# c03b9143f33d4cc2ad6841b7292e58c1
 msgid "If you are in edit mode for this layer, that context menu will show :guilabel:`Edit Feature Form` instead, and you can then adjust the attributes in the new form even after initial capture."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:209
-# 0e636c091cb44fafb121c550aa6c83fc
+# 649f3b125044453daa6134a456fb9fcd
 msgid "Using forms, you can make life easier for yourself when editing or creating data. By editing widget types or creating an entirely new form from scratch, you can control the experience of someone who digitizes new data for that layer, thereby minimizing misunderstandings and unnecessary errors."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:215
-# 6ca5a84782e4490a9f99ead28308db66
+# 99f66abcaf134e28b138ffee5389e685
 msgid "|FR|"
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:217
-# 43215b977f0c4f7bb034632a98b48b30
+# a86ef9c5ea904e6eb25f8644efd640be
 msgid "If you completed the advanced section above and have knowledge of Python, you may want to check out `this blog entry <http://tinyurl.com/6tr42rb>`_ about creating custom feature forms with Python logic, which allows advanced functions including data validation, autocompletion, etc."
 msgstr ""
 
 #: ../../create_vector_data/forms.rst:225
-# b824c4e94c5e4b759f101e12a15cd048
+# 401323ec031a490384e6a6b00f873d63
 msgid "Opening a form on identifying a feature is one of the standard actions that QGIS can perform. However, you can also direct it to perform custom actions that you define. This is the subject of the next lesson."
 msgstr ""
 
 #: ../../create_vector_data/index.rst:3
-# e3aabe424e1a4c82a18dd400d4691330
+# 32460a64c10049bbab454570b8071896
 msgid "|MOD| Creating Vector Data"
 msgstr ""
 
 #: ../../create_vector_data/index.rst:5
-# a7abe2ac56fe4483b26a893415038c53
+# 2f5ed8878d19446c879f9cb7f1dc306a
 msgid "Creating maps using existing data is just the beginning. In this module, you'll learn how to modify existing vector data and create new datasets entirely."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:2
-# 0090572828a243e58dea7b044539348d
-msgid "|LS| Feature Topology"
-msgstr ""
-
 #: ../../create_vector_data/topo_editing.rst:4
-# 0f5621a977b8445ab30ff29f92e39d6c
+# 0a5db95a71cb4e2f8d46b184bb9f9cfc
 msgid "Topology is a useful aspect of vector data layers, because it minimizes errors such as overlap or gaps."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:7
-# bc9288cf947647e5b56e7f1b583df021
+# 600bffa40a2740068ce4fb0d8afa5e37
 msgid "For example: if two features share a border, and you edit the border using topology, then you won't need to edit first one feature, then another, and carefully line up the borders so that they match. Instead, you can edit their shared border and both features will change at the same time."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:12
-# 9100ff65aa814205b4dc607286b98e81
+# 49be9248a8374d8c8cefe37987777476
 msgid "**The goal for this lesson:** To understand topology using examples."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:15
-# 6fd10747725f48a3964e69e913f1401c
-msgid "|moderate| |FA| Snapping"
-msgstr ""
-
 #: ../../create_vector_data/topo_editing.rst:17
-# 259ca7f2efc043298ebd264bd94164d6
+# fc006b97a67d4860a782360624dfa84a
 msgid "To make topological editing easier, it's best if you enable snapping. This will allow your mouse cursor to snap to other objects while you digitize. To set snapping options:"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:21
-# 2441fd4ccf8c4910984b8a2cbbc6376b
+# 0e804f110b1f4afcafca53001c7cd3ae
 msgid "Navigate to the menu entry :menuselection:`Settings --> Snapping Options...`."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:22
-# fe639204a4814555a836076ec928fa4a
+# 250a7ad55c3a42a080045a575c1d9834
 msgid "Set up your :guilabel:`Snapping options` dialog as shown:"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:27
-# 8f9b4056e24e4a84a66697b87f84163d
+# 419934d932da43dd9ca32fec9efa9e81
 msgid "Ensure that the box in the :guilabel:`Avoid Int.` column is checked (set to true)."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:29
-# e64f8b92ed6d4881bd48235533661c0d
+# d24c0ab810644b32984f0d76797b7d14
 msgid "Click :guilabel:`OK` to save your changes and leave the dialog."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:30
-# bb74df9f2cd9441ea3f696d4f7ce5e42
+# 0d72e4e7c7d54a0ba55b4c6c17eefc63
 msgid "Enter edit mode with the :guilabel:`rural` layer selected."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:31
-# 69d2426a2c3d4a20a963dd241ed9a6da
+# ff5785a1cd364f33918ea4005cea30cd
 msgid "Check under :menuselection:`View --> Toolbars` to make sure that your :guilabel:`Advanced Digitizing` toolbar is enabled."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:33
-# a08248dd67da4aadb441a57e572d2807
+# 72114ec0028d4c53821d88c766e853cc
 msgid "Zoom to this area (enable layers and labels if necessary):"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:38
-# d710de3bbea5401a84cbac4cacb680bc
+# e72acaf1f19349e8bdd2dcef7b1a0201
 msgid "Digitize this new (fictional) farm:"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:43
-# 7b2aa04f3d59430d9aed4bc63187dea7
+# f0abb1d009854cdabba85a960e648c77
 msgid "When prompted, give it an :guilabel:`id` of :kbd:`999`, but feel free to leave the other values unchanged."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:46
-# 42b8a9db61f244aaa850e2b6935f0996
+# 2f78d438b1414e83a35695f7fc166057
 msgid "If you're careful while digitizing and allow the cursor to snap to the vertices of adjoining farms, you'll notice that there won't be any gaps between your new farm and the existing farms adjacent to it."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:50
-# 4e884a28b8bf4be2a4be0362d7c15288
+# 4e4c5d6c529d4c2b8a8ed65a79ee1950
 msgid "Note the undo/redo tools in the :guilabel:`Advanced Digitizing` toolbar:"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:55
-# 7c7a63768dbc42d0ab2b09b3c36c8eff
+# ec8cae62531b4418bf8db523e92cb0c7
 msgid "Those buttons will become your best friends..."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:58
-# bd308bb6ea754f4d989e6acbfb2b3f9e
-msgid "|moderate| |FA| Closing the Gaps"
-msgstr ""
-
 #: ../../create_vector_data/topo_editing.rst:60
-# 1f6835070a0c451dbc5940b2fa645595
+# cb34411a10fb45c2a6f3dfbc14754bd8
 msgid "You've probably noticed some large holes in the :guilabel:`rural` dataset:"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:65
-# 84581d88cfa249bc8dbb6456a5b8dc43
+# c2f164187f66426c9deb4aaf4fcee4ad
 msgid "The white gaps among the farms, which are not filled by grey urban areas, represent missing farms.  Let's say you want to close these gaps. If you were adding features normally, you'd have to be very accurate to avoid gaps and overlap. In fact, even if you're very accurate, without vertex snapping (which you activated above), digitizing features without such errors is impossible."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:71
-# d43f0644a72941e1931df21b7ea9cccc
+# bb1a53bd0398471592481ffa876878f6
 msgid "However, we have another tool to use for this situation. Since we already have topology enabled, it's possible to very quickly close a hole without even worrying about accuracy, and the topology will take care of the rest. For example, let's say you want to digitize a new farm to close up this gap:"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:79
-# b32afe67b46144718270766e65899263
+# a66aef4760ca41ad9b394b7498504776
 msgid "If you had to do this without help from the topology, you'd be digitizing that for a while. But at the moment, as per the directions above, you have :guilabel:`Avoid Int.` (\"Avoid Intersections\") enabled for the :guilabel:`rural` layer. This tells QGIS to use the topology to prevent overlap. So you can digitize even a very rough shape:"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:88
-# 814ef91445c043d9a31b9bfe4d3447e2
+# d0f3817e2e7a4a8595ef104498cb37de
 msgid "(Use an :guilabel:`id` value of somewhere in the hundreds range to avoid a conflict with existing features.)"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:91
-# 510146b1147f40298d3a19794507246c
+# 5149f7ff45e14a66bb87322fcf199d5d
 msgid "But when you select the feature ..."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:96
-# db2e1292046e487f9ebbca544602c0d4
+# 105408af9eb840578f11d74af773e9c1
 msgid "... you'll see that QGIS has automatically added all the detailed vertices and made sure that there was no overlap!"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:99
-# 462d8b7f72e64c6c87fbf932949a6712
+# 6a873d635b654d299a48cf5629b62765
 msgid "Try doing this now."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:101
-# dd6922e2e5d5479e92776be72a8f0529
+# b677c2e6d0b64a5f89f649373979bb9b
 msgid "The \"Avoid Intersections\" option only works to eliminate overlap (intersections). Obviously, if you leave a gap, that will not be filled, because you might not actually want the gap to be filled!"
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:110
-# 55796204200b44618fa1ee2436283a5b
+# 4a313fa24660447a8d37c0d3ed97af4d
 msgid "Close the remaining gaps using the approach above, but make sure not to create farms over urban areas."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:112
-# f7f386b832724ea08724eda943f27029
+# 07253b6cfcde4dc4a7dab0fb88c8d8f0
 msgid "Remember to save your edits, and if necessary, to exit edit mode."
 msgstr ""
 
 #: ../../create_vector_data/topo_editing.rst:114
-# 7cc42e599b184675916f390529a55464
+# 77cef3d6d6914a7990424fedf675951c
 msgid ":ref:`Check your results <create-vector-topology-3>`"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:118
-# bf03368f6a0f4483937fd07ccc4d4869
-msgid "|moderate| |FA| Correct topology errors"
-msgstr ""
-
-#: ../../create_vector_data/topo_editing.rst:120
-# 1c277f7b77574d809ad23d869db52bec
+#: ../../create_vector_data/topo_editing.rst:119
+# 7068ea00173748c58967a83d47067db6
 msgid "Topology errors aren't always immediately visible. Let's change the :guilabel:`rural` layer's symbology to see some of them."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:123
-# 988cfc3ed1104b648a01187df273a46f
+#: ../../create_vector_data/topo_editing.rst:122
+# ad7b50d90f4843fa9e89ae9afe6bf983
 msgid "Set the symbology for the :guilabel:`rural` layer to a single (preferably dark) color."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:125
-# a707bb1cdc69470b8f8946fdd5babb78
+#: ../../create_vector_data/topo_editing.rst:124
+# 72583f76c3eb47f58274e7db72f6291c
 msgid "Set its :guilabel:`Transparency` slider to :kbd:`50%`."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:126
-# 3ad1eb8d063848bf805a1f9e59cc9ad2
+#: ../../create_vector_data/topo_editing.rst:125
+# 878b971264bc482e8d5482feac32a605
 msgid "You should see results like these:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:131
-# 5d11f1d476f34d05a7afc8c17637f72a
+#: ../../create_vector_data/topo_editing.rst:130
+# 13701ba2ef51484e8c2292d4940eefab
 msgid "There are several things to notice here. First, the new farm you added is lighter than the others. This is because in this dataset, there are several \"levels\" of farms: large farms and their subdivisions were digitized separately. So there is a large farm and its subdivisions resting on top of each other, which makes the color darker because you're seeing the lower one through the upper one. That's a feature of the dataset, not a problem."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:138
-# 4f97c17b570e40efbbb37831bc92de3f
+#: ../../create_vector_data/topo_editing.rst:137
+# 85e48860f9584af7ad21c76eeeefc9d6
 msgid "But you can also notice a definite problem: one of the farms is going underneath another one!  Obviously this is a mistake, because in the real world farms don't overlap, and two farms don't share the same subdivision."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:142
-# b2e40b13ba9d43f3982f1f23fa8aace2
+#: ../../create_vector_data/topo_editing.rst:141
+# 5a39e2fe46954680a20fe04f5154bc7e
 msgid "Let's correct this!"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:144
-# 566a2fe5ca354bad9a944d5d16308cc1
+#: ../../create_vector_data/topo_editing.rst:143
+# d6b9ef81440147f9bcb94010206d4935
 msgid "Enter edit mode, if it isn't active already."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:145
-# 19ab2e6acb8e46758879774b1a856582
+#: ../../create_vector_data/topo_editing.rst:144
+# a8ab29d6d97e4970856f120c919d6464
 msgid "Select the :guilabel:`Node Tool`."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:146
-# dd91370c2f18430eb9c88b854c6b030d
+#: ../../create_vector_data/topo_editing.rst:145
+# f77d01d12ad34127aea58bb4dd7bffe7
 msgid "Click on one of the corners of the problematic farm. This will select that farm for editing and you'll see all the nodes appear:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:152
-# bb99ed2c395444f69ecf5cb011460903
+#: ../../create_vector_data/topo_editing.rst:151
+# 86093afe94334e17be9c27685a87ea04
 msgid "Click and drag the nodes until they snap into place."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:157
-# e8a8f6fd8d114207b50562d369f0936f
+#: ../../create_vector_data/topo_editing.rst:156
+# c5c96c66249d4b84aaec524808009165
 msgid "The topologically correct border looks like this:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:163
-# 5c0412dbd72948ac82d7711d5cc7ed00
-msgid "|moderate| |FA| Tool: Simplify Feature"
-msgstr ""
-
-#: ../../create_vector_data/topo_editing.rst:165
-# ef3f84f43e7d4198ba7094af567ef532
+#: ../../create_vector_data/topo_editing.rst:164
+# d3c6e9a0f11147ee941dd383ab2075ea
 msgid "This is the :guilabel:`Simplify Feature` tool:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:170
-# fe82bcbd47c84377a5f683f8e33bdab2
+#: ../../create_vector_data/topo_editing.rst:169
+# 21dc4bffacc645ce83089d73077c04fa
 msgid "Click on it to activate it."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:171
-# 12bb8749948a4fbcb52d8c4509c50992
+#: ../../create_vector_data/topo_editing.rst:170
+# 74804c9a4cc74b2b8b476412ad5361bd
 msgid "Click on the new farm you created previously. You'll be presented with this dialog:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:177
-# 8aa5ca31318f4b7393b90867a28a088f
+#: ../../create_vector_data/topo_editing.rst:176
+# 78f072c2bb6340af98c66c801928b840
 msgid "Move the slider from side to side and watch what happens:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:182
-# 573b8521dcf84312bca67afd74be0781
+#: ../../create_vector_data/topo_editing.rst:181
+# 7f14b3ba6af14d96894b90d3d2e19a77
 msgid "This allows you to recude the amount of nodes in complex features. However, notice what it does to the topology! The simplified farm is now no longer touching the adjacent farms as it should. That's how you know that this tool is better suited to generalizing stand-alone features. The advantage is that it provides you with a simple, intuitive interface for generalization, and allows you to see what the effects would be before you even implement them."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:189
-# a971b181e0c54c12b814fef219bc5d4f
+#: ../../create_vector_data/topo_editing.rst:188
+# 4db4e2774dc24348a835f4c9dc3840cf
 msgid "Before you go on, get the farm back in its previous state. Either:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:191
-# 649d4429c47f4c14984918639236eed3
+#: ../../create_vector_data/topo_editing.rst:190
+# a9b703671f6b44f1a2954106c9baaa9a
 msgid "cancel the :guilabel:`Simplify Feature` dialog, or"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:192
-# 211650cc205c4743925efb2fe006dd23
+#: ../../create_vector_data/topo_editing.rst:191
+# b89966413f4e41dcb88da4f265a3f933
 msgid "if you already clicked :guilabel:`OK`, just undo the last change."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:198
-# ffd9d4c8e00b4cc7888c71f75809b19c
-msgid "|moderate| |TY| Tool: Add Ring"
-msgstr ""
-
-#: ../../create_vector_data/topo_editing.rst:200
-# 7fee116a17654b5ca9a0e95146b64d0c
+#: ../../create_vector_data/topo_editing.rst:199
+# e6f34b2b178d4875b591086af55c993d
 msgid "This is the :guilabel:`Add Ring` tool:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:205
-# 766181a19a4e4f50904950deec270dcb
+#: ../../create_vector_data/topo_editing.rst:204
+# ebb4a153f5104cf0a2c592de7f4c5d8c
 msgid "It allows you to take a hole out of a feature, as long as the hole is bounded on all side by the feature. For example, if you've digitized the outer boundaries of South Africa and you need to add a hole for Lesotho, you'd use this tool."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:210
-# 2f0550633fb44a70a1c222b299a18446
+#: ../../create_vector_data/topo_editing.rst:209
+# 9845a6b3866d4f4e939247293c4d180a
 msgid "Try using this tool to create a gap in the middle of your farm."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:211
-#: ../../create_vector_data/topo_editing.rst:232
-# 5620f781d9b24135b7091fec088b73cc
-# 9524e67725684daf9893eb19f616b5cb
+#: ../../create_vector_data/topo_editing.rst:210
+#: ../../create_vector_data/topo_editing.rst:231
+# af031f8e91b94a91ba6c4ea9cd691005
+# 8a3d106aafeb48179151d92b2ac83f87
 msgid "Undo the edit when you are done."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:213
-# 421101126a784bed9493aba6113d37f3
+#: ../../create_vector_data/topo_editing.rst:212
+# 3baa80d7f0fe431f91076a75e7c52866
 msgid ":ref:`Check your results <create-vector-topology-1>`"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:219
-# d1fc4e8377c549bf86f65f72a955ff9f
-msgid "|moderate| |TY| Tool: Add Part"
-msgstr ""
-
-#: ../../create_vector_data/topo_editing.rst:221
-# 41e8a0f1e75b44fc9056f349dc4b06bd
+#: ../../create_vector_data/topo_editing.rst:220
+# c33e704d0b484f8e91064c376af90d14
 msgid "This is the :guilabel:`Add Part` tool:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:226
-# fd08f42faa224987a14bc667cc6f2fc2
+#: ../../create_vector_data/topo_editing.rst:225
+# 0251fd67b74c4c58a7667fd139eb842f
 msgid "It allows you to create an extra part of the feature, not directly connected to the main feature. For example, if you've digitized the boundaries of mainland South Africa but you haven't yet added the Prince Edward Islands, you'd use this tool to create them."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:231
-# 541438c23fdb432ca4b20050ddaef33e
+#: ../../create_vector_data/topo_editing.rst:230
+# 65e6cd6790d946c988bc8e57e4a00e73
 msgid "Try using this tool to add an outlying property to your farm."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:234
-# 8dd02ee8a683421e98726414ed6c1812
+#: ../../create_vector_data/topo_editing.rst:233
+# 84c4dd8cbd4d4993b86eaa75c1c67c5e
 msgid ":ref:`Check your results <create-vector-topology-2>`"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:238
-# e6941fccf1a5488c99ca29ff141e7e85
-msgid "|moderate| |TY| Tools: Delete Ring and Delete Part"
-msgstr ""
-
-#: ../../create_vector_data/topo_editing.rst:240
-# 49c3abfb7075432685f6b2320e4cf4a7
+#: ../../create_vector_data/topo_editing.rst:239
+# 67a9f69d374145358d9d0a1844292fb0
 msgid "These are the :guilabel:`Delete Ring` and :guilabel:`Delete Part` tools, respectively:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:246
-# b283e1094c7e4316a1dd9112ec977c29
+#: ../../create_vector_data/topo_editing.rst:245
+# ab1a920f190e4b75ab5fac82d1dceed5
 msgid "Their functions should be obvious."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:248
-# 4fdc84c99f5549bab85836d4c09d6f5a
+#: ../../create_vector_data/topo_editing.rst:247
+# ea38d1635b104ed59d834289147823a7
 msgid "Create new parts and rings as above and delete them to try see how these tools work."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:250
-# 6cec5442b7a746139c6da158eb87ecfb
+#: ../../create_vector_data/topo_editing.rst:249
+# b61d65b0a5384c599e22d57b36be1558
 msgid "You need to click close to a node (corner) of a part or ring in order to delete it."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:255
-# d255fa24f96d4adf9180e71e47a25c81
-msgid "|moderate| |FA| Tool: Reshape Features"
-msgstr ""
-
-#: ../../create_vector_data/topo_editing.rst:257
-# dd8f69c55b0c49d4bb9e0fc31a886487
+#: ../../create_vector_data/topo_editing.rst:256
+# 5bd9f101a918462fb8347c4d49609c51
 msgid "This is the :guilabel:`Reshape Features` tool:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:262
-# fcac4e59b3db41e8951de5332d80cd93
+#: ../../create_vector_data/topo_editing.rst:261
+# 86b0f00c7aec49e9b3f6ab6671dbbfe2
 msgid "It can add a bump to an existing feature. With this tool selected:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:264
-# 33274c68f38b437f90622081911ca3d7
+#: ../../create_vector_data/topo_editing.rst:263
+# 5c8869de33224b88b924c51a8f7b2425
 msgid "Click inside your farm."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:265
-# e7733811194d40b5be704a6e72b4c28a
+#: ../../create_vector_data/topo_editing.rst:264
+# 4c229a8b45324c5a98448ec051ad9c0a
 msgid "Add an extra piece of land."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:266
-# 914db0caad7f4abfb076ea049954e371
+#: ../../create_vector_data/topo_editing.rst:265
+# babf75c4ff2f477b9ec9ec3a77e341b6
 msgid "Right-click back inside the farm:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:271
-#: ../../create_vector_data/topo_editing.rst:285
-# 4ec2528754b643bf8639694ac4d409df
-# 023b5d96de614cfebb4123f3e6ef281c
+#: ../../create_vector_data/topo_editing.rst:270
+#: ../../create_vector_data/topo_editing.rst:284
+# 7fc9fc561c5446b18d0030d62834d213
+# c5cad82a53a94e75a09baf7c24f4b809
 msgid "The result of the above:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:276
-# 02135436b6474544909b1241232e7c0e
+#: ../../create_vector_data/topo_editing.rst:275
+# 63bef78fd0114f6f8485a0025018d45e
 msgid "You can do the opposite, too:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:278
-# 77ad2745f12c4f91bda0c93b9ef28418
+#: ../../create_vector_data/topo_editing.rst:277
+# f8f59b6c5f4f4e669bfcb98917fd34a0
 msgid "Click outside the feature."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:279
-# 391acf183a654b58a85f6400fabe0d45
+#: ../../create_vector_data/topo_editing.rst:278
+# cb254bbcfd4244698cda6c1ffe0adfe3
 msgid "Take a bite out of it."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:280
-# 199875ce5ed1417daab828f6f1514593
+#: ../../create_vector_data/topo_editing.rst:279
+# 3f17c8fa9e0f45c390b111d8a5487762
 msgid "Right-click outside the farm again:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:292
-# 14cebbfd982947bf8d6d68e2b46a80ba
-msgid "|moderate| |TY| Tool: Split Features"
-msgstr ""
-
-#: ../../create_vector_data/topo_editing.rst:294
-# 7f9b67aadb5c44daa10a54984276e1a0
+#: ../../create_vector_data/topo_editing.rst:293
+# 034dc905562a46c4a9ce708a5d8d3b58
 msgid "The :guilabel:`Split Features` tool is similar to how you took part of the farm away, except that it doesn't delete either of the two parts. Instead, it keeps them both."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:298
-# e0a19ecc2f8947f3a62bc1725dee42a4
+#: ../../create_vector_data/topo_editing.rst:297
+# b8ee4003dd8d4520893bb48cc85b00c1
 msgid "Try it and see!"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:299
-# 53779db6bb514ecfae8aaa42d1b31d98
+#: ../../create_vector_data/topo_editing.rst:298
+# 07768acc0ad04478b5aa374b4ca615ad
 msgid "Undo your edit before continuing with the exercise for the next tool."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:305
-# 55caf6bb61fc4c46aa6e5ddcbb9603b1
-msgid "|hard| |TY| Tool: Merge Features"
-msgstr ""
-
-#: ../../create_vector_data/topo_editing.rst:307
-# f4f24ba066694d9e89e232eba292c7d0
+#: ../../create_vector_data/topo_editing.rst:306
+# 3cca8cffede74730b41e83919a29cdc7
 msgid "Find and select these farms:"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:312
-# 3a593a9c139d495fa40c6b8ed818f8f7
+#: ../../create_vector_data/topo_editing.rst:311
+# c5980913538941d1aeae92a22d312c1f
 msgid "Use the :guilabel:`Merge Selected Features` and :guilabel:`Merge Attributes of Selected Features` tools."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:314
-# 4af63389ead34a91a5256b26702da7e8
+#: ../../create_vector_data/topo_editing.rst:313
+# c352d54843e44ac980b1bb0750f65e11
 msgid "Note the differences."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:316
-# 61820435e5b74c7aa3e4c0cdb7639ea5
+#: ../../create_vector_data/topo_editing.rst:315
+# df11e1f5c3b74b68be3a62daadaf358d
 msgid ":ref:`Check your results <create-vector-topology-4>`"
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:321
-# f18da0069c344655839d99a6bb743605
+#: ../../create_vector_data/topo_editing.rst:320
+# baa50f5869834d439883219ff167ebc6
 msgid "Topology editing is a powerful tool that allows you to create and modify objects quickly and easily, while ensuring that they remain topologically correct."
 msgstr ""
 
-#: ../../create_vector_data/topo_editing.rst:328
-# 0d023651d0584b0c9e516dba11045561
+#: ../../create_vector_data/topo_editing.rst:327
+# 7dbe4f8c7d104aa481268cdc99f1207d
 msgid "Now you know how to digitize the shape of the objects easily, but adding in the attributes is still a bit of a headache! Next we'll show you how to use forms so that attribute editing is simpler and more effective."
 msgstr ""
 
