@@ -1,6 +1,6 @@
-*******************************************************************************
+*********************
 |MOD| Vector Analysis
-*******************************************************************************
+*********************
 
 Now that you have edited a few features, you must want to know what else one
 can do with them. Having features with attributes is nice, but when all is said
@@ -14,7 +14,7 @@ to answer a *research question* similar to what you may be asked to do as part o
 job. This will include:
 
 * projecting layers according to your needs
-* using Simple Query Language (SQL) to find particular data
+* using Structured Query Language (SQL) to find particular data
 * creating buffers
 * finding data contained in more than one layer using the :guilabel:`Intersect` tool
 * find data using the :guilabel:`Select by location` tool

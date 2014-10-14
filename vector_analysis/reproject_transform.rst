@@ -1,5 +1,5 @@
 |LS| Reprojecting and Transforming Data
-===============================================================================
+=======================================
 
 Let us talk about Coordinate Reference Systems (CRSs) again. We have touched on
 this briefly before, but have not discussed what it means practically.
@@ -7,7 +7,7 @@ this briefly before, but have not discussed what it means practically.
 **The goal for this lesson:** To reproject and transform vector datasets.
 
 |basic| |FA| Projections
--------------------------------------------------------------------------------
+------------------------
 
 The CRS that all the data as well as the map itself are in right now is called
 WGS84. This is a very common Geographic Coordinate System (GCS) for
@@ -45,7 +45,7 @@ change and corrects it. Therefore, to keep the scale constant, we should
 reproject our data to use a PCS.
 
 |basic| |FA| "On the Fly" Reprojection
--------------------------------------------------------------------------------
+--------------------------------------
 
 QGIS allows you to reproject data "on the fly". What this means is that even if
 the data itself is in another CRS, QGIS can project it as if it were in a CRS
@@ -124,7 +124,7 @@ they might not be in the same CRS. "On the fly" reprojection helps you to
 display them together.
 
 |moderate| |FA| Saving a Dataset to Another CRS
--------------------------------------------------------------------------------
+-----------------------------------------------
 
 We have shown how using "On the fly" can make layers with different projections appear 
 on the same map. But how can we reproject the layers so they are the same projection?
@@ -172,7 +172,7 @@ such as meters or kilometers, you will need to project the layers accordingly, u
 .. 
 
 |IC|
--------------------------------------------------------------------------------
+----
 
 Different projections are useful for different purposes. By choosing the
 correct projection, you can ensure that the features on your map are being
@@ -183,9 +183,9 @@ represented accurately.
 .. 
 .. * Start a new map:
 .. 
-.. image:: ../_static/vector_analysis/006.png
-   :align: center
-
+.. .. image:: ../_static/vector_analysis/006.png
+..   :align: center
+..
 .. Refer back to the lesson on :guilabel:`Classification` to remember how you
 .. calculated areas.
 .. 
@@ -208,7 +208,7 @@ represented accurately.
 .. will actually give you the area in hectares. This is why it's a good idea to
 .. reproject your data, if necessary, before calculating areas, distances, and
 .. other values that are dependent on the spatial properties of the layer.
-
+..
 .. |hard| |FA| Creating Your Own Projection
 .. -------------------------------------------------------------------------------
 .. 
@@ -250,17 +250,17 @@ represented accurately.
 .. 
 .. .. image:: ../_static/vector_analysis/011.png
 ..    :align: center
+..
 .. 
-
-|IC|
--------------------------------------------------------------------------------
-
-Different projections are useful for different purposes. By choosing the
-correct projection, you can ensure that the features on your map are being
-represented accurately.
+.. |IC|
+.. -------------------------------------------------------------------------------
+.. 
+.. Different projections are useful for different purposes. By choosing the
+.. correct projection, you can ensure that the features on your map are being
+.. represented accurately.
 
 |FR|
--------------------------------------------------------------------------------
+----
 
 .. Materials for the *Advanced* section of this lesson were taken from `this
 .. article <http://tinyurl.com/75b92np>`_.
@@ -269,7 +269,7 @@ Further information on Coordinate Reference Systems is available `here
 <http://linfiniti.com/dla/worksheets/7_CRS.pdf>`_.
 
 |WN|
--------------------------------------------------------------------------------
+----
 
 In the next lesson you'll learn how to analyze vector data using QGIS' various
 vector analysis tools.

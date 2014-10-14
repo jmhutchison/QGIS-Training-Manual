@@ -1,7 +1,7 @@
 |LS| Projecting layers 
 ===============================================================================
 
-We have created a map showing all the cases of poultry mortality in the 
+We have created a map showing all the cases of poultry mortality in poultry in the 
 Sulawesi Selatan region. Now we need to consider our approach to creating the required 
 15 kilometre buffer zone around these cases.
 

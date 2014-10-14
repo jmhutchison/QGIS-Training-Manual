@@ -219,7 +219,7 @@ That way your search will return results for *Chicken* and *chicken,* and any ot
 However, we do not want just chickens, we want all poultry that are recorded with *poultry mortality* as the syndrome. 
 To select these records, we need to use the *Advanced search* features. 
 
-|moderate| |FA| Selecting records using SQL (Simple Query Language)
+|moderate| |FA| Selecting records using SQL (Structured Query Language)
 --------------------------------------------------------------------------------
 The *Advanced search features* allow us to create more specific queries, selecting records with 
 the particular attributes we are interested in.

@@ -5,7 +5,7 @@
 The purpose of this module is to show how QGIS can be used to assist in animal health scenarios.
 In order to do this, you will have needed to study, and be familiar with, the previous chapters of this 
 manual, but in particular you need to be familiar with chapters 3 - *Creating a basic 
-map*, and chapter 6 - *Vector analysis*.
+map*, and chapter 7 - *Vector analysis*.
 
 
 .. toctree::
