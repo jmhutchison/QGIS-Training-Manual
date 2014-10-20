@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-10 15:16+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-10-17 12:56+1000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Language: id\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # a547362853db42d29a85e20f2dd75a72
 #: ../../postgres/adding_data.rst:2
@@ -174,7 +174,6 @@ msgstr "Apa kesalahan yang Anda peroleh?"
 
 # a4430f0ec0e241c1b35b7ece63b168cd
 #: ../../postgres/adding_data.rst:112
-#, fuzzy
 msgid "You should have noticed that:"
 msgstr "Anda seharusnya akan mendapatkan pesan seperti di bawah ini:"
 
@@ -718,7 +717,7 @@ msgstr ""
 # 625f6349ba9f4948ba1ab61f701a1a49
 #: ../../postgres/data_model.rst:338
 msgid "There are two ways to do this:"
-msgstr ""
+msgstr "Ada dua cara untuk melakukannya:"
 
 # c85e9be65a9f4a0a965343e296a73054
 #: ../../postgres/data_model.rst:337

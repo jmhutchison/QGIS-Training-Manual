@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-02 14:39+1000\n"
+"POT-Creation-Date: 2014-10-20 15:03+1100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -637,12 +637,10 @@ msgstr ""
 #: ../../vector_analysis/basic_analysis.rst:368
 #: ../../vector_analysis/network_analysis.rst:229
 #: ../../vector_analysis/reproject_transform.rst:175
-#: ../../vector_analysis/reproject_transform.rst:256
 #: ../../vector_analysis/spatial_statistics.rst:444
 # 60b83d86aadc48d5bec426ee35ed0fa2
 # 5c3dc857b2ed42d59a6c9225724baa1c
 # e6252e6d85764dabb2b2da7820df0427
-# 08f2400b6bf4489b9b0df609614dd401
 # 7aeb5c93ea494d51992bec03c95f5103
 msgid "|IC|"
 msgstr ""
@@ -695,7 +693,7 @@ msgstr ""
 
 #: ../../vector_analysis/index.rst:17
 # 537714bf603843af9ded5d84b200f679
-msgid "using Simple Query Language (SQL) to find particular data"
+msgid "using Structured Query Language (SQL) to find particular data"
 msgstr ""
 
 #: ../../vector_analysis/index.rst:18
@@ -1371,9 +1369,7 @@ msgid "It is very important to remember that to reproject a layer, you must save
 msgstr ""
 
 #: ../../vector_analysis/reproject_transform.rst:177
-#: ../../vector_analysis/reproject_transform.rst:258
 # d7dd8c80c1594036818ddd9d9aab568b
-# 41bf1d7432d74432b1cf6df2beb74640
 msgid "Different projections are useful for different purposes. By choosing the correct projection, you can ensure that the features on your map are being represented accurately."
 msgstr ""
 

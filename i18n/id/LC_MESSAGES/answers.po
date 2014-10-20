@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-02 14:39+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-10-17 12:09+1100\n"
+"PO-Revision-Date: 2014-10-20 14:58+1000\n"
+"Last-Translator: yusatya <yusatya@gmail.com>\n"
+"Language-Team: AIPEID\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Language: id\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # 5c4cc7f508ca40f480721cdf5d6a312d
 #: ../../answers/answers.rst:2
@@ -40,7 +40,7 @@ msgid ""
 "vector layer that you just loaded to create a basic map."
 msgstr ""
 "Anda akan melihat banyak garis yang melambangkan jalan. Semua garis tersebut "
-"merupakan layer  vektor yang baru saja Anda muat untuk membuat peta dasar."
+"merupakan layer vektor yang baru saja anda muat untuk membuat peta dasar."
 
 # 12b400a9ef204052ab6517ca1bd26a47
 #: ../../answers/answers.rst:15
@@ -50,7 +50,7 @@ msgstr ":ref:`Kembali ke teks <backlink-interface-preparation-1>`"
 # b12c90213e3144b2975bd59b3eb2d4f4
 #: ../../answers/answers.rst:19
 msgid "|RF| *An Overview of the Interface*"
-msgstr "Hasil Untuk *Gambaran Umum Antarmuka*"
+msgstr "Hasil Untuk *Tinjauan Umum Mengenai Antarmuka*"
 
 # ae906cdea10f4bfca8657a0bf899f2ae
 #: ../../answers/answers.rst:24
@@ -63,8 +63,8 @@ msgid ""
 "Refer back to the image showing the interface layout and check that you "
 "remember the names and functions of the screen elements."
 msgstr ""
-"Lihat kembali gambar yang menunjukkan tata letak antarmuka dan periksa bahwa "
-"Anda mengingat nama-nama dan fungsi dari unsur-unsur layar."
+"Lihat kembali gambar yang menunjukkan tata letak antarmuka dan pastikan anda "
+"mengingat nama dan fungsi dari unsur-unsur tampilan tersebut."
 
 # 881568a4003944a884878522685e91f8
 #: ../../answers/answers.rst:29
@@ -109,7 +109,7 @@ msgstr ":ref:`Kembali ke teks <backlink-interface-overview-2>`"
 # b3da1cf8fbf1403aaef11d0fe6b6a887
 #: ../../answers/answers.rst:47
 msgid "|RF| *Working with Vector Data*"
-msgstr "Hasil Untuk *Pekerjaan dengan Data Vektor*"
+msgstr "Hasil Untuk *Bekerja dengan Data Vektor*"
 
 # 9cc9900f2acd4dee88ca36d626403901
 #: ../../answers/answers.rst:52
@@ -118,13 +118,11 @@ msgstr "|basic| *Shapefiles*"
 
 # a1ce9cb10f9e4cea905a8ea294fc580c
 #: ../../answers/answers.rst:54
-#, fuzzy
 msgid "There should be three layers on your map:"
-msgstr "Harus terdapat dua layer pada peta Anda:"
+msgstr "Seharusnya terdapat tiga layer pada peta anda:"
 
 # 57e72ae0782f48869d92ba779fbba0f6
 #: ../../answers/answers.rst:56
-#, fuzzy
 msgid ":guilabel:`waterways`"
 msgstr ":guilabel:`Save as`"
 
@@ -154,13 +152,13 @@ msgid ""
 "All the vector layers should be loaded into the map. It probably won't look "
 "nice yet:"
 msgstr ""
-"Semua layer vektor harus dimuat ke dalam peta. Saat ini mungkin data-data "
-"tersebut belum akan terlihat bagus untuk dilihat:"
+"Semua layer vektor harus dimuat ke dalam peta. Kemungkinan saat ini peta "
+"tersebut belum terlihat bagus:"
 
 # b86bdccefee143e9b41b63e5d703e8b9
 #: ../../answers/answers.rst:74
 msgid "(We'll fix the ugly colors later.)"
-msgstr "(Kita akan memperbaiki warna yang jelek ini nanti.)"
+msgstr "(Nanti kita akan memperbaiki warna yang buruk ini.)"
 
 # 9c0e9f0fabc54352acf32891e78a1ede
 #: ../../answers/answers.rst:76
@@ -180,32 +178,31 @@ msgstr "|basic| *Warna*"
 # 7da272bad6a84b9e910f9b0381be4bd7
 #: ../../answers/answers.rst:87
 msgid "Verify that the colors are changing as you expect them to change."
-msgstr "Pastikan bahwa warna telah berubah seperti yang Anda harapkan."
+msgstr "Pastikan bahwa warna telah diubah sesuai dengan harapan anda."
 
 # 0435d9f4882f44a5992f5e107ce89c24
 #: ../../answers/answers.rst:88
-#, fuzzy
 msgid ""
 "It is enough to change only the :guilabel:`waterways` layer for now. An "
 "example is below, but may look different depending on the color you chose."
 msgstr ""
-"Hal ini hanya untuk mengubah layer :guilabel:`rural` untuk saat ini. "
-"Contohnya adalah di bawah ini, tetapi dapat terlihat berbeda tergantung pada "
-"warna yang Anda pilih."
+"Untuk saat ini cukup dengan mengubah layer :guilabel:`waterways`. Contohnya "
+"dapat dilihat di bawah ini, tetapi mungkin akan terlihat berbeda tergantung "
+"dari  warna yang anda pilih."
 
 # d089699e731c434384cdf0813cbfb948
 #: ../../answers/answers.rst:94
-#, fuzzy
 msgid ""
 "If you want to work on only one layer at a time and don't want the other "
 "layers to distract you, you can hide a layer by clicking in the check box "
 "next to its name in the Layers list. If the box is blank, then the layer is "
 "hidden. We have hidden some of the layers in this picture."
 msgstr ""
-"Jika Anda ingin bekerja hanya pada satu layer pada satu waktu dan tidak "
-"ingin layer lain mengalihkan perhatian Anda, Anda dapat menyembunyikan layer "
-"dengan mengklik pada kotak cek di sebelah nama dalam daftar layer. Jika "
-"kotak tersebut kosong, maka layer telah tersembunyi."
+"Anda dapat menyembunyikan layer dengan mengklik kotak centang di sebelah "
+"nama layer pada Daftar layer apabila anda hanya ingin bekerja pada satu "
+"layer dalam satu waktu dan tidak ingin layer lain memecah perhatian anda. "
+"Jika kotak centang tersebut kosong, maka layer telah tersembunyi. Kami telah "
+"menyembunyikan beberapa layer pada gambar ini."
 
 # eec807e701eb4b67b25727b3c0e0be9c
 #: ../../answers/answers.rst:99
@@ -219,19 +216,17 @@ msgstr "|basic| *Struktur Simbol*"
 
 # 863fe9868c80451eb1f94a98b2882af8
 #: ../../answers/answers.rst:107
-#, fuzzy
 msgid ""
 "Seen together, your forests, waterways, and bandung_districts layers should "
 "look more or less like this:"
 msgstr ""
-"Dilihat secara bersamaan, layer rural dan urban Anda  akan terlihat kurang "
-"lebih seperti ini:"
+"Jika dilihat secara bersamaan, maka layer hutan, perairan, dan "
+"bandung_districts seharusnya tampak kurang lebih seperti berikut ini:"
 
 # c1fe637badad47a091d06679fa36165f
 #: ../../answers/answers.rst:112
 msgid "If you are a Beginner-level user, you may stop here."
-msgstr ""
-"Jika Anda adalah pengguna pada level pemula, Anda sebaiknya berhenti disini. "
+msgstr "Jika anda adalah pengguna tingkat pemula, anda dapat berhenti disini. "
 
 # 34cb1f04c0cf493d864a589328ec8c02
 #: ../../answers/answers.rst:114
@@ -239,7 +234,7 @@ msgid ""
 "Use the method above to change the colors and styles for all the remaining "
 "layers."
 msgstr ""
-"Gunakan metode di atas untuk mengubah warna dan gaya untuk semua layer yang "
+"Gunakan metode di atas untuk mengubah warna dan style pada semua layer yang "
 "tersisa."
 
 # 0ab5d77bef7e4471bbbf5808c1840765
@@ -248,8 +243,8 @@ msgid ""
 "Try using natural colors for the objects. For example, a road should not be "
 "red or blue, but can be gray or black."
 msgstr ""
-"Coba gunakan warna-warna alami untuk objek. Misalnya, jalan tidak boleh "
-"merah atau biru, tetapi bisa digunakan warna abu-abu atau hitam."
+"Coba gunakan warna-warna alami untuk objek. Misalnya, jalan sebaiknya "
+"berwarna abu-abu atau hitam tetapi tidak merah atau biru."
 
 # ea693c9c4a844915b3d26802169f5d07
 #: ../../answers/answers.rst:118
@@ -257,8 +252,8 @@ msgid ""
 "Also feel free to experiment with different :guilabel:`Fill Style` and :"
 "guilabel:`Border Style` settings for the polygons."
 msgstr ""
-"Juga jangan ragu untuk bereksperimen dengan :guilabel:`Fill Style` dan "
-"pengaturan :guilabel:`Border Style` yang berbeda untuk poligon."
+"Selain itu, jangan ragu untuk bereksperimen dengan pengaturan :guilabel:"
+"`Fill Style` dan :guilabel:`Border Style` yang berbeda untuk poligon."
 
 # abb444485043475daeda73eed11c356f
 #: ../../answers/answers.rst:121
@@ -276,13 +271,13 @@ msgid ""
 "Customize your layers as you like, but remember that it has to be easy to "
 "tell different layers apart on the map."
 msgstr ""
-"Sesuaikan layer yang Anda inginkan, tetapi ingat bahwa itu harus memudahkan "
-"untuk mengetahui layer yang berbeda selain pada peta."
+"Sesuaikan layer dengan keinginan anda, tetapi ingat bahwa masing-masing "
+"layer harus dapat dibedakan satu sama lain pada peta. "
 
 # 6ff46243137b4e9fb68b221d392babaf
 #: ../../answers/answers.rst:132
 msgid "Here's an example:"
-msgstr "Berikut ini contohnya:"
+msgstr "Berikut adalah contohnya:"
 
 # a7b442980c304ed7801cb6aca141b046
 #: ../../answers/answers.rst:137
@@ -292,13 +287,14 @@ msgstr ":ref:`Kembali ke teks <backlink-symbology-layers-1>`"
 # d401924d878147a18e00ddf6d0db7497
 #: ../../answers/answers.rst:143
 msgid "|moderate| *Symbol Levels*"
-msgstr "|moderate| *Level Simbol*"
+msgstr "|moderate| *Tingkatan Simbol*"
 
 # 07d1ac75377f4396ac6eac483e5087ed
 #: ../../answers/answers.rst:145
 msgid "To make the required symbol, you need at least three symbol layers:"
 msgstr ""
-"Untuk membuat yang diperlukan, Anda membutuhkan setidaknya tiga layer simbol:"
+"Untuk membuat simbol yang diperlukan, anda membutuhkan setidaknya tiga layer "
+"simbol:"
 
 # 8dd192b70bcc4e1bbdda81b492d09f1e
 #: ../../answers/answers.rst:150
@@ -307,9 +303,10 @@ msgid ""
 "a slightly thinner solid dark gray or black line. The symbol layer on top is "
 "a thin white dashed line."
 msgstr ""
-"Layer yang paling rendah adalah simbol lebar, garis kuning yang padat. Di "
-"atasnya adalah garis yang sedikit lebih tipis keabu-abuan atau hitam gelap "
-"padat. Layer simbol di atas adalah garis putus-putus putih yang tipis."
+"Layer simbol yang paling rendah berupa garis penuh berwarna kuning yang "
+"lebar. Di atasnya terdapat garis penuh yang sedikit lebih ramping dan "
+"berwarna abu-abu gelap atau hitam. Layer simbol paling atas berupa garis "
+"putus-putus ramping berwarna putih."
 
 # 5251d4176f744580be8a7cea61b497a7
 #: ../../answers/answers.rst:154
@@ -317,19 +314,20 @@ msgid ""
 "If your symbol layers resemble the above but you're not getting the result "
 "you want, check that your symbol levels look something like this:"
 msgstr ""
-"Jika layer simbol Anda menyerupai yang ada di atas tetapi Anda tidak "
-"mendapatkan hasil yang sesuai dengan yang Anda inginkan, periksa bahwa level "
-"simbol Anda terlihat seperti ini:"
+"Jika layer simbol anda menyerupai tampilan di atas tetapi anda tidak "
+"mendapatkan hasil yang diinginkan, periksa tingkatan simbol yang seharusnya "
+"tampak seperti berikut ini:"
 
 # 91d9eae524da49de9cf04afd9698f6e6
 #: ../../answers/answers.rst:160
 msgid "Now your symbol should look like this:"
-msgstr "Sekarang simbol Anda seharusnya terlihat seperti ini:"
+msgstr "Sekarang simbol anda seharusnya terlihat seperti ini:"
 
 # 34c87a01c4784ef29b14a6bdfea009ca
 #: ../../answers/answers.rst:165
 msgid "Which, on the map, gives you this kind of effect:"
-msgstr "Pada peta Anda akan memberikan efek semacam ini:"
+msgstr ""
+"Efek yang ditampilkan pada peta anda akan terlihat seperti berikut ini:"
 
 # 006a5576e7a145bfab075ad4a7feb790
 #: ../../answers/answers.rst:170
@@ -339,28 +337,29 @@ msgstr ":ref:`Kembali ke teks <backlink-symbology-levels-1>`"
 # b9a1cec8defc41909f639d12ae6a8764
 #: ../../answers/answers.rst:176
 msgid "|hard| *Symbol Levels*"
-msgstr "|hard| *Level Simbol*"
+msgstr "|hard| *Tingkatan Simbol*"
 
 # e76f854ff0484a1bbc7a4c725a09fda4
 #: ../../answers/answers.rst:178
 msgid "Adjust your symbol levels to these values:"
-msgstr "Aturlah level simbol Anda untuk hasil seperti ini:"
+msgstr "Aturlah tingkatan simbol anda menjadi nilai-nilai berikut ini:"
 
 # ee820faf6860430aa4a2712e8cfbd029
 #: ../../answers/answers.rst:183
 msgid "There are a lot of symbols with this style"
-msgstr ""
+msgstr "Terdapat banyak simbol yang menggunakan style ini."
 
 # 23ef33433f4442b5aa91cbe1587e5941
 #: ../../answers/answers.rst:184
 msgid "Experiment with different values to get different results."
-msgstr "Cobalah dengan nilai berbeda untuk memperoleh hasil yang berbeda."
+msgstr ""
+"Cobalah bereksperimen dengan berbagai nilai untuk memperoleh hasil yang "
+"berbeda."
 
 # 7d1bdd18cfb74830932e780a0ef0fd3f
 #: ../../answers/answers.rst:185
 msgid "Open your original map again before continuing with the next exercise."
-msgstr ""
-"Buka peta asli Anda kembali sebelum melanjutkan dengan latihan selanjutnya."
+msgstr "Buka kembali peta asli anda sebelum melanjutkan latihan berikutnya."
 
 # 534e13466d6a468ebc440c7983c2cf10
 #: ../../answers/answers.rst:187
@@ -384,9 +383,9 @@ msgid ""
 "its values are unique for every object, and it contains no \"null\" values "
 "(i.e., fields with no value)."
 msgstr ""
-"Field *NAME* paling banyak digunakan sebagai label. Hal ini dikarenakan "
-"semua nilainya unik untuk setiap objek, dan ini tidak berisi nilai "
-"“null” (misalnya fields tanpa nilai)."
+"Kolom *NAME* merupakan kolom yang paling bermanfaat untuk ditampilkan "
+"sebagai label. Hal ini karena semua nilainya unik untuk setiap objek, dan "
+"tidak berisi nilai kosong “null” (misalnya kolom tanpa nilai)."
 
 # f574b38e57e947efa6e38419306d6955
 #: ../../answers/answers.rst:202
@@ -396,7 +395,7 @@ msgstr ":ref:`Kembali ke teks. <backlink-labels-attribute-data-1>`"
 # de90755a05264cf287e8d347b494c98a
 #: ../../answers/answers.rst:206
 msgid "|RF| *The Label Tool*"
-msgstr "Hasil Untuk *Piranti Label*"
+msgstr "Hasil Untuk *Alat Bantu Label*"
 
 # e098f35ce7f740f5b7974cde7f854c19
 #: ../../answers/answers.rst:211
@@ -408,7 +407,7 @@ msgstr "|moderate| *Pengaturan Label* (Bagian 1)"
 # c2ebea11585f40b38a43e79b2ae5eed0
 #: ../../answers/answers.rst:213
 msgid "Your map should look like this:"
-msgstr "Peta Anda seharusnya terlihat seperti ini:"
+msgstr "Peta anda akan terlihat seperti ini:"
 
 # 692ba26500f54414a0daca4b106ae9c1
 # 508229bbb116412ca76ae9b78f53f0f2
@@ -424,7 +423,7 @@ msgstr "|moderate| *Pengaturan Label* (Bagian 2)"
 # e5edc47cc30b4adfb1005056dfa566d9
 #: ../../answers/answers.rst:226
 msgid "One possible solution has this final product:"
-msgstr "Salah satu solusi yang mungkin untuk hasil akhir:"
+msgstr "Salah satu solusi yang mungkin untuk menghasilkan produk akhir:"
 
 # 3475f8f0d75349cc82ff470a65249132
 #: ../../answers/answers.rst:231
@@ -437,8 +436,8 @@ msgid ""
 "Use the font type :kbd:`Arial` of size :kbd:`10` and a :guilabel:`Label "
 "distance` of :kbd:`1,5 mm`."
 msgstr ""
-"Gunakan jenis font :kbd:`Arial` ukuran :kbd:`10` dan :guilabel:`Label "
-"distance`  dari :kbd:`1,5 mm`."
+"Gunakan jenis huruf :kbd:`Arial` dengan ukuran :kbd:`10` dan :guilabel:"
+"`Label distance` sebesar :kbd:`1,5 mm`."
 
 # 802456d76abe4054bf45b24dbe576bee
 #: ../../answers/answers.rst:235
@@ -447,7 +446,7 @@ msgid ""
 "option:"
 msgstr ""
 "Selain itu, contoh ini menggunakan pilihan :guilabel:`Wrap label on "
-"character` :"
+"character`:"
 
 # baa7452cdcd9437f90ec9e608c6313f6
 #: ../../answers/answers.rst:241
@@ -455,40 +454,42 @@ msgid ""
 "Enter a :kbd:`space` in this field and click :guilabel:`Apply` to achieve "
 "the same effect."
 msgstr ""
-"Masukkan :kbd:`space` pada field ini dan klik :guilabel:`Apply` untuk "
-"memperoleh efek yang sama."
+"Masukkan :kbd:`space` (spasi) pada kolom ini dan klik :guilabel:`Apply` "
+"untuk memperoleh efek yang sama."
 
 # 2f730f909ef2494e82bfdfbb9245c095
 #: ../../answers/answers.rst:250
 msgid "|hard| *Using Data Defined Settings*"
-msgstr "|hard| *Menggunakan Pengaturan Data yang Ditetapkan*"
+msgstr "|hard| *Menggunakan Pengaturan Berdasarkan Data*"
 
 # 27b4c88e45314fe18bc37e0f2dde3d58
 #: ../../answers/answers.rst:252
-#, fuzzy
 msgid ""
 "Still in edit mode, set the :kbd:`FONT_SIZE` values to whatever you prefer. "
 "The example uses :kbd:`14` for universities, :kbd:`12` for hospitals, and :"
 "kbd:`10` for the remaining places."
 msgstr ""
-"Masih dalam mode edit, aturlah nilai :kbd:`FONT_SIZE`  ke apapun yang lebih "
-"Anda inginkan. Contoh ini menggunakan :kbd:`12` kota, :kbd:`10` untuk "
-"pinggiran kota dan desa, dan :kbd:`8` untuk entri null."
+"Masih dalam modus penyuntingan, aturlah nilai :kbd:`FONT_SIZE`  sesuai "
+"keinginan anda. Contoh ini menggunakan ukuran :kbd:`14` untuk universitas, :"
+"kbd:`12` untuk rumah sakit, dan :kbd:`10` untuk tempat-tempat lain yang "
+"tersisa."
 
 # 7ef0916f13354eeb88afb95893063d1d
 #: ../../answers/answers.rst:255
 msgid "Remember to save changes and exit edit mode."
-msgstr "Ingatlah untuk menyimpan perubahan dan keluar dari mode edit."
+msgstr "Ingatlah untuk menyimpan perubahan dan keluar dari modus penyuntingan."
 
 # c5e9faf69de6419ab4413235e7016806
 #: ../../answers/answers.rst:256
 msgid "In :guilabel:`Data defined settings`, do this:"
-msgstr "Dalam :guilabel:`Data defined settings`, lakukan ini:"
+msgstr "Dalam :guilabel:`Data defined settings`, lakukan langkah ini:"
 
 # 3f3689999acd442f8deb8bad23e6df4e
 #: ../../answers/answers.rst:261
 msgid "Your results, if using the above values, should be this:"
-msgstr "Hasil Anda, jika menggunakan nilai di atas, seharusnya seperti ini:"
+msgstr ""
+"Hasil yang anda peroleh, jika menggunakan nilai di atas, seharusnya tampak "
+"seperti ini:"
 
 # e314dc05c9c84b31837a0487bfaf1ef4
 #: ../../answers/answers.rst:266
@@ -503,7 +504,7 @@ msgstr "Hasil Untuk *Klasifikasi*"
 # f64628175424410099875e024f17f436
 #: ../../answers/answers.rst:275
 msgid "|moderate| *Refine the Classification*"
-msgstr "|moderate| *Mempertajam Klasifikasi*"
+msgstr "|moderate| *Menyempurnakan Klasifikasi*"
 
 # 6decdb23ee0543cd86ce5f1a4655e6d8
 #: ../../answers/answers.rst:277
@@ -511,8 +512,8 @@ msgid ""
 "Use the same method as in the first exercise of the lesson to get rid of the "
 "lines:"
 msgstr ""
-"Gunakan metode yang sama seperti pada latihan pertama dari pelajaran ini "
-"untuk menyingkirkan baris: "
+"Gunakan metode yang sama seperti pada latihan pertama dari materi ini untuk "
+"menghilangkan garis: "
 
 # 8bbc392cf35e460ab527c16f0236c355
 #: ../../answers/answers.rst:283
@@ -521,10 +522,10 @@ msgid ""
 "`Classes` = :kbd:`7` and :guilabel:`Mode` = :guilabel:`Natural Breaks "
 "(Jenks)` (and using the same colors, of course), the map will look like this:"
 msgstr ""
-"Pengaturan yang Anda gunakan mungkin tidak sama, tetapi nilai :guilabel:"
-"`Classes` = :kbd:`7` dan :guilabel:`Mode` = :guilabel:`Natural Breaks "
-"(Jenks)` ( dan gunakan warna yang sama), peta tersebut akan terlihat seperti "
-"ini:"
+"Pengaturan yang anda gunakan mungkin tidak sama, tetapi dengan nilai :"
+"guilabel:`Classes` = :kbd:`7` dan :guilabel:`Mode` = :guilabel:`Natural "
+"Breaks (Jenks)` (serta menggunakan warna yang sama), maka peta tersebut akan "
+"terlihat seperti ini:"
 
 # e5fe4fc476ab4eea984f68506c7455e4
 #: ../../answers/answers.rst:290
@@ -539,12 +540,12 @@ msgstr "Hasil Untuk *Analisis Vektor*"
 # bb5ba3695eee45d5a6b631f2868191a3
 #: ../../answers/answers.rst:428
 msgid "|basic| *Find Important Roads*"
-msgstr "|basic| *Menemukan Jalan Penting*"
+msgstr "|basic| *Menemukan Jalan-Jalan yang Penting*"
 
 # 0f735be60adc4d5786401888cc3de377
 #: ../../answers/answers.rst:430
 msgid "Your layer should now have these roads:"
-msgstr "Layer Anda sekarang harus mempunyai jalan-jalan berikut:"
+msgstr "Sekarang layer anda seharusnya mempunyai jalan-jalan berikut ini:"
 
 # 86ed15f247ad4eadbd3ba7302c410922
 #: ../../answers/answers.rst:435
@@ -553,13 +554,13 @@ msgid ""
 "residential_development/`, as :kbd:`important_roads.shp`."
 msgstr ""
 "Simpan layer baru ini (dengan cara yang sama seperti sebelumnya) di dalam "
-"folder  :kbd:`exercise_data/residential_development/`, sebagai :kbd:"
+"folder :kbd:`exercise_data/residential_development/` sebagai :kbd:"
 "`important_roads.shp`."
 
 # ad896b703e07466b890c4ea89d0f20b2
 #: ../../answers/answers.rst:436
 msgid "Once the new layer has been added to your map, remove the old layer."
-msgstr "Setelah layer baru ditambahkan pada peta Anda, hapus layer yang lama."
+msgstr "Hapus layer yang lama setelah layer baru ditambahkan pada peta anda."
 
 # 639103d8b5304e788b7f42900e6ad5d3
 #: ../../answers/answers.rst:437
@@ -568,11 +569,11 @@ msgid ""
 "the layer to the map (this can happen), remember that you can add the layer "
 "yourself by using the :guilabel:`Add Vector Layer` button as you did before."
 msgstr ""
-"Jika untuk beberapa alasan, memberikan Anda pesan error yang menyatakan "
-"bahwa layer tersebut tidak dapat ditambahkan ke peta (hal tersebut dapat "
-"terjadi), ingatlah bahwa Anda dapat menambah layer Anda sendiri dengan "
-"menggunakan tombol :guilabel:`Add Vector Layer` seperti yang telah dilakukan "
-"sebelumnya. "
+"Jika, karena suatu alasan, muncul pesan kesalahan yang menyatakan bahwa "
+"layer tersebut tidak dapat ditambahkan ke dalam peta (hal ini dapat "
+"terjadi), ingatlah bahwa anda dapat menambahkannya sendiri dengan "
+"menggunakan tombol :guilabel:`Add Vector Layer` seperti yang telah anda "
+"lakukan sebelumnya. "
 
 # d0c25c9ce524421e93d4a14d8cc7dc17
 #: ../../answers/answers.rst:439
@@ -582,12 +583,12 @@ msgstr ":ref:`Kembali ke teks. <backlink-vector-analysis-basic-1>`"
 # a2068af2fc6c413983694a1cec56beb1
 #: ../../answers/answers.rst:444
 msgid "|basic| *Distance from High Schools*"
-msgstr "|basic| *Jarak dari Sekolah Tinggi*"
+msgstr "|basic| *Jarak dari Sekolah Menengah*"
 
 # 31360056d4e544f09cdeabfb8d446951
 #: ../../answers/answers.rst:446
 msgid "Your buffer dialog should look like this:"
-msgstr "Dialog buffer Anda harus tampak seperti berikut:"
+msgstr "Kotak dialog buffer anda akan tampak seperti berikut ini:"
 
 # 396f446bdff14dfe9a7f96ebef5cebd6
 #: ../../answers/answers.rst:451
@@ -595,26 +596,23 @@ msgid ""
 "The :guilabel:`Buffer distance` is :kbd:`10000` meters (i.e., :kbd:`10` "
 "kilometers)."
 msgstr ""
-":guilabel:`Buffer distance` sebesar :kbd:`10000` meter (misalnya :kbd:`10` "
-"km)."
+":guilabel:`Buffer distance` sebesar :kbd:`10000` meter (:kbd:`10` kilometer)."
 
 # d744f1867d5c4ab0b1f7f12669f22c82
 #: ../../answers/answers.rst:453
-#, fuzzy
 msgid ""
 "The :guilabel:`Segments to approximate` value is set to :kbd:`20`. This is "
 "optional, but it's recommended, because it makes the output buffers look "
 "smoother."
 msgstr ""
-"Nilai :guilabel:`Segments to approximate` diatur menjadi :kbd:`20`. Hal "
-"tersebut merupakan pilihan, tetapi hal tesebut direkomendasikan karena akan "
-"menghasilkan hasil buffer yang lebih halus. Bandingkan ini:"
+"Nilai :guilabel:`Segments to approximate` diatur menjadi :kbd:`20`. Ini "
+"merupakan pilihan, tetapi disarankan karena dapat membuat keluaran buffer "
+"terlihat lebih halus."
 
 # 85c7ca7b152b4a5f9b90debf16437649
 #: ../../answers/answers.rst:454
-#, fuzzy
 msgid "Compare this:"
-msgstr "Dengan ini:"
+msgstr "Bandingkan ini:"
 
 # 85c7ca7b152b4a5f9b90debf16437649
 #: ../../answers/answers.rst:459
@@ -629,8 +627,9 @@ msgid ""
 "`Segments to approximate` set to :kbd:`5`."
 msgstr ""
 "Lingkaran merah adalah buffer dengan :guilabel:`Segments to approximate` "
-"diatur senilai :kbd:`20`; lingkaran berwarna abu-abu di atasnya adalah "
-"buffer dengan :guilabel:`Segments to approximate` diatur seniali :kbd:`5`."
+"yang diatur sebesar :kbd:`20`; lingkaran berwarna abu-abu di atasnya adalah "
+"buffer dengan :guilabel:`Segments to approximate` yang diatur sebesar :kbd:"
+"`5`."
 
 # b33d8b72a08a4061ac485c132db1006e
 #: ../../answers/answers.rst:468

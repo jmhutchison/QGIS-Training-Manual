@@ -3,25 +3,25 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-13 11:27\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2014-10-17 14:50+1000\n"
+"Last-Translator: yusatya <yusatya@gmail.com>\n"
+"Language-Team: AIPEID\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Language: id\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # 71b1bb42051d4c9fb326f939a2f7927a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:2
 msgid "|LS| The Label Tool"
-msgstr ""
+msgstr "Pelajaran: Alat Bantu Label"
 
 # ca872dabee5449d196cdf37f2305d859
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:4
@@ -30,6 +30,10 @@ msgid ""
 "vector layer can have labels associated with it. These labels rely on the "
 "attribute data of a layer for their content."
 msgstr ""
+"Label dapat ditambahkan pada sebuah peta untuk menampilkan informasi apapun "
+"mengenai suatu obyek. Layer vektor manapun dapat memiliki label. Isi dari "
+"label-label tersebut ditentukan oleh data atribut dari layer yang "
+"bersangkutan."
 
 # 34aa59741b944dcd873c55e79798a57a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:8
@@ -41,6 +45,12 @@ msgid ""
 "separate :guilabel:`Label tool`, which has more options and is more user-"
 "friendly."
 msgstr ""
+"Kotak dialog :guilabel:`Layer Properties` memiliki tab :guilabel:`Labels`, "
+"namun kita tidak akan menggunakannya pada contoh ini. Tab ini hanya memiliki "
+"sedikit pilihan dan terkadang sulit untuk digunakan sehingga mungkin akan "
+"dihilangkan pada versi QGIS yang lebih baru (setelah 1.8). Pada latihan ini, "
+"kita akan menggunakan :guilabel:`Label tool` terpisah yang memiliki lebih "
+"banyak pilihan dan lebih mudah digunakan."
 
 # b9ec97f0061049d8b9556263cbb598d8
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:15
@@ -48,11 +58,13 @@ msgid ""
 "**The goal for this lesson:** To apply useful and good-looking labels to a "
 "layer."
 msgstr ""
+"**Tujuan dari pelajaran ini:** Menerapkan label yang berguna dan menarik "
+"pada sebuah layer."
 
 # eaae82d4297b447db47da971bb5082c1
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:19
 msgid "|basic| |FA| Using labels"
-msgstr ""
+msgstr "|basic| Ikuti Bersama: Menggunakan label"
 
 # cfcb17946c6844d7b6e1f1555f750243
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:21
@@ -60,11 +72,13 @@ msgid ""
 "Before being able to access the Label tool, you will need to ensure that it "
 "has been activated."
 msgstr ""
+"Sebelum dapat mengaksesnya, anda perlu memastikan bahwa alat bantu Label "
+"telah diaktifkan."
 
 # ea15ea32488a4779a4cc9d7ae5bf3ccb
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:24
 msgid "Go to the menu item :menuselection:`View --> Toolbars`."
-msgstr ""
+msgstr "Bukan item menu  :menuselection:`View --> Toolbars`."
 
 # 2caabba9b5bf49559339284262da90b0
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:25
@@ -72,6 +86,8 @@ msgid ""
 "Ensure that the :guilabel:`Label` item has a check mark next to it. If it "
 "doesn't, click on the :guilabel:`Label` item, and it will be activated."
 msgstr ""
+"Pastikan item :guilabel:`Label` memiliki tanda centang di sebelahnya. Jika "
+"tidak, klik item :guilabel:`Label`untuk mengaktifkannya."
 
 # 9c6c30e53b7f43209f26a78c052c05dc
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:27
@@ -79,21 +95,22 @@ msgid ""
 "Click on the :guilabel:`places` layer in the :guilabel:`Layers list`, so "
 "that it is highlighted."
 msgstr ""
+"Klik layer :guilabel:`places` pada :guilabel:`Layers list` untuk menandainya."
 
 # a2a2d2c8119547a3be9318c30a022a61
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:29
 msgid "Click on the following toolbar button:"
-msgstr ""
+msgstr "Klik tombol toolbar berikut ini:"
 
 # 95074c6a97fc41659252a9f5b29a7c8d
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:34
 msgid "This gives you the :guilabel:`Layer labeling settings` dialog."
-msgstr ""
+msgstr "Ini akan membuka kotak dialog :guilabel:`Layer labeling settings`."
 
 # 543543ca062541179fa1e0fec1a805c2
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:36
 msgid "Check the box next to :guilabel:`Label this layer with...`."
-msgstr ""
+msgstr "Periksa kotak di sebelah :guilabel:`Label this layer with...`."
 
 # 81263206417445cd94cf34661d94a265
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:41
@@ -102,26 +119,29 @@ msgid ""
 "labels. In the previous lesson, you decided that the :kbd:`NAME` field was "
 "the most suitable one for this purpose."
 msgstr ""
+"Anda harus menentukan kolom atribut mana yang akan digunakan untuk membuat "
+"label. Pada pelajaran sebelumnya, anda memutuskan bahwa kolom :kbd:"
+"`NAME`adalah yang paling cocok untuk tujuan ini."
 
 # 30bbd9d7477a4ceb8ecbfb92f39f6409
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:45
 msgid "Select :guilabel:`NAME` from the list:"
-msgstr ""
+msgstr "Pilih :guilabel:`NAME` dari daftar:"
 
 # 58e721b8eeda48d9a774a24a434fb11a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:50
 msgid "Click :guilabel:`OK`."
-msgstr ""
+msgstr "Klik :guilabel:`OK`."
 
 # ae2aec91dfa1455d98081ab940a22e3d
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:52
 msgid "The map should now have labels like this:"
-msgstr ""
+msgstr "Pada peta akan muncul label-label berikut ini:"
 
 # cf56f22d2a764d2d88064fda0cf9ceca
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:58
 msgid "|basic| |FA| Changing label options"
-msgstr ""
+msgstr "|basic| Ikuti Bersama: Mengubah pilihan label"
 
 # 04f115c2d6244b90bdfa6aa6502aa408
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:60
@@ -130,18 +150,23 @@ msgid ""
 "the points that they are associated with. That doesn't look very nice. The "
 "text is also a bit larger than it needs to be. Let's fix these problems!"
 msgstr ""
+"Apa yang ada saat ini sudah cukup bagis, tetapi anda dapat melihat bahwa "
+"label-label tersebut tumpang tindih dengan titik-titik yang diasosiasikan "
+"dengan mereka. Ini tidak tampak menarik. Teksnya juga sedikit terlalu besar. "
+"Mari kita perbaiki!"
 
 # 250d512075844ef9b770d9a21b76169e
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:64
 msgid ""
 "Open the :guilabel:`Label tool` again by clicking on its button as before."
-msgstr ""
+msgstr "Buka :guilabel:`Label tool` sekali lagi dengan mengklik tombolnya."
 
 # 8fecd86365134d4ba2b12d2fd2ac80e1
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:65
 msgid ""
 "Click on the ellipsis (:guilabel:`...`) button to change the text properties:"
 msgstr ""
+"Klik pada tombol elipsis (:guilabel:`...`) untuk mengubah properti teks:"
 
 # 35ee38aa9630469d876c6c06f2502c2b
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:70
@@ -150,6 +175,9 @@ msgid ""
 "programs. Change the font to :kbd:`Arial` size :kbd:`9`. Your labels will "
 "now look like this:"
 msgstr ""
+"Akan muncul kotak dialog standar untuk mengubah teks, mirip dengan yang "
+"terdapat pada perangkat lunak lainnya. Ubah huruf menjadi :kbd:`Arial` "
+"ukuran :kbd:`9`. Label anda akan tampak seperti berikut ini:"
 
 # 2cd27484082d403190c80958857bb8e2
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:77
@@ -158,11 +186,14 @@ msgid ""
 "overlapping the points, but before we do that, let's take a look at the :"
 "guilabel:`Buffer` option."
 msgstr ""
+"Dengan demikian masalah huruf sudah terpecahkan! Sekarang mari selesaikan "
+"masalah label yang tumpang tindih dengan titiknya; tetapi sebelum melakukan "
+"hal itu, mari kita lihat pilihan :guilabel:`Buffer`."
 
 # ee8a107fab7347a5a8b7513019e59168
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:81
 msgid "Open the :guilabel:`Label tool` dialog."
-msgstr ""
+msgstr "Buka kotak dialog :guilabel:`Label tool`."
 
 # 6e4d406ee7af44f58df2dcca171fca5d
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:82
@@ -170,23 +201,25 @@ msgid ""
 "Deactivate the label buffer by clicking on the checkbox next to the text "
 "that says :guilabel:`Buffer`."
 msgstr ""
+"Matikan buffer label dengan mengklik kotak centang di sebelah teks yang "
+"bertuliskan :guilabel:`Buffer`. "
 
 # 229132188c7544ac926d28a7380fb99e
 # 20b27366ac61423a9df5f0963e314f39
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:84
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:104
 msgid "Click :guilabel:`Apply`."
-msgstr ""
+msgstr "Klik :guilabel:`Apply`."
 
 # 70dfb6219911443a9368b9adc256dc8d
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:86
 msgid "Note the effects in the map:"
-msgstr ""
+msgstr "Perhatikan efeknya pada peta:"
 
 # aa9ef42962e54903a959b312e0a068f2
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:91
 msgid "Now you can see why we usually need label buffers!"
-msgstr ""
+msgstr "Sekarang anda dapat memahami mengapa kita membutuhkan buffer label! "
 
 # 8705f754527b4b7782bc816546e140e4
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:93
@@ -194,32 +227,35 @@ msgid ""
 "Reactivate the buffers by clicking in the same checkbox as before, and then "
 "clicking :guilabel:`Apply`."
 msgstr ""
+"Aktifkan kembali buffer dengan mengklik kotak centang yang sama seperti "
+"sebelumnya, kemudian klik :guilabel:`Apply`."
 
 # 65f0c1763d944cb58c36871fcec95bf5
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:96
 msgid "Back to the problem of the labels that overlap points."
-msgstr ""
+msgstr "Kembali pada masalah label yang tumpang tindih dengan titik."
 
 # 2ea99502202448019e18a8df8d8ea7a7
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:98
 msgid ""
 "In the :guilabel:`Label tool` dialog, go to the :guilabel:`Advanced` tab."
 msgstr ""
+"Pada kotak dialog :guilabel:`Label tool`, buka tab :guilabel:`Advanced`."
 
 # 0714ad322f19461db9c769a9e0a6dba8
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:99
 msgid "Change the value of :guilabel:`Label distance` to :kbd:`2`."
-msgstr ""
+msgstr "Ubah nilai :guilabel:`Label distance` menjadi :kbd:`2`."
 
 # f78a611de6464e08a006d11abd9a508f
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:106
 msgid "This is the result:"
-msgstr ""
+msgstr "Hasilnya tampak sebagai berikut:"
 
 # 63496fa38ec9435ea51684e6fc55f964
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:112
 msgid "|moderate| |FA| Using labels instead of layer symbology"
-msgstr ""
+msgstr "|moderate| Ikuti Bersama: Menggunakan label ketimbang simbologi layer"
 
 # f8f0173c7fef42439a80d765f2c5d2e5
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:114
@@ -230,6 +266,12 @@ msgid ""
 "not that specific on a large scale. In fact, giving a point that is too "
 "specific is often confusing for someone reading a map."
 msgstr ""
+"Dalam banyak kasus, lokasi sebuah titik tidak perlu terlalu spesifik. "
+"Sebagai contoh, kebanyakan titik pada layer :guilabel:`places` merujuk pada "
+"kota atau daerah sub-urban; titik spesifik yang diasosiasikan dengan fitur "
+"semacam itu tidak akan begitu spesifik pada skala yang lebih besar. Membuat "
+"titik yang terlalu spesifik justru seringkali dapat membingungkan pembaca "
+"peta."
 
 # f0aa1ad325ce4c56af65eb3143b75f24
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:120
@@ -239,6 +281,11 @@ msgid ""
 "seeing a point labeled *European Union* in Poland, it may seem that the "
 "capital of the European Union is therefore in Poland."
 msgstr ""
+"Sebuah contoh: Pada peta dunia, titik yang menunjukkan Uni Eropa mungkin "
+"berada di suatu tempat di Polandia. Untuk seseorang yang sedang mencoba "
+"membaca peta tersebut, melihat sebuah titik dengan label *Uni Eropa* di "
+"Polandia mungkin akan menyesatkan karena seakan-akan menunjukkan bahwa ibu "
+"kota Uni Eropa berada di Polandia. "
 
 # cc684b4bcfd3456d9bb1d0bc08ead945
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:125
@@ -246,6 +293,8 @@ msgid ""
 "So, to prevent this kind of misunderstanding, it's often useful to "
 "deactivate the point symbols and replace them completely with labels."
 msgstr ""
+"Untuk menghindari kesalahpahaman seperti ini, seringkali lebih bermanfaat "
+"untuk sepenuhnya mengganti simbol titik dengan label."
 
 # f8f2af92890f41d2b48d4b19c076e5ea
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:128
@@ -253,6 +302,8 @@ msgid ""
 "In QGIS, you can do this by changing the position of the labels to be "
 "rendered directly over the points they refer to."
 msgstr ""
+"Anda dapat melakukan ini pada QGIS dengan mengubah posisi label sehingga di-"
+"render secara langsung di atas titik yang menjadi referensinya."
 
 # a92e1cdae08240029b2180de14716acf
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:131
@@ -260,16 +311,18 @@ msgid ""
 "Open the :guilabel:`Layer labeling settings` dialog for the :guilabel:"
 "`places` layer."
 msgstr ""
+"Buka kotak dialog :guilabel:`Layer labeling settings` pada layer :guilabel:"
+"`places`."
 
 # 052d7ae683aa416f9e8572b209df93df
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:133
 msgid "Go to the :guilabel:`Advanced` tab."
-msgstr ""
+msgstr "Buka tab :guilabel:`Advanced`."
 
 # aefbae99f45d4fef9f68418af602738a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:134
 msgid "Click on the :guilabel:`over point` button."
-msgstr ""
+msgstr "Klik tombol :guilabel:`over point`."
 
 # c03e11043ce94b42987259f6bb175a21
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:139
@@ -277,11 +330,13 @@ msgid ""
 "Hide the point symbols by editing the layer style as usual, and setting the "
 "size of points to :kbd:`0`:"
 msgstr ""
+"Sembunyikan simbol titik dengan menyunting style layer seperti biasa dan "
+"mengatur ukuran titik menjadi :kbd:`0`:"
 
 # bd29ea1aae2b4e3087cbc30f76b5c5cd
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:145
 msgid "Click :guilabel:`OK` and you'll see this result:"
-msgstr ""
+msgstr "Klik :guilabel:`OK` dan anda akan melihat tampilan sebagai berikut:"
 
 # 01c8b807d06c4d32a88746a678bf48d2
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:150
@@ -292,21 +347,27 @@ msgid ""
 "way. There is another possibility for handling cases like this, which we'll "
 "cover in a later exercise in this lesson."
 msgstr ""
+"Seperti yang anda lihat, beberapa label tidak lagi terlihat untuk mencegah "
+"tumpang tindih (pada skala ini). Kadangkala inilah yang anda inginkan ketika "
+"bekerja dengan set data yang memiliki banyak titik, tetapi ini berarti anda "
+"akan kehilangan informasi yang berguna pada situasi yang berbeda. Ada cara "
+"lain untuk mengatasi masalah seperti ini, yang akan dibahas pada latihan "
+"selanjutnya dalam bagian ini."
 
 # fb2bba70f1eb4048b5fbe5eaae11c3c7
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:160
 msgid "|moderate| |TY| Customize the labels"
-msgstr ""
+msgstr "|moderate| Coba sendiri: Menyesuaikan label"
 
 # bb7c8f1088b248d6b5d7e6fd3cca6d96
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:162
 msgid "Return the label and symbol settings to the way they were before."
-msgstr ""
+msgstr "Kembalikan pengaturan label dan simbol seperti sebelumnya."
 
 # 31f1c2fadedb4d53824c9ec95375553f
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:164
 msgid ":ref:`Check your results <label-tool-1>`"
-msgstr ""
+msgstr ":ref:`Periksa hasil yang anda peroleh <label-tool-1>`"
 
 # abb1254685534c2596a5b2c0ed6c4bd9
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:166
@@ -314,21 +375,24 @@ msgid ""
 "Set the map to the scale :kbd:`1:50000`. You can do this by typing it into "
 "the :guilabel:`Scale` box in the :guilabel:`Status Bar`."
 msgstr ""
+"Atur skala peta menjadi :kbd:`1:50000`. Anda dapat melakukan ini dengan "
+"mengetikkannya ke dalam kotak :guilabel:`Scale` pada :guilabel:`Status Bar`."
 
 # 8442ad3d18584cd7bc75aabce6064d8f
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:168
 msgid "Modify your labels to be suitable for viewing at this scale."
 msgstr ""
+"Modifikasi label anda agar dapat ditampilkan dengan benar pada skala ini."
 
 # 31df06b13f43419fa470049b2b59cf2d
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:170
 msgid ":ref:`Check your results <label-tool-2>`"
-msgstr ""
+msgstr ":ref:`Periksa hasil yang anda peroleh <label-tool-2>`"
 
 # 6cb66f1927f64a218801a7b6f1eb0ee1
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:174
 msgid "|moderate| |FA| Labeling lines"
-msgstr ""
+msgstr "|moderate| Ikuti Bersama: Memberi label pada garis"
 
 # dfeca9782c684d0182531c5f989edae2
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:176
@@ -337,6 +401,10 @@ msgid ""
 "and polygons are easy to label, but what about lines? If you label them the "
 "same way as the points, your results would look like this:"
 msgstr ""
+"Setelah mengetahui cara kerja label, ada masalah baru yang muncul. Titik dan "
+"poligon mudah untuk diberi label, tetapi bagaimana dengan garis? Jika anda "
+"memberi label pada garis seperti halnya sebuah titik, maka hasilnya akan "
+"seperti ini:"
 
 # d0d38fd0d88a4946afdb9bcfc8c0d2c6
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:183
@@ -344,11 +412,14 @@ msgid ""
 "This is not very useful! To make lines behave, we'll need to edit some "
 "options."
 msgstr ""
+"Ini tidak begitu membantu! Untuk menangani garis, kita perlu menyunting "
+"beberapa pilihan."
 
 # 5ea059446dd94d569abc535e0ad205d4
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:185
 msgid "Hide the :guilabel:`places` layer so that it doesn't distract you."
 msgstr ""
+"Sembunyikan layer :guilabel:`places` sehingga tidak memecah perhatian anda. "
 
 # eed52e04517046f393a3af28cc0f945a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:186
@@ -357,17 +428,22 @@ msgid ""
 "use the :guilabel:`Label tool` on the toolbar, not the one in :guilabel:"
 "`Label Properties`!)"
 msgstr ""
+"Aktifkan label pada layer :guilabel:`streets` seperti sebelumnya. (Ingatlah "
+"untuk menggunakan :guilabel:`Label tool`pada toolbar, bukan yang berada "
+"pada :guilabel:`Label tool`!)"
 
 # 9cd4cafbb5874a82b4f583e1a580731d
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:189
 msgid ""
 "Set the font :guilabel:`Size` to :kbd:`9` so that you can see more labels."
 msgstr ""
+"Atur :guilabel:`Size` untuk huruf menjadi :kbd:`9` sehingga anda dapat "
+"melihat lebih banyak label."
 
 # 4479453a5a4b464ebd651ccde811d3ed
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:190
 msgid "Zoom in on the Swellendam town area."
-msgstr ""
+msgstr "Perbesar area kota Swellendam."
 
 # 1064e3f17c1d45dabadecd3536784e2c
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:191
@@ -375,11 +451,13 @@ msgid ""
 "In the :guilabel:`Label tool` dialog's :guilabel:`Advanced` tab, choose the "
 "following settings:"
 msgstr ""
+"Pada tab :guilabel:`Advanced` di kotak dialog :guilabel:`Label tool`, pilih "
+"aturan berikut ini:"
 
 # 5ad7b9a1fd69465f866c9d9e6466524f
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:197
 msgid "The map will look somewhat like this, depending on scale:"
-msgstr ""
+msgstr "Tergantung dari skalanya, peta akan terlihat seperti berikut ini:"
 
 # 8c980d088ad847df8f6958830a761cac
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:202
@@ -388,6 +466,9 @@ msgid ""
 "names appear more than once, and that's not always necessary. To prevent "
 "that from happening:"
 msgstr ""
+"Lebih baik dari sebelumnya, tetapi masih belum ideal. Sebagai contoh, "
+"beberapa nama muncul lebih dari satu kali; ini tidak selalu diperlukan. "
+"Untuk mencegah hal ini:"
 
 # 1549df3398b1414285264c25e78989e0
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:206
@@ -396,6 +477,9 @@ msgid ""
 "labels` (also under the :guilabel:`Advanced` tab - you may need to scroll "
 "down to see it)."
 msgstr ""
+"Aktifkan pilihan :guilabel:`Merge connected lines to avoid duplicate labels` "
+"(juga terdapat pada tab :guilabel:`Advanced` - anda mungkin harus menggeser "
+"ke bawah untuk menemukannya)."
 
 # f534dc5f1ab1423991ea6c0a25f9f0b8
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:210
@@ -403,6 +487,8 @@ msgid ""
 "Another useful function is to prevent labels being drawn for features too "
 "short to be of notice."
 msgstr ""
+"Fungsi lain yang juga bermanfaat adalah mencegah pemberian label pada fitur "
+"yang terlalu pendek untuk dapat terlihat."
 
 # 83555a4c9de74481b810ac5f101c3531
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:213
@@ -410,6 +496,9 @@ msgid ""
 "Set the value of :guilabel:`Suppress labeling of features smaller than ...` "
 "to :kbd:`5mm` and note the results when you click :guilabel:`Apply`."
 msgstr ""
+"Atur nilai :guilabel:`Suppress labeling of features smaller than ...` "
+"menjadi :kbd:`5mm` dan perhatikan hasilnya ketika anda mengklik :guilabel:"
+"`Apply`."
 
 # c9d8df2812a44330b3c2e567b196fe4c
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:216
@@ -419,6 +508,10 @@ msgid ""
 "option is not a good idea in this case, so let's try the :guilabel:`curved` "
 "option instead!"
 msgstr ""
+"Cobalah berbagai pengaturan :guilabel:`Placement` (juga terdapat pada tab :"
+"guilabel:`Advanced`). Seperti yang telah kita lihat sebelumnya, pilihan :"
+"guilabel:`horizontal` bukan merupakan ide yang baik dalam kasus ini; oleh "
+"karena itu, mari coba menggunakan :guilabel:`curved` sebagai gantinya!"
 
 # 94123d115f414732b6430be4107d67e3
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:221
@@ -426,11 +519,13 @@ msgid ""
 "Select the :guilabel:`curved` option under the :guilabel:`Advanced` tab of "
 "the :guilabel:`Layer labeling settings` dialog."
 msgstr ""
+"Pilih :guilabel:`curved` pada tab :guilabel:`Advanced` dalam kotak dialog :"
+"guilabel:`Layer labeling settings`."
 
 # e84fed6d4a7a4f03bda592ed76b29705
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:224
 msgid "Here's the result:"
-msgstr ""
+msgstr "Hasilnya tampak sebagai berikut:"
 
 # 0ea2c7174f134530a56dfcf37c4fa611
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:229
@@ -440,28 +535,33 @@ msgid ""
 "lines and still be legible. You can decide which of these options to use, "
 "depending on what you think seems more useful or what looks better."
 msgstr ""
+"Seperti yang anda lihat, pilihan ini menyembunyikan banyak label yang semula "
+"ditampilkan; ini dilakukan karena sulit untuk membuat label mengikuti garis "
+"jalan yang berliku-liku dan tetap terlihat jelas. Anda dapat memutuskan "
+"pilihan mana yang akan digunakan, ini bergantung pada apa yang anda anggap "
+"lebih berguna atau lebih menarik untuk ditampilkan."
 
 # 90d9bd7761f142bca15e37a59bd44f5d
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:235
 msgid "|hard| |FA| Data defined settings"
-msgstr ""
+msgstr "|hard| Ikuti Bersama: Pengaturan berdasarkan data"
 
 # edcf341060ed4958887d6e495779d914
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:237
 msgid "Deactivate labeling for the :guilabel:`streets` layer."
-msgstr ""
+msgstr "Matikan label pada layer :guilabel:`streets`."
 
 # 7405d7469285431aafb9321fc502c32d
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:238
 msgid "Reactivate labeling for the :guilabel:`places` layer."
-msgstr ""
+msgstr "Aktifkan kembali label pada layer :guilabel:`places`."
 
 # 895d5a66257a4699890a4aac633ed346
 # 21cc02fb8cf042d7b0cfcf4a0b4412dc
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:239
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:267
 msgid "Open the attribute table for :guilabel:`places`."
-msgstr ""
+msgstr "Buka tabel atribut untuk :guilabel:`places`."
 
 # 57e9d10547444467b84624ee1af6fb3c
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:241
@@ -472,11 +572,16 @@ msgid ""
 "Swellendam (:kbd:`1` if it is, :kbd:`0` if not). We can use this data to "
 "influence the label styles."
 msgstr ""
+"Ada dua kolom yang menarik perhatian kita: :kbd:`ADDR_CITY` dan :kbd:"
+"`IN_SWD`. :kbd:`ADDR_CITY` adalah kota tempat fitur berada. :kbd:`IN_SWD` "
+"diambil dari sini dan memberi tahu anda apakah fitur berada di Swellendam "
+"atau tidak (:kbd:`1` jika ya, :kbd:`0` jika tidak). Kita dapat menggunakan "
+"data ini untuk mempengaruhi style label."
 
 # 7d3a2dd6e4a746fb9c344b3bc30dce6f
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:247
 msgid "Navigate to the :guilabel:`Data defined settings` tab."
-msgstr ""
+msgstr "Buka tab :guilabel:`Data defined settings`."
 
 # 2dd4cc6211ac458bb018258aa8f684ed
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:248
@@ -484,16 +589,18 @@ msgid ""
 "In the :guilabel:`Italic` dropdown, select :kbd:`IN_SWD` and click :guilabel:"
 "`Apply`."
 msgstr ""
+"Pada daftar menurun :guilabel:`Italic` yang muncul, pilih :kbd:`IN_SWD` dan "
+"klik :guilabel:`Apply`."
 
 # e4e7235cc245473ab2e6cd5c23e19bc3
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:251
 msgid "Notice its effects:"
-msgstr ""
+msgstr "Perhatikan pengaruhnya:"
 
 # ec703825684040ef9571f0ae8ec7c622
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:260
 msgid "|hard| |TY| Using data defined settings"
-msgstr ""
+msgstr "|hard| Coba sendiri: Menggunakan pengaturan berdasarkan data"
 
 # d3ddad10756e4a1baef17c3867975068
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:262
@@ -503,6 +610,11 @@ msgid ""
 "following means. If you don't, feel free to leave out this section and come "
 "back later when you've covered the requisite materials."
 msgstr ""
+"Kita sedikit melompat ke depan untuk mendemonstrasikan beberapa pengaturan "
+"label tingkat lanjut. Pada tingkat lanjut, anda diasumsikan sudah mengetahui "
+"bagaimana melakukan hal berikut ini. Jika tidak, jangan ragu untuk melewati "
+"bagian ini dan kembali lagi ketika anda telah menyelesaikan materi yang "
+"diharuskan."
 
 # ed201594a7fc4989889a484414c7f59f
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:268
@@ -510,16 +622,18 @@ msgid ""
 "Enter edit mode by clicking this button (at the lower edge of the attribute "
 "table):"
 msgstr ""
+"Masuk ke modus penyuntingan dengan mengklik tombol ini (di bagian tepi bawah "
+"tabel atribut):"
 
 # fe6bc2bec7f543c2924ef27a97d3aa6f
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:274
 msgid "Add a new column:"
-msgstr ""
+msgstr "Tambahkan kolom baru:"
 
 # 2c6bccc552cc41b1a4fd1a05b6a94fac
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:279
 msgid "Configure it like this:"
-msgstr ""
+msgstr "Lakukan konfigurasi sebagai berikut:"
 
 # 171d9922cb404a1e80d1d781cb6247ca
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:284
@@ -527,16 +641,18 @@ msgid ""
 "Use this to set custom font sizes for each different type of place (i.e., "
 "each key in the :kbd:`PLACE` field)."
 msgstr ""
+"Gunakan ini untuk mengatur ukuran huruf sesuai kebutuhan pada setiap jenis "
+"tempat yang berbeda (misalnya setiap kunci pada kolom :kbd:`PLACE`)."
 
 # dbe18154501b46f8aaf56401dce5daf4
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:287
 msgid ":ref:`Check your results <label-data-defined-1>`"
-msgstr ""
+msgstr ":ref:`Periksa hasil yang anda peroleh <label-data-defined-1>`"
 
 # b4b6ce8f21424ef7ad1cfdc8e7dbb3d9
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:291
 msgid "|hard| Further possibilities with labeling"
-msgstr ""
+msgstr "|hard| Kemungkinan penggunaan label lebih lanjut"
 
 # 5e6d925159fa4ffaafe37caf2eefc5d3
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:293
@@ -549,6 +665,15 @@ msgid ""
 "allocated for the purpose), then edit these properties using the tools "
 "adjacent to the main :guilabel:`Label tool`:"
 msgstr ""
+"Kita tidak dapat membahas semua pilihan yang ada selama pelatihan ini, "
+"tetapi perlu dipahami bahwa :guilabel:`Label tool` memiliki banyak fungsi "
+"yang berguna. Anda dapat mengatur rendering berbasis skala, mengubah "
+"prioritas rendering label pada sebuah layer, dan mengatur pilihan label "
+"berdasarkan atribut layer. Anda bahkan dapat mengatur rotasi, posisi XY, dan "
+"properti label lainnya (jika anda memiliki kolom atribut yang dialokasikan "
+"untuk tujuan tersebut); kemudian menyunting properti tersebut dengan "
+"menggunakan alat bantu yang berada sejajar dengan :guilabel:`Label tool` "
+"utama:"
 
 # 37d676956b9f4d1c982484304ef3a2cc
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:304
@@ -556,16 +681,19 @@ msgid ""
 "(These tools will be active if the required attribute fields exist and you "
 "are in edit mode.)"
 msgstr ""
+"(Alat bantu ini akan aktif jika terdapat kolom atribut yang diperlukan dan "
+"anda berada dalam modus penyuntingan.)"
 
 # 9afee83a24d244c6aef4c57d47571a63
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:307
 msgid "Feel free to explore more possibilities of the labeling system."
 msgstr ""
+"Jangan ragu untuk menelusuri kemungkinan lain dari penggunaan sistem label."
 
 # ba859e3886e742d7ab5df2b67ad7ca6c
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:310
 msgid "|IC|"
-msgstr ""
+msgstr "Kesimpulan"
 
 # 8c0e01ddb8f243b69da07df89270f364
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:312
@@ -573,11 +701,13 @@ msgid ""
 "You've learned how to use layer attributes to create dynamic labels. This "
 "can make your map a lot more informative and stylish!"
 msgstr ""
+"Anda telah belajar bagaimana menggunakan atribut layer untuk membuat label "
+"dinamis. Ini dapat membuat peta anda lebih informatif dan menarik!"
 
 # 750d7e41c47f432c9908ec6d71a33a39
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:316
 msgid "|WN|"
-msgstr ""
+msgstr "Apa Selanjutnya?"
 
 # 12ebf7edb3d74608b4a3491cecb0c104
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\label_tool.rst:318
@@ -586,3 +716,6 @@ msgid ""
 "how about using them to change the symbology of objects themselves? That's "
 "the topic for the next lesson!"
 msgstr ""
+"Setelah mengetahui bagaimana atribut dapat membuat perbedaan visual pada "
+"peta, mengapa tidak menggunakannya untuk mengubah simbologi obyek itu "
+"sendiri? Itu yang akan kita pelajari pada bagian selanjutnya."

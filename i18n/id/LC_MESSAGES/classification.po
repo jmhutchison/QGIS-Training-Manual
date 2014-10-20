@@ -3,25 +3,25 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-13 11:27\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2014-10-17 15:05+1000\n"
+"Last-Translator: yusatya <yusatya@gmail.com>\n"
+"Language-Team: AIPEID\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Language: id\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # 80de5230e72544cb8a8eec9051c2916f
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:2
 msgid "|LS| Classification"
-msgstr ""
+msgstr "Pelajaran: Klasifikasi"
 
 # 7b111c6c51e4407ab1a0cf0bdb5b2a30
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:4
@@ -31,6 +31,10 @@ msgid ""
 "say that someone wants to know which area the farms are in. Using labels, "
 "you'd get this:"
 msgstr ""
+"Label adalah cara yang bagus untuk mengkomunikasikan informasi seperti nama "
+"tempat tertentu, tetapi tidak bisa digunakan untuk semua hal. Sebagai "
+"contoh, katakan saja seseorang ingin mengetahui area lahan pertanian. Dengan "
+"tabel, anda akan mendapatkan hasil sebagai berikut:"
 
 # 74f638c563be48a788c7f6aa289dd869
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:12
@@ -38,6 +42,8 @@ msgid ""
 "Obviously this is not ideal, so we need another solution. That's what this "
 "lesson is about!"
 msgstr ""
+"Tentu saja ini tidak ideal, jadi kita perlu mencari solusi lain. Itulah "
+"tujuan dari pelajaran ini."
 
 # 87510a7822e842e084d0235aec9c02e0
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:15
@@ -45,31 +51,33 @@ msgid ""
 "**The goal for this lesson:** To learn how to classify vector data "
 "effectively."
 msgstr ""
+"**Tujuan dari pelajaran ini:** Mempelajari cara mengklasifikasi data vektor "
+"secara efektif."
 
 # edeaa143021d4ef8aac292cdd3c77122
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:18
 msgid "|basic| |FA| Classifying nominal data"
-msgstr ""
+msgstr "|basic| Ikuti bersama: Mengklasifikasi data nominal"
 
 # 89994be6359140559aada1c9ae36b6f3
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:20
 msgid "Open :guilabel:`Layer Properties`."
-msgstr ""
+msgstr "Buka :guilabel:`Layer Properties`."
 
 # fcf227dd982e406c9999cc334e41f7c4
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:21
 msgid "Go to the :guilabel:`Style` tab."
-msgstr ""
+msgstr "Lihat tab :guilabel:`Style`."
 
 # 81b3aad095914766b24786c7be56a40d
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:22
 msgid "Click on the dropdown that says :guilabel:`Single Symbol`:"
-msgstr ""
+msgstr "Klik daftar menurun yang bertuliskan :guilabel:`Single Symbol`:"
 
 # 1b615dca9806481a8f39d57e2be810b8
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:27
 msgid "Change it to :guilabel:`Categorized` and the interface will change:"
-msgstr ""
+msgstr "Ubah menjadi :guilabel:`Categorized` sehingga antarmuka juga berubah:"
 
 # 65f2f7da99c34c899140327c91af8d7a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:32
@@ -77,17 +85,20 @@ msgid ""
 "Change the :guilabel:`Column` to :guilabel:`TOWN` and the :guilabel:`Color "
 "ramp` to :guilabel:`random`:"
 msgstr ""
+"Ubah :guilabel:`Column` menjadi guilabel:`TOWN`, dan :guilabel:`Color ramp` "
+"menjadi :guilabel:`random`:"
 
 # e8c992f1357145d69489a7af20d31031
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:38
 msgid ""
 "Click the button labeled :guilabel:`Classify` and then click :guilabel:`OK`."
 msgstr ""
+"Klik tombol berlabel :guilabel:`Classify`, kemudian klik :guilabel:`OK`."
 
 # 8770dfdcfa1343e6800f53d1e7ea1972
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:40
 msgid "You'll see something like this:"
-msgstr ""
+msgstr "Anda akan melihat hasil seperti berikut ini:"
 
 # a199a85228994da5b55d0d1e2102fa98
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:45
@@ -95,6 +106,8 @@ msgid ""
 "Click the arrow (or plus sign) next to :guilabel:`rural` in the :guilabel:"
 "`Layer list`, you'll see the categories explained:"
 msgstr ""
+"Klik tanda panah (atau tanda tambah) di sebelah :guilabel:`rural` pada :"
+"guilabel:`Layer list`, anda akan melihat penjelasan kategori sebagai berikut:"
 
 # b1e7d11f4b444662a9275e80690c2d3b
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:51
@@ -102,17 +115,21 @@ msgid ""
 "So, this is useful! But it hurts your eyes to look at it, so let's see what "
 "we can do about that."
 msgstr ""
+"Ini sangat berguna! Tetapi tampilannya masih tidak enak untuk dilihat, jadi "
+"kita perlu melakukan sesuatu untuk memperbaikinya."
 
 # caa14f4e34ce4a0681cb0602c4b5dbca
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:54
 msgid ""
 "Open :guilabel:`Layer Properties` and go to the :guilabel:`Style` tab again."
 msgstr ""
+"Buka :guilabel:`Layer Properties` dan lihat tab :guilabel:`Style` sekali "
+"lagi."
 
 # adefc37208b34f228a22b35d0ea6b457
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:55
 msgid "Change the symbol:"
-msgstr ""
+msgstr "Ubah simbolnya:"
 
 # eb47955b1efc4ee79d8bab55b21bc517
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:60
@@ -121,21 +138,28 @@ msgid ""
 "`OK`. (If you need to, go back to the lesson where we covered this to "
 "remember how it's done.)"
 msgstr ""
+"Hilangkan garis tepi seperti yang anda lakukan sebelumnya, kemudian klik :"
+"guilabel:`OK`. (Jika perlu, anda dapat melihat kembali pelajaran sebelumnya "
+"mengenai langkah ini.)"
 
 # 1c87731257c240e9b21670607d9e6730
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:63
 msgid "Click the :guilabel:`Delete all` button:"
-msgstr ""
+msgstr "Klik tombol :guilabel:`Delete all`:"
 
 # 53d8402d5259470fb39c026d587c11bd
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:68
 msgid "This gets rid of the ugly classes so you can try again."
 msgstr ""
+"Langkah ini akan menghilangkan kelas-kelas yang tidak enak dipandang "
+"sehingga anda dapat mencoba lagi."
 
 # 52be3e928447446da1672eb9546ba1a3
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:70
 msgid "Click :guilabel:`Classify` again, and the new symbols will appear."
 msgstr ""
+"Klik :guilabel:`Classify` sekali lagi untuk memunculkan simbol-simbol yang "
+"baru."
 
 # 49e6a60171c643869bf4e3edff62945b
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:72
@@ -143,6 +167,8 @@ msgid ""
 "You'll notice they don't have outlines. This is because because you just "
 "removed the outlines!"
 msgstr ""
+"Anda akan mendapati bahwa simbol-simbol tersebut tidak memiliki garis tepi "
+"karena anda sudah menghilangkannya!"
 
 # eb6679f93cf941dbb812abe8be8eef04
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:75
@@ -150,6 +176,8 @@ msgid ""
 "Change the color for each town by double-clicking on the colored block "
 "representing its symbol:"
 msgstr ""
+"Ubah warna masing-masing kota dengan mengklik ganda pada kotak berwarna yang "
+"mewakili simbolnya:"
 
 # 9e30b0c6f9e548d39dcf17e45c0b76ad
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:81
@@ -158,31 +186,35 @@ msgid ""
 "resulting map isn't as ugly as the old one. In the example, we'll use these "
 "colors:"
 msgstr ""
+"Gunakan warna pilihan anda, tetapi jangan terlalu mencolok sehingga peta "
+"yang dihasilkan tidak akan seburuk sebelumnya. Pada contoh berikut, kita "
+"akan menggunakan warna-warna ini:"
 
 # b544231c985c45a8846254574cc6cf6b
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:88
 msgid "This gives us a nice map:"
-msgstr ""
+msgstr "Ini akan menghasilkan peta yang bagus:"
 
 # 218bab1a4ad84b4e9f97832a6574dab1
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:93
 msgid "(Only :guilabel:`rural` and :guilabel:`water` are switched on here.)"
 msgstr ""
+"(Hanya :guilabel:`rural` dan :guilabel:`water` yang diaktifkan disini.)"
 
 # 8abc81a6b90341dbb9996a418da101ce
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:95
 msgid "By the way, there's one category that's empty:"
-msgstr ""
+msgstr "Selain itu, ada satu kategori yang kosong:"
 
 # b40269222b3b42a9b3bbddf62303ef72
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:100
 msgid "Select the empty category."
-msgstr ""
+msgstr "Pilih kategori yang kosong."
 
 # 548240fd8a32445bb56f4ff71da2341a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:101
 msgid "Click the :guilabel:`Delete` button."
-msgstr ""
+msgstr "Klik tombol :guilabel:`Delete`."
 
 # 7b6f0b107789438daeb8cd51c0e2c087
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:103
@@ -190,6 +222,9 @@ msgid ""
 "This only gets rid of the symbol, not the data, so don't worry about messing "
 "up; you're not actually deleting anything that you can't recover."
 msgstr ""
+"Ini hanya akan menghilangkan simbol, bukan datanya, sehingga anda tidak "
+"perlu khawatir melakukan kesalahan; anda tidak menghapus apapun yang tidak "
+"dapat dikembalikan."
 
 # da09acb6572446048deab9a9d84588b5
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:106
@@ -197,11 +232,13 @@ msgid ""
 "Remember to save your map now so that you don't lose all your hard-earned "
 "changes!"
 msgstr ""
+"Ingatlah untuk menyimpan peta anda sehingga perubahan yang telah dibuat "
+"tidak hilang!"
 
 # ef6dd600b16f4f29a97bc6abfa033caa
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:110
 msgid "|basic| |TY| More classification"
-msgstr ""
+msgstr "|basic| Coba sendiri: Klasifikasi lebih lanjut"
 
 # 0f7c3bf1bc424f72b82d23b242b6cb86
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:112
@@ -210,11 +247,14 @@ msgid ""
 "gained above to classify the :guilabel:`urban` areas. Use darker colors to "
 "set them apart from the farms."
 msgstr ""
+"Jika anda hanya mengikuti konten tingkat dasar, gunakan pengetahuan di atas "
+"untuk mengklasifikasi kawasan :guilabel:`urban`. Gunakan warna yang lebih "
+"gelap untuk membedakannya dari area lahan pertanian."
 
 # 36382c17ed39404b842897e4d3b6d423
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:117
 msgid "|moderate| |FA| Ratio classification"
-msgstr ""
+msgstr " |moderate| Ikuti bersama: Klasifikasi rasio"
 
 # 8bee568b4d41405f9b71dd870030cecf
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:119
@@ -222,6 +262,8 @@ msgid ""
 "There are four types of classification: *nominal*, *ordinal*, *interval* and "
 "*ratio*."
 msgstr ""
+"Terdapat empat jenis klasifikasi:  *nominal*, *ordinal*, *interval*, dan "
+"*rasio*."
 
 # 468c1969cc44405b824275cffdab6730
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:122
@@ -230,6 +272,8 @@ msgid ""
 "are name-based; they have no order. For example: town names, district codes, "
 "etc."
 msgstr ""
+"Pada klasifikasi nominal, kategori klasifikasi obyek didasarkan pada nama; "
+"tidak ada urutan tertentu. Sebagai contoh: Nama kota, kode kabupaten, dll."
 
 # f92c8fc28ca2484b98040fff482b32b6
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:125
@@ -238,6 +282,9 @@ msgid ""
 "For example, world cities are given a rank depending on their importance for "
 "world trade, travel, culture, etc."
 msgstr ""
+"Pada klasifikasi ordinal, kategori diatur berdasarkan urutan tertentu. "
+"Sebagai contoh, kota-kota besar di dunia diberikan peringkat berdasarkan "
+"tingkat kepentingannya untuk perdagangan dunia, pariwisata, kebudayaan, dll."
 
 # a65c01a1338440a58e1685ce31059602
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:129
@@ -246,6 +293,9 @@ msgid ""
 "negative and zero values. For example: height above/below sea level, "
 "temperature above/below freezing (0 degrees Celsius), etc."
 msgstr ""
+"Pada klasifikasi interval, terdapat skala yang mencakup nilai-nilai positif, "
+"negatif, dan nol. Sebagai contoh, ketinggian di atas/di bawah permukaan "
+"laut, suhu di atas/di bawah titik beku (0 derajat Celcius), dll."
 
 # c216160b260447f7ac53a33fa75cd1ca
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:133
@@ -255,6 +305,9 @@ msgid ""
 "Kelvin), distance from a point, the average amount of traffic on a given "
 "street per month, etc."
 msgstr ""
+"Pada klasifikasi rasio, skala yang digunakan hanya mencakup nilai-nilai "
+"positif dan nol. Sebagai contoh: Suhu di atas nol mutlak (0 derajat Kelvin), "
+"jarak dari titik a, lalu lintas rata-rata per bulan di suatu jalan, dll."
 
 # 1e35cf5950214b9bbb47fe1d76d165ad
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:138
@@ -263,6 +316,9 @@ msgid ""
 "the town that it is administered by. Now we will use ratio classification to "
 "classify the farms by area."
 msgstr ""
+"Pada contoh di atas, kita menggunakan klasifikasi nominal untuk "
+"mengasosiasikan setiap lahan pertanian dengan kota terdekat. Sekarang kita "
+"akan menggunakan klasifikasi rasio pada lahan pertanian berdasarkan area."
 
 # f41b4b13acdb4cf2bf1ae5224f16986a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:142
@@ -270,6 +326,8 @@ msgid ""
 "Save your rural symbology (if you want to keep it) by clicking on the :"
 "guilabel:`Save Style ...` button in the :guilabel:`Style` dialog."
 msgstr ""
+"Simpan simbologi rural anda (jika anda ingin menyimpannya) dengan mengklik "
+"tombol :guilabel:`Save Style ...` pada kotak dialog :guilabel:`Style`."
 
 # 691ad82080aa416eaba8417e37a410e5
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:145
@@ -277,16 +335,18 @@ msgid ""
 "We're going to reclassify the layer, so existing classes will be lost if not "
 "saved."
 msgstr ""
+"Kita akan mengklasifikasi ulang layer tersebut, maka kelas-kelas yang sudah "
+"ada akan terhapus apabila tidak disimpan."
 
 # 7c9bed6e50934d2b93611bbf21d05831
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:148
 msgid "Close the :guilabel:`Style` dialog."
-msgstr ""
+msgstr "Tutup kotak dialog :guilabel:`Style`."
 
 # 544abd49a8564732bd5c0ff4a7d8af97
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:149
 msgid "Open the layer attributes for the :guilabel:`rural` layer."
-msgstr ""
+msgstr "Buka atribut untuk layer :guilabel:`rural`."
 
 # 7f4d5edb68164b7a8c6a46e11de0ebf1
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:151
@@ -294,21 +354,23 @@ msgid ""
 "We want to classify these farms by area, but there's a problem: they don't "
 "have an area field! We'll have to make one."
 msgstr ""
+"Kita ingin mengklasifikasi lahan pertanian berdasarkan area, tetapi ada satu "
+"masalah: Tidak ada kolom area! Maka kita akan membuatnya."
 
 # 859ef1ab08964a278550fa676fe8ca16
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:154
 msgid "Enter edit mode by clicking this button:"
-msgstr ""
+msgstr "Masuk ke modus penyuntingan dengan mengklik tombol ini:"
 
 # 563db652b03a4f22baba7fce8590606b
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:159
 msgid "Add a new column with this button:"
-msgstr ""
+msgstr "Tambah kolom baru dengan tombol ini:"
 
 # 4991b807f7cd4f698a7afa68084b10c2
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:164
 msgid "Set up the dialog that appears, like this:"
-msgstr ""
+msgstr "Lakukan pengaturan pada kotak dialog yang muncul seperti ini:"
 
 # 84043018983e4024a656142fef28f758
 # 5eb791724c764af6b5c79da25f474689
@@ -317,7 +379,7 @@ msgstr ""
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:198
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:240
 msgid "Click :guilabel:`OK`."
-msgstr ""
+msgstr "Klik :guilabel:`OK`."
 
 # a646cd11274647b8bc066bf423929b23
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:171
@@ -326,38 +388,42 @@ msgid ""
 "scroll horizontally to see it). However, at the moment it is not populated, "
 "it just has a lot of :kbd:`NULL` values."
 msgstr ""
+"Kolom baru akan ditambahkan (di ujung sebelah kanan tabel; anda mungkin "
+"harus menggeser tampilan secara horizontal untuk melihatnya). Namun, saat "
+"ini kolom tersebut masih kosong dan hanya dipenuhi oleh nilai :kbd:`NULL`."
 
 # c3df2ab97abd4f8fbee5b98fe7c97a7c
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:175
 msgid "To solve this problem, we'll need to calculate the areas."
-msgstr ""
+msgstr "Untuk mengatasi masalah ini, kita perlu menghitung luas area tersebut."
 
 # 1a020ef3ef6f478d96a884882f38f829
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:177
 msgid "Open the field calculator:"
-msgstr ""
+msgstr "Buka kalkulator kolom:"
 
 # 6f9131be0d924c95bac796bbac5b53be
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:182
 msgid "You'll get this dialog:"
-msgstr ""
+msgstr "Anda akan menjumpai kotak dialog ini:"
 
 # 06e0f2948fc3412b9e53def1974037ad
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:187
 msgid "Change the values at the top of the dialog to look like this:"
-msgstr ""
+msgstr "Ubah nilai-nilai di bagian atas kotak dialog agar tampak seperti ini:"
 
 # a5bc15cadb9f489ab69c1a46d0320f83
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:192
 msgid ""
 "In the :guilabel:`Function List`, select :menuselection:`Geometry --> $area`:"
 msgstr ""
+"Pada :guilabel:`Function List`, pilih :menuselection:`Geometry --> $area`:"
 
 # 6dc9e29deada4291a6351e7cc0c23ee5
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:197
 msgid ""
 "Double-click on it so that it appears in the :guilabel:`Expression` field."
-msgstr ""
+msgstr "Klik ganda sehingga muncul pada kolom :guilabel:`Expression`."
 
 # e4ca4239dc384b8780987aeb09232bfc
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:200
@@ -365,6 +431,8 @@ msgid ""
 "Now your :kbd:`AREA` field is populated with values! Admire them, then close "
 "the attribute table."
 msgstr ""
+"Sekarang kolom :kbd:`AREA` sudah terisi dengan nilai! Periksa dengan "
+"seksama, kemudian tutup tabel atribut."
 
 # ac496929f2f44590bb051ea201e3d0db
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:203
@@ -372,11 +440,14 @@ msgid ""
 "These areas are in degrees area. Later, we will compute them in square "
 "meters."
 msgstr ""
+"Luas semua area ini masih dalam satuan derajat. Nanti kita akan mengubah "
+"mereka ke dalam satuan meter persegi."
 
 # 1edf8397177b4246ba38e28ee8f11fcf
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:206
 msgid "Open the :guilabel:`Layer properties` dialog's :guilabel:`Style` tab."
 msgstr ""
+"Buka tab :guilabel:`Style` pada kotak dialog :guilabel:`Layer properties`."
 
 # 4de87bc82b9b49fa9d449d5e4df732a1
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:207
@@ -384,11 +455,13 @@ msgid ""
 "Change the classification style from :guilabel:`Classified` to :guilabel:"
 "`Graduated`:"
 msgstr ""
+"Ubah style klasifikasi dari :guilabel:`Classified` menjadi :guilabel:"
+"`Graduated`:"
 
 # 46007a1b460d46bbbd90d347bffb3cea
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:213
 msgid "Change the :guilabel:`Column` to :guilabel:`AREA`:"
-msgstr ""
+msgstr "Ubah :guilabel:`Column` menjadi :guilabel:`AREA`:"
 
 # 56465d14e1a84910b6e680e0d0d15b8e
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:218
@@ -396,6 +469,8 @@ msgid ""
 "Under :guilabel:`Color ramp`, choose the option :guilabel:`New color ramp..."
 "` to get this dialog:"
 msgstr ""
+"Pada :guilabel:`Color ramp`, pilih :guilabel:`New color ramp...` untuk "
+"membuka kotak dialog berikut ini:"
 
 # 5d556c8d8b734bbaad6ce17ae95f4c26
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:224
@@ -403,6 +478,8 @@ msgid ""
 "Choose :guilabel:`Gradient` (if it's not selected already) and click :"
 "guilabel:`OK`. You'll see this:"
 msgstr ""
+"Pilih :guilabel:`Gradient` (jika belum dipilih) dan klik :guilabel:`OK`. "
+"Anda akan melihat tampilan berikut ini:"
 
 # 475e77e9a5da45549f61d55a05b8da3b
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:230
@@ -410,51 +487,53 @@ msgid ""
 "You'll be using this to denote area, with small areas as :guilabel:`Color 1` "
 "and large areas as :guilabel:`Color 2`."
 msgstr ""
+"Anda akan menggunakan ini untuk menunjukkan luasan, dimana area yang kecil "
+"sebagai: :guilabel:`Color 1` dan area yang luas sebagai :guilabel:`Color 2`."
 
 # 3c98dd9bdf094d96bf689fd0047a4296
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:233
 msgid "Choose appropriate colors."
-msgstr ""
+msgstr "Pilih warna yang sesuai."
 
 # 26338942096449a68a2fbdc55c880cf6
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:235
 msgid "In the example, the result looks like this:"
-msgstr ""
+msgstr "Pada contoh ini, hasilnya akan tampak sebagai berikut:"
 
 # 119876d5aac4435696eb53e01d61ef68
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:241
 msgid "Choose a suitable name for the new color ramp."
-msgstr ""
+msgstr "Pilih nama yang sesuai untuk pilihan warna yang baru tersebut."
 
 # 6cd827b634354bd2a856e65cf8fcd8ab
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:242
 msgid "Click :guilabel:`OK` after filling in the name."
-msgstr ""
+msgstr "Klik :guilabel:`OK` setelah memberikan nama."
 
 # e3be805b60f74304a6a274421e26530d
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:244
 msgid "Now you'll have something like this:"
-msgstr ""
+msgstr "Sekarang anda akan melihat tampilan seperti berikut ini:"
 
 # a986ad0a0d864d6290d8e6e268fd615a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:249
 msgid "Leave everything as-is."
-msgstr ""
+msgstr "Biarkan semuanya tanpa perubahan."
 
 # 002a5b9ddfe44dbeab058ee3734fb019
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:251
 msgid "Click :guilabel:`Apply`:"
-msgstr ""
+msgstr "Klik :guilabel:`Apply`:"
 
 # 93fe442fa5a04b53a397a4518f1f2cd3
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:260
 msgid "|moderate| |TY| Refine the classification"
-msgstr ""
+msgstr "|moderate| Coba sendiri: Menyempurnakan klasifikasi"
 
 # 38fde1741bbe43ee80125e80f444b170
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:262
 msgid "Get rid of the lines between the classes."
-msgstr ""
+msgstr "Hilangkan garis-garis di antara kelas."
 
 # 5a89cd1676f1491e8ffdb0898d674675
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:263
@@ -462,16 +541,18 @@ msgid ""
 "Change the values of :guilabel:`Mode` and :guilabel:`Classes` until you get "
 "a classification that makes sense."
 msgstr ""
+"Ubah nilai-nilai pada :guilabel:`Mode` dan :guilabel:`Classes` hingga anda "
+"mendapatkan klasifikasi yang memadai."
 
 # 1d8ef884e203415e88d69bd5871adf01
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:266
 msgid ":ref:`Check your results <classification-refine-1>`"
-msgstr ""
+msgstr ":ref:`Periksa hasil yang anda peroleh <classification-refine-1>`"
 
 # e50e7e5c957a416491a37b2a2698d807
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:269
 msgid "|hard| |FA| Rule-based classification"
-msgstr ""
+msgstr "|hard| Ikuti bersama:Klasifikasi berbasis aturan"
 
 # 21609cf8476445ef8e7adc9ed56dc8d1
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:271
@@ -480,33 +561,39 @@ msgid ""
 "unfortunately normal classification only takes one attribute into account. "
 "That's where rule-based classification comes in handy."
 msgstr ""
+"Seringkali berguna untuk mengkombinasikan sejumlah kriteria dalam suatu "
+"klasifikasi, tetapi sayangnya klasifikasi normal hanya mempertimbangkan satu "
+"macam atribut. Disinilah peran dari klasifikasi berbasis aturan."
 
 # 026a82255c2143bfb13316901b75772a
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:275
 msgid ""
 "Open the :guilabel:`Layer Properties` dialog for the :guilabel:`rural` layer."
 msgstr ""
+"Buka kotak dialog :guilabel:`Layer Properties` untuk layer :guilabel:`rural`."
 
 # 769c3a65d56a49d0a471f08a55b70df4
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:276
 msgid "Switch to the :guilabel:`Style` tab."
-msgstr ""
+msgstr "Pilih tab :guilabel:`Style`."
 
 # 773f562d063a46edac30e49b4ce86f66
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:277
 msgid ""
 "Switch the classification style to :guilabel:`Rule-based`. You'll get this:"
 msgstr ""
+"Ubah style klasifikasi menjadi :guilabel:`Rule-based`. Anda akan melihat "
+"tampilan berikut ini:"
 
 # 44f971c537d54243b1aa774d00e44f1e
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:282
 msgid "Click the :guilabel:`Add` button."
-msgstr ""
+msgstr "Klik tombol :guilabel:`Add`."
 
 # a0ab7d5225ad4e7a951f3162e5446d34
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:283
 msgid "A new dialog that appears."
-msgstr ""
+msgstr "Sebuah kotak dialog baru akan muncul."
 
 # 8f6778153e94438f9377675617d87abf
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:284
@@ -514,6 +601,7 @@ msgid ""
 "Click the ellipsis :guilabel:`...` button next to the :guilabel:`Filter` "
 "text area."
 msgstr ""
+"Klik tombol elipsis :guilabel:`...` di sebelah area teks :guilabel:`Filter`."
 
 # 4b0007a3a4fd433e8b780ad39dc838a9
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:285
@@ -521,11 +609,14 @@ msgid ""
 "Using the query builder that appears, enter the criterion :kbd:`AREA >= "
 "0.00085` and choose a dark color for it."
 msgstr ""
+"Dengan menggunakan query builder yang muncul, masukkan kriteria :kbd:`AREA "
+">= 0.00085` dan pilih warna yang gelap."
 
 # 0342fc6662ec423dad052d8e0ff63795
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:287
 msgid "Add the criterion :kbd:`AREA <= 0.00085` and choose a light color."
 msgstr ""
+"Tambahkan kriteria :kbd:`AREA <= 0.00085` dan pilih warna yang lebih terang."
 
 # 51887590841940cca82e73d34549e2cf
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:288
@@ -533,6 +624,8 @@ msgid ""
 "Add the criterion :kbd:`TOWN != 'Swellendam Rural'` and assign it the color "
 "black, with transparency at :kbd:`85%`."
 msgstr ""
+"Tambahkan kriteria :kbd:`TOWN != 'Swellendam Rural'` dan berikan warna hitam "
+"dengan transparansi :kbd:`85%`."
 
 # fba6f124baab4836ad5e4105cb223df0
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:290
@@ -540,21 +633,23 @@ msgid ""
 "Click on the :kbd:`TOWN ...` criterion in the list of rules, and then on :"
 "guilabel:`Increase priority`."
 msgstr ""
+"Klik kriteria :kbd:`TOWN ...` pada daftar aturan, kemudian pada :guilabel:"
+"`Increase priority`."
 
 # 5495c08efcc34b8ea7cc63ce1745008c
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:293
 msgid "Your dialog should look like this:"
-msgstr ""
+msgstr "Anda akan melihat kotak dialog seperti ini:"
 
 # 60639880254a48428dddca6b077120ae
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:298
 msgid "Apply this symbology."
-msgstr ""
+msgstr "Terapkan simbologi ini."
 
 # f373c28189cc495c993827949b1adaa9
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:300
 msgid "Your map will look like this:"
-msgstr ""
+msgstr "Peta anda akan tampak seperti berikut ini:"
 
 # 579607d827a64562b2705e0adeac6f22
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:305
@@ -562,11 +657,13 @@ msgid ""
 "Now you have two area classes, with the farms in the Swellendam Rural area "
 "emphasized."
 msgstr ""
+"Kini anda mempunyai dua kelas area dengan penekanan pada lahan pertanian di "
+"area rural Swellendam."
 
 # 809c3edd608246ab89175ec1bea22583
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:309
 msgid "|IC|"
-msgstr ""
+msgstr "Kesimpulan"
 
 # 60ac31a4607a4b6cad93bff7efbd6ed9
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:311
@@ -577,11 +674,17 @@ msgid ""
 "Depending on the problems you face, you'll apply different classification "
 "techniques to solve them."
 msgstr ""
+"Simbologi memungkinkan kita untuk mewakili atribut dari suatu layer dengan "
+"cara yang mudah dibaca dan dipahami. Dengan cara ini, pembaca peta maupun "
+"kita sendiri dapat memahami pentingnya fitur-fitur yang ditampilkan dengan "
+"menggunakan atribut-atribut relevan yang kita pilih. Tergantung dari "
+"permasalahan yang dihadapi, anda dapat menerapkan teknik klasifikasi yang "
+"berbeda untuk memecahkannya. "
 
 # f95a66ba641145369477095639bb554c
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:318
 msgid "|WN|"
-msgstr ""
+msgstr "Apa Selanjutnya?"
 
 # 0df8c7ee6d4c438bafedab24cabe1ee4
 #: ../../C:\Users\RT\github\QGIS-Training-Manual\vector_classification\classification.rst:320
@@ -590,3 +693,6 @@ msgid ""
 "and into a format we can print out, or make into an image or PDF? That's the "
 "topic of the next lesson!"
 msgstr ""
+"Sekarang kita telah memiliki peta yang bagus, tetapi bagaimana kita dapat "
+"memindahkannya dari QGIS ke dalam format yang dapat dicetak atau diubah "
+"menjadi gambar maupun PDF? Itu adalah topik dari pelajaran berikutnya!"

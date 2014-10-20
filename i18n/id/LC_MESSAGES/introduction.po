@@ -3,46 +3,46 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-02 14:39+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-10-17 12:09+1100\n"
+"PO-Revision-Date: 2014-10-17 14:54+1000\n"
+"Last-Translator: yusatya <yusatya@gmail.com>\n"
+"Language-Team: AIPEID\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Language: id\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # 7bb61bc178d94b71aa0aa515ec804ba5
 #: ../../introduction/index.rst:3
 msgid "|MOD| The Interface"
-msgstr "Modul : Antarmuka"
+msgstr "Modul: Antarmuka"
 
 # b113f171cb984813ba2a6590d27954c0
 #: ../../introduction/intro.rst:2
 msgid "|LS| A Brief Introduction"
-msgstr "Pelajaran : Pengenalan Singkat "
+msgstr "Pelajaran: Pengantar Singkat"
 
 # eb003223921545e0892323719371fb92
 #: ../../introduction/intro.rst:4
-#, fuzzy
 msgid ""
 "Welcome to this course! We are going to show you how to use QGIS easily and "
 "efficiently. If you're new to GIS, we'll tell you what you need to get "
 "started. If you're an experienced user, you'll see how QGIS fulfills all the "
 "functions you expect from a GIS program, and more!"
 msgstr ""
-"Selamat datang di kursus kami! Selama beberapa hari ke depan, kami akan "
-"menunjukkan kepada Anda bagaimana untuk menggunakan QGIS secara mudah dan "
-"efisien. Jika Anda masih awam tentang SIG, kami akan memberitahukan kepada "
-"Anda apa saja yang Anda butuhkan untuk memulai. Jika Anda adalah pengguna "
-"yang berpengalaman, Anda akan melihat bagaimana QGIS memenuhi semua fungsi "
-"yang Anda harapkan dari sebuah perangkat lunak SIG, dan bahkan lebih!"
+"Selamat datang pada pelatihan ini! Kami akan menunjukkan kepada anda "
+"bagaimana menggunakan QGIS dengan mudah dan efisien. Jika anda baru mengenal "
+"SIG (Sistem Informasi Geografis), kami akan memberi tahu anda apa saja yang "
+"diperlukan untuk mulai bekerja. Apabila anda adalah pengguna yang "
+"berpengalaman, anda akan melihat bagaimana QGIS dapat menyediakan semua "
+"fungsi yang anda harapkan dari sebuah perangkat lunak SIG dan masih banyak "
+"lagi!"
 
 # de810879131f495ca5b14a0c5921b24d
 #: ../../introduction/intro.rst:10
@@ -50,8 +50,8 @@ msgid ""
 "In this module we introduce the QGIS project itself, as well as explaining "
 "the user interface."
 msgstr ""
-"Di modul ini kami memperkenalkan proyek QGIS itu sendiri, sekaligus "
-"menjelaskan mengenai antarmuka dari QGIS."
+"Pada modul ini, kami akan memperkenalkan proyek QGIS itu sendiri sekaligus "
+"menjelaskan antarmukanya."
 
 # 355df487ed4a4eadbc128022a43244da
 #: ../../introduction/intro.rst:13
@@ -60,10 +60,9 @@ msgid ""
 "main elements of the screen in QGIS and know what each of them does, and "
 "load a shapefile into QGIS."
 msgstr ""
-"Setelah menyelesaikan bagian ini, Anda akan mampu mengidentifikasi dengan "
-"benar elemen-elemen utama yang ada di tampilan QGIS dan mengetahui apa "
-"kegunaan masing-masing elemen tersebut, serta mampu memanggil sebuah "
-"*shapefile* ke dalam QGIS."
+"Setelah menyelesaikan bagian ini, anda akan dapat mengidentifikasi elemen-"
+"elemen utama dari tampilan QGIS dengan tepat dan memahami fungsinya masing-"
+"masing; anda juga akan dapat memuat shapefile ke dalam QGIS."
 
 # a5a6359a3c294f2dbbee975e232e652c
 #: ../../introduction/intro.rst:20
@@ -73,16 +72,15 @@ msgid ""
 "the techniques described here on your own data, always ensure you have "
 "proper backups!"
 msgstr ""
-"Materi kursus ini mencakup instruksi untuk menambah, menghapus dan merubah "
-"*dataset* SIG. Kami telah menyediakan *dataset* pelatihan untuk keperluan "
-"ini. Sebelum menggunakan teknik-teknik yang dijelaskan di sini pada data "
-"Anda sendiri, selalu pastikan bahwa Anda telah mem-backup data tersebut "
-"dengan baik!"
+"Materi pelatihan ini mencakup langkah-langkah untuk menambah, menghapus, dan "
+"mengubah set data SIG. Kami telah menyediakan set data latihan untuk tujuan "
+"ini. Sebelum menggunakan teknik-teknik yang dijelaskan di sini secara "
+"mandiri, pastikan anda selalu memiliki salinan data yang memadai!"
 
 # a89d4edcd59f4306850a6c7c03541db3
 #: ../../introduction/intro.rst:26
 msgid "How to use this tutorial"
-msgstr "Bagaimana menggunakan tutorial ini"
+msgstr "Bagaimana menggunakan panduan ini"
 
 # b98af49a3e1541e69256c79c4ff62e6a
 #: ../../introduction/intro.rst:28
@@ -90,16 +88,16 @@ msgid ""
 "Any text :guilabel:`that looks like this` refers to something on the screen "
 "that you can click on."
 msgstr ""
-"Semua teks yang :guilabel:`terlihat seperti ini` merujuk kepada sesuatu di "
-"layar yang dapat Anda klik."
+"Semua teks yang :guilabel:`terlihat seperti ini` merujuk pada bagian "
+"tampilan yang dapat anda klik."
 
 # a0f04cd84e7348fba578de7f15f87c8d
 #: ../../introduction/intro.rst:31
 msgid ""
 "Text that :menuselection:`looks --> like --> this` directs you through menus."
 msgstr ""
-"Teks yang :menuselection:`terlihat --> seperti --> ini` mengarahkan Anda "
-"melalui menu-menu."
+"Teks yang :menuselection:`terlihat --> seperti --> ini` akan memandu anda "
+"dalam menggunakan menu."
 
 # 6d7fa75b11394e2fa646324141525061
 #: ../../introduction/intro.rst:33
@@ -107,13 +105,13 @@ msgid ""
 ":kbd:`This kind of text` refers to something you can type, such as a "
 "command, path, or file name."
 msgstr ""
-":kbd:`Jenis teks seperti ini` menunjukkan sesuatu yang dapat Anda ketik, "
-"seperti suatu perintah, path atau nama file."
+":kbd:`Jenis teks seperti ini` menandakan sesuatu yang dapat anda ketik; "
+"misalnya perintah, lokasi data atau nama file."
 
 # b85fb1bd196f4b88931bf629e38dba53
 #: ../../introduction/intro.rst:37
 msgid "Tiered course objectives"
-msgstr "Sasaran kursus bertingkat-tingkat"
+msgstr "Sasaran pelatihan bertingkat"
 
 # ac881e265e5a4ea9b7f8689d603e09a9
 #: ../../introduction/intro.rst:39
@@ -124,17 +122,17 @@ msgid ""
 "the next one, so it's important to do all exercises that are at or below "
 "your level of experience."
 msgstr ""
-"Materi kursus ini dapat memenuhi kebutuhan pengguna dengan tingkat "
-"pengalaman yang berbeda. Tergantung pada kategori mana Anda menilai diri "
-"Anda sendiri masuk di dalamnya, Anda dapat menjumpai suatu set materi kursus "
-"dengan tujuan yang berbeda. Tiap kategori mengandung informasi yang penting "
-"untuk tahapan selanjutnya, sehingga penting untuk mengerjakan semua latihan "
-"yang ada pada tingkat pengalaman Anda atau tingkat di bawahnya."
+"Pelatihan ini bertujuan memenuhi kebutuhan pengguna dengan tingkat "
+"pengalaman yang berbeda-beda. Anda akan memperoleh sasaran pelatihan yang "
+"berbeda tergantung dari tingkat kemampuan yang anda miliki. Masing-masing "
+"kategori berisi informasi yang penting untuk bagian selanjutnya, oleh karena "
+"itu anda juga perlu mempelajari materi yang berada di bawah atau pada "
+"tingkat kemampuan anda."
 
 # ccc7774b501b4f119663e85636b64b84
 #: ../../introduction/intro.rst:46
 msgid "|basic| Basic"
-msgstr "|basic| Dasar"
+msgstr "|basic| Tingkat Dasar"
 
 # 228bdb3e5dc9451693ec2176c27268e4
 #: ../../introduction/intro.rst:48
@@ -142,9 +140,9 @@ msgid ""
 "In this category, the course assumes that you have little or no prior "
 "experience with theoretical GIS knowledge or the operation of a GIS program."
 msgstr ""
-"Pada kategori ini, kursus mengasumsikan bahwa Anda memiliki sedikit "
-"pengalaman atau belum berpengalaman sebelumnya dengan pengetahuan teoritis "
-"tentang  SIG atau pengoperasian suatu program  SIG."
+"Pada kategori ini, materi pelatihan mengasumsikan anda sebagai pengguna yang "
+"belum atau hanya sedikit berpengalaman dengan pengetahuan teoritis mengenai "
+"SIG maupun cara pengoperasian perangkat lunak SIG."
 
 # 0ef4b268140846c59a9f99dc903e87f4
 #: ../../introduction/intro.rst:51
@@ -154,8 +152,8 @@ msgid ""
 "learning by doing."
 msgstr ""
 "Latar belakang teoritis yang terbatas akan diberikan untuk menjelaskan "
-"mengenai tujuan dari sebuah aksi  yang akan Anda lakukan di program, tetapi "
-"penekanannya adalah pada *learning by doing (belajar sambil melakukan)*."
+"tujuan dari langkah-langkah penggunaan perangkat lunak yang anda lakukan, "
+"tetapi penekanannya adalah pada kegiatan belajar melalui praktek."
 
 # 435b60b498f741a798b29a5324a46055
 #: ../../introduction/intro.rst:55
@@ -163,14 +161,14 @@ msgid ""
 "When you complete the course, you will have a better concept of the "
 "possibilities of GIS, and how to harness their power via QGIS."
 msgstr ""
-"Ketika Anda telah menyelesaikan kursus ini, Anda akan memiliki konsep yang "
-"lebih baik mengenai   SIG, dan bagaimana mengoptimalkan potensi mereka "
-"dengan menggunakan QGIS."
+"Setelah menyelesaikan pelatihan ini, anda akan memiliki konsep yang lebih "
+"baik mengenai peluang penggunaan SIG dan bagaimana mengoptimalkan potensinya "
+"dengan QGIS."
 
 # 3159167598f840d4a1cdb6140be39a35
 #: ../../introduction/intro.rst:59
 msgid "|moderate| Intermediate"
-msgstr "|moderate| Menengah"
+msgstr "|moderate| Tingkat Menengah"
 
 # 5aaaad2405134d8dbaca6a55e35afa3c
 #: ../../introduction/intro.rst:61
@@ -178,8 +176,8 @@ msgid ""
 "In this category, it is assumed that you have working knowledge and "
 "experience of the everyday uses of GIS."
 msgstr ""
-"Pada kategori ini, diasumsikan bahwa Anda telah bekerja dan memiliki "
-"pengalaman dalam penggunaan SIG sehari-hari."
+"Pada kategori ini, anda diasumsikan telah memiliki pengetahuan dan "
+"pengalaman menggunakan SIG dalam kegiatan sehari-hari. "
 
 # d0619a620663442c9b987e78b0c327d5
 #: ../../introduction/intro.rst:64
@@ -189,11 +187,11 @@ msgid ""
 "things slightly differently from other software you may be used to. You will "
 "also learn how to use analysis functions in QGIS."
 msgstr ""
-"Dengan mengikuti instruksi-instruksi pada tingkat pemula akan memberikan "
-"Anda dasar yang baik, sekaligus membuat Anda memahami kasus-kasus dimana "
-"QGIS mengerjakan beberapa hal secara berbeda dari *software* lain yang Anda "
-"terbiasa dengannya. Anda juga akan mempelajari bagaimana menggunakan fungsi "
-"analisis di QGIS."
+"Dengan mengikuti langkah-langkah pada tingkat pemula, anda akan memperoleh "
+"pengetahuan dasar yang mudah dipahami sekaligus meningkatkan kesadaran "
+"mengenai perbedaan cara QGIS menangani kasus-kasus tertentu jika "
+"dibandingkan dengan perangkat lunak sejenis yang sudah biasa anda gunakan. "
+"Anda juga akan mempelajari bagaimana menggunakan fungsi analisis pada QGIS."
 
 # a60c8e8ecfe84f7194ce78a1ca77373c
 #: ../../introduction/intro.rst:69
@@ -201,14 +199,14 @@ msgid ""
 "When you complete the course, you should be comfortable with using QGIS for "
 "all of the functions you usually need from a GIS for everyday use."
 msgstr ""
-"Ketika Anda menyelesaikan kursus ini, Anda akan merasa nyaman dengan "
-"penggunaan QGIS untuk semua fungsi yang biasa Anda perlukan pada kebutuhan "
-"SIG sehari-hari."
+"Setelah menyelesaikan pelatihan ini, anda akan merasa nyaman menggunakan "
+"QGIS untuk menangani fungsi-fungsi yang biasanya dibutuhkan dari SIG dalam "
+"kegiatan sehari-hari."
 
 # 99b2d7b9fb1241b6bc31e2de1d9a5f98
 #: ../../introduction/intro.rst:73
 msgid "|hard| Advanced"
-msgstr "|hard| Lanjut"
+msgstr "|hard| Tingkat Lanjut"
 
 # 97b0220af4dd45ccaeea97ea481d85d4
 #: ../../introduction/intro.rst:75
@@ -217,10 +215,10 @@ msgid ""
 "knowledge of and experience with spatial databases, using data on a remote "
 "server, perhaps writing scripts for analysis purposes, etc."
 msgstr ""
-"Pada kategori ini, diasumsikan bahwa Anda telah berpengalaman dengan SIG, "
-"memiliki pengetahuan dan pengalaman dengan  basisdata spasial, menggunakan "
-"data di *server terpisah (remote server)*, serta mungkin pernah menulis "
-"*script* untuk keperluan analisis, dan sebagainya."
+"Pada kategori ini, anda diasumsikan telah berpengalaman menggunakan SIG, "
+"memiliki pengetahuan dan pengalaman dengan basis data spasial, menggunakan "
+"data dari remote server, menulis skrip untuk keperluan analisis, dan "
+"sebagainya."
 
 # 908042c18b0a44298776a8603d6454ef
 #: ../../introduction/intro.rst:79
@@ -230,11 +228,11 @@ msgid ""
 "know how to access the basic functions that you need. You will also be shown "
 "how to make use of QGIS' plugin system, database access system, and so on."
 msgstr ""
-"Dengan mengikuti instruksi pada dua level sebelumnya, Anda akan familiar "
-"dengan pendekatan yang diikuti oleh antarmuka QGIS, serta memastikan bahwa "
-"Anda tahu bagaimana cara mengakses fungsi-fungsi dasar yang Anda perlukan. "
-"Anda juga akan ditunjukkan mengenai bagaimana cara menggunakan *plugin* "
-"QGIS, sistem akses basisdata  *(database access system)*, dan seterusnya."
+"Dengan mengikuti langkah-langkah pada dua level berikutnya, anda akan "
+"memahami pendekatan antarmuka QGIS dan memastikan anda mengetahui cara "
+"mengakses fungsi-fungsi dasar yang dibutuhkan. Anda juga akan ditunjukkan "
+"bagaimana cara menggunakan sistem plugin QGIS, sistem akses basis data , dan "
+"seterusnya."
 
 # aa256ce6c94f4f4594dd909d0c28ee14
 #: ../../introduction/intro.rst:84
@@ -242,9 +240,8 @@ msgid ""
 "When you complete the course, you should be well-acquainted with the "
 "everyday operation of QGIS, as well as its more advanced functions."
 msgstr ""
-"Saat Anda menyelesaikan kursus pada tingkat ini, Anda akan terbiasa dengan "
-"operasional QGIS sehari-hari, serta fungsi-fungsi yang lebih lanjut "
-"tingkatannya."
+"Setelah menyelesaikan pelatihan ini, anda akan terbiasa menggunakan QGIS "
+"dalam kegiatan sehari-hari disamping fungsi-fungsi tingkat lanjut lainnya."
 
 # d603c5edd0ff4deaad0f86698fcd5fa3
 #: ../../introduction/intro.rst:89
@@ -258,15 +255,15 @@ msgid ""
 "tools able to fulfill some or all commonly used GIS functions. Why should "
 "anyone be using QGIS over some other GIS software package?"
 msgstr ""
-"Seiring dengan berkembangnya informasi yang menjadi lebih bersifat spasial, "
-"saat ini banyak tersedia *tool-tool* yang  mampu untuk memenuhi beberapa "
-"atau semua kebutuhan fungsi SIG yang umum diperlukan. Mengapa harus "
-"menggunakan QGIS disamping paket perangkat lunak SIG yang lain?"
+"Seiring perkembangan informasi yang lebih bersifat spasial, saat ini telah "
+"tersedia banyak alat bantu yang dapat memenuhi sebagian atau seluruh fungsi-"
+"fungsi yang umum digunakan dalam SIG. Mengapa harus menggunakan QGIS dan "
+"bukan paket perangkat lunak SIG yang lain?"
 
 # fd4b9adf83d5415abe80151995477903
 #: ../../introduction/intro.rst:95
 msgid "Here are only some of the reasons:"
-msgstr "Berikut ini hanya beberapa alasan diantaranya:"
+msgstr "Berikut ini adalah sebagian dari alasannya:"
 
 # 237590c098ac47acbe320fd330c46564
 #: ../../introduction/intro.rst:97
@@ -274,9 +271,9 @@ msgid ""
 "*It's free, as in lunch.* Installing and using the QGIS program costs you a "
 "grand total of zero money. No initial fee, no recurring fee, nothing."
 msgstr ""
-"*Gratis*. Anda tidak membutuhkan biaya sedikitpun pun untuk instalasi dan "
-"penggunaan program QGIS. Tidak ada biaya awal, tidak ada biaya pemeliharaan, "
-"sepenuhnya gratis."
+"*Gratis*. Anda tidak perlu mengeluarkan biaya sedikit pun untuk "
+"menginstalasi dan menggunakan perangkat lunak QGIS. Tidak ada biaya awal, "
+"tidak ada biaya pemeliharaan, semua sepenuhnya gratis."
 
 # 4949cabe645d4f6a863f48df7a15f997
 #: ../../introduction/intro.rst:100
@@ -286,10 +283,10 @@ msgid ""
 "sponsor the development of a feature, or add it yourself if you are familiar "
 "with programming."
 msgstr ""
-"*Bebas*. Jika Anda membutuhkan fungsi tambahan di QGIS, Anda dapat melakukan "
-"lebih banyak dari sekedar berharap fungsi tersebut akan muncul pada luncuran "
-"selanjutnya. Anda dapat mensponsori pembuatan suatu fitur, atau "
-"menambahkannya sendiri jika Anda merasa familiar dengan dunia pemrograman."
+"*Bebas*. Jika anda membutuhkan fungsi tambahan pada QGIS, anda dapat berbuat "
+"lebih jauh ketimbang sekedar berharap fungsi tersebut akan disertakan pada "
+"versi selanjutnya. Anda dapat mensponsori pembuatan suatu fitur atau "
+"menambahkannya sendiri jika anda memahami pemrograman komputer."
 
 # 8ccc9ac0cb264f7083d0a09a4873daa8
 #: ../../introduction/intro.rst:105
@@ -299,8 +296,8 @@ msgid ""
 "tool can happen as quickly as you need it to."
 msgstr ""
 "*Terus berkembang*. Karena semua orang dapat menambahkan fitur baru dan "
-"menyempurnakan yang ada sebelumnya, QGIS tidak pernah menjadi *stagnan*. "
-"Pembuatan *tool* baru dapat terjadi secepat Anda membutuhkannya."
+"menyempurnakan yang telah ada, QGIS tidak pernah stagnan. Pembuatan alat "
+"bantu baru dapat berlangsung secepat anda membutuhkannya."
 
 # 0ca899c48c3b4b58ac0f65ac3779f03f
 #: ../../introduction/intro.rst:109
@@ -309,15 +306,16 @@ msgid ""
 "anything, you can turn to the extensive documentation, your fellow QGIS "
 "users, or even the developers."
 msgstr ""
-"*Ketersediaan dokumen panduan dan pertolongan*. Apabila Anda mengalami "
-"kesulitan dengan sesuatu, Anda dapat merujuk pada dokumentasi, teman-teman "
+"*Ketersediaan dokumen panduan dan pertolongan secara ekstensif*. Apabila "
+"anda mengalami kesulitan, anda dapat merujuk pada dokumentasi, sesama "
 "pengguna QGIS, atau bahkan para pengembangnya."
 
 # cf9b9b07ec0b43edb95a04474dde80e5
 #: ../../introduction/intro.rst:113
 msgid "*Cross-platform.* QGIS can be installed on MacOS, Windows and Linux."
 msgstr ""
-"*Antar sistem operasi.* QGIS dapat diinstal di MacOS, Windows dan Linux."
+"*Lintas sistem operasi.* QGIS dapat diinstalasi pada MacOS, Windows dan "
+"Linux."
 
 # 842f09bc21fe47b7ad075a76ccbc3fcc
 #: ../../introduction/intro.rst:115
@@ -325,14 +323,14 @@ msgid ""
 "Now that you know why you want to use QGIS, we can show you how. The first "
 "lesson will guide you in creating your first QGIS map."
 msgstr ""
-"Sekarang setelah Anda tahu mengapa Anda perlu menggunakan QGIS, kami dapat "
-"menunjukkan pada Anda bagaimana caranya. Pelajaran pertama akan memandu Anda "
-"dalam membuat peta pertama Anda di QGIS."
+"Kini setelah mengetahui mengapa anda perlu menggunakan QGIS, kami dapat "
+"menunjukkannya kepada anda. Pelajaran pertama akan memberikan panduan dalam "
+"membuat peta pertama anda di QGIS."
 
 # 750e5656a02b4724a2ac9aeb640d8cd3
 #: ../../introduction/overview.rst:2
 msgid "|LS| An Overview of the Interface"
-msgstr "Pelajaran: Gambaran Singkat Tentang Antarmuka"
+msgstr "Pelajaran: Gambaran Singkat Mengenai Antarmuka"
 
 # 9caf678c0ff14c60925822fd3f1d26d0
 #: ../../introduction/overview.rst:4
@@ -341,9 +339,9 @@ msgid ""
 "menus, toolbars, map canvas and layers list that form the basic structure of "
 "the interface."
 msgstr ""
-"Kita akan menjelajahi antarmuka QGIS sehingga Anda akan terbiasa dengan menu-"
-"menu, *toolbar-toolbar*, bidang peta dan daftar *layer* yang membentuk "
-"struktur dasar dari antarmuka QGIS. "
+"Kita akan menjelajahi antarmuka QGIS sehingga anda akan terbiasa dengan "
+"menu, toolbar, kanvas peta, dan daftar layer yang menyusun struktur dasar "
+"dari antarmuka QGIS. "
 
 # 608dc2d2d4dd4f75999afd4cffef682d
 #: ../../introduction/overview.rst:8
@@ -351,44 +349,43 @@ msgid ""
 "**The goal for this lesson:** To understand the basics of the QGIS user "
 "interface."
 msgstr ""
-"**Tujuan dari pembelajaran ini** : untuk memahami dasar-dasar dari antarmuka "
+"**Tujuan dari pelajara ini**: Memahami dasar-dasar dari antarmuka pengguna "
 "QGIS."
 
 # 77fa8f312d3b4dcfb0585ff2974c247c
 #: ../../introduction/overview.rst:12
 msgid "|basic| |TY|: The Basics"
-msgstr "|basic| Coba Sendiri: Dasar"
+msgstr "|basic| Coba Sendiri: Materi Dasar"
 
 # 1c088b62c3d84ae191474ce069d70f77
 #: ../../introduction/overview.rst:17
 msgid "The elements identified in the figure above are:"
-msgstr ""
-"Elemen-elemen yang dapat diidentifikasi dalam gambar di atas antara lain:"
+msgstr "Elemen-elemen yang ditampilkan pada gambar di atas antara lain:"
 
 # da9732f6048e41058a6f2ce61cde51fd
 #: ../../introduction/overview.rst:19
 msgid "Layers list"
-msgstr "Daftar  *layer (Layer list)*"
+msgstr "Daftar layer (Layer list)"
 
 # aa2284443ce04a13b93c1bf2095d3705
 #: ../../introduction/overview.rst:20
 msgid "Toolbars"
-msgstr "*Toolbar-toolbar (Toolbars)*"
+msgstr "Toolbar"
 
 # eadfef335a1d4cd9bdf794fcba7ede49
 #: ../../introduction/overview.rst:21
 msgid "Map canvas"
-msgstr "Bidang peta *(Map canvas)*"
+msgstr "Kanvas peta"
 
 # e4bd888be28843c789e037d7345d291a
 #: ../../introduction/overview.rst:22
 msgid "Status bar"
-msgstr "Papan Status *(Status bar)*"
+msgstr "Status bar"
 
 # 8577e33e89ab49d09f6a4ba8c8c07831
 #: ../../introduction/overview.rst:28
 msgid "|basic| The Layers List"
-msgstr "|basic| Daftar *Layer*"
+msgstr "|basic| Daftar Layer"
 
 # 011bd4261ef549ddb78e65f6e4e00970
 #: ../../introduction/overview.rst:30
@@ -396,8 +393,8 @@ msgid ""
 "In the Layers list, you can see a list, at any time, of all the layers "
 "available to you."
 msgstr ""
-"Pada daftar *layer* ini, Anda dapat melihat sebuah daftar semua *layer* yang "
-"tersedia untuk Anda setiap saat."
+"Pada daftar layer, anda dapat melihat daftar semua layer yang tersedia "
+"setiap saat."
 
 # cc4bf0b892b14fc390caf1bbbc142d89
 #: ../../introduction/overview.rst:33
@@ -406,8 +403,8 @@ msgid ""
 "will provide you with more information on the layer's current appearance."
 msgstr ""
 "Menampilkan item-item yang tersembunyi (dengan mengklik tanda panah atau "
-"tanda plus disampingnya) akan memberikan Anda banyak informasi mengenai "
-"tampilan *layer* tersebut saat ini."
+"tanda tambah di sebelahnya) akan memberikan lebih banyak informasi mengenai "
+"tampilan suatu layer."
 
 # d1c281bacf59413ab60aee8e37c115be
 #: ../../introduction/overview.rst:36
@@ -415,9 +412,9 @@ msgid ""
 "Right-clicking on a layer will give you a menu with lots of extra options. "
 "You will be using some of them before long, so take a look around!"
 msgstr ""
-"Klik kanan pada *layer* yang akan Anda operasikan, ini akan memberikan Anda "
-"sebuah menu dengan banyak pilihan tambahan. Anda akan menggunakan beberapa "
-"pilihan tersebut sebelum melangkah lebih jauh, maka  perhatikanlah! "
+"Mengklik kanan pada sebuah layer akan menampilkan sebuah menu dengan lebih "
+"banyak pilihan tambahan. Tidak lama lagi anda akan menggunakan beberapa "
+"diantaranya, jadi anda dapat mulai melihat-lihat! "
 
 # ad0baf9ac1c0489b80810436ba706732
 #: ../../introduction/overview.rst:39
@@ -426,10 +423,9 @@ msgid ""
 "checkbox just underneath the Layers list. Don't worry if you can't see it. "
 "If it is present, ensure that it's checked for now."
 msgstr ""
-"Beberapa versi dari QGIS mempunyai *checkbox* :guilabel:`Control rendering "
-"order` yang terpisah, terletak di bagian bawah daftar layer. Jangan khawatir "
-"jika Anda tidak dapat melihatnya. *Checkbox* tersebut akan ditampilkan "
-"kemudian."
+"Beberapa versi QGIS mempunyai kotak centang :guilabel:`Control rendering "
+"order` yang letaknya terpisah di bagian bawah Daftar layer. Jangan khawatir "
+"jika anda tidak dapat melihatnya. Jika ada, pastikan sudah dicentang."
 
 # 7548d6fc5f254da680cfd7002a83dd1b
 #: ../../introduction/overview.rst:43
@@ -438,14 +434,14 @@ msgid ""
 "roads, trees, etc. A vector layer can consist of either points, lines or "
 "polygons."
 msgstr ""
-"*Layer* vektor adalah sebuah *dataset*, biasanya dari jenis obyek yang "
-"spesifik, seperti jalan, pohon, dan sebagainya. *Layer*  vektor dapat "
-"terdiri dari titik,  garis, atau poligon."
+"Layer vektor adalah sebuah set data dengan jenis obyek tertentu; misalnya "
+"jalan, pohon, dan sebagainya. Layer vektor dapat terdiri dari titik, garis, "
+"atau poligon."
 
 # 2befbda4748a478485f3decf605cfdb0
 #: ../../introduction/overview.rst:48
 msgid "|basic| Toolbars"
-msgstr "|basic| *Toolbar*"
+msgstr "|basic| Toolbar"
 
 # 2c091cf0b95c45f48c17ec1166005f32
 #: ../../introduction/overview.rst:50
@@ -456,12 +452,12 @@ msgid ""
 "tools you use most often, adding or removing toolbars as necessary via the :"
 "menuselection:`View --> Toolbars` menu."
 msgstr ""
-"Seperangkat tool yang sering Anda gunakan dapat dimasukkan ke dalam toolbar "
-"untuk mengakses tool-tool dasar. Contohnya adalah toolbar File yang "
-"memungkinkan Anda untuk menyimpan, memproses, mencetak, dan memulai sebuah "
-"proyek baru. Anda dapat dengan mudah mengkostumisasi antarmuka untuk melihat "
-"hanya tool-tool yang sering Anda gunakan, menambah atau menghilangkan "
-"toolbar sesuai dengan yang dibutuhkan melalui menu :menuselection:`View --> "
+"Alat-alat bantu yang sering anda gunakan dapat dimasukkan ke dalam toolbar "
+"untuk menyediakan akses dasar. Sebagai contoh, toolbar File yang "
+"memungkinkan anda untuk menyimpan, memuat, mencetak, dan memulai proyek "
+"baru. Anda dapat dengan mudah menyesuaikan antarmuka untuk hanya menampilkan "
+"alat bantu yang sering digunakan; anda juga dapat menambah atau "
+"menghilangkan toolbar sesuai kebutuhan melalui menu :menuselection:`View --> "
 "Toolbars`."
 
 # 1056fb60e50b467cab8f4f7af8bb3f31
@@ -473,26 +469,26 @@ msgid ""
 "your map by clicking on the :guilabel:`File` menu and then clicking on :"
 "guilabel:`Save`."
 msgstr ""
-"Bahkan apabila *tool – tool* tersebut tidak terlihat pada *toolbar* , "
-"seluruh *tool* Anda akan tetap dapat diakses melalui menu-menu. Sebagai "
-"contoh, jika Anda menghilangkan *toolbar* :guilabel:`File` (yang berisi "
-"tombol :guilabel:`Save`), Anda masih dapat menyimpan peta Anda dengan "
-"mengklik menu :guilabel:`File` kemudian klik :guilabel:`Save`."
+"Walaupun alat bantu tidak terlihat pada toolbar, anda tetap dapat "
+"mengaksesnya melalui menu. Sebagai contoh, jika anda menghilangkan toolbar :"
+"guilabel:`File` (yang berisi tombol :guilabel:`Save`), anda masih dapat "
+"menyimpan peta dengan mengklik menu :guilabel:`File` dan kemudian mengklik :"
+"guilabel:`Save`."
 
 # 4073ef402275402e8bfc801241ba96f6
 #: ../../introduction/overview.rst:63
 msgid "|basic| The Map Canvas"
-msgstr "|basic| Bidang Peta"
+msgstr "|basic| Kanvas Peta"
 
 # ac92813d65da46b5b349618a9b1b6cca
 #: ../../introduction/overview.rst:65
 msgid "This is where the map itself is displayed."
-msgstr "Bidang peta  merupakan tempat dimana peta ditampilkan."
+msgstr "Kanvas peta merupakan ruang dimana peta ditampilkan."
 
 # 5ae97c88d98940f7a55dfad86879234d
 #: ../../introduction/overview.rst:68
 msgid "|basic| The Status Bar"
-msgstr "|basic| *Status Bar*"
+msgstr "|basic| Status Bar"
 
 # 0674be2ee1004fe59127ad91753b142c
 #: ../../introduction/overview.rst:70
@@ -500,9 +496,9 @@ msgid ""
 "Shows you information about the current map. Also allows you to adjust the "
 "map scale and see the mouse cursor's coordinates on the map."
 msgstr ""
-"*Status bar* menunjukkan kepada Anda informasi tentang peta yang sedang "
-"aktif. *Status bar* juga memungkinkan Anda untuk menyesuaikan skala peta dan "
-"melihat koordinat kursor pada *mouse* dalam peta."
+"Status bar berisi informasi mengenai peta yang sedang ditampilkan. Status "
+"bar juga memungkinkan anda menyesuaikan skala peta dan melihat koordinat "
+"kursor tetikus pada peta."
 
 # d44c8cf290b04da4a431c1d22412ff9f
 #: ../../introduction/overview.rst:77
@@ -517,15 +513,15 @@ msgid ""
 "functions. You will become more familiar with these elements as you use them "
 "in the coming days."
 msgstr ""
-"Coba identifikasi empat elemen dalam daftar di atas pada layar Anda, tanpa "
-"mengacu pada diagram di atas. Lihatlah apakah Anda dapat mengidentifikasi "
-"nama-nama dan fungsi-fungsinya. Anda akan lebih mengenal elemen-elemen "
-"tersebut yang akan Anda gunakan beberapa hari ke depan."
+"Cobalah untuk mengidentifikasi empat elemen yang disebutkan sebelumnya di "
+"layar tampilan anda, tanpa mengacu pada diagram di atas. Lihat apakah anda "
+"dapat menyebutkan nama dan fungsinya. Anda akan lebih mengenal elemen-elemen "
+"tersebut setelah menggunakannya selama beberapa hari ke depan."
 
 # fb4b59854ee443c69bf15e3532cab11c
 #: ../../introduction/overview.rst:84
 msgid ":ref:`Check your results <interface-overview-1>`"
-msgstr ":ref:`Periksa hasil Anda <interface-overview-1>`"
+msgstr ":ref:`Periksa hasil yang anda peroleh <interface-overview-1>`"
 
 # e3ec74aefaab4bc0a6fc11f39c2f34f2
 #: ../../introduction/overview.rst:90
@@ -536,8 +532,8 @@ msgstr "|basic| Coba Sendiri: 2"
 #: ../../introduction/overview.rst:92
 msgid "Try to find each of these tools on your screen. What is their purpose?"
 msgstr ""
-"Cobalah untuk menemukan masing-masing *tool* pada layar Anda. Apakah "
-"kegunaan dari *tool-tool* tersebut?"
+"Cobalah untuk menemukan masing-masing alat bantu ini pada layar tampilan "
+"anda. Apakah kegunaan dari alat bantu tersebut?"
 
 # 26d9b9895a29446f86be1ba4acf1e49a
 #: ../../introduction/overview.rst:109
@@ -549,18 +545,19 @@ msgid ""
 "button in any such collapsed toolbar. You can see a tooltip with the name of "
 "any tool by holding your mouse over the tool for a while."
 msgstr ""
-"Jika *tool-tool* ini tidak terlihat pada layar monitor, cobalah mengaktifkan "
-"beberapa *toolbar* yang sekarang masih tersembunyi. Juga harus diingat bahwa "
-"jika tidak ada cukup ruang di layar monitor, sebuah *toolbar* bisa "
-"dipendekkan dengan menyembunyikan beberapa *tool*. Anda dapat melihat *tool-"
-"tool* yang tersembunyi dengan meng-klik pada tombol panah ganda sebelah "
-"kanan. Anda juga dapat melihat *tooltip* dengan nama pada setiap *tool* "
-"dengan menekan *mouse* agak lama di atas tool."
+"Jika alat bantu ini tidak terlihat pada layar, cobalah mengaktifkan beberapa "
+"toolbar yang saat ini masih tersembunyi. Perlu juga diingat bahwa jika tidak "
+"terdapat cukup ruang pada layar tampilan, maka toolbar dapat dipendekkan "
+"dengan menyembunyikan beberapa alat bantu di dalamnya. Anda dapat melihat "
+"alat bantu yang tersembunyi dengan mengklik tombol panah ganda sebelah kanan "
+"pada toolbar yang dipendekkan. Anda dapat melihat tip alat bantu yang "
+"disertai namanya dengan melayangkan kursor tetikus di atas alat bantu "
+"tersebut selama beberapa waktu."
 
 # 21f41de73c044770800a09cdeb9ff280
 #: ../../introduction/overview.rst:116
 msgid ":ref:`Check your results <interface-overview-2>`"
-msgstr ":ref:`Periksa hasil Anda <interface-overview-2>`"
+msgstr ":ref:`Periksa hasil yang anda peroleh <interface-overview-2>`"
 
 # 4fbb42ad154b4e88af4c96a25dcf27a1
 # 958bb911841a448aa7ee1659bfd08b90
@@ -575,14 +572,14 @@ msgid ""
 "available to you and start improving on your map! This is the topic of the "
 "next lesson."
 msgstr ""
-"Sekarang Anda dapat melihat bagaimana antarmuka QGIS bekerja, Anda akan "
-"menggunakan *tool-tool* yang tersedia untuk memulai memperbaiki peta Anda. "
-"Ini adalah topik untuk pelajaran selanjutnya. "
+"Setelah melihat cara kerja antarmuka QGIS, anda dapat mulai menggunakan alat "
+"bantu yang tersedia untuk membantu menyempurnakan peta anda. Ini adalah "
+"topik materi selanjutnya. "
 
 # 5f717289aeed4b79819cf7a425a7f7e4
 #: ../../introduction/preparation.rst:2
 msgid "|LS| Adding your first layer"
-msgstr "Pelajaran: Menambahkan *Layer* Pertama Anda"
+msgstr "Pelajaran: Menambahkan layer pertama anda"
 
 # a0e1faaea73e48d2960ceba2611e6256
 #: ../../introduction/preparation.rst:4
@@ -590,19 +587,20 @@ msgid ""
 "We will start the application, and create a basic map to use for examples "
 "and exercises."
 msgstr ""
-"Kita akan memulai aplikasi QGIS dan membuat peta sederhana untuk digunakan "
-"sebagai contoh-contoh dan latihan-latihan."
+"Kita akan mulai dengan membuka aplikasi QGIS dan membuat peta dasar untuk "
+"digunakan dalam contoh dan latihan."
 
 # 650c1292119d468e8d6bc6592b56c2da
 #: ../../introduction/preparation.rst:7
 msgid "**The goal for this lesson:** To get started with an example map."
-msgstr ""
-"**Tujuan dari pembelajaran ini** :untuk memulai dengan sebuah peta contoh."
+msgstr "**Tujuan dari pelajaran ini** : Memulai dengan sebuah peta contoh."
 
 # 1cd800eae3ae41c9aad60c2d2ea87a86
 #: ../../introduction/preparation.rst:9
 msgid "Before starting this exercise, QGIS must be installed on your computer."
-msgstr "Sebelum memulai latihan ini, QGIS harus diinstal di komputer Anda. "
+msgstr ""
+"Sebelum memulai latihan ini, QGIS perlu diinstalasi pada komputer anda "
+"terlebih dahulu. "
 
 # f502b0b1df2d417a8a08a49c136e2767
 #: ../../introduction/preparation.rst:12
@@ -610,12 +608,11 @@ msgid ""
 "Launch QGIS from its desktop shortcut, menu item, etc., depending on how you "
 "configured its installation."
 msgstr ""
-"Jalankan QGIS dari *shortcut desktop*, menu item, dan sebagainya tergantung "
-"bagaimana Anda mengkonfigurasikannya pada proses instalasi. "
+"Jalankan QGIS dari desktop shortcut, item menu, atau cara lain yang sesuai "
+"dengan konfigurasi yang anda buat pada saat instalasi. "
 
 # 34c482a7431a44c08d9c275b9773e937
 #: ../../introduction/preparation.rst:15
-#, fuzzy
 msgid ""
 "The screenshots for this course were taken in QGIS 1.8 running on Mac OS X "
 "10.9.5. Depending on your setup, the screens you encounter may well appear "
@@ -623,12 +620,12 @@ msgid ""
 "and the instructions will work on any OS. You will need QGIS 1.8 or above to "
 "use this course."
 msgstr ""
-"*Screenshot* untuk pelatihan ini dibuat pada QGIS 1.8 yang dijalankan pada "
-"Linux Ubuntu 11.10 dan Windows. Tampilan yang Anda temui mungkin akan "
-"sedikit berbeda, tergantung pada *setup* anda. Akan tetapi, semua tombol "
-"yang sama akan tetap tersedia, dan semua instruksi akan bekerja dalam "
-"berbagai sistem operasi. Anda akan membutuhkan QGIS 1.8 ( versi terakhir "
-"saat penulisan)  untuk digunakan pada pelatihan ini. "
+"Cuplikan layar untuk pelatihan ini dibuat dengan QGIS 1.8 yang dijalankan "
+"pada Linux Ubuntu 11.10 dan Windows. Tampilan yang anda temui mungkin akan "
+"sedikit berbeda, tergantung dari pengaturan yang buat anda. Akan tetapi, "
+"semua tombol yang sama akan tetap tersedia dan semua langkah dapat dilakukan "
+"pada sistem operasi manapun. Anda akan membutuhkan QGIS 1.8 (versi terakhir "
+"saat penulisan) untuk pelatihan ini. "
 
 # 9e63b6f28966485e8cefe9a1d683ced2
 #: ../../introduction/preparation.rst:21
@@ -638,17 +635,17 @@ msgstr "Mari kita mulai!"
 # 5138f9908d9b48629d63c8678a59a2af
 #: ../../introduction/preparation.rst:26
 msgid "|basic| |FA| Prepare a map"
-msgstr "|basic| Ikuti Bersama: Menyiapkan sebuah peta"
+msgstr "|basic| Ikuti bersama: Membuat sebuah peta"
 
 # bf52be538a1e4b00922c31c3ca320b98
 #: ../../introduction/preparation.rst:28
 msgid "Open QGIS. You will have a new, blank map."
-msgstr "Bukalah QGIS. Anda akan memiliki peta kosong yang baru."
+msgstr "Buka QGIS. Anda akan melihat tampilan peta kosong yang baru."
 
 # 7e9f006a70f64fb79957c718a1d8f676
 #: ../../introduction/preparation.rst:30
 msgid "Look for the :guilabel:`Add Vector Layer` button:"
-msgstr "Carilah tombol :guilabel:`Add Vector Layer`:"
+msgstr "Cari tombol :guilabel:`Add Vector Layer`:"
 
 # 0da49df374224f798dfb04d5c88a3ae0
 #: ../../introduction/preparation.rst:35
@@ -664,11 +661,11 @@ msgid ""
 "the file path filled in. Click :guilabel:`Open` here as well. The data you "
 "specified will now load."
 msgstr ""
-"Sekarang klik tombol :guilabel:`Browse` dan arahkan pada file :kbd:"
-"`data_latihan/jalan.shp` (di dalam direktori pelatihan Anda). Pilih file "
-"ini, klik :guilabel:`Open`. Anda akan melihat kotak dialog awalnya, tetapi "
-"dengan file *path* yang terisi di dalamnya. Klik :guilabel:`Open` juga "
-"disini. Data yang Anda pilih akan terpanggil."
+"Sekarang klik tombol :guilabel:`Browse` dan buka file :kbd:`exercise_data/"
+"streets.shp` (terdapat di dalam direktori pelatihan anda). Pilih file ini, "
+"kemudian klik :guilabel:`Open`. Anda akan melihat kotak dialog sebelumnya, "
+"tetapi dengan lokasi file yang sudah terisi. Klik :guilabel:`Open` sekali "
+"lagi. Data yang anda pilih akan segera dimuat."
 
 # 7b73cc0a72424c06ac7f0f6ba6afdaa5
 #: ../../introduction/preparation.rst:46
@@ -676,26 +673,26 @@ msgid ""
 "Congratulations! You now have a basic map. Now would be a good time to save "
 "your work."
 msgstr ""
-"Selamat! Anda sekarang mempunyai sebuah peta dasar. Sekarang saat yang tepat "
-"untuk menyimpan hasil pekerjaan Anda. "
+"Selamat! Anda sekarang mempunyai sebuah peta dasar. Ini saat yang tepat "
+"untuk menyimpan hasil pekerjaan anda. "
 
 # 6ad80492b08c4d37bd23421f085ad96f
 #: ../../introduction/preparation.rst:49
 msgid "Click on the :guilabel:`Save As` button:"
-msgstr "Klik pada tombol :guilabel:`Save As`:"
+msgstr "Klik tombol :guilabel:`Save As`:"
 
 # 8df1ec43692e4670acd2a2b4a35c074b
 #: ../../introduction/preparation.rst:54
 msgid ""
 "Save the map under :kbd:`exercise_data/` and call it :kbd:`basic_map.qgs`."
 msgstr ""
-"Simpan peta tersebut ke dalam :kbd:`data_latihan/`  dan simpan dengan nama :"
-"kbd:`peta_sederhana.qgs`."
+"Simpan peta tersebut ke dalam :kbd:`exercise_data/` dan simpan dengan nama :"
+"kbd:`basic_map.qgs`."
 
 # 0bb8fe73727447ae9be574099f1998f7
 #: ../../introduction/preparation.rst:56
 msgid ":ref:`Check your results <interface-preparation-1>`"
-msgstr ":ref:`Periksa hasil Anda <interface-preparation-1>`"
+msgstr ":ref:`Periksa hasil yang anda peroleh <interface-preparation-1>`"
 
 # 21a3ccab809d4eb88ce9e144e1010be8
 #: ../../introduction/preparation.rst:59
@@ -706,8 +703,8 @@ msgstr "Kesimpulan"
 #: ../../introduction/preparation.rst:61
 msgid "You've learned how to add a layer and create a basic map!"
 msgstr ""
-"Anda telah mempelajari bagaimana menambahkan sebuah layer dan membuat sebuah "
-"peta dasar!"
+"Anda telah mempelajari bagaimana menambahkan layer dan membuat sebuah peta "
+"dasar!"
 
 # d8b9ee3ad744442f97ed8eb6adc7d122
 #: ../../introduction/preparation.rst:66
@@ -717,6 +714,8 @@ msgid ""
 "we go on with the more involved stuff, let's first take a good look at the "
 "general layout of the QGIS interface. This is the topic of the next lesson."
 msgstr ""
-"Sekarang Anda dapat melihat bagaimana antarmuka QGIS bekerja, Anda akan "
-"menggunakan *tool-tool* yang tersedia untuk memulai memperbaiki peta Anda. "
-"Ini adalah topik untuk pelajaran selanjutnya. "
+"Sekarang anda telah memahami fungsi tombol :guilabel:`Add Vector Layer`, "
+"tetapi bagaimana dengan yang lainnya? Bagaimana cara kerja antarmuka ini? "
+"Sebelum kita melangkah lebih jauh ke materi selanjutnya, mari kita "
+"perhatikan kembali tampilan umum antarmuka QGIS. Ini adalah topik untuk "
+"materi berikutnya."

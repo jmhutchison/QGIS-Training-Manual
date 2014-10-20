@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-02 14:39+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-10-17 12:09+1100\n"
+"PO-Revision-Date: 2014-10-20 13:22+1000\n"
+"Last-Translator: yusatya <yusatya@gmail.com>\n"
+"Language-Team: AIPEID\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Language: id\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # 68d66eb391eb4535bf6725b82b1555d5
 #: ../../map_composer/day_1_assignment.rst:2
@@ -29,9 +29,9 @@ msgid ""
 "Open your existing map project and revise it thoroughly. If you have noticed "
 "small errors or things you'd have liked to fix earlier, do so now."
 msgstr ""
-"Buka projek peta  Anda sebelumnya dan periksa secara menyeluruh. Jika Anda "
-"melihat ada kesalahan kecil atau sesuatu yang belum Anda perbaiki "
-"sebelumnya, lakukan sekarang."
+"Buka projek peta anda sebelumnya dan perbaiki seperlunya. Jika anda melihat "
+"ada kesalahan kecil atau sesuatu yang belum anda perbaiki sebelumnya, "
+"lakukan sekarang."
 
 # 5dc5da0da9c44d6f87922e18e915b1e9
 #: ../../map_composer/day_1_assignment.rst:7
@@ -39,9 +39,9 @@ msgid ""
 "If you are following this course at a *Basic* or *Intermediate* level, try "
 "to understand and implement techniques taught at a higher level."
 msgstr ""
-"Apabila  Anda mengikuti kursus ini pada level *Dasar* atau *Menengah*, coba "
-"pahami dan implementasikan teknik yang telah diajarkan pada level yang lebih "
-"tinggi nanti."
+"Apabila anda mengikuti pelatihan ini pada level *Dasar* atau *Menengah*, "
+"cobalah untuk memahami dan mengimplementasikan teknik-teknik yang diberikan "
+"pada level yang lebih tinggi."
 
 # 18db5b366ab84bbd88069acf3c9ffec4
 #: ../../map_composer/day_1_assignment.rst:10
@@ -51,12 +51,11 @@ msgid ""
 "this map on the Internet, or on a poster, or in a magazine, would it capture "
 "my attention? Would I want to read this map if it wasn't mine?"
 msgstr ""
-"Pada saat Anda memodifikasi peta Anda, selalu tanyakan pada diri Anda "
-"pertanyaan-pertanyaan yang berkaitan. Apakah peta ini mudah dibaca dan "
-"dipahami untuk seseorang yang tidak familier dengan datanya? Jika saya "
-"melihat peta ini di internet, atau pada sebuah poster, atau di majalah, "
-"apakah peta ini akan menarik perhatian saya? Apakah saya ingin melihat peta "
-"ini jika peta ini bukan milik saya?"
+"Sembari memodifikasi peta, selalu buat pertanyaan untuk diri anda. Apakah "
+"peta ini mudah dibaca dan dipahami oleh seseorang yang tidak mengetahui "
+"datanya? Jika saya melihat peta ini di Internet, pada sebuah poster atau "
+"majalah, apakah peta ini akan menarik perhatian saya? Apakah saya ingin "
+"melihatnya jika peta ini bukan milik saya?"
 
 # 4b5bcff008c34e239d89d9d9929f5eb4
 #: ../../map_composer/day_1_assignment.rst:15
@@ -65,10 +64,10 @@ msgid ""
 "level, read up on techniques from the more advanced sections. If you see "
 "something you'd like to do in your map, why not try to implement it?"
 msgstr ""
-"Apabila Anda mengerjakan kursus ini pada level |basic| Dasar atau |moderate| "
-"Menengah, bacalah mengenai teknik-teknik  yang ada pada bagian yang lebih "
-"sulit. Jika Anda melihat sesuatu yang ingin Anda coba pada peta Anda, kenapa "
-"tidak mencobanya?"
+"Apabila anda mengikuti pelatihan ini pada tingkat |basic| Dasar atau |"
+"moderate| Menengah, bacalah materi mengenai teknik-teknik pada tingkatan "
+"yang lebih lanjut. Jika ada sesuatu yang ingin anda coba terapkan pada peta, "
+"kenapa tidak mencobanya?"
 
 # 515bc0f9fc68406798dd34e8942a7226
 #: ../../map_composer/day_1_assignment.rst:19
@@ -83,21 +82,20 @@ msgid ""
 "The nicer the map is to look at and the easier it is to understand at a "
 "glance, the better."
 msgstr ""
-"Apabila latihan ini diberikan oleh penyelenggara latihan kepada Anda, "
-"penyelenggara latihan mungkin meminta  Anda untuk memberikan versi akhir "
-"dari peta Anda dalam format PDF untuk dievaluasi. Jika  Anda mengerjakan "
-"latihan ini sendirian, disarankan agar  Anda mengevaluasi peta  Anda sendiri "
-"dengan kriteria yang sama. Peta Anda akan dievaluasi secara keseluruhan pada "
-"aspek   tampilan dan simbologi peta dan juga  tampilan dan layout dari "
-"komponen dan elemen-elemen petanya. Perlu diingat bahwa penekanan pada "
-"evaluasi tampilan peta adalah mengenai kemudahan penggunaannya. Semakin "
-"menarik peta tersebut dilihat dan semakin mudah dipahami dalam sekilas "
-"pandang berarti semakin baik pula peta tersebut."
+"Jika pelatihan ini diberikan kepada anda, penyelenggara latihan mungkin akan "
+"meminta anda untuk menyerahkan versi akhir dari peta anda dalam format PDF "
+"untuk dievaluasi. Jika anda mengerjakan latihan ini secara mandiri, anda "
+"disarankan untuk mengevaluasi peta yang anda buat berdasarkan kriteria yang "
+"sama. Peta anda akan dievaluasi berdasarkan tampilan dan simbologi secara "
+"keseluruhan, serta penampilan dan tata letak halaman dan elemen peta. Perlu "
+"diingat bahwa penekanan pada evaluasi tampilan peta adalah adalah kemudahan "
+"penggunaannya. Semakin menarik peta tersebut untuk dilihat, dan semakin "
+"mudah dipahami dalam sekilas, akan semakin baik."
 
 # a566238ec02a47f19fc6ec5188ad5fe0
 #: ../../map_composer/day_1_assignment.rst:28
 msgid "Happy customizing! :)"
-msgstr "Selamat mengeskplorasi pembuatan peta! :)"
+msgstr "Selamat bekerja! :)"
 
 # e5b1428c61e247d49051a3ab4b9d0b3e
 # 56ddbfa31baf4b5d861dca1c4ebf7f7e
@@ -115,13 +113,13 @@ msgid ""
 "vector data; using and analyzing raster data; and using GIS to solve a "
 "problem from start to finish, using both raster and vector data sources."
 msgstr ""
-"Keempat modul pertama telah mengajarkan  Anda bagaimana membuat dan merubah "
-"*style* suatu peta vektor. Pada empat modul berikutnya,  Anda akan "
-"mempelajari bagaimana menggunakan QGIS untuk sebuah analisis lengkap. Materi "
-"akan mencakup cara membuat dan mengedit data vektor; menganalisis data "
-"vektor; menggunakan dan menganalisis data raster; serta menggunakan SIG "
-"untuk memecahkan suatu masalah dari awal hingga akhir, menggunakan data "
-"raster dan vektor. "
+"Keempat modul pertama telah menunjukkan kepada Anda bagaimana membuat dan "
+"mengubah style pada sebuah peta vektor. Pada empat modul berikutnya, anda "
+"akan mempelajari bagaimana menggunakan QGIS dalam melakukan analisis SIG "
+"(Sistem Informasi Geografis) lengkap. Ini akan mencakup pembuatan dan "
+"penyuntingan data vektor; analisis data vektor; penggunaan dan analisis data "
+"raster; dan penggunaan SIG untuk memecahkan suatu permasalahan dari awal "
+"hingga akhir dengan menggunakan sumber data raster dan vektor."
 
 # da25752fa5844ba2add28bd999f99991
 #: ../../map_composer/index.rst:3
@@ -134,18 +132,17 @@ msgid ""
 "In this module, you'll learn how to use the QGIS Map Composer to produce "
 "quality maps with all the requisite map components."
 msgstr ""
-"Pada modul ini,  Anda akan mempelajari bagaimana menggunakan **Map Composer "
-"QGIS** untuk menghasilkan peta yang berkualitas lengkap dengan semua "
+"Pada modul ini, anda akan mempelajari bagaimana menggunakan Map Composer "
+"QGIS untuk menghasilkan peta berkualitas yang dilengkapi dengan semua "
 "komponen peta yang diperlukan."
 
 # d774333be4fe4fc7bb3edbc7bf7ce8b0
 #: ../../map_composer/map_composer.rst:2
 msgid "|LS| Using Map Composer"
-msgstr "Pelajaran: Menggunakan *Map Composer*"
+msgstr "Pelajaran: Menggunakan Map Composer"
 
 # 513ce3ce38b74b4286866e0506d274ec
 #: ../../map_composer/map_composer.rst:4
-#, fuzzy
 msgid ""
 "Now that you've got a map, you need to be able to print it or to export it "
 "to a document. The reason is, a GIS map file is not an image. It saves the "
@@ -156,15 +153,15 @@ msgid ""
 "printing out the map if you have a printer connected. Both exporting and "
 "printing is handled via the Map Composer."
 msgstr ""
-"Setelah  Anda mempunyai peta,  Anda perlu untuk mencetak atau mengekspor "
-"peta tersebut menjadi sebuah dokumen. Alasannya, *file* peta SIG bukanlah "
-"sebuah peta! *File* peta SIG hanya menyimpan kondisi program SIG yang "
-"mengacu pada semua *layer*, label, warna, dsb. Seseorang yang tidak memiliki "
+"Setelah memiliki sebuah peta, anda harus dapat mencetak atau mengekspor peta "
+"tersebut menjadi sebuah dokumen. Alasannya, file peta SIG bukanlah sebuah "
+"peta. File ini hanya menyimpan kondisi program SIG dengan referensi yang "
+"mengacu pada semua layer, label, warna, dsb. Bagi orang yang tidak memiliki "
 "datanya atau program SIG yang sama (seperti QGIS), file peta tersebut "
-"menjadi tidak berguna. Untungnya, QGIS dapat meng-ekspor *file* petanya "
-"menjadi format yang dapat dibaca oleh komputer semua orang, sekaligus "
-"kemampuan untuk mencetak peta itu jika  Anda mempunyai *printer*. Kedua "
-"fungsi pencetakan dan ekspor ini ditangani melalui *Map Composer*."
+"menjadi tidak berguna. Untungnya, QGIS dapat mengekspor file peta ke dalam "
+"format yang dapat dibaca oleh komputer manapun serta mencetak isinya jika "
+"anda mempunyai printer. Baik pencetakan maupun ekspor dilakukan melalui Map "
+"Composer."
 
 # 9c447ad6817747da9323bc12fe362f10
 #: ../../map_composer/map_composer.rst:13
@@ -172,13 +169,13 @@ msgid ""
 "**The goal for this lesson:** To use the QGIS Map Composer to create a basic "
 "map with all the required settings."
 msgstr ""
-"**Tujuan pelajaran ini:** Menggunakan *QGIS Map Composer* untuk membuat peta "
-"sederhana dengan semua pengaturan yang diperlukan."
+"**Tujuan dari pelajaran ini:** Menggunakan Map Composer QGIS untuk membuat "
+"peta dasar dengan semua pengaturan yang diperlukan."
 
 # dd6bb49c5f66456bbb9dfd8ee390fb10
 #: ../../map_composer/map_composer.rst:17
 msgid "|basic| |FA| The Composer Manager"
-msgstr "|basic| Ikuti Bersama: *Composer Manager*"
+msgstr "|basic| Ikuti Bersama: Composer Manager"
 
 # 543cf36e61944f7fbd97cd230e527439
 #: ../../map_composer/map_composer.rst:19
@@ -186,15 +183,17 @@ msgid ""
 "QGIS allows you to create multiple maps using the same map file. For this "
 "reason, it has a tool called the :guilabel:`Composer Manager`."
 msgstr ""
-"QGIS memungkinkan  Anda untuk membuat beberapa peta dengan menggunakan file "
-"peta yang sama. *Tool* QGIS yang digunakan adalah :guilabel:`Composer "
-"Manager` ."
+"QGIS memungkinkan anda untuk membuat beberapa peta dengan menggunakan file "
+"peta yang sama. Untuk tujuan ini, QGIS memiliki alat bantu yang disebut :"
+"guilabel:`Composer Manager` ."
 
 # 686379c5e6e040ceb1d2642591f89b3a
 #: ../../map_composer/map_composer.rst:22
 msgid ""
 "Zoom in on the area of your map showing the streets and places of Bandung."
 msgstr ""
+"Perbesar tampilan area peta yang menunjukkan jalan-jalan dan lokasi di "
+"Bandung."
 
 # e90c77c6d5c44dfc99f918f74ee35923
 #: ../../map_composer/map_composer.rst:23
@@ -202,9 +201,9 @@ msgid ""
 "Click on the :menuselection:`File --> Composer Manager` menu entry to open "
 "this tool.  You'll see a blank :guilabel:`Composer manager` dialog appear."
 msgstr ""
-"Klik pada menu :menuselection:`File --> Composer Manager` untuk mulai "
-"menggunakan *tool* ini. Anda akan melihat kotak dialog :guilabel:`Composer "
-"manager` dalam keadaan kosong."
+"Klik menu :menuselection:`File --> Composer Manager` untuk menjalankan alat "
+"bantu ini. Anda akan melihat kotak dialog :guilabel:`Composer manager` yang "
+"kosong."
 
 # 6cead5de755440168bcbb5087431e162
 #: ../../map_composer/map_composer.rst:25
@@ -213,19 +212,18 @@ msgid ""
 "guilabel:`Composer 1` (it may be another number if you have tried using the :"
 "guilabel:`Composer Manager` before now)."
 msgstr ""
-"Klik pada tombol :guilabel:`Add` dan composer baru bernama :guilabel:"
-"`Composer 1` akan ditambahkan (atau dengan nomor yang lain jika  Anda pernah "
-"menggunakan :guilabel:`Composer Manager` sebelum ini)."
+"Klik tombol :guilabel:`Add` untuk menambahkan composer baru yang diberi "
+"nama :guilabel:`Composer 1` (anda dapat menggunakan angka lain jika sudah "
+"pernah menggunakan :guilabel:`Composer Manager` sebelumnya)."
 
 # aa8b0a50c3b741f3bf8584900de7beb4
 #: ../../map_composer/map_composer.rst:28
-#, fuzzy
 msgid ""
 "With your new composer selected, click on the :guilabel:`Rename` button and "
 "rename it to :kbd:`Bandung`."
 msgstr ""
-"Dengan *composer* baru dalam keadaan terseleksi, klik pada tombol :guilabel:"
-"`Rename` dan ubah namanya menjadi :kbd:`Swellendam` ."
+"Pilih composer baru dan klik tombol :guilabel:`Rename` untuk mengubah "
+"namanya menjadi :kbd:`Swellendam`."
 
 # e66f98c202954b9989a676da4e2f62c6
 #: ../../map_composer/map_composer.rst:30
@@ -243,9 +241,9 @@ msgid ""
 "(You could also close the dialog and navigate to a composer via the :"
 "menuselection:`File --> Print Composers` menus, as in the image below.)"
 msgstr ""
-"( Anda dapat juga menutup kotak dialog dan mengarahkannya ke composer "
-"melalui :menuselection:`File --> Print Composers`, seperti ditunjukkan "
-"gambar berikut.)"
+"(Anda juga dapat menutup kotak dialog tersebut dan membuka sebuah composer "
+"melalui :menuselection:`File --> Print Composers`, seperti ditunjukkan pada "
+"gambar berikut ini.)"
 
 # 6e4d9594880c4ca68fa94d0272a42d26
 #: ../../map_composer/map_composer.rst:39
@@ -253,7 +251,7 @@ msgid ""
 "Whichever route you take to get there, you will now see the :guilabel:`Print "
 "Composer` window."
 msgstr ""
-"Terlepas dari cara yang Anda gunakan,  Anda sekarang akan melihat jendela :"
+"Terlepas dari cara yang digunakan,  anda sekarang akan melihat jendela :"
 "guilabel:`Print Composer`."
 
 # e79867d5185f4055986cabd05975b3b6
@@ -267,8 +265,8 @@ msgid ""
 "In this example, the composition was already the way we wanted it. Ensure "
 "that yours is as well."
 msgstr ""
-"Pada contoh ini, komposisinya sesuai dengan desain kami. Pastikan bahwa "
-"peta  Anda juga demikian."
+"Pada contoh ini, komposisinya sudah sesuai dengan keinginan kita. Pastikan "
+"peta yang anda buat juga demikian."
 
 # 5c7c54894bfb417a80794f339e75108d
 #: ../../map_composer/map_composer.rst:48
@@ -276,8 +274,8 @@ msgid ""
 "Check that the values under :menuselection:`General --> Composition --> "
 "Paper and Quality` are set to the following:"
 msgstr ""
-"Periksa bahwa nilai yang berada di bawah :menuselection:`General --> "
-"Composition --> Paper and Quality` diset sebagai berikut:"
+"Periksa bahwa nilai-nilai yang berada pada :menuselection:`General --> "
+"Composition --> Paper and Quality` sudah diatur sebagai berikut:"
 
 # 3b280182261c45268bbbc1e37c737987
 #: ../../map_composer/map_composer.rst:51
@@ -300,41 +298,41 @@ msgid ""
 "Now you've got the page layout the way you wanted it, but this page is still "
 "blank. It clearly lacks a map. Let's fix that!"
 msgstr ""
-"Sekarang  Anda memiliki *layout* halaman sebagaimana yang  diinginkan, "
-"tetapi halaman tersebut masih kosong. Jelas sekali ia kekurangan sebuah "
-"peta. Mari kita bereskan itu!"
+"Kini anda sudah memiliki tata letak halaman seperti yang diinginkan, tetapi "
+"halaman ini masih kosong. Sudah jelas yang kurang adalah peta itu sendiri. "
+"Mari kita selesaikan!"
 
 # d8dbc3eec3c840e6a57eb95e08a954af
 #: ../../map_composer/map_composer.rst:58
 msgid "Click on the :guilabel:`Add New Map` button:"
-msgstr "Klik pada tombol :guilabel:`Add New Map`:"
+msgstr "Klik tombol :guilabel:`Add New Map`:"
 
 # 4d4f611b476e492691f321b7826aa31c
 #: ../../map_composer/map_composer.rst:63
 msgid "With this tool activated, you'll be able to place a map on the page."
 msgstr ""
-"Dengan *tool* ini dalam keadaan aktif,  Anda dapat menempatkan peta pada "
-"halaman *layout*."
+"Setelah mengaktifkan alat bantu ini, anda dapat menempatkan sebuah peta pada "
+"halaman tata letak."
 
 # 005a939df505443fa56a630904d59efa
 #: ../../map_composer/map_composer.rst:65
 msgid "Click and drag a box on the blank page:"
-msgstr "Klik dan seret sebuah kotak pada halaman kosong:"
+msgstr "Klik dan geser sebuah kotak pada halaman kosong:"
 
 # 403d298f823440c9b850912839b3e6ad
 #: ../../map_composer/map_composer.rst:70
 msgid "The map will appear on the page."
-msgstr "Peta akan muncul pada halaman *layout*."
+msgstr "Peta akan muncul pada halaman tersebut."
 
 # 468e136ed90e4127948923ca9270bd72
 #: ../../map_composer/map_composer.rst:72
 msgid "Move the map by clicking and dragging it around:"
-msgstr "Pindahkan dengan mengklik dan menyeretnya di sekeliling peta:"
+msgstr "Pindahkan peta dengan mengklik dan menggesernya:"
 
 # 5f239188298d47e8a4a0e13cc3820f4c
 #: ../../map_composer/map_composer.rst:77
 msgid "Resize it by clicking and dragging the boxes in the corners:"
-msgstr "Ubah ukurannya dengan mengklik dan menggeser kotak pada bagian pojok:"
+msgstr "Ubah ukurannya dengan mengklik dan menggeser kotak di bagian sudut:"
 
 # c84b421b6213499a9c1a73c34ab48913
 #: ../../map_composer/map_composer.rst:82
@@ -343,10 +341,10 @@ msgid ""
 "project is set up. But not to worry! These instructions are general, so they "
 "will work the same regardless of what the map itself looks like."
 msgstr ""
-"Peta  Anda mungkin terlihat berbeda,  tergantung pada bagaimana proyek  Anda "
-"diatur. Tetapi jangan khawatir karena instruksi ini bersifat umum, yang "
-"dapat bekerja dengan cara yang sama, tanpa melihat bagaimana peta itu "
-"terlihat."
+"Tentu saja peta anda mungkin tampak jauh berbeda. Ini tergantung pada "
+"pengaturan proyek anda. Tetapi jangan khawatir! Langkah-langkah ini bersifat "
+"umum sehingga tetap dapat diterapkan terlepas dari penampilan peta itu "
+"sendiri."
 
 # cd4632cadc8e47208b619594104c6648
 #: ../../map_composer/map_composer.rst:87
@@ -354,14 +352,14 @@ msgid ""
 "Be sure to leave margins along the edges, and a space along the top for the "
 "title:"
 msgstr ""
-"Pastikan untuk membiarkan *margin* sepanjang tepi peta, dan memberi ruang "
-"pada bagian atas untuk judul:"
+"Pastikan anda menyisakan batas margin di sepanjang tepian peta dan memberi "
+"ruang di bagian atas untuk memasukkan judul:"
 
 # 414be5bb61034116b370935a16665f06
 #: ../../map_composer/map_composer.rst:93
 msgid "Zoom in and out on the page (but not the map!) by using these buttons:"
 msgstr ""
-"Perbesar dan perkecil pada halaman (tetapi bukan pada petanya!) dengan "
+"Perbesar dan perkecil tampilan halaman (tapi bukan pada petanya!) dengan "
 "menggunakan tombol-tombol ini:"
 
 # f4112e35fa0441aeaa00673c478fcd8f
@@ -370,8 +368,8 @@ msgid ""
 "Zoom and pan the map in the main QGIS window. You can also pan the map using "
 "the :guilabel:`Move item content` tool:"
 msgstr ""
-"Perbesar dan geser peta di jendela utama QGIS. Anda juga dapat menggeser "
-"peta menggunakan *tool* :guilabel:`Move item content`:"
+"Perbesar dan geser peta pada jendela utama QGIS. Anda juga dapat menggeser "
+"peta dengan menggunakan alat bantu :guilabel:`Move item content`:"
 
 # 1afd6f171ba3409db93a6902a54fbe4c
 #: ../../map_composer/map_composer.rst:104
@@ -381,17 +379,17 @@ msgid ""
 "where you want it, but it also means that if you zoom in or out, the map "
 "will be at the wrong resolution and will look ugly or unreadable."
 msgstr ""
-"Pada saat memperbesar peta, tampilan peta tidak akan merefresh sendiri. Hal "
-"ini berfungsi agar waktu  Anda tidak terbuang untuk menggambar peta "
-"sementara  Anda melakukan perbesaran ke halaman yang  Anda inginkan. Namun "
-"demikian, akibatnya jika  Anda memperbesar atau memperkecilnya, peta "
-"tersebut akan memiliki resolusi yang salah dan akan terlihat tidak menarik "
-"atau tidak terbaca."
+"Pada saat melakukan pembesaran, tampilan peta tidak akan memperbarui diri "
+"secara otomatis. Hal ini dilakukan agar waktu anda tidak terbuang untuk "
+"memuat ulang peta sementara anda melakukan pembesaran pada halaman yang "
+"diinginkan. Namun akibatnya jika anda memperbesar atau memperkecilnya, peta "
+"tersebut akan berada pada resolusi yang salah dan akan terlihat jelek atau "
+"tidak terbaca."
 
 # 855fbebc20b047fb99095bc37262695e
 #: ../../map_composer/map_composer.rst:109
 msgid "Force the map to refresh by clicking this button:"
-msgstr "Refresh peta  Anda dengan  mengklik tombol ini:"
+msgstr "Perbarui tampilan peta dengan mengklik tombol ini:"
 
 # 572019deb8744b959c547c27832338d5
 #: ../../map_composer/map_composer.rst:114
@@ -404,17 +402,13 @@ msgid ""
 "guilabel:`Layers list` and all the other familiar elements you were working "
 "with before), and save your project from there as usual."
 msgstr ""
-"Ingat bahwa ukuran dan posisi peta yang telah Anda atur saat ini belum "
-"final. Anda dapat mengatur kembali dan mengubahnya lagi jika  Anda belum "
-"puas. Untuk dsaat ini,  Anda perlu memastikan bahwa  Anda telah menyimpan "
-"hasil pekerjaan  Anda di peta ini. Karena  :guilabel:`Composer` di QGIS "
-"adalah bagian dari file utama peta,  Anda harus menyimpan project  Anda. "
-"Arahkan ke jendela QGIS (yang ada :guilabel:`Layers list` dan semua elemen "
-"familiar lain yang telah  Anda gunakan sebelumnya), dan simpan project  Anda "
-"dari sini seperti biasa.save your main project. Go to the main QGIS window "
-"(the one with the :guilabel:`Layers list` and all the other familiar "
-"elements you were working with before), and save your project from there as "
-"usual."
+"Ingatlah bahwa ukuran dan posisi peta yang anda tentukan disini tidak harus "
+"final. Anda selalu dapat kembali dan mengubahnya lagi jika perlu. Sekarang, "
+"anda perlu memastikan bahwa anda telah menyimpan perubahan pada peta ini. "
+"Karena :guilabel:`Composer` pada QGIS merupakan bagian dari file peta utama, "
+"anda perlu melakukan penyimpanan pada proyek utama. Buka jendela utama QGIS "
+"(yang menampilkan :guilabel:`Layers list` dan elemen lain yang anda gunakan "
+"sebelumnya) dan simpan proyek anda seperti biasa."
 
 # fa0c92a944e34c68adbc96e609ee0b8e
 #: ../../map_composer/map_composer.rst:123
@@ -428,22 +422,22 @@ msgid ""
 "what's going on yet. They need some context, which is what you'll provide "
 "for them by adding map elements. First, let's add a title."
 msgstr ""
-"Sekarang peta  Anda terlihat bagus pada halaman *layout*, tetapi pembaca "
-"peta belum mengetahui tentang apa yang terjadi. Mereka membutuhkan suatu "
-"konteks, yang harus  Anda sediakan untuk mereka dengan menambahkan elemen-"
-"elemen peta. Pertama, mari kita tambahkan judul."
+"Sekarang peta anda sudah terlihat bagus pada halaman tersebut, tetapi "
+"pembaca belum mengetahui apa-apa mengenai peta ini. Mereka membutuhkan suatu "
+"konteks, yang akan anda sediakan dengan menambahkan elemen-elemen peta. "
+"Pertama-tama, mari kita tambahkan judul."
 
 # e31929aae0434e1fa5035aa3b3cf891c
 # 6a51c4d7097545a893e18eb184ec1f4d
 #: ../../map_composer/map_composer.rst:129
 #: ../../map_composer/map_composer.rst:228
 msgid "Click on this button:"
-msgstr "Klik pada tombol ini:"
+msgstr "Klik tombol ini:"
 
 # e3b717dae6374c62bf35b0380560ba97
 #: ../../map_composer/map_composer.rst:134
 msgid "Click on the page, and a label will appear:"
-msgstr "Klik pada peta sehingga sebuah label akan muncul:"
+msgstr "Klik pada peta sehingga muncul sebuah label:"
 
 # 8866ada5655947e2b3658826a51fff48
 #: ../../map_composer/map_composer.rst:139
@@ -451,8 +445,8 @@ msgid ""
 "Resize it and place it in the top center of the page. It can be resized and "
 "moved in the same way that you resized and moved the map."
 msgstr ""
-"Ubah ukurannya dan tempatkan di bagian atas halaman. Label tersebut bisa "
-"diubah ukurannya dan dipindah dengan cara yang sama seperti  Anda mengubah "
+"Ubah ukurannya dan tempatkan pada bagian atas halaman. Label tersebut bisa "
+"diubah ukurannya dan dipindah dengan cara yang sama seperti anda mengubah "
 "ukuran dan memindahkan petanya."
 
 # 6af1b0a8d7f349b591ff1cb79bac18d2
@@ -461,8 +455,9 @@ msgid ""
 "But if you tried it, you'll see that it's difficult to align the label to be "
 "completely centered to the map! Luckily, there's a tool for that."
 msgstr ""
-"Akan tetapi jika  Anda mencobanya,  Anda akan lihat bahwa cukup sulit untuk "
-"mengatur label tepat di bagian tengah peta. Ada tool tersendiri untuk ini."
+"Namun jika anda mencobanya, anda akan melihat bahwa cukup sulit untuk "
+"menempatkan label tepat di bagian tengah peta! Untungnya ada alat bantu yang "
+"dapat melakukannya."
 
 # b16197903a3c4c22b06b3fb5cf54e095
 #: ../../map_composer/map_composer.rst:148
@@ -472,17 +467,17 @@ msgstr "Klik pada peta untuk memilihnya."
 # ad64577097644c01a61effa50a5557f3
 #: ../../map_composer/map_composer.rst:149
 msgid "Hold in :kbd:`shift` on your keyboard and click on the label."
-msgstr "Tekan tombol :kbd:`shift` pada keyboard  Anda dan klik pada label."
+msgstr "Tahan tombol :kbd:`shift` pada keyboard anda dan klik pada label."
 
 # a53d25c9670c41c0a8a7bc35f8024727
 #: ../../map_composer/map_composer.rst:150
 msgid "Look for this tool (but don't click it yet):"
-msgstr "Cari tool ini (tetapi jangan diklik dulu):"
+msgstr "Cari alat bantu ini (tetapi jangan diklik dulu):"
 
 # 84b60c8e26b34005925da1fca02505ee
 #: ../../map_composer/map_composer.rst:155
 msgid "Click on the downwards arrow next to the button."
-msgstr "Klik pada panah ke bawah di samping tombol tersebut."
+msgstr "Klik tanda panah ke bawah di samping tombol tersebut."
 
 # c2d4f651fbcb40f6b3360b2e0ed2ac5b
 #: ../../map_composer/map_composer.rst:156
@@ -495,8 +490,8 @@ msgid ""
 "To make sure that you don't accidentally move these elements around now that "
 "you've aligned them:"
 msgstr ""
-"Pastikan bahwa  Anda tidak memindahkan elemen-elemen ini secara tidak "
-"sengaja setelah  Anda mengaturnya:"
+"Untuk memastikan agar anda tidak memindahkan elemen-elemen ini secara tidak "
+"sengaja setelah anda menempatkannya:"
 
 # 77a9f77ec8f64d568293180c27497528
 #: ../../map_composer/map_composer.rst:164
@@ -510,9 +505,9 @@ msgid ""
 "can't be dragged right now. You can always right-click on an element again "
 "to unlock it, though."
 msgstr ""
-"Sebuah ikon kecil berbentuk kunci akan muncul di bagian pojok, yang "
-"memberitahu  Anda bahwa sebuah elemen tidak dapat diseret saat ini. Anda "
-"selalu dapat mengklik-kanan pada sebuah elemen lagi untuk membuka kuncinya."
+"Sebuah ikon kecil berbentuk kunci akan muncul di bagian sudut yang "
+"memberitahu anda bahwa elemen tersebut tidak dapat dipindahkan. Anda selalu "
+"dapat mengklik kanan pada elemen tersebut untuk membuka kuncinya."
 
 # f73c3bee901b46cca7876722105036ab
 #: ../../map_composer/map_composer.rst:170
@@ -520,13 +515,13 @@ msgid ""
 "Now the label is centered to the map, but not the contents. To center the "
 "contents of the label:"
 msgstr ""
-"Saat ini label terletak di bagian tengah peta, tetapi tidak demikian dengan "
-"isinya. Untuk membuat isi label rata tengah:"
+"Kini labelnya telah ditempatkan di tengah peta, tetapi isinya belum. Untuk "
+"menempatkan isi label di bagian tengah:"
 
 # 87b365840203437cafd112cbaf995fc4
 #: ../../map_composer/map_composer.rst:173
 msgid "Select the label by clicking on it."
-msgstr "Pilih label dengan mengklik kanan label tersebut."
+msgstr "Klik label untuk memilihnya."
 
 # fc3dbaf9d25b44c7af1995c8d4bcf397
 #: ../../map_composer/map_composer.rst:174
@@ -534,31 +529,28 @@ msgid ""
 "Click on the :guilabel:`Item` tab in the side panel of the :guilabel:"
 "`Composer` window."
 msgstr ""
-"Klik pada tab :guilabel:`Item` di panel di samping jendela :guilabel:"
-"`Composer`."
+"Klik tab :guilabel:`Item` pada panel di samping jendela :guilabel:`Composer`."
 
 # fb6c075a9c394175b5e0eb14f8b31e7f
 #: ../../map_composer/map_composer.rst:176
-#, fuzzy
 msgid "Change the text of the label to \"Bandung\":"
-msgstr "Ubah teks label menjadi \"Swellendam\":"
+msgstr "Ubah teks label menjadi \"Bandung\":"
 
 # 4bcb5c2dc9e943479c26ebb0c9cc06cb
 #: ../../map_composer/map_composer.rst:181
 msgid "Use this interface to set the font and alignment options:"
 msgstr ""
-"Gunakan antarmuka berikut untuk mengubah pengaturan opsi-opsi huruf dan "
+"Gunakan antarmuka berikut ini untuk mengubah pengaturan pilihan huruf dan "
 "perataan teks:"
 
 # 809d37cbcc0b432ba1b56d8c1254a963
 #: ../../map_composer/map_composer.rst:186
-#, fuzzy
 msgid ""
 "Choose a large but sensible font (the example will use the default font with "
 "a size of :kbd:`36`), and keep the color subdued."
 msgstr ""
-"Pilih huruf yang besar namun tetap dapat dibaca (pada contoh digunakan font "
-"default dengan ukuran :kbd:`48`), dan biarkan warnanya tetap gelap."
+"Pilih huruf yang besar namun tetap dapat dibaca (contoh ini menggunakan "
+"huruf default dengan ukuran :kbd:`36`) dan biarkan warnanya."
 
 # 60ced856eca44cb69578d32908c05fb0
 #: ../../map_composer/map_composer.rst:189
@@ -567,10 +559,10 @@ msgid ""
 "that the font should not be distracting, otherwise people who see the page "
 "will be looking at the heading instead of reading the map!"
 msgstr ""
-"Akan  lebih baik untuk membiarkan warnanya hitam sebagaimana defaultnya. "
-"Perlu diperhatikan bahwa *font* tersebut harus tidak mengacaukan perhatian, "
-"atau orang yang melihat halaman peta akan cenderung melihat bagian *heading* "
-"daripada membaca petanya!"
+"Bahkan mungkin akan lebih baik untuk membiarkannya berwarna hitam seperti "
+"aslinya. Kuncinya adalah mengatur huruf agar tidak memecah perhatian "
+"sehingga pembaca yang melihatnya tidak terpaku pada judul dan mengabaikan "
+"petanya!"
 
 # 859a8dfc7e194e9189bd0c2c6a414b56
 #: ../../map_composer/map_composer.rst:193
@@ -578,8 +570,8 @@ msgid ""
 "Set the :guilabel:`Horizontal Alignment` to :guilabel:`Center`, so that the "
 "heading is properly centered within the label."
 msgstr ""
-"Atur :guilabel:`Horizontal Alignment` menjadi :guilabel:`Center`, sehingga "
-"headingnya menjadi rata tengah dengan benar pada label tersebut."
+"Atur :guilabel:`Horizontal Alignment` menjadi :guilabel:`Center` sehingga "
+"judul berada di tengah label."
 
 # 613fb833f6a74e7e81156037569f72b5
 #: ../../map_composer/map_composer.rst:199
@@ -587,13 +579,13 @@ msgid ""
 "This is progressing nicely, but the label still has an unnecessary frame "
 "around it:"
 msgstr ""
-"Tulisan judul menjadi semakin baik, namun masih terdapat kerangka yang tidak "
-"kita perlukan di sekeliling labelnya :"
+"Kita sudah mencapai kemajuan yang baik, tetapi label ini masih memiliki "
+"bingkai yang tidak perlu:"
 
 # 48c8ce1675bf47279b15e1ea6e9e35a0
 #: ../../map_composer/map_composer.rst:205
 msgid "Let's get rid of it."
-msgstr "Kerangka ini perlu dihapus."
+msgstr "Mari kita hilangkan."
 
 # b4379e6eb8534710a294a64a353fb198
 #: ../../map_composer/map_composer.rst:207
@@ -602,15 +594,14 @@ msgid ""
 "guilabel:`Item` tab. The :guilabel:`Label` slider will slide away and you "
 "will see a new interface."
 msgstr ""
-"Klik pada slider :guilabel:`General options` pada bagian bawah tab :guilabel:"
-"`Item` tab. Slider :guilabel:`Label` akan bergeser menjauh dan  Anda akan "
+"Klik panel geser :guilabel:`General options` di bagian bawah tab :guilabel:"
+"`Item`. Panel geser :guilabel:`Label` akan bergerak menjauh dan anda akan "
 "melihat antarmuka baru."
 
 # d3118f7568dc46c98fa77b20ccde02a4
 #: ../../map_composer/map_composer.rst:210
 msgid "Click the :guilabel:`Show frame` checkbox to disable the frame:"
-msgstr ""
-"Klik pada *checkbox* :guilabel:`Show frame`  untuk menghilangkan *frame*:"
+msgstr "Klik kotak centang :guilabel:`Show frame` untuk menghilangkan bingkai:"
 
 # f38b9d4d2ce74469a3b9c2a2e15e86ab
 #: ../../map_composer/map_composer.rst:215
@@ -630,18 +621,19 @@ msgid ""
 "In other cases, it's more difficult to guess, like the colors of the farms. "
 "Let's add a new legend."
 msgstr ""
-"Pembaca peta juga perlu untuk dapat mengetahui arti dari berbagai kenampakan "
-"yang ada di peta. Pada beberapa kasus, seperti nama tempat, maknanya cukup "
-"jelas. Pada kasus yang lain, maknanya lebih sulit untuk ditebak, seperti "
-"warna-warna pada area pertanian. Mari kita tambahkan legenda yang baru."
+"Pembaca peta juga harus dapat memahami arti dari berbagai hal yang "
+"ditampilkan pada peta. Dalam beberapa kasus, seperti nama tempat, hal ini "
+"cukup jelas. Dalam kasus yang lain, artinya cukup sulit untuk ditebak; "
+"misalnya warna-warna pada area pertanian. Mari kita tambahkan legenda yang "
+"baru."
 
 # 14250b90550a428ab0838f3fdb9c5cf8
 #: ../../map_composer/map_composer.rst:233
 msgid ""
 "Click on the page to place the legend, and move it to where you want it:"
 msgstr ""
-"Klik pada halaman untuk menempatkan legenda, dan pindahkan ke tempat yang  "
-"Anda inginkan:"
+"Klik pada halaman untuk menempatkan legenda dan pindahkan ke tempat yang "
+"anda inginkan:"
 
 # b103daf6916b43028d5f81ef423e9e14
 #: ../../map_composer/map_composer.rst:238
@@ -649,11 +641,13 @@ msgid ""
 "In this example, the legend is far too big. We will now learn how to "
 "customize the legend."
 msgstr ""
+"Pada contoh ini, legendanya terlalu besar. Sekarang kita akan belajar untuk "
+"menyesuaikan legenda."
 
 # 279d5393d9764e51b6694cc213917718
 #: ../../map_composer/map_composer.rst:242
 msgid "|moderate| |FA| Customizing Legend Items"
-msgstr "|moderate| Ikuti Bersama: Mengkustomisasi Isi Legenda "
+msgstr "|moderate| Ikuti Bersama: Menyesuaikan Item Legenda"
 
 # 083c27fe33884b818adf14f371683d01
 #: ../../map_composer/map_composer.rst:244
@@ -661,20 +655,20 @@ msgid ""
 "Not everything on the legend is necessary, so let's remove some unwanted "
 "items."
 msgstr ""
-"Tidak semua yang ada pada legenda penting, sehingga kita perlu menghilangkan "
-"beberapa item yang tidak diperlukan."
+"Tidak semuanya pada legenda perlu ditampilkan sehingga kita perlu "
+"menghilangkan beberapa yang tidak penting."
 
 # d75217bf751740d0b643255339a29c20
 #: ../../map_composer/map_composer.rst:246
 msgid ""
 "In the :guilabel:`Item` tab, click on the :guilabel:`Legend items` slider."
 msgstr ""
-"Pada tab :guilabel:`Item` , Klik pada slider :guilabel:`Legend items`  ."
+"Pada tab :guilabel:`Item`, klik panel geser :guilabel:`Legend items`  ."
 
 # ed4c07875dc14171a6a52ed6e9cc7a7e
 #: ../../map_composer/map_composer.rst:247
 msgid "Select the :guilabel:`places` entry."
-msgstr "Pilih entri  :guilabel:`places`."
+msgstr "Pilih :guilabel:`places`."
 
 # 0e47c49dcef34f7d82733ba328af908b
 #: ../../map_composer/map_composer.rst:248
@@ -684,12 +678,12 @@ msgstr "Hapus dari legenda dengan mengklik tombol :guilabel:`minus`:"
 # cd1b8015dbb1436e839f82b1ed468b23
 #: ../../map_composer/map_composer.rst:253
 msgid "Remove any other items that you don't think are necessary."
-msgstr ""
+msgstr "Hapus item lain yang menurut anda tidak perlu."
 
 # c308d05489bc41fe952b258735c00fc8
 #: ../../map_composer/map_composer.rst:255
 msgid "You can also rename items."
-msgstr "Anda dapat juga mengubah nama item."
+msgstr "Anda juga dapat mengubah nama item."
 
 # 821bb157ca8f464eb398b6de87dbd721
 #: ../../map_composer/map_composer.rst:257
@@ -703,13 +697,12 @@ msgstr "Klik tombol :guilabel:`Edit`:"
 
 # d9399f9944b142119a19d0b2609f1e23
 #: ../../map_composer/map_composer.rst:263
-#, fuzzy
 msgid ""
 "Rename the layers to :kbd:`Roads and Streets`, :kbd:`Water ways`, and :kbd:"
 "`Land cover`."
 msgstr ""
-"Ubah nama layer tersebut menjadi :kbd:`Roads and Streets`, :kbd:`Surface "
-"Water`, :kbd:`Urban Areas`, dan :kbd:`Farms`."
+"Ubah nama layer tersebut menjadi :kbd:`Roads and Streets`, :kbd:`Water "
+"ways`, dan :kbd:`Land cover`."
 
 # b2e12de92ddc495bb92f37c76dc44ad6
 #: ../../map_composer/map_composer.rst:265
@@ -717,19 +710,20 @@ msgid ""
 "Click the down arrow next to any item with multiple classes to rename the "
 "classes (using the same method as above)."
 msgstr ""
-"Klik pada panah ke bawah di samping item manapun yang memiliki beberapa "
-"kelas untuk dapat mengubah nama-nama kelasnya (menggunakan metode di atas)."
+"Klik tanda panah ke bawah di samping item manapun yang memiliki beberapa "
+"kelas untuk mengubah nama-nama kelasnya (dengan metode yang sama seperti di "
+"atas)."
 
 # 595bfb00584a4a7c9d546a49a30a23fb
 #: ../../map_composer/map_composer.rst:267
 msgid ""
 "Remove any layers not necessary (for example, areas of land cover that are"
-msgstr ""
+msgstr "Hapus layer yang tidak perlu (misalnya area tutupan lahan yang"
 
 # f45f37aef43c4b41bfabf708e4c38d10
 #: ../../map_composer/map_composer.rst:268
 msgid "not displayed on the map)."
-msgstr ""
+msgstr "tidak ditampilkan pada peta)."
 
 # 6c1e70e805d84b739394424fc74943c2
 #: ../../map_composer/map_composer.rst:270
@@ -737,6 +731,8 @@ msgid ""
 "This is the result in the example. We have moved the legend to the side of "
 "the map and realigned the title with the map:"
 msgstr ""
+"Ini adalah hasil di dalam contoh. Kami telah memindahkan legenda ke bagian "
+"sisi peta dan menggabungkan judul dengan peta."
 
 # e3a564238b0246758d54bb51da8a0d7a
 #: ../../map_composer/map_composer.rst:277
@@ -746,7 +742,7 @@ msgstr "|basic| Ikuti Bersama: Mengekspor Peta Anda"
 # 760d7835cbb34c25818ef80afc18403d
 #: ../../map_composer/map_composer.rst:279
 msgid "Did you remember to save your work often?"
-msgstr "Apa Anda ingat untuk sering menyimpan peta  Anda?"
+msgstr "Apakah anda ingat untuk sering menyimpan hasil kerja anda?"
 
 # 42796fc1fc714a98bf6d8a86a89a1684
 #: ../../map_composer/map_composer.rst:281
@@ -754,8 +750,8 @@ msgid ""
 "Finally the map is ready for export! You'll see the export buttons near the "
 "top left corner of the :guilabel:`Composer` window:"
 msgstr ""
-"Akhirnya, peta siap untuk di ekspor.  Anda akan melihat tombol  ekspor di "
-"dekat pojok kiri atas dari jendela   :guilabel:`Composer`:"
+"Akhirnya peta ini siap untuk diekspor! Anda akan melihat tombol ekspor di "
+"dekat sudut kiri atas jendela :guilabel:`Composer`:"
 
 # ddf59db808284af5921dddce6b409470
 #: ../../map_composer/map_composer.rst:287
@@ -766,11 +762,11 @@ msgid ""
 "printer manual or a general guide to printing for more information on this "
 "topic."
 msgstr ""
-"Tombol di sebelah kanan adalah tombol :guilabel:`Print`, yang berhubungan "
-"dengan printer. Karena opsi pencetakan dengan printer berbeda-beda "
-"tergantung model *printer* yang  Anda gunakan, mungkin lebih baik untuk "
-"merujuk pada manual *printer* atau panduan umum pencetakan untuk informasi "
-"lebih lanjut mengenai masalah ini."
+"Tombol di sebelah kanan adalah tombol :guilabel:`Print` yang menyediakan "
+"antarmuka dengan printer. Karena pilihan pencetakan akan bervariasi "
+"tergantung dari jenis printer yang anda gunakan, mungkin lebih baik untuk "
+"merujuk pada panduan printer atau panduan umum pencetakan untuk mendapatkan "
+"informasi lebih lanjut mengenai topik ini."
 
 # dee2931bc2184fb29bc8c3401144e56a
 #: ../../map_composer/map_composer.rst:292
@@ -778,23 +774,23 @@ msgid ""
 "The other three buttons allow you to export the map page to a file. There "
 "are three export formats to choose from:"
 msgstr ""
-"Tiga tombol yang lain memungkinkan  Anda untuk mengekspor halaman peta "
-"menjadi sebuah file. Ada tiga format  ekspor yang dapat  Anda pilih:"
+"Ketiga tombol lainnya memungkinkan anda untuk mengekspor halaman peta "
+"menjadi sebuah file. Ada tiga format ekspor yang dapat anda pilih:"
 
 # 1b7edef9de6948038b517fd97f8dfcde
 #: ../../map_composer/map_composer.rst:295
 msgid ":guilabel:`Export as Image`"
-msgstr ":guilabel:`Export as Image`"
+msgstr ":guilabel:`Export as Image` (Ekspor menjadi gambar)"
 
 # 7011a24928fa42ec8177d3b9c1dfd719
 #: ../../map_composer/map_composer.rst:296
 msgid ":guilabel:`Export as PDF`"
-msgstr ":guilabel:`Export as PDF`"
+msgstr ":guilabel:`Export as PDF` (Ekspor menjadi PDF)"
 
 # fbee52c7447f42eeae465230fd2240b5
 #: ../../map_composer/map_composer.rst:297
 msgid ":guilabel:`Export as SVG`"
-msgstr ":guilabel:`Export as SVG`"
+msgstr ":guilabel:`Export as SVG` (Ekspor menjadi SVG)"
 
 # f207330c09544534b708bd2a608dcf5e
 #: ../../map_composer/map_composer.rst:299
@@ -803,14 +799,14 @@ msgid ""
 "formats to choose from. This is probably the simplest option, but the image "
 "it creates is \"dead\" and difficult to edit."
 msgstr ""
-"Ekspor menjadi sebuah image memberi  Anda pilihan berbagai format image yang "
-"biasa digunakan. Ini mungkin pilihan yang paling sederhana, tetapi *image* "
-"yang dihasilkan “mati” dan sulit untuk diedit kembali."
+"Ekspor menjadi gambar akan menampilkan pilihan berbagai format gambar yang "
+"biasa digunakan. Ini mungkin pilihan yang paling sederhana, tetapi gambar "
+"yang dihasilkan akan sulit untuk disunting."
 
 # 077e6f360f664bafbf742ef60cfefa8f
 #: ../../map_composer/map_composer.rst:303
 msgid "The other two options are more common."
-msgstr "Dua pilihan yang lain lebih umum dijumpai."
+msgstr "Dua pilihan yang lain lebih umum digunakan."
 
 # 33ad076f461a48278f6dd70aef1c2419
 #: ../../map_composer/map_composer.rst:305
@@ -820,11 +816,11 @@ msgid ""
 "Vector Graphic\", and can be imported to programs like Inkscape or other "
 "vector image editing software."
 msgstr ""
-"Jika  Anda mengirim peta  Anda kepada seorang *kartografer* (yang mungkin "
-"ingin mengedit peta  Anda untuk publikasi), pilihan terbaik adalah "
+"Jika anda hendak mengirim peta kepada seorang kartografer (yang mungkin "
+"ingin menyunting peta tersebut untuk publikasi), pilihan terbaik adalah "
 "mengekspor peta tersebut menjadi sebuah file SVG. SVG merupakan kependekan "
-"dari *\"Scalable Vector Graphic\"*, dan dapat diimpor ke berbagai program, "
-"seperti *Inkscape* atau program editing vektor yang lain."
+"dari *\"Scalable Vector Graphic\"* yang dapat diimpor ke dalam berbagai "
+"perangkat lunak seperti Inkscape atau program penyunting vektor lainnya."
 
 # 8f73ca09c80c40359f1f1db1336b4510
 #: ../../map_composer/map_composer.rst:310
@@ -834,16 +830,15 @@ msgid ""
 "may prefer PDF as well, if they have a program that allows them to import "
 "and edit this format."
 msgstr ""
-"Jika  Anda mengirim peta  Anda kepada seorang klien, format yang paling umum "
-"digunakan adalah PDF, karena format PDF mudah diatur untuk keperluan "
-"pencetakan. Beberapa kartografer juga mungkin lebih menyukai PDF, jika "
-"mereka mempunyai program yang memungkinkan mereka untuk mengimpor dan "
-"mengedit format ini."
+"Jika anda ingin mengirim peta kepada seorang klien, format yang paling umum "
+"digunakan adalah PDF karena mudah disesuaikan untuk keperluan pencetakan. "
+"Beberapa kartografer juga mungkin lebih menyukai PDF, jika mempunyai program "
+"untuk mengimpor dan menyunting format ini."
 
 # 737396f7b16f4371861b608ae7d1fd51
 #: ../../map_composer/map_composer.rst:315
 msgid "For our purposes, we're going to use PDF."
-msgstr "Untuk keperluan kita kali ini, kita akan menggunakan format PDF."
+msgstr "Kali ini kita akan menggunakan format PDF."
 
 # fefb64ac0ed04d02a68306f0187566c1
 #: ../../map_composer/map_composer.rst:317
@@ -863,7 +858,7 @@ msgstr "Klik :guilabel:`Save`."
 # f5481c6e056041a480059d0f92b8d4f2
 #: ../../map_composer/map_composer.rst:328
 msgid "Close the :guilabel:`Composer` window."
-msgstr "Pilih jendela :guilabel:`Composer`."
+msgstr "Tutup jendela :guilabel:`Composer`."
 
 # 65d6ae67dfff47e6928e994aec4ade79
 #: ../../map_composer/map_composer.rst:329
@@ -874,8 +869,8 @@ msgstr "Simpan peta Anda."
 #: ../../map_composer/map_composer.rst:330
 msgid "Find your exported PDF using your operating system's file manager."
 msgstr ""
-"Cari file PDF hasil ekspor  Anda menggunakan file manager sistem operasi  "
-"Anda."
+"Cari file PDF hasil ekspor dengan menggunakan manager file pada sistem "
+"operasi anda."
 
 # 9ebead070ba24830a858895bfe067f1b
 #: ../../map_composer/map_composer.rst:331
@@ -890,7 +885,7 @@ msgstr "Periksa hasilnya."
 # 80f2264ba7734ce49bf22763b2a9a7f4
 #: ../../map_composer/map_composer.rst:334
 msgid "Congratulations on your first completed QGIS map project!"
-msgstr "Selamat atas selesainya project peta QGIS pertama  Anda!"
+msgstr "Selamat karena telah menyelesaikan proyek peta QGIS pertama anda!"
 
 # 61226def4b32478985fcbd7adf62d2a0
 #: ../../map_composer/map_composer.rst:337
@@ -903,8 +898,8 @@ msgid ""
 "On the next page, you will be given an assignment to complete. This will "
 "allow you to practice the techniques you have learned so far."
 msgstr ""
-"Pada halaman selanjutnya,  Anda akan diberi sebuah tugas untuk diselesaikan. "
-"Tugas ini memungkinkan  Anda untuk mempraktekkan teknik yang telah  Anda "
+"Pada halaman selanjutnya, anda akan diberi sebuah tugas untuk diselesaikan. "
+"Tugas ini memungkinkan anda untuk mempraktekkan teknik yang telah di "
 "pelajari sejauh ini."
 
 # 50cc76ec42fe43d49903c961f1374286

@@ -2,16 +2,16 @@
 # Copyright (C) 2012, Linfiniti Consulting CC
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-02 14:39+1000\n"
+"POT-Creation-Date: 2014-10-17 12:09+1100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: yusatya <yusatya@gmail.com>\n"
+"Language-Team: AIPEID\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,12 +21,12 @@ msgstr ""
 # b59ae6e97a9a4a408ec0c9932448ed85
 #: ../../foreword/foreword.rst:2
 msgid "Foreword"
-msgstr "Pengenalan"
+msgstr "Kata Pengantar"
 
 # b7c533aca75f4c6299bd6b6a11629533
 #: ../../foreword/foreword.rst:5
 msgid "About this course"
-msgstr ""
+msgstr "Tentang pelatihan ini"
 
 # 4749c3679c6848178a2223365084b8da
 #: ../../foreword/foreword.rst:7
@@ -37,6 +37,12 @@ msgid ""
 "and apply them to animal health problems using data from the new Indonesian "
 "animal health information system, iSIKHNAS."
 msgstr ""
+"Pelatihan ini diadopsi dan dimodifikasi dari pelatihan QGIS yang dibuat oleh "
+"Linfiniti Consulting CC. Kami telah mengadopsi pelatihan yang mereka buat "
+"dengan menggunakan data Indonesia. Kami juga telah menyusun sebuah bab baru "
+"yang akan menunjukkan bagaimana menggunakan dan menerapkan keahlian tersebut "
+"untuk memecahkan masalah kesehatan hewan dengan menggunakan data dari sistem "
+"informasi kesehatan hewan Indonesia, iSIKHNAS."
 
 # d61b638b2c9a4e2b9481fefd146dc9a2
 #: ../../foreword/foreword.rst:13
@@ -45,6 +51,10 @@ msgid ""
 "this version for this manual. The original manual, which includes more "
 "advanced exercises, is available here: http://www.qgis.org/en/docs/index.html"
 msgstr ""
+"Panduan ini dibuat berdasarkan QGIS 1.8 dan kami tetap menggunakan versi "
+"tersebut pada pelatihan ini. Versi asli dari panduan ini memiliki lebih "
+"banyak latihan tingkat lanjut dan dapat diperoleh di sini: http://www.qgis."
+"org/en/docs/index.html    "
 
 # 8b8b8609f42b4558a50473e30d57eeea
 #: ../../foreword/foreword.rst:17
@@ -52,6 +62,8 @@ msgid ""
 "Below is Linfiniti Consulting CC.'s original Background and Foreword to the "
 "manual."
 msgstr ""
+"Berikut adalah Latar Belakang dan Kata Pengantar dari Linfiniti Consulting "
+"CC. untuk panduan ini."
 
 # eb1ad4cc806f4c629fa51b24fd4def44
 #: ../../foreword/foreword.rst:20
@@ -77,24 +89,25 @@ msgid ""
 "learning the key aspects of QGIS in a trainer-trainee format - which "
 "prompted us to produce this work."
 msgstr ""
-"Pada tahun 2008 kami meluncurkan `The Gentle Introduction to GIS <http://"
-"linfiniti.com/dla>`_, sebuah konten gratis dan terbuka bagi mereka yang "
-"ingin mempelajari GIS tanpa harus dibebani dengan berbagai jargon dan "
-"istilah baru. Materi tersebut disponsori oleh Pemerintah Afrika Selatan dan "
-"meraih sukses fenomenal, dengan banyaknya orang dari seluruh penjuru dunia "
-"menulis surat kepada kami untuk memberitahukan bagaimana mereka menggunakan "
-"materi tersebut baik untuk Kursus Pelatihan di Kampus, belajar mandiri GIS, "
-"dan seterusnya. The Gentle Introduction bukanlah sebuah tutorial perangkat "
-"lunak, akan tetapi lebih ditujukan sebagai buku umum (meskipun kami "
-"menggunakan QGIS dalam semua contoh-contohnya) bagi seseorang yang "
-"mempelajari GIS. Ada pula materi manual QGIS yang berisi gambaran fungsional "
-"aplikasi QGIS secara detail. Meskipun demikian, manual tersebut tidak "
-"disusun sebagai sebuah tutorial, melainkan lebih sebagai referensi panduan. "
-"Di Linfiniti Consulting CC. kami sering melakukan pelatihan dan menyadari "
-"bahwa rujukan ketiga, referensi panduan sangat dibutuhkan. Diharapkan, "
-"materi ini dapat membimbing pembaca untuk belajar secara berurutan melalui "
-"tahapan pembelajaran aspek-aspek kunci QGIS dalam sebuah format trainer-"
-"trainee – yang mana kemudian mendorong kami untuk membuat materi ini."
+"Pada tahun 2008, kami meluncurkan `The Gentle Introduction to GIS <http://"
+"linfiniti.com/dla>`_, sebuah konten sumber daya gratis dan terbuka bagi "
+"siapa pun yang ingin mempelajari SIG (Sistem Informasi Geografis) tanpa "
+"harus dibebani dengan berbagai jargon dan istilah baru. Materi tersebut "
+"disponsori oleh Pemerintah Afrika Selatan dan meraih sukses yang fenomenal, "
+"dengan begitu banyak orang dari seluruh penjuru dunia yang menulis surat "
+"kepada kami untuk menceritakan bagaimana mereka menggunakan materi tersebut "
+"baik untuk Kursus Pelatihan di Perguruan Tinggi, belajar mandiri SIG, dan "
+"sebagainya. Materi ini bukan merupakan sebuah tutorial perangkat lunak, "
+"tetapi lebih ditujukan sebagai bacaan umum (meskipun kami menggunakan QGIS "
+"dalam semua contoh-contohnya) bagi seseorang yang ingin mempelajari SIG. Ada "
+"pula materi panduan QGIS yang berisi gambaran fungsional aplikasi QGIS "
+"secara terperinci. Meskipun demikian, panduan tersebut tidak disusun sebagai "
+"sebuah tutorial, melainkan lebih sebagai panduan referensi. Di Linfiniti "
+"Consulting CC., kami sering melakukan pelatihan dan menyadari bahwa "
+"dibutuhkan suatu rujukan pihak ketiga - berupa materi yang dapat membimbing "
+"pembaca secara berurutan untuk mempelajari aspek-aspek kunci QGIS dalam "
+"suatu format trainer-trainee. Hal inilah yang kemudian mendorong kami untuk "
+"menyusun panduan ini."
 
 # 1665602837e9464ab159a0121dcd7d10
 #: ../../foreword/foreword.rst:38
@@ -104,12 +117,11 @@ msgid ""
 "with content to suit novice, intermediate and advanced users alike and has "
 "many exercises complete with annotated answers throughout the text."
 msgstr ""
-"Manual pelatihan ini ditujukan untuk menyediakan semua materi yang "
-"diperlukan untuk melaksanakan kursus 5 hari tentang QGIS, PostgreSQL dan "
-"PostGIS. Pelatihan itu sendiri bersifat terstruktur dengan isi didesain "
-"untuk dapat menyesuaikan tingkat peserta pada level pemula, menengah dan "
-"lanjut serta berisi banyak latihan yang disertai dengan kunci jawaban "
-"sepanjang naskah materi. "
+"Manual pelatihan ini ditujukan untuk menyediakan materi yang diperlukan "
+"untuk melaksanakan kursus selama 5 hari tentang QGIS, PostgreSQL dan "
+"PostGIS. Pelatihan ini dibuat terstruktur dengan isi konten yang dirancang "
+"untuk memenuhi kebutuhan pengguna pemula, menengah dan lanjut serta berisi "
+"banyak latihan yang disertai dengan kunci jawaban di sepanjang materi. "
 
 # 5f822b6cf9cb44fb9b67d59485057e61
 #: ../../foreword/foreword.rst:44
@@ -128,9 +140,9 @@ msgstr ""
 "*The Free Quantum GIS Training Manual* yang disusun oleh Linfiniti "
 "Consulting CC. dibuat dengan lisensi di bawah Creative Commons Attribution-"
 "NonCommercial-ShareAlike 3.0 Unported License, berdasarkan hasil kerja di "
-"https://github.com/qgis/QGIS-Training-Manual. Ijin untuk penggunaan yang "
-"lebih dari cakupan lisensi ini dapat diperoleh di https://github.com/qgis/"
-"QGIS-Training-Manual/blob/master/index.rst."
+"https://github.com/qgis/QGIS-Training-Manual. Ijin penggunaan yang melebihi "
+"cakupan lisensi ini dapat diperoleh di https://github.com/qgis/QGIS-Training-"
+"Manual/blob/master/index.rst."
 
 # 6933cdc744244eeba7417beab1883433
 #: ../../foreword/foreword.rst:54
@@ -141,10 +153,10 @@ msgid ""
 "terms, the usage guidelines are as follows:"
 msgstr ""
 "Kami mempublikasikan manual pelatihan QGIS ini di bawah lisensi bebas yang "
-"memungkinkan Anda untuk menyalinnya secara gratis, memodifikasi dan "
-"mendistribusikan materi ini. Salinan lengkap dari lisensinya dapat diperoleh "
-"di akhir dokumen ini. Pendek kata, petunjuk penggunaan dokumen ini adalah "
-"sebagai berikut:"
+"memungkinkan anda untuk menyalinnya, memodifikasi dan mendistribusikan "
+"materi ini secara gratis. Salinan lengkap dari lisensi ini dapat diperoleh "
+"di akhir dokumen ini. Pendek kata, berikut adalah petunjuk penggunaan "
+"dokumen ini:"
 
 # 6ef234c5774f43518fb42a621d4710f9
 #: ../../foreword/foreword.rst:59
@@ -152,8 +164,9 @@ msgid ""
 "You may not represent this work as your own work, or remove any authorship "
 "text or credits from this work."
 msgstr ""
-"Anda dilarang untuk mengklaim dokumen ini sebagai hasil kerja Anda sendiri, "
-"atau menghilangkan teks kepenulisan atau kepemilikan apapun dari dokumen ini."
+"Anda tidak diperkenankan mengklaim dokumen ini sebagai hasil karya anda "
+"sendiri, atau menghilangkan teks kepenulisan atau kepemilikan apapun dari "
+"dokumen ini."
 
 # ca2d54835baa49479b8e37f041fdfe47
 #: ../../foreword/foreword.rst:61
@@ -161,8 +174,9 @@ msgid ""
 "You may not redistribute this work under more restrictive permissions than "
 "those under which it was provided to you."
 msgstr ""
-"Anda dilarang mendistribusikan dokumen ini dengan ijin yang lebih ketat "
-"dibandingkan lisensi asalnya atau yang sudah diberikan kepada Anda."
+"Anda  tidak diperkenankan mendistribusikan dokumen ini dengan ijin yang "
+"lebih ketat dibandingkan lisensi asalnya atau yang sudah diberikan kepada "
+"anda."
 
 # fc670d9290314839b0cc78ce27da7976
 #: ../../foreword/foreword.rst:63
@@ -171,10 +185,10 @@ msgid ""
 "project (at least one complete module) you may add your name to the end of "
 "the authors list for this document (which will appear on the front page)"
 msgstr ""
-"Apabila Anda menambahkan suatu bagian substansial ke dalam dokumen ini dan "
-"menambahkannya kembali ke dalam dokumen ini (setidaknya satu modul lengkap), "
-"Anda dapat menambahkan nama Anda di akhir daftar penulis untuk dokumen ini "
-"(yang mana akan ditampilkan pada bagian awal dokumen)"
+"Apabila anda menambahkan suatu bagian yang substansial ke dalam dokumen ini "
+"dan mengkontribusikannya kembali kepada proyek (setidaknya satu modul "
+"lengkap), anda dapat menambahkan nama anda di akhir daftar penulis pada "
+"dokumen ini (yang akan ditampilkan pada halaman muka dokumen)."
 
 # e0dd7ce5c33141998c0ab5ba4e435619
 #: ../../foreword/foreword.rst:66
@@ -182,8 +196,8 @@ msgid ""
 "If you contribute minor changes and corrections you may add yourself to the "
 "contributors list below."
 msgstr ""
-"Apabila Anda menambahkan perubahan dan koreksi kecil, Anda dapat menambahkan "
-"nama Anda pada daftar kontributor di bawah."
+"Apabila anda menambahkan perubahan dan koreksi kecil, anda dapat menambahkan "
+"nama anda pada daftar kontributor di bawah."
 
 # 6a7ae122d3f24bf388adea4d71b12083
 #: ../../foreword/foreword.rst:68
@@ -191,9 +205,9 @@ msgid ""
 "If you translate this document in its entirety, you may add your name to the "
 "authors list in the form \"Translated by Joe Blogs\"."
 msgstr ""
-"Apabila Anda melakukan penerjemahan keseluruhan dari dokumen ini, Anda dapat "
-"menambahkan nama Anda pada daftar penulis di bagian “Translated by Joe "
-"Blogs”."
+"Apabila anda menerjemahan keseluruhan isi dokumen ini, anda dapat "
+"menambahkan nama anda dalam daftar penulis pada bagian “Diterjemahkan oleh "
+"Joe Blogs”."
 
 # 0d56cac9781e45369186660fc8bc350c
 #: ../../foreword/foreword.rst:70
@@ -201,9 +215,9 @@ msgid ""
 "If you sponsor a module or lesson, you may request the author to include an "
 "acknowledgement in the beginning of each lesson contributed, e.g.:"
 msgstr ""
-"Apabila Anda mensponsori sebuah modul atau materi pelajaran, Anda dapat "
-"meminta penulis untuk mencantumkan ungkapan terima kasih pada setiap materi "
-"yang dikontribusikan, misalnya:"
+"Apabila anda mensponsori sebuah modul atau materi pengajaran, anda dapat "
+"meminta penulis untuk mencantumkan ungkapan terima kasih di awal setiap "
+"materi yang dikontribusikan, misalnya:"
 
 # 7d3fa91afdd448b0b36a1a2943e0e8b4
 #: ../../foreword/foreword.rst:73
@@ -218,9 +232,8 @@ msgid ""
 "is acceptable."
 msgstr ""
 "Apabila anda merasa tidak yakin mengenai apa saja yang boleh dilakukan "
-"dibawah lisensi ini, silahkan hubungi kami di office@linfiniti.com dan kami "
-"akan memberikan masukan apakah yang hendak anda kerjakan itu diperbolehkan "
-"atau tidak."
+"dibawah lisensi ini, silakan hubungi kami di office@linfiniti.com dan kami "
+"akan memberikan masukan apakah keinginan anda dapat diterima."
 
 # 792a356aa370426ab35e4cffe29d5592
 #: ../../foreword/foreword.rst:78
@@ -228,9 +241,9 @@ msgid ""
 "If you publish this work under a self publishing site such as http:://lulu."
 "com we request that you donate the profits to the QGIS project."
 msgstr ""
-"Apabila Anda mempublikasikan materi ini pada situs pribadi, seperti http://"
-"lulu.com, kami meminta agar Anda dapat menyumbangkan keuntungan yang "
-"diperoleh ke proyek pengembangan QGIS."
+"Apabila anda mempublikasikan materi ini pada situs penerbitan mandiri, "
+"seperti http://lulu.com, kami meminta agar anda dapat menyumbangkan "
+"keuntungan yang diperoleh untuk proyek pengembangan QGIS."
 
 # 7f3cf7c7460e4387a27eb645333fe56e
 #: ../../foreword/foreword.rst:80
@@ -246,24 +259,25 @@ msgid ""
 "you may not profit off the sales of the book itself - all such profits "
 "should be contributed back to QGIS."
 msgstr ""
-"Anda dilarang untuk mengkomersialkan materi ini, kecuali dengan pernyataan "
-"tertulis dari penulis. Agar lebih jelas, yang kami maksudkan dengan "
-"komersialisasi adalah: Anda dilarang menjual materi ini untuk mendapatkan "
-"keuntungan atau membuat hasil kerja turunan yang bersifat komersial (seperti "
-"menjual isinya untuk digunakan dalam suatu artikel pada sebuah majalah). "
-"Pengecualian untuk hal ini adalah jika seluruh keuntungan didonasikan kepada "
-"proyek QGIS. Anda diperbolehkan (dan kami mendorong Anda untuk melakukannya) "
-"untuk menggunakan materi ini dalam suatu buku ajar pada saat melakukan "
+"Anda  tidak diperkenankan mengkomersialkan materi ini, kecuali dengan ijin "
+"tertulis dari penulis. Agar lebih jelas, komersialisasi di sini berarti anda "
+"tidak diperkenankan menjual materi ini untuk memperoleh keuntungan atau "
+"membuat hasil kerja turunan yang bersifat komersial (seperti menjual isinya "
+"untuk digunakan dalam suatu artikel pada sebuah majalah). Pengecualian untuk "
+"hal ini adalah jika seluruh keuntungan yang diperoleh didonasikan kepada "
+"proyek QGIS. Anda diperbolehkan (dan kami mendorong anda untuk melakukannya) "
+"untuk menggunakan materi ini sebagai buku ajar pada saat melakukan "
 "pelatihan, meskipun pelatihan itu sendiri bersifat komersial. Dengan kata "
-"lain, Anda dipersilahkan untuk menarik keuntungan dengan mengadakan suatu "
-"pelatihan yang menggunakan materi ini sebagai bahan ajar, tetapi Anda "
-"dilarang untuk menarik keuntungan dari hasil penjualan buku itu sendiri – "
-"semua keuntungan semacam itu harus dikontribusikan kembali ke QGIS."
+"lain, anda diperbolehkan untuk mengambil keuntungan dengan mengadakan suatu "
+"pelatihan yang menggunakan materi ini sebagai bahan ajar. Tetapi anda tidak "
+"diperkenankan untuk mengambil keuntungan dari hasil penjualan buku itu "
+"sendiri – semua keuntungan semacam itu harus dikontribusikan kembali kepada "
+"QGIS."
 
 # acbf37d3f8b64c9db14ae3854c1a9ca7
 #: ../../foreword/foreword.rst:93
 msgid "Sponsoring Chapters"
-msgstr "Bagian *Sponsorship*"
+msgstr "Mensponsori Bab"
 
 # 465c527c48654c6fa726b59813ca1436
 #: ../../foreword/foreword.rst:95
@@ -276,11 +290,11 @@ msgid ""
 "license."
 msgstr ""
 "Materi ini sama sekali tidak dimaksudkan untuk mencakup semua hal yang dapat "
-"Anda lakukan dengan QGIS. Kami mendorong semua orang untuk menambahkan "
-"materi baru untuk mengisi kekosongan yang ada. Linfiniti Consulting CC. juga "
-"dapat membuat materi baru untuk Anda sebagai sebuah layanan komersil, dengan "
-"pengertian bahwa segala bentuk hasil kerja tersebut harus menjadi bagian "
-"dari materi utama dan dipublikasikan dibawah lisensi yang sama."
+"anda lakukan dengan QGIS dan kami mendorong pihak lain untuk menambahkan "
+"materi baru dalam rangka mengisi kekurangan yang ada. Linfiniti Consulting "
+"CC. juga dapat membuat materi baru untuk anda sebagai jasa komersial, dengan "
+"pemahaman bahwa segala bentuk hasil kerja tersebut harus menjadi bagian dari "
+"materi utama dan dipublikasikan dibawah lisensi yang sama."
 
 # 2e605b3d89db4cee877946b190810890
 #: ../../foreword/foreword.rst:102
@@ -294,7 +308,7 @@ msgid ""
 "instructional materials and parts of the PostGIS materials."
 msgstr ""
 "Rudi Thiede (rudi@linfiniti.com) – Rudi telah menulis berbagai bahan "
-"instruksional untuk QGIS dan bagian-bagian dari materi PostGIS."
+"pengajaran untuk QGIS dan bagian-bagian dari materi PostGIS."
 
 # 61d838930e9d47dc8f8cb66818e43559
 #: ../../foreword/foreword.rst:106
@@ -303,9 +317,9 @@ msgid ""
 "co-authored the PostgreSQL and PostGIS parts. Tim also authored the custom "
 "sphinx theme used for this manual."
 msgstr ""
-"Tim Sutton (tim@linfiniti.com) – Tim telah melakukan pengawasan dan memandu "
-"proyek ini serta menulis materi di bagian PostgreSQL dan PostGIS. Tim juga "
-"membuat kustomisasi tema sphinx yang digunakan dalam materi ini."
+"Tim Sutton (tim@linfiniti.com) – Tim telah mengelola dan memandu proyek ini "
+"serta ikut menulis bagian-bagian materi PostgreSQL dan PostGIS. Tim juga "
+"membuat tema sphinx khusus yang digunakan dalam panduan ini."
 
 # 19bec6ecdd9241b7a9987b1881157ba2
 #: ../../foreword/foreword.rst:109
@@ -313,8 +327,8 @@ msgid ""
 "Horst Düster (horst.duester@kappasys.ch ) - Horst co-authored the PostgreSQL "
 "and PostGIS parts"
 msgstr ""
-"Horst Düster (horst.duester@kappasys.ch ) - Horst membantu penulisan bagian-"
-"bagian materi PostgreSQL dan PostGIS"
+"Horst Düster (horst.duester@kappasys.ch ) - Horst ikut menulis bagian-bagian "
+"materi PostgreSQL dan PostGIS."
 
 # 10407e092f264facb53a86dd4a85acb7
 #: ../../foreword/foreword.rst:111
@@ -322,8 +336,9 @@ msgid ""
 "Marcelle Sutton (marcelle@linfiniti.com) - Marcelle provided proof reading "
 "and editorial advice during the creation of this work."
 msgstr ""
-"Marcelle Sutton (marcelle@linfiniti.com) - Marcelle melakukan pemeriksaan "
-"ejaan dan memberikan saran-saran editorial selama penyusunan materi ini."
+"Marcelle Sutton (marcelle@linfiniti.com) - Marcelle memeriksa penulisan dan "
+"penggunaan ejaan serta memberikan saran-saran editorial selama penyusunan "
+"materi ini."
 
 # 1767b6e16ac84348889607f80ef3e03e
 #: ../../foreword/foreword.rst:115
@@ -373,7 +388,7 @@ msgid ""
 "Streets and Places datasets from OpenStreetMap (http://www.openstreetmap."
 "org/)"
 msgstr ""
-"Setdata jalan dan lokasi dari OpenStreetMap (http://www.openstreetmap.org/)"
+"Set data jalan dan lokasi dari OpenStreetMap (http://www.openstreetmap.org/)"
 
 # b98c2a6033ad4609a14c2d02ed70c4b4
 #: ../../foreword/foreword.rst:131
@@ -381,8 +396,8 @@ msgid ""
 "Property boundaries (urban and rural), water bodies from NGI (http://www.ngi."
 "gov.za/)"
 msgstr ""
-"Batas-batas properti (Daerah kota dan pinggiran kota) serta daerah perairan "
-"dari NGI (http://www.ngi.gov.za/)"
+"Batas-batas properti (daerah urban dan rural) dan daerah perairan dari NGI "
+"(http://www.ngi.gov.za/)"
 
 # 58c45c63d8c24b8ca22b4a9be77ab332
 #: ../../foreword/foreword.rst:132
@@ -402,7 +417,7 @@ msgid ""
 "which is kindly hosted by http://readthedocs.org."
 msgstr ""
 "Anda selalu dapat memperoleh versi terbaru dari dokumen ini dengan "
-"mengunjungi `website kami <http://readthedocs.org/builds/the-free-qgis-"
+"mengunjungi `situs web kami <http://readthedocs.org/builds/the-free-qgis-"
 "training-manual/>`_ yang beralamat di http://readthedocs.org."
 
 # 47733b831ac24be8b49d5672dc980aa5
@@ -411,8 +426,8 @@ msgid ""
 "There are links to PDF and epub versions of the documentation in the lower "
 "right hand corner of the above mentioned home page."
 msgstr ""
-"Anda dapat menemukan link untuk versi PDF dan epub dari dokumen ini di "
-"bagian pojok kanan bawah dari website yang kami sebutkan di atas."
+"Anda dapat menemukan tautan untuk versi PDF dan epub dari dokumen ini di "
+"sudut kanan bawah dari situs web yang kami sebutkan di atas."
 
 # 7852d4ab73704e9cb332f7d54ce5b14a
 #: ../../foreword/foreword.rst:147
@@ -422,4 +437,4 @@ msgstr "Tim Sutton, Mei 2012"
 # 265ee3f9f03c435a8946f2e93ea47b78
 #: ../../foreword/index.rst:3
 msgid "Course Introduction"
-msgstr "Pengenalan Kursus"
+msgstr "Pengantar Pelatihan"

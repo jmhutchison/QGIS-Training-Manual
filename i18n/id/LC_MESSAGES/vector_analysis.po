@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-02 14:39+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-10-17 12:09+1100\n"
+"PO-Revision-Date: 2014-10-20 14:50+1000\n"
+"Last-Translator: yusatya <yusatya@gmail.com>\n"
+"Language-Team: AIPEID\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Language: id_ID\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # baeed4d740a34b9fb341bf7be90b961d
 #: ../../vector_analysis/basic_analysis.rst:2
@@ -25,18 +26,18 @@ msgstr "Pelajaran: Analisis Vektor"
 
 # 1ca6043d8a7745a28ef87db9de92101a
 #: ../../vector_analysis/basic_analysis.rst:4
-#, fuzzy
 msgid ""
 "Vector data can also be analyzed to reveal how different features interact "
 "with each other in space. There are many different analysis-related "
 "functions in GIS, so we won't go through them all. Instead, we will show "
 "show you the tools QGIS provides to solve a realistic problem you might face."
 msgstr ""
-"Data vektor dianalisis untuk mengungkapkan bagaimana fitur yang berbeda "
-"berinteraksi satu sama lain dalam ruang. Terdapat banyak fungsi-fungsi "
-"analisis dalam SIG, sehingga kita tidak akan menggunakan semuanya. "
-"Sebaliknya, kita akan mengajukan pertanyaan dan mencoba menyelesaikannya "
-"dengan menggunakan fungsi-fungsi yang disediakan QGISIS."
+"Data vektor dapat dianalisis untuk mengungkapkan bagaimana fitur-fitur yang "
+"berbeda saling berinteraksi satu sama lain dalam satuan ruang. Terdapat "
+"berbagai fungsi analisis dalam GIS (SIG - Sistem Informasi Geografis), "
+"sehingga kita tidak akan membahas semuanya. Sebaliknya, kita akan melihat "
+"alat bantu apa saja yang dimiliki QGIS untuk membantu menyelesaikan "
+"permasalahan nyata yang mungkin anda hadapi."
 
 # 970e8f25683f4463b30a252c8ea6cd0c
 #: ../../vector_analysis/basic_analysis.rst:9
@@ -46,6 +47,10 @@ msgid ""
 "QGIS in animal health*, to use GIS for a specific animal health exercise "
 "using Indonesian data from iSIKHNAS."
 msgstr ""
+"Pada bagian ini, kita akan menggunakan data dan latihan yang diambil dari "
+"Afrika Selatan. Pada Bab 9 *Menggunakan QGIS dalam bidang kesehatan hewan*, "
+"anda akan mendapat kesempatan untuk menggunakan SIG dalam latihan kesehatan "
+"hewan yang spesifik dengan menggunakan data Indonesia dari iSIKHNAS. "
 
 # f377cb2370264b8182dba64a372fcd5d
 #: ../../vector_analysis/basic_analysis.rst:15
@@ -53,8 +58,8 @@ msgid ""
 "**The goal for this lesson:** To ask a question and solve it using analysis "
 "tools."
 msgstr ""
-"**Tujuan dari pelajaran ini**: Untuk mengajukan pertanyaan dan memecahkannya "
-"dengan menggunakan alat analisis."
+"**Tujuan dari pelajaran ini**: Mengajukan pertanyaan dan memecahkannya "
+"dengan menggunakan alat bantu analisis."
 
 # 6bbb3b01d6834ee8b1d006be387dfeff
 #: ../../vector_analysis/basic_analysis.rst:20
@@ -67,37 +72,37 @@ msgid ""
 "Before we start, it would be useful to give a brief overview of a process "
 "that can be used to solve any GIS problem. The way to go about it is:"
 msgstr ""
-"Sebelum kita mulai, akan sangat berguna untuk memberikan gambaran singkat "
-"proses yang dapat digunakan untuk memecahkan masalah SIG. Caranya adalah:"
+"Sebelum kita mulai, akan sangat bermanfaat untuk memberikan gambaran singkat "
+"mengenai proses yang dapat digunakan untuk memecahkan masalah SIG. Caranya "
+"adalah sebagai berikut:"
 
 # beb0cd61dfdf41d2997fbdeff4cb5992
 #: ../../vector_analysis/basic_analysis.rst:25
 msgid "State the Problem"
-msgstr "Tentukan masalah"
+msgstr "Menentukan Permasalahan"
 
 # 06c8fd46436a40018a09464663b9df0f
 #: ../../vector_analysis/basic_analysis.rst:26
 msgid "Get the Data"
-msgstr "Dapatkan Data"
+msgstr "Mendapatkan Data"
 
 # 0bd48b65aa34413c9e8b86cd2a49ef80
 #: ../../vector_analysis/basic_analysis.rst:27
 msgid "Analyze the Problem"
-msgstr "Analisis Masalah"
+msgstr "menganalisis Permasalahan"
 
 # 3b54168c2c0c44eca4f5e70f712830f4
 #: ../../vector_analysis/basic_analysis.rst:28
 msgid "Present the Results"
-msgstr "Sajikan Hasil"
+msgstr "Menyajikan Hasil"
 
 # 399061a35d564abe90a3c705dfc2a1be
 #: ../../vector_analysis/basic_analysis.rst:31
 msgid "|basic| The problem"
-msgstr "|basic| Masalah"
+msgstr "|basic| Permasalahan"
 
 # 25c2b2569b0a474bb09249316f5c9d57
 #: ../../vector_analysis/basic_analysis.rst:33
-#, fuzzy
 msgid ""
 "We begin the process by deciding on a problem to solve. Let us say you are a "
 "property developer, and you need to buy a farm to build a new residential "
@@ -105,17 +110,17 @@ msgid ""
 "You have done some market research, and you have come up with the following "
 "requirements that a farm needs to satisfy:"
 msgstr ""
-"Mari kita mulai proses dengan memutuskan suatu masalah untuk dipecahkan. "
-"Katakanlah Anda seorang pengembang properti, dan Anda perlu membeli sebuah "
-"lahan pertanian untuk membangun perumahan baru bagi orang-orang yang ingin "
-"pindah dari Cape Town dan Johannesburg. Anda telah melakukan beberapa riset "
-"pasar, dan Anda telah datang dengan persyaratan sebagai berikut bahwa lahan "
-"pertanian harus memenuhi:"
+"Kita mulai proses ini dengan menetapkan suatu permasalahan yang ingin "
+"dipecahkan. Katakanlah anda adalah seorang pengembang properti yang ingin "
+"membeli lahan pertanian untuk membangun perumahan baru bagi orang-orang yang "
+"ingin pindah dari Cape Town dan Johannesburg. Anda telah melakukan sejumlah "
+"riset pasar dan berhasil menyusun persyaratan berikut ini yang harus "
+"dipenuhi oleh lahan pertanian tersebut:"
 
 # 5a3161af0d404be2b4d4c682746f9b63
 #: ../../vector_analysis/basic_analysis.rst:39
 msgid "It needs to be in Swellendam."
-msgstr "Harus berada di Swellendam."
+msgstr "Harus berlokasi di Swellendam."
 
 # ffe2aa8a01034785a5b096c888149e90
 #: ../../vector_analysis/basic_analysis.rst:40
@@ -123,8 +128,8 @@ msgid ""
 "You don't want to have to build a long access road (maximum distance 500 "
 "meters), and it has to be easily accessible from main routes."
 msgstr ""
-"Anda tidak harus membangun akses jalan yang panjang (maksimum jarak 500 "
-"meter), dan lokasi harus mudah diakses dari jalur utama."
+"Anda tidak perlu lagi membangun akses jalan yang panjang (jarak maksimum 500 "
+"meter) dan lokasi harus mudah diakses dari jalan utama."
 
 # d2262b19a4734b81ba6ec93b7c1b9494
 #: ../../vector_analysis/basic_analysis.rst:42
@@ -132,8 +137,9 @@ msgid ""
 "The people who make up the target market will probably have children, so it "
 "must be within a reasonable distance (by car) from a school."
 msgstr ""
-"Orang-orang yang menjadi target pasar Anda mungkin memiliki anak, sehingga "
-"lokasi harus dalam jarak yang wajar (dengan mobil) dari sekolah."
+"Orang-orang yang menjadi target pasar anda kemungkinan besar memiliki anak, "
+"sehingga lokasi harus berada dalam jarak yang wajar (dengan mobil) dari "
+"sekolah."
 
 # b798dd4658654539b29b82c950794cab
 #: ../../vector_analysis/basic_analysis.rst:44
@@ -147,20 +153,20 @@ msgstr "|basic| Data"
 
 # 50b52bd371084f48996baff6232ce8f7
 #: ../../vector_analysis/basic_analysis.rst:49
-#, fuzzy
 msgid "To answer these questions, we are going to need the following data:"
 msgstr ""
-"Untuk menjawab pertanyaan ini, kita akan membutuhkan data sebagai berikut:"
+"Untuk menjawab semua pertanyaan ini, kita akan membutuhkan data sebagai "
+"berikut:"
 
 # b1cc757d4df74ca8b72f47975e71f764
 #: ../../vector_analysis/basic_analysis.rst:51
 msgid "The farms we're going to be choosing from."
-msgstr "Pertanian yang akan kita pilih."
+msgstr "Lahan pertanian yang akan kita pilih."
 
 # 5576618189fc41b8be17af935e9da7ae
 #: ../../vector_analysis/basic_analysis.rst:52
 msgid "The roads that need to be running through these farms."
-msgstr "Jalan-jalan yang melalui area petanian ini."
+msgstr "Jalan-jalan yang melalui lahan petanian ini."
 
 # be9c84a787f24023a0d53c449b812f57
 #: ../../vector_analysis/basic_analysis.rst:53
@@ -173,21 +179,24 @@ msgid ""
 "For this exercise the data has been provided already, but in reality you may "
 "need to find a provider for the datasets in question."
 msgstr ""
+"Dalam latihan ini, semua data tersebut sudah disediakan. Namun, di dunia "
+"nyata, anda mungkin harus mencari sumber informasi untuk memperoleh data-"
+"data tersebut."
 
 # d8e49d92fdce429ca5c5e47075ca90fb
 #: ../../vector_analysis/basic_analysis.rst:59
 msgid "|basic| |FA| Start a Project"
-msgstr "|basic| Ikuti bersama: Memulai Proyek"
+msgstr "|basic| Ikuti Bersama: Membuat Proyek"
 
 # f2e4952cb0764b2a8be721d71dce3876
 #: ../../vector_analysis/basic_analysis.rst:61
 msgid "So now that we know what we want to do, let's start doing it!"
-msgstr "Sekarang kita tahu apa yang akan kita lakukan, mari kita mulai!"
+msgstr "Setelah kita mengetahui apa yang perlu dilakukan, mari kita mulai!"
 
 # 710fe1fa0e874d12bfe23568d354965f
 #: ../../vector_analysis/basic_analysis.rst:63
 msgid "Start a new QGIS project."
-msgstr "•\tMulailah sebuah proyek QGISGIS baru."
+msgstr "Buat proyek QGIS baru."
 
 # f24dd98824b342f2ac4470c99fd1c7f2
 #: ../../vector_analysis/basic_analysis.rst:64
@@ -195,37 +204,35 @@ msgid ""
 "Start adding new layers. They're all to be found in the :kbd:`exercise_data/"
 "projected_data` folder."
 msgstr ""
-"Menambahkan *layer* baru. *layer*-*layer* tersebut dapat ditemukan di "
-"folder :kbd:`exercise_data/projected_data`."
+"Mulai dengan menambahkan layer-layer baru. Semua layer ini dapat ditemukan "
+"di folder :kbd:`exercise_data/projected_data`."
 
 # 673fcff316604abd9df9fa659bef6c19
 #: ../../vector_analysis/basic_analysis.rst:66
 msgid ""
 "Add the :kbd:`schools_33S`, :kbd:`roads_33S` and :kbd:`farms_33S` layers."
 msgstr ""
-"Tambahkan *layer*  :kbd:`schools_33S`, :kbd:`roads_33S` dan :kbd:`farms_33S`."
+"Tambahkan layer :kbd:`schools_33S`, :kbd:`roads_33S` dan :kbd:`farms_33S`."
 
 # a97b464e23b34e2281ac7415b20a43cf
 #: ../../vector_analysis/basic_analysis.rst:68
-#, fuzzy
 msgid ""
 "These files are in a Projected Coordinate System, which is necessary for "
 "this analysis, for reasons we have covered in the previous lesson. (We want "
 "to be able to calculate distances in meters and areas in hectares, not in "
 "degrees.)"
 msgstr ""
-"layer-layer itu mungkin sudah familiar. layer-layer tersebut merupakan data "
-"yang sama yang telah kita gunakan selama ini, yang sekarang sudah dalam "
-"Sistem Koordinat Proyeksi. Hal ini diperlukan untuk analisis, untuk alasan "
-"yang sudah kita bahas pada pelajaran sebelumnya. (Kita ingin dapat "
-"menghitung jarak dalam meter dan luas dalam hektar, bukan dalam derajat.)"
+"File-file ini menggunakan Sistem Koordinat Proyeksi, yang diperlukan dalam "
+"analisis ini, untuk alasan yang telah kita bahas pada pelajaran sebelumnya. "
+"(Kita ingin menghitung jarak dalam meter dan luas dalam hektar, bukan dalam "
+"derajat.)"
 
 # b5bcda8cd0e24e228115885ecf2a10e8
 #: ../../vector_analysis/basic_analysis.rst:73
-#, fuzzy
 msgid "Once you have got these layers in your :guilabel:`Layers list`:"
 msgstr ""
-"Setelah Anda punya *layer*-*layer* dalam  :guilabel:`*layer*s list Anda:"
+"Lakukan langkah-langkah berikut ini setelah semua layer tersebut berada "
+"pada :guilabel:`Layers list`anda:"
 
 # 3446d1211eee4503a40259f6e599a9d7
 #: ../../vector_analysis/basic_analysis.rst:75
@@ -233,8 +240,8 @@ msgid ""
 "Rename the layers by right-clicking on them and selecting the :guilabel:"
 "`Rename` option."
 msgstr ""
-"Ubah nama *layer* dengan mengklik kanan pada *layer* tersebut dan pilih "
-"opsi :guilabel:`Rename`."
+"Ubah nama layer dengan mengklik kanan pada layer tersebut dan memilih "
+"pilihan :guilabel:`Rename`."
 
 # b5a49c326d6a4526835b6a3c58a9a4d7
 #: ../../vector_analysis/basic_analysis.rst:77
@@ -242,15 +249,15 @@ msgid ""
 "Give them the new, less messy names :kbd:`roads`, :kbd:`schools` and :kbd:"
 "`farms`."
 msgstr ""
-"Beri nama baru untuk layer-layer tersebut, :kbd:`roads`, :kbd:`schools` dan :"
-"kbd:`farms`."
+"Beri nama baru :kbd:`roads`, :kbd:`schools`, dan :kbd:`farms` yang lebih "
+"sederhana pada layer-layer tersebut."
 
 # 3d67bba0c0fa4ce69f4f5ccb4e6de5ee
 #: ../../vector_analysis/basic_analysis.rst:79
 msgid "Save your map under :guilabel:`exercise_data`, as :kbd:`analysis.qgs`."
 msgstr ""
-"Simpan peta Anda di dalam folder  :guilabel:`exercise_data`, sebagai :kbd:"
-"`analysis.qgs`."
+"Simpan peta anda sebagai :kbd:`analysis.qgs` di dalam :guilabel:"
+"`exercise_data`."
 
 # 72460636d2794eae85f1a702a384e2d8
 #: ../../vector_analysis/basic_analysis.rst:80
@@ -259,39 +266,41 @@ msgid ""
 "`exercise_data` and call it :kbd:`residential_development`. This is where "
 "you'll save the datasets that will be the results of the analysis functions."
 msgstr ""
-"Dalam file manager sistem operasi Anda, buatlah folder baru di dalam "
-"folder  :guilabel:`exercise_data` dan beri namai sebagai :kbd:"
-"`residential_development`. Folder ini merupakan tempat penyimpanan *dataset* "
-"baru hasil dari fungsi analisis."
+"Dengan menggunakan manajer file pada sistem operasi anda, buatlah folder "
+"baru di dalam :guilabel:`exercise_data` dan beri nama :kbd:"
+"`residential_development`. Anda akan menyimpan set data yang dihasilkan oleh "
+"fungsi analisis pada folder ini."
 
 # 87e572609fb04d468274e54f2f3677e7
 #: ../../vector_analysis/basic_analysis.rst:85
-#, fuzzy
 msgid "Now that we've got the data, we can analyze the problem."
-msgstr "Sekarang kita telah memperoleh data, mari kita analisis data tersebut!"
+msgstr "Setelah memperoleh data tersebut, mari kita analisis permasalahannya!"
 
 # 820fdbe9e9c84a17913bc437e7c9047d
 #: ../../vector_analysis/basic_analysis.rst:88
 msgid "|basic| |FA| Analyzing the Problem: Farms in Swellendam"
-msgstr "|basic| Ikuti bersama: Menganalisis Masalah: Pertanian di Swellendam"
+msgstr ""
+"|basic| Ikuti Bersama: Menganalisis Permasalahan: Lahan Pertanian di "
+"Swellendam"
 
 # a5ad8c1ad9ae442dbe86238a041cbe23
 #: ../../vector_analysis/basic_analysis.rst:90
-#, fuzzy
 msgid ""
 "The first criterion we are facing is that the farm needs to be in "
 "Swellendam. So let's tell QGIS to only show us the farms that are, in fact, "
 "in Swellendam."
 msgstr ""
-"Kriteria pertama adalah bahwa pertanian harus berada di Swellendam. Jadi "
-"mari kita perintah QGIS untuk menunjukkan kepada kita lahan pertanian yang "
-"berada di Swellendam!"
+"Kriteria pertama yang kita miliki mengharuskan lahan pertanian berada di "
+"Swellendam. Jadi mari kita minta QGIS untuk hanya menampilkan lahan "
+"pertanian yang berada di Swellendam."
 
 # 62c41dcdd28a40a7b0f8fcf94215ea86
 #: ../../vector_analysis/basic_analysis.rst:93
 msgid ""
 "Right-click on the :guilabel:`farms` layer in the :guilabel:`Layers list`."
-msgstr "Klik kanan pada layer :guilabel:`farms` dalam :guilabel:`Layers list`."
+msgstr ""
+"Klik kanan pada layer :guilabel:`farms` yang berada di dalam :guilabel:"
+"`Layers list`."
 
 # cdcbe381a0cb4ca9968c18aeed9c02e9
 #: ../../vector_analysis/basic_analysis.rst:94
@@ -299,8 +308,8 @@ msgid ""
 "Select the option :guilabel:`Query...`. This gives you a new :guilabel:"
 "`Query Builder` dialog."
 msgstr ""
-"Pilih opsi :guilabel:`*query*...`. Kotak dialog  :guilabel:`*query* Builder` "
-"baru akan muncul."
+"Pilih :guilabel:`Query...`. Ini akan membuka kotak dialog baru :guilabel:"
+"`Query Builder`."
 
 # ef7ed16e6e3c4556a328f229c341758b
 #: ../../vector_analysis/basic_analysis.rst:96
@@ -308,13 +317,13 @@ msgid ""
 "Scroll down in the :guilabel:`Fields` list on the left of this dialog until "
 "you see the field :kbd:`TOWN`."
 msgstr ""
-"Geser ke bawah dalam daftar :guilabel:`Fields` di sebelah kiri dialog ini "
-"sampai Anda melihat kolom :kbd:`TOWN`."
+"Geser ke bawah daftar :guilabel:`Fields` di sebelah kiri kotak dialog ini "
+"sampai anda melihat kolom :kbd:`TOWN`."
 
 # 95da70f9a96d4bf4bf71b58325640b43
 #: ../../vector_analysis/basic_analysis.rst:98
 msgid "Click on it once."
-msgstr "Klik sekali."
+msgstr "Klik satu kali."
 
 # 3259867778c646f2be93fbf430fa3a2d
 #: ../../vector_analysis/basic_analysis.rst:99
@@ -328,48 +337,47 @@ msgid ""
 "Now we need to tell QGIS to only show us the farms where the value of :kbd:"
 "`TOWN` is equal to :kbd:`Swellendam`."
 msgstr ""
-"Sekarang kita perlu memerintah QGISGIS untuk menunjukkan kepada kita lahan "
-"pertanian (farms) yang memiliki nilai :kbd:`TOWN` sama dengan :kbd:"
-"`Swellendam`."
+"Sekarang kita perlu meminta QGIS untuk menampilkan lahan pertanian yang "
+"memiliki nilai :kbd:`TOWN` sama dengan :kbd:`Swellendam`."
 
 # bee35fee31fb4e7da469d69c630c9395
 #: ../../vector_analysis/basic_analysis.rst:107
 msgid "Double-click the word :kbd:`TOWN` in the :guilabel:`Fields` list."
-msgstr "Klik dua kali kata :kbd:`TOWN` dalam daftar :guilabel:`Fields`."
+msgstr "Klik ganda pada kata :kbd:`TOWN` dalam daftar :guilabel:`Fields`."
 
 # 657a8a0019fb457294f083ba10261a12
 #: ../../vector_analysis/basic_analysis.rst:108
 msgid "Watch what happens in the :guilabel:`SQL where clause` field below:"
 msgstr ""
-"Perhatikan apa yang terjadi di kolom :guilabel:`SQL where clause` di gambar "
-"berikut:"
+"Perhatikan apa yang terjadi pada kolom :guilabel:`SQL where clause` seperti "
+"tampak berikut ini:"
 
 # 65357d9a3224482c9aa3f9db986cd408
 #: ../../vector_analysis/basic_analysis.rst:113
 msgid "The word :kbd:`\"TOWN\"` has appeared! To build the rest of the query:"
-msgstr "Kata :kbd:`\"TOWN\"` telah muncul. Untuk membangun query selanjutnya:"
+msgstr "Muncul kata :kbd:`\"TOWN\"`! Untuk membuat query selanjutnya:"
 
 # 87a6e608cc6d40d2b9ca83edd78481b0
 #: ../../vector_analysis/basic_analysis.rst:115
 msgid "Click the :guilabel:`=` button (under :guilabel:`Operators`)."
-msgstr "Klik :guilabel:`=` button (di dalam :guilabel:`Operators`)."
+msgstr "Klik tombol :guilabel:`=` (pada :guilabel:`Operators`)."
 
 # e0b8ba79ad5546ba9809fe389b2f4701
 #: ../../vector_analysis/basic_analysis.rst:116
 msgid ""
 "Double-click the value :kbd:`Swellendam` in the :guilabel:`Values` list."
 msgstr ""
-"Klik dua kali pada nilai :kbd:`Swellendam` dalam daftar :guilabel:`Values`."
+"Klik ganda pada nilai :kbd:`Swellendam` dalam daftar :guilabel:`Values`."
 
 # ed4f28222262465682e58f55b253f918
 #: ../../vector_analysis/basic_analysis.rst:118
 msgid "Your query is this:"
-msgstr "*query* Anda seharusnya seperti ini:"
+msgstr "Permintaan data anda akan tampak seperti berikut ini:"
 
 # 14defab8afb44c0ebc45eddfcc36f6ea
 #: ../../vector_analysis/basic_analysis.rst:123
 msgid "And now your :guilabel:`farms` layer looks like this:"
-msgstr "Sekarang *layer* :guilabel:`farms` Anda tampak seperti gambar berikut:"
+msgstr "Dan layer :guilabel:`farms` anda akan terlihat seperti ini:"
 
 # 320c09fd8a70495cb8116c9814828101
 #: ../../vector_analysis/basic_analysis.rst:128
@@ -377,15 +385,15 @@ msgid ""
 "For further analysis, it's better if we've got these farms as a separate "
 "layer."
 msgstr ""
-"Untuk analisis lebih lanjut, kita akan menjadikan layer farms sebagai layer "
-"yang terpisah."
+"Untuk analisis lebih lanjut, akan lebih baik jika kita memisahkan lahan-"
+"lahan pertanian ini ke dalam layer yang terpisah."
 
 # 6094602e970c4f3985bd580031289316
 #: ../../vector_analysis/basic_analysis.rst:130
 msgid ""
 "Right-click on the :guilabel:`farms` layer and click :guilabel:`Save As...`."
 msgstr ""
-"Klik kanan pada *layer* :guilabel:`farms` dan klik :guilabel:`Save As...`."
+"Klik kanan pada layer :guilabel:`farms` dan klik :guilabel:`Save As...`."
 
 # 70715aed0fc34e24b30c309c0075400e
 #: ../../vector_analysis/basic_analysis.rst:131
@@ -394,7 +402,7 @@ msgid ""
 "guilabel:`Browse` button."
 msgstr ""
 "Klik tombol :guilabel:`Browse` yang terletak di samping kolom :guilabel:"
-"`Save as` di kotak dialog yang muncul."
+"`Save as` pada kotak dialog yang muncul."
 
 # e3a4d6aafb054c008b9595c3f87265c3
 #: ../../vector_analysis/basic_analysis.rst:133
@@ -402,8 +410,8 @@ msgid ""
 "Save the layer under :kbd:`exercise_data/residential_development/`, as :kbd:"
 "`swellendam_farms.shp`."
 msgstr ""
-"Simpan layer di dalam folder  :kbd:`exercise_data/residential_development/`, "
-"sebagai :kbd:`swellendam_farms.shp`."
+"Simpan layer pada folder :kbd:`exercise_data/residential_development/` "
+"dengan nama :kbd:`swellendam_farms.shp`."
 
 # 07888e2e89e54aac8e482fee50a1f5d8
 #: ../../vector_analysis/basic_analysis.rst:135
@@ -412,7 +420,7 @@ msgid ""
 "vector layer as...` dialog."
 msgstr ""
 "Periksa kotak :guilabel:`Add saved file to map` pada kotak dialog :guilabel:"
-"`Save vector *layer* as...`."
+"`Save vector layer as...`."
 
 # 725f162100e1447984625a015da7a306
 #: ../../vector_analysis/basic_analysis.rst:137
@@ -447,19 +455,19 @@ msgid ""
 "Now we've got the :guilabel:`farms` twice, but we only need the one we just "
 "created."
 msgstr ""
-"Sekarang kita memiliki dua *layer*  :guilabel:`farms`, tetapi kita hanya "
-"membutuhkan satu saja yang baru saja kita buat."
+"Sekarang kita memiliki dua layer :guilabel:`farms`, tetapi kita hanya "
+"membutuhkan layer yang baru saja kita buat."
 
 # 52e52a8b6a94482b81eec87b983f01f6
 #: ../../vector_analysis/basic_analysis.rst:144
 msgid "Right-click on the old :guilabel:`farms` layer and remove it."
 msgstr ""
-"Klik kanan pada *layer*  :guilabel:`farms` lama dan hapus *layer* tersebut."
+"Klik kanan pada layer :guilabel:`farms` yang lama dan hapus layer tersebut."
 
 # 2da513ad22af49829dcddb1e45eef37e
 #: ../../vector_analysis/basic_analysis.rst:150
 msgid "|basic| |TY| find important roads"
-msgstr "|basic| Coba sendiri : Mencari jalan-jalan yang penting"
+msgstr "|basic| Coba Sendiri: Mencari jalan-jalan yang penting"
 
 # 8c0a341afd4644129bd74b07dfc68400
 #: ../../vector_analysis/basic_analysis.rst:152
@@ -467,8 +475,8 @@ msgid ""
 "We have a similar problem with the roads; the only roads we're taking into "
 "account are the main ones."
 msgstr ""
-"Kita memiliki masalah yang sama dengan jalan, jalan yang kita pertimbangkan "
-"adalah hanya jalan utama."
+"Kita memiliki masalah yang serupa dengan jalan; satu-satu jenis jalan yang "
+"akan kita sertakan adalah jalan utama."
 
 # ecb7b4baea314d2680e16a204fc505f9
 #: ../../vector_analysis/basic_analysis.rst:155
@@ -478,10 +486,10 @@ msgid ""
 "`secondary`, :kbd:`tertiary` and :kbd:`trunk`, so you need to build this "
 "query:"
 msgstr ""
-"Buatlah sebuah *query* untuk *layer* :guilabel:`roads`, seperti yang Anda "
-"lakukan *layer*  :guilabel:`farms`. Anda hanya menginginkan jenis jalan :kbd:"
-"`primary`, :kbd:`secondary`, :kbd:`tertiary` dan :kbd:`trunk`, sehingga Anda "
-"perlu membuat *query* seperti berikut:"
+"Buatlah query untuk layer :guilabel:`roads` seperti yang anda lakukan pada "
+"layer :guilabel:`farms`. Anda hanya menginginkan jenis jalan :kbd:"
+"`primary`, :kbd:`secondary`, :kbd:`tertiary`, dan :kbd:`trunk`; oleh karena "
+"itu, anda perlu membuat permintaan data sebagai berikut:"
 
 # 4b685b5aeb054127b126485f81adea54
 #: ../../vector_analysis/basic_analysis.rst:160
@@ -498,24 +506,26 @@ msgid ""
 "You can either use the approach above, where you double-clicked values and "
 "clicked buttons, or you can copy and paste the command above."
 msgstr ""
-"Anda bisa menggunakan pendekatan di atas, di mana Anda melakukan dua kali "
-"klik pada nilai-nilai yang diinginkan dan mengklik tombolnya, atau Anda "
-"dapat menyalin dan menyisipkan perintah di atas."
+"Anda dapat menggunakan pendekatan di atas, dengan mengklik ganda nilai-nilai "
+"yang diinginkan dan mengklik tombol, atau anda dapat menyalin dan "
+"menyisipkan perintah tersebut."
 
 # d9ec9fd85a004077bb7f2d0723c18722
 #: ../../vector_analysis/basic_analysis.rst:166
 msgid ":ref:`Check your results <vector-analysis-basic-1>`"
-msgstr ":ref:`Periksa hasil Anda <vector-analysis-basic-1>`"
+msgstr ":ref:`Periksa hasil yang anda peroleh <vector-analysis-basic-1>`"
 
 # 9f877056b0264984924238ed5aa40b88
 #: ../../vector_analysis/basic_analysis.rst:169
 msgid "|basic| |TY| find high schools"
-msgstr "|basic| Coba sendiri... Mencari Sekolah Menengah"
+msgstr "|basic| Coba Sendiri: Mencari Sekolah Menengah"
 
 # 78766885fb984eae99104433fbdebbf6
 #: ../../vector_analysis/basic_analysis.rst:171
 msgid "Your future customers will want to send their children to high schools."
-msgstr "Pelanggan Anda di masa depan mungkin akan mengirim anak mereka ke SMU."
+msgstr ""
+"Calon pembeli kemungkinan besar ingin mengirim anak mereka ke sekolah "
+"menengah."
 
 # f309a54343404cb78d3a1ee995eb70ac
 #: ../../vector_analysis/basic_analysis.rst:173
@@ -523,8 +533,8 @@ msgid ""
 "Use the same approach as before and build this query for the :guilabel:"
 "`schools` layer:"
 msgstr ""
-"Gunakan cara yang sama seperti sebelumnya dan buat *query* berikut ini untuk "
-"*layer* :guilabel:`schools`:"
+"Gunakan pendekatan yang sama seperti sebelumnya dan buat permintaan data "
+"berikut ini untuk layer :guilabel:`schools`:"
 
 # 8f3fe81a2a454ef9bd47e20a50798116
 #: ../../vector_analysis/basic_analysis.rst:176
@@ -534,7 +544,7 @@ msgstr ":kbd:`\"has_high_s\" = 'y'`"
 # 57148f77e7504cd1bf51fc7cd5d23836
 #: ../../vector_analysis/basic_analysis.rst:178
 msgid "You should have only 3 out of the 4 original schools left."
-msgstr "Anda seharusnya hanya akan mendapatkan 3 atau 4 sekolah."
+msgstr "Seharusnya hanya akan tersisa 3 dari 4 sekolah yang ada."
 
 # ce2d686344d340fe8c84eccb9d39fef6
 #: ../../vector_analysis/basic_analysis.rst:180
@@ -542,20 +552,21 @@ msgid ""
 "Save the resulting layer under :kbd:`exercise_data/residential_development/` "
 "as :kbd:`high_schools.shp`."
 msgstr ""
-"Simpan *layer* hasilnya di dalam folder :kbd:`exercise_data/"
-"residential_development/` sebagai :kbd:`high_schools.shp`."
+"Simpan layer hasilnya pada folder :kbd:`exercise_data/"
+"residential_development/` dengan nama :kbd:`high_schools.shp`."
 
 # 13eb728874a14831b178e0e5581d9e85
 #: ../../vector_analysis/basic_analysis.rst:185
 msgid "|basic| |FA| Analyzing the Problem: Distances From Schools and Roads"
 msgstr ""
-"|basic| Ikuti bersama: Menganalisis Masalah: Jarak Dari Sekolah ke Jalan"
+"|basic| Ikuti Bersama: Menganalisis Permasalahan: Jarak Dari Sekolah dan "
+"Jalan"
 
 # 332fd278366b4dfb83b94589d4c1ece7
 #: ../../vector_analysis/basic_analysis.rst:187
 msgid "QGIS allows you to calculate distances from any vector object."
 msgstr ""
-"QGIS memungkinkan Anda untuk menghitung jarak dari setiap obyek vektor."
+"QGIS memungkinkan anda untuk menghitung jarak dari setiap obyek vektor."
 
 # d47373df4fb74a018d8110bc21e50b35
 #: ../../vector_analysis/basic_analysis.rst:189
@@ -564,7 +575,7 @@ msgid ""
 "`swellendam_farms` layers are visible, to simplify the map while you're "
 "working."
 msgstr ""
-"Pastikan bahwa hanya *layer*:guilabel:`important_roads` dan :guilabel:"
+"Pastikan hanya layer :guilabel:`important_roads` dan :guilabel:"
 "`swellendam_farms` yang ditampilkan untuk menyederhanakan peta saat Anda "
 "sedang bekerja."
 
@@ -574,12 +585,13 @@ msgid ""
 "Click on the :menuselection:`Vector --> Geoprocessing Tools --> Buffer(s)` "
 "tool:"
 msgstr ""
-"Klik *tool* :menuselection:`Vector --> Geoprocessing *tool*s --> Buffer(s)`:"
+"Klik alat bantu :menuselection:`Vector --> Geoprocessing Tools --> "
+"Buffer(s)`:"
 
 # 8d97560ced5a48b6a836986ae17fe29b
 #: ../../vector_analysis/basic_analysis.rst:198
 msgid "This gives you a new dialog."
-msgstr "Anda mendapatkan sebuah kotak dialog baru."
+msgstr "Ini akan membuka sebuah kotak dialog baru."
 
 # 6db0ec4fcc6f4329b610cdc603df3f34
 # 3bf0bb0a6c1f468aa4ec5ebab34d9529
@@ -590,7 +602,7 @@ msgstr "Anda mendapatkan sebuah kotak dialog baru."
 #: ../../vector_analysis/basic_analysis.rst:333
 #: ../../vector_analysis/spatial_statistics.rst:179
 msgid "Set it up like this:"
-msgstr "Lakukan pengaturan berikut:"
+msgstr "Lakukan pengaturan sebagai berikut:"
 
 # d36b5d69db8d48fdb03682275b44a56f
 #: ../../vector_analysis/basic_analysis.rst:205
@@ -598,9 +610,9 @@ msgid ""
 "The :guilabel:`Buffer distance` is in meters because our input dataset is in "
 "a Projected Coordinate System. This is why we needed to use projected data!"
 msgstr ""
-":guilabel:`Buffer distance` dibuat dalam meter karena *dataset* masukan kita "
-"berada dalam Sistem Koordinat Proyeksi. Inilah sebabnya mengapa kita harus "
-"menggunakan data yang menggunakan sistem koordinat proyeksi!"
+":guilabel:`Buffer distance` dinyatakan dalam meter karena set data masukan "
+"berupa Sistem Koordinat Proyeksi. Inilah mengapa kita harus menggunakan data "
+"yang terproyeksi!"
 
 # 7c09d1846c804c5bae7eba62d390f318
 #: ../../vector_analysis/basic_analysis.rst:208
@@ -608,13 +620,13 @@ msgid ""
 "Save the resulting layer under :kbd:`exercise_data/residential_development/` "
 "as :kbd:`important_roads_buffer_500m.shp`."
 msgstr ""
-"Simpan *layer* yang dihasilkan di dalam folder :kbd:`exercise_data/"
-"residential_development/` sebagai :kbd:`important_roads_buffer_500m.shp`."
+"Simpan layer hasilnya pada folder :kbd:`exercise_data/"
+"residential_development/` dengan nama :kbd:`important_roads_buffer_500m.shp`."
 
 # 54efe99dc6624508b4592cda84ed4f50
 #: ../../vector_analysis/basic_analysis.rst:210
 msgid "Click :guilabel:`OK` and it will create the buffer."
-msgstr "Klik :guilabel:`OK`, QGIS akan membuat buffer."
+msgstr "Klik :guilabel:`OK` untuk membuat penyangga (buffer)."
 
 # cad371fe80ac488bb445cedbb72ddd91
 #: ../../vector_analysis/basic_analysis.rst:211
@@ -623,20 +635,19 @@ msgid ""
 "guilabel:`Yes`. (\"TOC\" stands for \"Table of Contents\", by which it means "
 "the :guilabel:`Layers list`)."
 msgstr ""
-"Ketika terdapat permintaan untuk \"*add new *layer* to the TOC* \", klik :"
-"guilabel:`Yes`. (\"TOC\" singkatan dari “Table of Contents “ /\"Daftar Isi"
-"\", yang berarti juga :guilabel:`*layer*s list`)."
+"Ketika muncul pertanyaan \"add new layer to the TOC\", klik :guilabel:`Yes`. "
+"(\"TOC\" merupakan singkatan dari “Table of Contents “ atau Daftar Isi yang "
+"juga berarti :guilabel:`Layers list`)."
 
 # 82294cd85c1647ccb2d52f6044d47406
 #: ../../vector_analysis/basic_analysis.rst:214
-#, fuzzy
 msgid "Now click on :guilabel:`Close` on the dialog box."
-msgstr "Klik tombol :guilabel:`Browse` di bawah dropdown."
+msgstr "Klik tombol :guilabel:`Browse` pada kotak dialog."
 
 # 03563a0c89cd47e2b37825dde010d36b
 #: ../../vector_analysis/basic_analysis.rst:216
 msgid "Now you've got this:"
-msgstr "Anda akan memperoleh hasil seperti gambar berikut:"
+msgstr "Hasilnya akan tampak seperti berikut ini:"
 
 # 5bf93cdab6434bf3a0345eb9e5d7b10b
 #: ../../vector_analysis/basic_analysis.rst:221
@@ -644,27 +655,26 @@ msgid ""
 "OK, that looks interesting! Those are all the areas that are within 500 "
 "meters of an important road."
 msgstr ""
-"Tampilan menarik tersebut berisi daerah- daerah yang berada dalam area 500 "
-"meter dari jalan penting."
+"Tampilan menarik tersebut terdiri atas daerah-daerah yang berada dalam "
+"radius 500 meter dari salah satu jalan utama."
 
 # a519cf914816445791f5348fcaf4147d
 #: ../../vector_analysis/basic_analysis.rst:224
-#, fuzzy
 msgid ""
 "But look closer: it looks like there are joins between different sections of "
 "road! That is not nice. Remove that layer and let us try again:"
 msgstr ""
-"Jika dilihat lebih dekat, tampilan di atas seperti gabungan antara bagian-"
-"bagian jalan. Secara visual, hal ini tidak baik. Hapus layer tersebut dan "
-"coba lagi:"
+"Tapi lihat lagi lebih dekat: Tampaknya ada sambungan diantara beberapa "
+"bagian jalan yang berbeda. Ini tidak bagus. Hapus layer tersebut dan mari "
+"coba kembali:"
 
 # dfa07071cf78438b8b3a83757ec863ff
 #: ../../vector_analysis/basic_analysis.rst:230
 msgid ""
 "Note that we're now checking the :guilabel:`Dissolve buffer results` box."
 msgstr ""
-"Perhatikan bahwa pilihan pada kotak :guilabel:`Dissolve buffer results` "
-"dicentang. "
+"Perhatikan bahwa kita sekarang mencentang kotak :guilabel:`Dissolve buffer "
+"results`. "
 
 # a7676a8ef3fb4e7288038a21decee22b
 #: ../../vector_analysis/basic_analysis.rst:231
@@ -672,8 +682,8 @@ msgid ""
 "Save the output under the same name as before (click :guilabel:`Yes` when it "
 "asks your permission to overwrite the old one)."
 msgstr ""
-"Simpan hasilnya dengan nama yang sama seperti sebelumnya (klik :guilabel:"
-"`Yes` ketika muncul pertanyaan apakah Anda akan menimpa isi file yang lama)."
+"Simpan keluaran dengan nama yang sama seperti sebelumnya (klik :guilabel:"
+"`Yes` ketika muncul pertanyaan apakah anda ingin menimpa file yang lama)."
 
 # 2ef566e20e494887b6c3784f2d2d6a47
 #: ../../vector_analysis/basic_analysis.rst:235
@@ -681,25 +691,27 @@ msgid ""
 "Once you've added the layer to the :guilabel:`Layers list`, it will look "
 "like this:"
 msgstr ""
-"Setelah Anda menambahkan *layer* tersebut ke :guilabel:`*layer*s list`, maka "
-"akan terlihat seperti ini:"
+"Setelah anda menambahkan layer tersebut ke dalam :guilabel:`layers list`, "
+"maka akan terlihat seperti berikut ini:"
 
 # cf92d698dfa443f4b8821c2e33e48ac1
 #: ../../vector_analysis/basic_analysis.rst:241
 msgid "That's more like it! Now there are no unnecessary subdivisions."
 msgstr ""
-"Tampilan ini lebih menarik daripada tampilan sebelumnya. Tidak ada lagi "
-"pertampalan-pertampalan buffer jalan."
+"Hasilnya lebih bagus! Tidak ada lagi percabangan-percabangan yang tidak "
+"perlu."
 
 # 71b4401574fc471483d7486c293fa504
 #: ../../vector_analysis/basic_analysis.rst:246
 msgid "|basic| |TY| distance from high schools"
-msgstr "|basic| Coba sendiri ... Jarak dari sekolah menengah"
+msgstr "|basic| Coba Sendiri: Jarak dari sekolah menengah"
 
 # a6d0462ed4cd4ae1bd0a6ccab1c9ff37
 #: ../../vector_analysis/basic_analysis.rst:248
 msgid "Use the same approach as above and create a buffer for your schools."
-msgstr "Gunakan pendekatan yang sama untuk membuat buffer untuk sekolah Anda."
+msgstr ""
+"Gunakan pendekatan yang sama seperti di atas dalam membuat daerah pembatas "
+"untuk sekolah."
 
 # 132a2338e0f848efaa717276f6b609b9
 #: ../../vector_analysis/basic_analysis.rst:250
@@ -707,18 +719,18 @@ msgid ""
 "It needs to be :kbd:`10 km` in radius, and saved under the usual directory "
 "as :kbd:`high_schools_buffer_10km.shp`."
 msgstr ""
-"Radius untuk buffer :kbd:`10 km`, dan simpan di dalam direktori yang sama "
-"sebagai :kbd:`high_schools_buffer_10km.shp`."
+"Radiusnya harus :kbd:`10 km`, kemudian simpan di dalam direktori yang sama "
+"dengan nama :kbd:`high_schools_buffer_10km.shp`."
 
 # 4d65868796ea4c499b83814617e381d4
 #: ../../vector_analysis/basic_analysis.rst:253
 msgid ":ref:`Check your results <vector-analysis-basic-2>`"
-msgstr ":ref:`Periksa hasil Anda <vector-analysis-basic-2>`"
+msgstr ":ref:`Periksa hasil yang anda peroleh <vector-analysis-basic-2>`"
 
 # 5730767b95ed421bb3ead54496156cb4
 #: ../../vector_analysis/basic_analysis.rst:256
 msgid "|basic| |FA| Overlapping Areas"
-msgstr "|basic| Ikuti bersama: Mengoverlay Area "
+msgstr "|basic| Ikuti Bersama: Membuat Daerah Perpotongan"
 
 # 1765d158779443339d8120122aecd2ee
 #: ../../vector_analysis/basic_analysis.rst:258
@@ -729,12 +741,12 @@ msgid ""
 "to use the :guilabel:`Intersect` tool. Find it under :menuselection:`Vector "
 "--> Geoprocessing Tools --> Intersect`. Set it up like this:"
 msgstr ""
-"Sekarang kita memiliki banyak pilihan lokasi yang ber jarak 500 meter dari "
-"jalan utama dan berada dalam radius 10 km dari sekolah. Kita hanya ingin "
-"lokasi yang memenuhi kedua kriteria tersebut dipenuhi semuanya. Untuk "
-"melakukan itu, kita harus menggunakan *tool* :guilabel:`Intersect`. Temukan "
-"di dalam folder  :menuselection:`Vector --> Geoprocessing *tool*s --> "
-"Intersect`. Lakukan pengaturan seperti berikut ini:"
+"Sekarang kita memiliki beberapa area yang berjarak 500 meter dari jalan "
+"utama dan berada dalam radius 10 km dari sekolah. Tetapi kita hanya "
+"menginginkan area yang dapat memenuhi kedua kriteria tersebut sekaligus! "
+"Untuk mencapai hal itu, kita harus menggunakan alat bantu :guilabel:"
+"`Intersect`. Alat bantu ini dapat ditemukan pada :menuselection:`Vector --> "
+"Geoprocessing Tools --> Intersect`. Lakukan pengaturan sebagai berikut:"
 
 # 5f351f7d32f24bd3850fe1b649cc2299
 #: ../../vector_analysis/basic_analysis.rst:267
@@ -744,9 +756,9 @@ msgid ""
 "like this, click :guilabel:`OK` and add the layer to the :guilabel:`Layers "
 "list` when prompted."
 msgstr ""
-"Kedua layer masukan adalah hasil buffer; simpan di lokasi sebagaimana biasa, "
-"beri nama filenya sebagai :kbd:`road_school_buffers_intersect.shp`.Setelah "
-"dilakukan pengaturan seperti ini, klik :guilabel:`OK`dan tambahkan layer ke :"
+"Gunakan kedua penyangga (buffer) sebagai layer masukan, lokasi penyimpanan "
+"data yang sama, dan nama file :kbd:`road_school_buffers_intersect.shp`. "
+"Lakukan pengaturan berikut ini, klik :guilabel:`OK`, dan tambahkan layer ke :"
 "guilabel:`Layers list` ketika diminta."
 
 # 3564a6e35a394327ba0eb87b6f8cd8ae
@@ -755,8 +767,8 @@ msgid ""
 "In the image below, the blue areas show us where both distance criteria are "
 "satisfied at once!"
 msgstr ""
-"Pada gambar di bawah ini daerah berwarna biru menunjukkan dimana kedua "
-"kriteria tersebut terpenuhi!"
+"Pada gambar di bawah ini, daerah berwarna biru menunjukkan lokasi dimana "
+"kedua kriteria tersebut terpenuhi sekaligus!"
 
 # d4c64440850443d2b01e9ee479ff86b6
 #: ../../vector_analysis/basic_analysis.rst:278
@@ -764,14 +776,13 @@ msgid ""
 "You may remove the two buffer layers and only keep the one that shows where "
 "they overlap, since that's what we really wanted to know in the first place."
 msgstr ""
-"Anda dapat menghapus kedua *layer* buffer dan hanya menyimpan satu saja yang "
-"menunjukkan di mana terdapat tumpang tindih, karena itulah yang benar-benar "
-"ingin kita ketahui dan butuhkan."
+"Anda dapat menghapus kedua layer daerah pembatas tersebut dan hanya "
+"menyimpan layer yang  menunjukkan area perpotongan yang kita inginkan."
 
 # dbea3a911cf34e05b00e476c657f118e
 #: ../../vector_analysis/basic_analysis.rst:284
 msgid "|basic| |FA| Select the Farms"
-msgstr "|basic| Ikuti bersama : Memilih petanian "
+msgstr "|basic| Ikuti Bersama:Memilih lahan pertanian "
 
 # b0597cdd2be2425bbd622781beaf94da
 #: ../../vector_analysis/basic_analysis.rst:286
@@ -779,9 +790,8 @@ msgid ""
 "Now you've got the area that the farms must overlap. Next, you want to "
 "select the farms in that area."
 msgstr ""
-"Sekarang Anda telah memperoleh area dimana terdapat lahan pertanian farms "
-"yang harus overlap. Selanjutnya Anda akan memilih lahan pertanian di lokasi "
-"tersebut. "
+"Setelah memperoleh area perpotongan yang diinginkan, selanjutnya anda dapat "
+"memilih lahan pertanian di area tersebut. "
 
 # 6beb1618f07b4902b7ff20517a2609cd
 #: ../../vector_analysis/basic_analysis.rst:289
@@ -789,20 +799,20 @@ msgid ""
 "Click on the menu entry :menuselection:`Vector --> Research Tools --> Select "
 "by location`. A dialog will appear."
 msgstr ""
-"Klik menu :menuselection:`Vector --> Research *tool*s --> Select by "
-"location`. Kotak dialog akan muncul."
+"Klik menu :menuselection:`Vector --> Research Tools --> Select by location` "
+"yang akan membuka kotak dialog baru."
 
 # e9ef98181e2b419d8a61a7849b1f8b6f
 #: ../../vector_analysis/basic_analysis.rst:296
 msgid "Click :guilabel:`OK` and you'll see the results:"
-msgstr "Klik :guilabel:`OK` dan Anda akan melihat hasilnya sebagai berikut:"
+msgstr "Klik :guilabel:`OK` dan anda akan memperoleh hasil sebagai berikut:"
 
 # a6cfa4d9ee4746338359fa94b6d8e9bd
 #: ../../vector_analysis/basic_analysis.rst:301
 msgid "The yellow farms are the selected ones. Let's save them as a new layer."
 msgstr ""
-"*Layer* farms dengan warna kuning adalah area pertanian yang terpilih . Mari "
-"kita simpan sebagai *layer* baru. "
+"Lahan pertanian berwarna kuning adalah lahan terpilih yang akan kita simpan "
+"sebagai layer baru. "
 
 # 4fe681646db941539d7fbdd354c04cb2
 #: ../../vector_analysis/basic_analysis.rst:303
@@ -810,8 +820,8 @@ msgid ""
 "Right-click on the :guilabel:`swellendam_farms` layer in the :guilabel:"
 "`Layers list`."
 msgstr ""
-"Klik kanan pada *layer* :guilabel:`swellendam_farms` di :guilabel:`*layer*s "
-"list`."
+"Klik kanan pada layer :guilabel:`swellendam_farms` yang terdapat di :"
+"guilabel:`Layers list`."
 
 # 90b60106bde844348421b3896459b265
 #: ../../vector_analysis/basic_analysis.rst:305
@@ -821,23 +831,25 @@ msgstr "Pilih :guilabel:`Save Selection As...`."
 # 71c8e40f49aa43d1acb42c4948fd3285
 #: ../../vector_analysis/basic_analysis.rst:306
 msgid "Set the dialog up like this:"
-msgstr "Lakukan pengaturan seperti berikut:"
+msgstr "Lakukan pengaturan pada kotak dialog sebagai berikut:"
 
 # a53def13d84a402d897795fdcd6b7584
 #: ../../vector_analysis/basic_analysis.rst:311
 msgid "The file name is :kbd:`well_located_farms.shp`."
-msgstr "Beri nama file tersebut :kbd:`well_located_farms.shp`."
+msgstr "Nama file :kbd:`well_located_farms.shp`."
 
 # 3bf300c3e1304efa99ff2f81798f18ff
 #: ../../vector_analysis/basic_analysis.rst:314
 msgid "Now you have the selection as a separate layer."
-msgstr "Sekarang Anda mempunyai hasil seleksi sebagai *layer* yang terpisah."
+msgstr ""
+"Sekarang hasil seleksi tersebut telah dimasukkan ke dalam layer yang "
+"terpisah."
 
 # 0608d1bf1bf743c9823638b7915b6c16
 #: ../../vector_analysis/basic_analysis.rst:317
 msgid "|basic| |FA| Select Farms of the Right Size"
 msgstr ""
-"|basic| Ikuti Bersama : Pilih area pertanian (farm) dengan ukuran yang sesuai"
+"|basic| Ikuti Bersama: Memilih Lahan Pertanian dengan Ukuran yang Sesuai"
 
 # d0f8a72233bf4a7fb275ef66562c1c80
 #: ../../vector_analysis/basic_analysis.rst:319
@@ -845,31 +857,30 @@ msgid ""
 "To see which farms are the right area (between 100 and 150 ha), we first "
 "need to calculate their areas in hectares."
 msgstr ""
-"Untuk melihat area pertanian yang sesuai (dengan luas antara 100 – 150 ha), "
-"pertama kita perlu menghitung luas pertanian dalam satuan hektar."
+"Untuk melihat lahan pertanian yang sesuai (dengan luas antara 100 – 150 ha), "
+"pertama-tama kita perlu menghitung luasnya dalam satuan hektar."
 
 # 91132fbbe6624bee9498ed889a23ab41
 #: ../../vector_analysis/basic_analysis.rst:322
 msgid "Open the attribute table for the :guilabel:`well_located_farms` layer."
-msgstr "Buka tabel atribut untuk *layer* :guilabel:`well_located_farms`."
+msgstr "Buka tabel atribut untuk layer :guilabel:`well_located_farms`."
 
 # 659f8995fbcb4a9f8fb2189ccd8c4b14
 #: ../../vector_analysis/basic_analysis.rst:323
 msgid "Enter edit mode:"
-msgstr "Pilih mode edit :"
+msgstr "Pilih modus penyuntingan:"
 
 # 911257674aae4076b8b7871537657ea4
 #: ../../vector_analysis/basic_analysis.rst:328
 msgid "Start the field calculator:"
-msgstr "Mulai field calculator :"
+msgstr "Buka kalkulator kolom:"
 
 # 9a24c4c638234b7f9810b1773d466841
 #: ../../vector_analysis/basic_analysis.rst:338
-#, fuzzy
 msgid "If you can not find :guilabel:`AREA` in the list, try this instead:"
 msgstr ""
-"Jika Anda tidak menemukan :guilabel:`AREA`dalam daftar, coba lakukan hal "
-"berikut:"
+"Jika anda tidak menemukan :guilabel:`AREA` pada daftar, coba lakukan langkah "
+"berikut ini:"
 
 # 53b6c1fb2f4a4597bb712997a773b1b8
 #: ../../vector_analysis/basic_analysis.rst:344
@@ -878,40 +889,40 @@ msgid ""
 "areas in hectares for all the farms in your :guilabel:`well_located_farms` "
 "layer."
 msgstr ""
-"Geser ke bagian kanan pada tabel atribut, :kbd:`AREA` Anda sekarang "
-"mempunyai luas dalam satuan hektar untuk semua pertanian dalam *layer* :"
-"guilabel:`well_located_farms` Anda."
+"Geser ke bagian kanan tabel atribut; kolom :kbd:`AREA` kini memiliki luas "
+"dalam satuan hektar untuk semua lahan pertanian dalam layer :guilabel:"
+"`well_located_farms`."
 
 # 8ac80b6146cd4deeaa8f2b09c549c1b1
 #: ../../vector_analysis/basic_analysis.rst:347
 msgid ""
 "Click the edit mode button again as above, and save your edits when prompted."
 msgstr ""
-"Klik tombol mode edit lagi seperti di atas, dan simpan hasil editan Anda "
-"ketika diminta."
+"Klik tombol modus penyuntingan sekali lagi seperti di atas dan simpan hasil "
+"penyuntingan anda ketika diminta."
 
 # e66bf07566a540d28a0606cc468f47a5
 #: ../../vector_analysis/basic_analysis.rst:348
 msgid "Do a query:"
-msgstr "Lakukan *query*:"
+msgstr "Buat permintaan data berikut ini:"
 
 # 3dee89459e474f1689d56e174b172e8f
 #: ../../vector_analysis/basic_analysis.rst:353
 msgid "Click :guilabel:`OK`. Your results should look like this:"
-msgstr "Klik :guilabel:`OK`. Hasil Anda harus seperti berikut:"
+msgstr "Klik :guilabel:`OK`. Hasilnya akan tampak seperti berikut ini:"
 
 # b63b34af18134a329889503566f18cc5
 #: ../../vector_analysis/basic_analysis.rst:358
 msgid ""
 "That's it! Those red farms are the ones satisfying your criteria. Well done!"
 msgstr ""
-"Lahan pertanian dengan warna merah merupakan lokasi yang sesuai kriteria "
+"Lahan pertanian berwarna merah merupakan lokasi yang sesuai dengan kriteria "
 "Anda. Selamat!"
 
 # f29201d8202a4dae876f2a48dbe0ab89
 #: ../../vector_analysis/basic_analysis.rst:361
 msgid "|basic| |TY|"
-msgstr "|basic| Coba Sendiri..."
+msgstr "|basic| Coba Sendiri:"
 
 # 809ed6f1835b4dd4a937ecf6ff980964
 #: ../../vector_analysis/basic_analysis.rst:363
@@ -920,9 +931,9 @@ msgid ""
 "doing so. The file should be saved under the usual directory, with the name :"
 "kbd:`solution.shp`."
 msgstr ""
-"Simpan hasil Anda sebagai sebuah *layer* baru, gunakan cara yang telah kita "
-"pelajari sebelumnya. File tersebut harus disimpan di dalam direktori kerja "
-"kita dengan nama :kbd:`solution.shp`."
+"Simpan hasil pekerjaan anda sebagai layer baru dengan menggunakan pendekatan "
+"yang telah kita pelajari sebelumnya. Simpan file tersebut dalam direktori "
+"kerja yang biasa digunakan, beri nama :kbd:`solution.shp`."
 
 # 040e0f1a4b5f438a9749d85d57fd91da
 # 3ba853cfc6b64c29af9770739ec2fa78
@@ -931,7 +942,6 @@ msgstr ""
 #: ../../vector_analysis/basic_analysis.rst:368
 #: ../../vector_analysis/network_analysis.rst:229
 #: ../../vector_analysis/reproject_transform.rst:175
-#: ../../vector_analysis/reproject_transform.rst:256
 #: ../../vector_analysis/spatial_statistics.rst:444
 msgid "|IC|"
 msgstr "Kesimpulan"
@@ -943,9 +953,9 @@ msgid ""
 "tools, you were able to solve a problem with multiple criteria quickly and "
 "easily."
 msgstr ""
-"Dengan menggunakan penyelesaian masalah SIG menggunakan *tool* analisis "
-"vektor dalam QGIS, Anda telah mampu menyelesaikan masalah dengan berbagai "
-"kriteria dengan cepat dan mudah."
+"Dengan menggunakan pendekatan pemecahan masalah SIG menggunakan alat bantu "
+"analisis vektor dalam QGIS, anda telah berhasil menyelesaikan sebuah "
+"permasalahan dengan sejumlah kriteria secara cepat dan mudah."
 
 # 95964a1f42ff4955816763a8fa78053c
 # f24e7ef47a074bf1a4535eddb3d3eb40
@@ -964,6 +974,8 @@ msgid ""
 "In the next lesson, we will look at Plugins, and how they can help you with "
 "your mapping tasks."
 msgstr ""
+"Pada bagian berikutnya, kita akan membahas mengenai Plugin dan bagaimana hal "
+"tersebut dapat membantu tugas pemetaan anda."
 
 # 3881382b305f4434bc6aade53118e0dc
 #: ../../vector_analysis/index.rst:3
@@ -978,14 +990,15 @@ msgid ""
 "said and done, this doesn't really tell you anything that a normal, non-GIS "
 "map can't."
 msgstr ""
-"Setelah Anda mengedit beberapa fitur, Anda perlu tahu apa yang bisa "
-"dilakukan dengan fitur tersebut. Memiliki fitur dengan atribut yang bagus "
-"tidak benar-benar bias membedakannya dengan peta non-SIG."
+"Setelah anda menyunting beberapa fitur, anda pasti ingin tahu apa lagi yang "
+"bisa dilakukan dengan fitur tersebut. Fitur dengan atribut merupakan hal "
+"yang bagus, namun tidak dapat sepenuhnya memberikan informasi yang tidak "
+"dapat disampaikan oleh peta non-SIG biasa."
 
 # 8bcbfb2d8f454124837252202cfb599e
 #: ../../vector_analysis/index.rst:10
 msgid "The key advantage of a GIS is this: *a GIS can answer questions.*"
-msgstr "Kelebihan SIG adalah: *SIG dapat menjawab pertanyaan.*"
+msgstr "Kelebihan utama dari SIG adalah: *SIG dapat menjawab pertanyaan.*"
 
 # 4d60edfe10414773944033b1ae5402d0
 #: ../../vector_analysis/index.rst:12
@@ -994,21 +1007,25 @@ msgid ""
 "can use to answer a *research question* similar to what you may be asked to "
 "do as part of your job. This will include:"
 msgstr ""
+"Dalam tiga modul selanjutnya, kita akan membahas fungsi-fungsi SIG yang "
+"dapat anda gunakan untuk menjawab *pertanyaan riset* yang mungkin menyerupai "
+"tugas-tugas yang anda kerjakan. Ini mencakup:"
 
 # 7d07c70c8a464441b8cdcec0e268bb7d
 #: ../../vector_analysis/index.rst:16
 msgid "projecting layers according to your needs"
-msgstr ""
+msgstr "Memproyeksikan layer sesuai dengan kebutuhan"
 
 # 537714bf603843af9ded5d84b200f679
 #: ../../vector_analysis/index.rst:17
-msgid "using Simple Query Language (SQL) to find particular data"
+msgid "using Structured Query Language (SQL) to find particular data"
 msgstr ""
+"menggunakan Structured Query Language (SQL) untuk mencari data tertentu"
 
 # 69322688ab52422b8497051121b62ced
 #: ../../vector_analysis/index.rst:18
 msgid "creating buffers"
-msgstr ""
+msgstr "membuat penyangga (buffer)"
 
 # 982130bfd30a4a06bbd8722e016cea8a
 #: ../../vector_analysis/index.rst:19
@@ -1016,14 +1033,14 @@ msgid ""
 "finding data contained in more than one layer using the :guilabel:"
 "`Intersect` tool"
 msgstr ""
+"menemukan data yang tercantum pada lebih dari satu layer dengan menggunakan "
+"alat bantu :guilabel:`Intersect`"
 
 # a8134dc3d9ce42e087649394e48df2e2
 #: ../../vector_analysis/index.rst:20
-#, fuzzy
 msgid "find data using the :guilabel:`Select by location` tool"
 msgstr ""
-"Pada jendela utama, aktifkan *tool* :guilabel:`Select Features by "
-"Rectangle` :"
+"menemukan data dengan menggunakan alat bantu :guilabel:`Select by location`"
 
 # 6ce06d9c755d48b88afb8970fcff366c
 #: ../../vector_analysis/network_analysis.rst:2
@@ -1037,9 +1054,10 @@ msgid ""
 "for GIS. QGIS ships with this tool, but it's not visible by default. In this "
 "brief lesson, we'll show you what you need to get started."
 msgstr ""
-"Menghitung jarak terpendek antara dua titik sangat sering dilakukan dalam "
-"SIG. QGIS menyediakan *tool* ini, tapi itu tidak terlihat dalam default. "
-"Kita akan belajar cara melakukannya dalam latihan singkat ini."
+"Menghitung jarak terpendek di antara dua titik merupakan penggunaan umum "
+"dari SIG. QGIS memiliki alat bantu untuk tujuan ini, tetapi tidak "
+"diperlihatkan secara default. Dalam latihan singkat ini, kita akan membahas "
+"apa yang anda perlukan untuk mulai menggunakannya."
 
 # 9fd81a2f8a7f48759c83cb0bcc669551
 #: ../../vector_analysis/network_analysis.rst:8
@@ -1047,13 +1065,13 @@ msgid ""
 "**The goal for this lesson:** To activate, configure and use the :guilabel:"
 "`Road Graph` plugin."
 msgstr ""
-"**Tujuan untuk pelajaran ini**: Untuk mengaktifkan, mengkonfigurasi dan "
-"menggunakan plugin :guilabel:`Road Graph`."
+"**Tujuan pelajaran ini**: Mengaktifkan, mengkonfigurasi, dan menggunakan "
+"plugin :guilabel:`Road Graph`."
 
 # c3fd511f2d6f4823ab63b59f77cb9b8e
 #: ../../vector_analysis/network_analysis.rst:12
 msgid "|basic| |FA| Activate the Tool"
-msgstr "|basic| Ikuti bersama: Aktifkan *tool*"
+msgstr "|basic|Ikuti Bersama: Aktifkan Alat Bantu"
 
 # 07f9606467be4f299983b43bf196acc5
 #: ../../vector_analysis/network_analysis.rst:14
@@ -1063,15 +1081,16 @@ msgid ""
 "They're still hidden by default, though. So in order to use them, you need "
 "to activate them first."
 msgstr ""
-"QGIS memiliki banyak plugin yang menambah fungsi dasarnya, yang sebagian "
-"langsung disediakan bersama dengan program defaultnya. Sebagian besar plugin-"
-"plugin tersebut masih tersembunyi secara default sehingga Anda perlu "
-"mengaktifkan plugin tersebut terlebih dahulu."
+"QGIS memiliki banyak plugin untuk menambah fungsi dasarnya. Banyak dari "
+"perangkat lunak pembantu ini sangat berguna sehingga langsung disediakan "
+"bersama dengan program utamanya. Namun biasanya perangkat pembantu ini "
+"sengaja dibuat tersembunyi dan harus diaktifkan terlebih dahulu sebelum anda "
+"dapat menggunakannya."
 
 # fb6ad9d892c94ee59230d448f2ee3d50
 #: ../../vector_analysis/network_analysis.rst:19
 msgid "To activate the :guilabel:`Road Graph` plugin:"
-msgstr "Untuk mengaktifkan plugin :guilabel:`Road Graph`:"
+msgstr "Cara mengaktifkan plugin :guilabel:`Road Graph`:"
 
 # 4ee2c4a07f8f4cae96f2e0e58aa4c04b
 #: ../../vector_analysis/network_analysis.rst:21
@@ -1079,19 +1098,19 @@ msgid ""
 "Start the :guilabel:`Plugin Manager` by clicking on the QGIS main window's "
 "menu item :menuselection:`Plugins --> Manage Plugins`. A dialog appears."
 msgstr ""
-"Mulai :guilabel:`Plugin Manager` dengan mengklik item jendela menu utama "
-"QGIS  :menuselection:`Plugins --> Manage Plugins`.. Sebuah kotak dialog akan "
-"muncul."
+"Buka :guilabel:`Plugin Manager` dengan mengklik item menu :menuselection:"
+"`Plugins --> Manage Plugins`pada jendela utama QGIS. Sebuah kotak dialog "
+"akan muncul."
 
 # 4289157fd2004ac0800fe025a1a61691
 #: ../../vector_analysis/network_analysis.rst:23
 msgid "Select the plugin like this:"
-msgstr "Pilih plugin seperti ini:"
+msgstr "Pilih plugin dengan cara berikut ini:"
 
 # f6de1c070d5945268dc6cd34315f1162
 #: ../../vector_analysis/network_analysis.rst:28
 msgid "Click :guilabel:`OK` on the :guilabel:`Plugin Manager` dialog."
-msgstr "Klik :guilabel:`OK` pada kotak dialog :guilabel:`Plugin Manager` ."
+msgstr "Klik :guilabel:`OK` pada kotak dialog :guilabel:`Plugin Manager`."
 
 # 57701a2b0a764cf6918ff0c7e4396e6f
 #: ../../vector_analysis/network_analysis.rst:29
@@ -1099,19 +1118,19 @@ msgid ""
 "To see the plugin in your interface, go to :menuselection:`View --> Panels` "
 "and ensure that :guilabel:`Shortest path` has a check mark next to it."
 msgstr ""
-"Untuk melihat plugin dalam tampilan antarmuka Anda, klik :menuselection:"
-"`View --> Panels` dan pastikan bahwa :guilabel:`Shortest path` mempunyai "
-"tanda centang disebelahnya."
+"Untuk melihat plugin pada tampilan antarmuka, klik :menuselection:`View --> "
+"Panels` dan pastikan bahwa :guilabel:`Shortest path` memiliki tanda centang "
+"disebelahnya."
 
 # e941f75ef34c42cc9844ee40d38789f2
 #: ../../vector_analysis/network_analysis.rst:32
 msgid "This panel will appear in your interface:"
-msgstr "Panel berikut akan muncul dalam jendela QGIS Anda:"
+msgstr "Panel berikut akan muncul pada jendela antarmuka:"
 
 # 1294c5c8c83b487c80e2259f366ebaac
 #: ../../vector_analysis/network_analysis.rst:39
 msgid "|basic| |FA| Configure the Tool"
-msgstr "|basic| Ikuti bersama: Konfigurasi Alat"
+msgstr "|basic| Ikuti Bersama: Konfigurasi Alat Bantu"
 
 # 2935548b310a4970acdfa799bdef54a8
 #: ../../vector_analysis/network_analysis.rst:41
@@ -1120,8 +1139,8 @@ msgid ""
 "new map and load the layer :guilabel:`exercise_data/projected_data/roads_33S."
 "shp`."
 msgstr ""
-"Untuk memiliki *layer* yang akan dihitung, terlebih dahulu simpan peta Anda "
-"saat ini. Kemudian buat peta baru dan muat *layer* :guilabel:`exercise_data/"
+"Untuk membuat layer yang akan dihitung, simpan peta anda terlebih dahulu. "
+"Kemudian buat peta baru dan muat layer :guilabel:`exercise_data/"
 "projected_data/roads_33S.shp`."
 
 # 633df58a9db74fd084f3d5d2a303563a
@@ -1131,9 +1150,10 @@ msgid ""
 "the plugin doesn't assume anything before you've set it up. Unfortunately, "
 "this means that it won't do anything at all if you don't set it up first."
 msgstr ""
-"Karena begitu banyak konfigurasi yang berbeda yang mungkin ketika melakukan "
-"analisis jaringan, plugin Road graph belum bisa digunakan sebelum Anda "
-"mengaturnya. "
+"Karena begitu banyaknya kemungkinan konfigurasi yang berbeda ketika "
+"menganalisis jaringan, plugin ini tidak akan membuat asumsi apapun sampai "
+"anda menyiapkannya. Sayangnya, ini berarti plugin tersebut belum dapat "
+"digunakan sampai anda mengaturnya. "
 
 # a325574314d84f178407ef633ee9ffc4
 #: ../../vector_analysis/network_analysis.rst:48
@@ -1141,14 +1161,16 @@ msgid ""
 "Click on the menu item :menuselection:`Plugins --> Road graph --> Road graph "
 "settings`. A dialog will appear."
 msgstr ""
-"Klik pada item menu :menuselection:`Plugins --> Road graph --> Road graph "
+"Klik item menu :menuselection:`Plugins --> Road graph --> Road graph "
 "settings`. . Sebuah kotak dialog akan muncul."
 
 # e875e630c3b449ffad321e45af2414df
 #: ../../vector_analysis/network_analysis.rst:50
 msgid ""
 "Make sure it's set up like this (use defaults unless otherwise specified):"
-msgstr "Pastikan kotak dialog tersebut diatur seperti gambar berikut ini:"
+msgstr ""
+"Pastikan kotak dialog ini diatur seperti gambar berikut ini (gunakan nilai "
+"default kecuali disebutkan sebaliknya):"
 
 # 00c3f04c1c8d45fb9078f6a731dc705b
 #: ../../vector_analysis/network_analysis.rst:55
@@ -1185,12 +1207,12 @@ msgstr ":guilabel:`Speed`: :guilabel:`60`"
 # d826dc51febe41efa361607b02ceadc8
 #: ../../vector_analysis/network_analysis.rst:68
 msgid "|basic| |FA| Use the Tool"
-msgstr "|basic| Ikuti bersama: Menggunakan *tool*"
+msgstr "|basic|Ikuti Bersama: Menggunakan Plugin"
 
 # 87a25b5dcb554d7996f22a72b8ee64e7
 #: ../../vector_analysis/network_analysis.rst:70
 msgid "Let's say you want to get from Barrydale to Bonnievale:"
-msgstr "Misalnya Anda ingin bepergian dari Barrydale ke Bonnievale:"
+msgstr "Misalnya saja anda ingin bepergian dari Barrydale ke Bonnievale:"
 
 # d4e72659156641d39469374d0877d04c
 #: ../../vector_analysis/network_analysis.rst:75
@@ -1198,8 +1220,8 @@ msgid ""
 "In the plugin panel, click on the :guilabel:`Capture Point` button next to "
 "the :guilabel:`Start` field:"
 msgstr ""
-"Dalam panel plugin, klik pada tombol :guilabel:`Capture Point` kemudian "
-"pilih :guilabel:`Start`:"
+"Dalam panel plugin, klik tombol :guilabel:`Capture Point` di sebelah kolom :"
+"guilabel:`Start`:"
 
 # 2a2f3f3c65e142ae8a7285d8522fb5d0
 #: ../../vector_analysis/network_analysis.rst:81
@@ -1212,18 +1234,18 @@ msgid ""
 "Use the :guilabel:`Capture Point` button next to the :guilabel:`Stop` field "
 "and capture a point somewhere in Bonnievale."
 msgstr ""
-"Gunakan tombol :guilabel:`Capture Point` kemudian pilih :guilabel:`Stop` dan "
-"pilih titik di suatu tempat di Bonnievale."
+"Gunakan tombol :guilabel:`Capture Point` di sebelah kolom :guilabel:`Stop` "
+"dan pilih sebuah titik di suatu tempat di Bonnievale."
 
 # d168c64cd80f4e119db62db7c417a3ca
 #: ../../vector_analysis/network_analysis.rst:84
 msgid "Click on the :guilabel:`Calculate` button to see the solution:"
-msgstr "Klik pada tombol :guilabel:`Calculate` untuk melihat hasilnya:"
+msgstr "Klik tombol :guilabel:`Calculate` untuk melihat hasilnya:"
 
 # 36ad78dda85244e7bafd6abbf5eb397e
 #: ../../vector_analysis/network_analysis.rst:93
 msgid "|moderate| |FA| Using Criteria"
-msgstr "|moderate| Ikuti bersama: Menggunakan Kriteria"
+msgstr "|moderate| Ikuti Bersama: Menggunakan Kriteria"
 
 # 8889da467de24da2a370a3f917b428fd
 #: ../../vector_analysis/network_analysis.rst:95
@@ -1231,20 +1253,20 @@ msgid ""
 "Section developed by Linfiniti and S Motala (Cape Peninsula University of "
 "Technology)"
 msgstr ""
-"Bagian ini dikembangkan oleh Linfiniti dan S Motala (Cape Peninsula "
-"University of Technology)"
+"Bagian ini dikembangkan oleh Linfiniti dan S Motala (Universitas Teknologi "
+"Cape Peninsula)"
 
 # cba8d671929f4fc18641bb6cbb50f3a3
 #: ../../vector_analysis/network_analysis.rst:98
 msgid "Add the layer :guilabel:`exercise_data/projected_data/places_33S.shp`."
 msgstr ""
-"Tambahkan *layer* :guilabel:`exercise_data/projected_data/places_33S.shp`."
+"Tambahkan layer :guilabel:`exercise_data/projected_data/places_33S.shp`."
 
 # 4a1811cbba9f44838c26ec4b6ee7a0bb
 #: ../../vector_analysis/network_analysis.rst:99
 msgid "Add the aerial photographs under :guilabel:`exercise_data/raster/`."
 msgstr ""
-"Tambahkan foto udara yang terdapat di dalam folder  :guilabel:`exercise_data/"
+"Tambahkan foto udara yang terdapat pada folder :guilabel:`exercise_data/"
 "raster/`."
 
 # ff68c43760cb4b10be19b3e5e99153e6
@@ -1253,7 +1275,7 @@ msgid ""
 "Zoom to the Swellendam area (the town / cluster of roads in the center of "
 "the map)."
 msgstr ""
-"Perbesar tampilan ke daerah Swellendam (kota / kluster jalan di tengah peta)."
+"Perbesar tampilan daerah Swellendam (kota / kluster jalan di tengah peta)."
 
 # 9efbe883e06f4c25a380916fb70f006e
 #: ../../vector_analysis/network_analysis.rst:102
@@ -1263,8 +1285,8 @@ msgid ""
 "the road layer:"
 msgstr ""
 "Pilih jalan yang hanya memenuhi kategori  :kbd:`trunk`, :kbd:`primary` "
-"atau  :kbd:`tertiary`dengan menjalankan query untuk menyeleksi atribut pada "
-"layer road:"
+"atau  :kbd:`tertiary`dengan menjalankan query berikut ini untuk menyeleksi "
+"atribut pada layer road:"
 
 # 6dbb86088fe6456aa42ea6b2bdb84c17
 #: ../../vector_analysis/network_analysis.rst:110
@@ -1272,7 +1294,7 @@ msgid ""
 "Right-click on the :guilabel:`roads_33S` layer in the :guilabel:`Layers "
 "list`."
 msgstr ""
-"Klik kanan pada *layer* :guilabel:`roads_33S`dalam :guilabel:`*layer*s list`."
+"Klik kanan pada layer :guilabel:`roads_33S`di dalam :guilabel:`Layers List`."
 
 # 69ec43d8ac40470ab56d8710480bfa08
 #: ../../vector_analysis/network_analysis.rst:111
@@ -1280,7 +1302,7 @@ msgid ""
 "Save it out to a new file, :kbd:`roads_subset`. Only the currently visible "
 "features will be saved."
 msgstr ""
-"Simpan ke file baru, dengan nama :kbd:`roads_subset`. Hanya fitur yang "
+"Simpan sebagai file baru dengan nama :kbd:`roads_subset`. Hanya fitur yang "
 "terlihat yang akan disimpan."
 
 # 0761d019b157433ca2175024c9e3019b
@@ -1288,7 +1310,7 @@ msgstr ""
 msgid ""
 "Remove the original :guilabel:`roads_33S` layer from the :guilabel:`Layers "
 "list`."
-msgstr "Hapus *layer*  :guilabel:`roads_33S`dalam :guilabel:`*layer*s list`."
+msgstr "Hapus layer :guilabel:`roads_33S`semula dari :guilabel:`Layers List`."
 
 # d445ac97fdf64e179be95abf23b348f7
 #: ../../vector_analysis/network_analysis.rst:115
@@ -1296,8 +1318,8 @@ msgid ""
 "Open the attribute table for the :guilabel:`roads_subset` layer and enter "
 "edit mode:"
 msgstr ""
-"Buka tabel atribut untuk *layer* :guilabel:`roads_subset` dan masuk ke mode "
-"edit:"
+"Buka tabel atribut untuk layer :guilabel:`roads_subset` dan masuk ke modus "
+"penyuntingan:"
 
 # 80b12c53b7ae4a3c9d6b7bc69d371ec9
 #: ../../vector_analysis/network_analysis.rst:121
@@ -1310,8 +1332,8 @@ msgid ""
 "Call this new column :kbd:`SPEED`, and give it the type :guilabel:`Whole "
 "number (integer)` with a width of :kbd:`3`."
 msgstr ""
-"Beri nama kolom baru tersebut sebagai :kbd:`SPEED`, dan definisikan tipe "
-"datanya sebagai :guilabel:`Whole integer (number)` dengan lebar :kbd:`3`."
+"Beri nama kolom baru tersebut sebagai :kbd:`SPEED` dan definisikan jenis "
+"datanya sebagai :guilabel:`Whole number (integer)` dengan lebar :kbd:`3`."
 
 # a8134dc3d9ce42e087649394e48df2e2
 #: ../../vector_analysis/network_analysis.rst:128
@@ -1319,13 +1341,13 @@ msgid ""
 "In the main window, activate the :guilabel:`Select Features by Rectangle` "
 "tool:"
 msgstr ""
-"Pada jendela utama, aktifkan *tool* :guilabel:`Select Features by "
-"Rectangle` :"
+"Pada jendela utama, aktifkan alat bantu :guilabel:`Select Features by "
+"Rectangle`:"
 
 # 8e3bae4473c7471585949764db7ae2e2
 #: ../../vector_analysis/network_analysis.rst:134
 msgid "Select these roads:"
-msgstr "Pilih jalan berikut:"
+msgstr "Pilih jalan-jalan berikut ini:"
 
 # 3001bff1853245e295ef515cf530d996
 #: ../../vector_analysis/network_analysis.rst:139
@@ -1333,8 +1355,8 @@ msgid ""
 "(To select more than one road, hold the :kbd:`ctrl` button and drag a box "
 "across any road that you want to include in the selection.)"
 msgstr ""
-"(untuk memilih lebih dari satu jalan, tekan tombol ctrl dan geser kotak "
-"melewati jalan yang Anda inginkan untuk masuk dalam seleksi jalan tersebut.)"
+"(Untuk memilih lebih dari satu jalan, tahan tombol :kbd:`ctrl` dan buat "
+"kotak melewati jalan yang ingin anda sertakan.)"
 
 # 69c35fd66d644c8382330de79f85b087
 #: ../../vector_analysis/network_analysis.rst:142
@@ -1346,8 +1368,7 @@ msgstr "Pada tabel atribut, klik pada kotak :guilabel:`Show selected only`."
 #: ../../vector_analysis/network_analysis.rst:143
 msgid "Set the :kbd:`SPEED` value for all the selected streets to :kbd:`60`:"
 msgstr ""
-"Lakukan pengaturan nilai :kbd:`SPEED` untuk semua jalan yang terpilih "
-"senilai :kbd:`60`:"
+"Atur nilai :kbd:`SPEED` untuk semua jalan yang terpilih menjadi :kbd:`60`:"
 
 # 04fbcb4c070e487bab906134a9d9fd33
 #: ../../vector_analysis/network_analysis.rst:148
@@ -1355,8 +1376,8 @@ msgid ""
 "In context, this means that you're setting the speed limit on those roads "
 "to :kbd:`60 km/h`."
 msgstr ""
-"Hal tersebut berarti Anda mengatur batas kecepatan pada jalan tersebut "
-"adalah  :kbd:`60 km/h`."
+"Dalam konteks ini berarti anda mengatur batas kecepatan pada jalan tersebut "
+"menjadi :kbd:`60 km/h`."
 
 # 9c7d80d11eec4a61a8a71b99fc54bedc
 #: ../../vector_analysis/network_analysis.rst:151
@@ -1367,14 +1388,14 @@ msgstr "Pilih jalan raya di luar kota:"
 #: ../../vector_analysis/network_analysis.rst:156
 msgid "Set the :kbd:`SPEED` value for all the selected streets to :kbd:`120`."
 msgstr ""
-"Atur nilai :kbd:`SPEED` untuk semua jalan yang terpilih senilai Set the :kbd:"
-"`SPEED` value for all the selected streets to :kbd:`120`."
+"Atur nilai :kbd:`SPEED` untuk semua jalan yang terpilih menjadi :kbd:`120`."
 
 # 4981a9e035944621bb91a042e3dc7213
 #: ../../vector_analysis/network_analysis.rst:157
 msgid "Close the attribute table, save your edits, and exit edit mode."
 msgstr ""
-"Tutup tabel atribut, simpan hasil pengeditan Anda, dan keluar dari mode edit."
+"Tutup tabel atribut, simpan hasil suntingan anda, dan keluar dari modus "
+"penyuntingan."
 
 # bf5138f877fd4571ad3a6e20817e427b
 #: ../../vector_analysis/network_analysis.rst:158
@@ -1384,7 +1405,9 @@ msgid ""
 "the :guilabel:`Speed` value set to the :kbd:`SPEED` field you just created."
 msgstr ""
 "Periksa :menuselection:`Vector --> Road graph --> Road graph settings` untuk "
-"meyakinkan bahwa jalan tersebut telah diatur dengan benar."
+"memastikan semua pengaturan telah sesuai dengan penjelasan pada materi ini, "
+"kecuali nilai :guilabel:`Speed`ditautkan dengan kolom :kbd:`SPEED` yang "
+"sudah anda buat."
 
 # 47d16cae50cb42c3ac6c8e597c6c8602
 #: ../../vector_analysis/network_analysis.rst:161
@@ -1392,7 +1415,7 @@ msgid ""
 "In the :guilabel:`Shortest path` panel, click the :guilabel:`Start point` "
 "button."
 msgstr ""
-"Pada panel :guilabel:`Shortest path`klik tombol :guilabel:`Start point`."
+"Pada panel :guilabel:`Shortest path`, klik tombol :guilabel:`Start point`."
 
 # b5c009ee43864b5a9e9c87a4243a0a2e
 #: ../../vector_analysis/network_analysis.rst:163
@@ -1400,13 +1423,13 @@ msgid ""
 "Set the starting point to where the dirt road meets the on/off-rqamp at the "
 "edge of town on the east."
 msgstr ""
-"Atur titik awal dimana jalan tanah memenuhi on / off-ramp di bagian timur "
-"kota."
+"Tentukan titik awal di mana jalan tanah bertemu dengan lajur masuk / keluar "
+"di bagian ujung timur kota."
 
 # f42858a399d64edbab8c2ac1531fac21
 #: ../../vector_analysis/network_analysis.rst:165
 msgid "Set the end point to the T-junction west of town."
-msgstr "Atur titik akhir ke pertigaan di sebelah barat kota."
+msgstr "Tentukan titik akhir di pertigaan sebelah barat kota."
 
 # d7b30b2f2bfb44ccba1e5f6fa6799abd
 #: ../../vector_analysis/network_analysis.rst:170
@@ -1414,8 +1437,8 @@ msgid ""
 "In the :guilabel:`Criterion` drop-down list in the :guilabel:`Shortest path` "
 "panel, select :guilabel:`Length`."
 msgstr ""
-"Pada daftar :guilabel:`Criterion` di panel :guilabel:`Shortest path` , "
-"pilih :guilabel:`Length`."
+"Pilih :guilabel:`Length`dalam daftar :guilabel:`Criterion` pada panel :"
+"guilabel:`Shortest path`."
 
 # 0a47e895e62441df88cdb7358d8e4cac
 #: ../../vector_analysis/network_analysis.rst:172
@@ -1444,7 +1467,7 @@ msgid ""
 "Click :guilabel:`Calculate` again. The route will be calculated for the "
 "shortest time:"
 msgstr ""
-"Klik :guilabel:`Calculate` lagi. Rute akan dihitung untuk waktu terpendek:"
+"Klik kembali :guilabel:`Calculate`. Rute akan dihitung untuk waktu terpendek:"
 
 # c142b04d802342b690b22dd531891c4a
 #: ../../vector_analysis/network_analysis.rst:188
@@ -1457,21 +1480,22 @@ msgid ""
 "may want to split roads into smaller sections and note the average or "
 "expected speed in each section, rather than the speed limit."
 msgstr ""
-"Anda dapat mengubah kriteria ini, melakukan perhitungan ulang , dan "
-"mengamati perubahan dalam Length dan Time yang dihasilkan. Asumsi yang "
-"dibuat untuk menghitung waktu perjalanan dalam rute tersebut tidak "
-"memperhitungkan percepatan, dan mengasumsikan bahwa Anda akan bepergian pada "
-"batas kecepatan tersebut setiap saat. Dalam situasi nyata, Anda mungkin "
-"ingin membagi jalan menjadi beberapa bagian kecil dan memperhatikan "
-"kecepatan rata-rata atau prediksi kecepatan riil dalam setiap penggal jalan, "
-"bukan batas kecepatannya."
+"Anda dapat mengubah kriteria ini sambil melakukan perhitungan ulang, "
+"kemudian mengamati perubahan :guilabel:`Length` dan :guilabel:`Time` yang "
+"dihasilkan. Ingatlah bahwa asumsi yang dibuat untuk menghitung waktu "
+"perjalanan pada suatu rute tidak mempertimbangkan percepatan maupun "
+"mengasumsikan bahwa anda akan bepergian pada batas kecepatan tersebut setiap "
+"saat. Dalam situasi nyata, anda mungkin ingin membagi jalan-jalan tersebut "
+"menjadi beberapa bagian yang lebih kecil dan memperhatikan kecepatan rata-"
+"rata atau prediksi kecepatan pada setiap bagiannya ketimbang menggunakan "
+"batas kecepatan."
 
 # 4ddd562cf70f435caf989927fbe10924
 # 437d0de23bcf4e018243c3a4c13e0c63
 #: ../../vector_analysis/network_analysis.rst:197
 #: ../../vector_analysis/spatial_statistics.rst:306
 msgid "|moderate| |TY|"
-msgstr "|moderate| Coba sendiri"
+msgstr "|moderate| Coba Sendiri:"
 
 # 6272a9eb2595481284ec3e4abd9d6898
 #: ../../vector_analysis/network_analysis.rst:199
@@ -1482,7 +1506,7 @@ msgstr "Lakukan digitasi jalan di Railton."
 #: ../../vector_analysis/network_analysis.rst:201
 msgid "These are the main roads, type :guilabel:`tertiary`, speed :kbd:`60`:"
 msgstr ""
-"Jalan tersebut adalah jalan utama, dengan tipe :guilabel:`tertiary`, dan "
+"Ini adalah jalan-jalan utama dengan jenis jalan :guilabel:`tertiary` dan "
 "batas kecepatan :kbd:`60`:"
 
 # da7a57706b67429bb62117835c2172f2
@@ -1491,8 +1515,8 @@ msgid ""
 "And these are the smaller streets, type :guilabel:`residential`, speed :kbd:"
 "`40`:"
 msgstr ""
-"Selanjutnya, digitasi jalan-jalan yang lebih kecil bertipe :guilabel:"
-"`residential` dengan kecepatan :kbd:`40`:"
+"Dan ini adalah jalan-jalan yang lebih kecil dengan jenis jalan :guilabel:"
+"`residential` dan batas kecepatan :kbd:`40`:"
 
 # 70db3569839d46958a351a86799aea4b
 #: ../../vector_analysis/network_analysis.rst:212
@@ -1500,8 +1524,9 @@ msgid ""
 "Use the :guilabel:`Shortest path` tool to calculate the shortest and fastest "
 "ways to get from the southern extreme of town to the highway."
 msgstr ""
-"Gunakan *tool* :guilabel:`Shortest path` untuk menghitung jalan terpendek "
-"dan tercepat untuk mencapai dari selatan ke kota menuju jalan raya."
+"Gunakan alat bantu :guilabel:`Shortest path` untuk menghitung rute terpendek "
+"dan tercepat untuk bepergian dari ujung selatan kota hingga mencapai jalan "
+"raya."
 
 # 705b706d7a634627a9c36bd48257a0ae
 #: ../../vector_analysis/network_analysis.rst:215
@@ -1514,14 +1539,13 @@ msgid ""
 "intersecting, use the :guilabel:`Split features` tool to \"split\" roads at "
 "their intersections:"
 msgstr ""
-"Jika pada saat klik :guilabel:`Calculate`, Anda mendapatkan pesan kesalahan "
-"yang menyatakan bahwa path tidak dapat ditemukan, pastikan bahwa jalan yang "
-"Anda digit telah benar-benar saling bertemu satu sama lain. Jika jalan-jalan "
-"tersebut tidak saling bertemu, perbaiki dengan memodifikasi featurenya, atau "
-"atur :guilabel:`Topology tolerance` (:guilabel:`Road graph plugin "
-"settings`). Jika jalan-jalan tersebut saling melewati tanpa berpotongan, "
-"gunakan *tool* :guilabel:`Split features` untuk membagi jalan pada "
-"perpotongan-perpotongannya:"
+"Jika anda mendapatkan pesan kesalahan yang menyatakan rute tidak ditemukan "
+"ketika mengklik :guilabel:`Calculate`, pastikan bahwa jalan yang anda "
+"digitasi telah benar-benar bertemu satu sama lain. Jika jalan-jalan tersebut "
+"tidak saling bertemu, perbaiki dengan memodifikasi fiturnya atau mengatur :"
+"guilabel:`Topology tolerance` (:guilabel:`Road graph plugin settings`). Jika "
+"jalan-jalan tersebut saling melewati tanpa berpotongan, gunakan alat bantu :"
+"guilabel:`Split features` untuk membagi jalan pada perpotongannya:"
 
 # ef04fb7e94f040fca1506242795d0ae4
 #: ../../vector_analysis/network_analysis.rst:225
@@ -1529,8 +1553,8 @@ msgid ""
 "Remember that the :guilabel:`Split features` tool only works in edit mode on "
 "selected features, though!"
 msgstr ""
-"Ingat bahwa *tool* e :guilabel:`Split features` hanya bekerja pada modus "
-"edit pada feature yang terpilih!"
+"Ingatlah bahwa alat bantu :guilabel:`Split features` hanya bekerja dalam "
+"modus penyuntingan pada fitur yang terpilih!"
 
 # 314d0c5b27964e289eaf10226f070320
 #: ../../vector_analysis/network_analysis.rst:231
@@ -1538,45 +1562,44 @@ msgid ""
 "Now you know how to use the :guilabel:`Road Graph` plugin to solve shortest-"
 "path problems."
 msgstr ""
-"Sekarang Anda mengetahui bagaimana menggunakan plugin :guilabel:`Road "
-"Graphuntuk menyelesaikan masalah shortest-path."
+"Sekarang anda mengetahui bagaimana menggunakan plugin :guilabel:`Road Graph "
+"untuk memecahkan permasalahan rute terpendek."
 
 # 292716dc06ef462990da90ef19fa9229
 #: ../../vector_analysis/network_analysis.rst:237
 msgid ""
 "Next you'll see how to run spatial statistics algorithms on vector datasets."
 msgstr ""
-"Selanjutnya Anda akan melihat bagaimana menjalankan algoritma statistik "
-"spasial pada *dataset* vektor."
+"Selanjutnya anda akan melihat bagaimana menjalankan algoritma statistik "
+"spasial pada set data vektor."
 
 # 54e18367dad04660af029cd57a787e77
 #: ../../vector_analysis/reproject_transform.rst:2
 msgid "|LS| Reprojecting and Transforming Data"
-msgstr "Pelajaran: Memproyeksikan ulang dan Transformasi data"
+msgstr "Pelajaran: Memproyeksikan Kembali dan Mentransformasikan data"
 
 # 73b63134aea04a319ae7cfa4554c5d24
 #: ../../vector_analysis/reproject_transform.rst:4
-#, fuzzy
 msgid ""
 "Let us talk about Coordinate Reference Systems (CRSs) again. We have touched "
 "on this briefly before, but have not discussed what it means practically."
 msgstr ""
-"Mari kita diskusikan lagi Referensi Koordinat Sistem (CRSs). Kita telah "
-"menyinggung ini secara singkat sebelumnya, tapi belum dibahas artinya secara "
-"praktis."
+"Mari kita bahas kembali mengenai Sistem Koordinat Referensi (CRS). Kita "
+"telah menyinggung hal ini secara singkat sebelumnya, tetapi belum membahas "
+"artinya secara praktis."
 
 # 491dca584a694f2f813cfdf6adaf086c
 #: ../../vector_analysis/reproject_transform.rst:7
 msgid ""
 "**The goal for this lesson:** To reproject and transform vector datasets."
 msgstr ""
-"**Tujuan untuk pelajaran ini**: untuk memproyeksikan ulang dan transformasi "
-"*dataset* vektor."
+"**Tujuan dari pelajaran ini**: Memproyeksikan kembali dan mentransformasikan "
+"set data vektor."
 
 # c90c91fe92d04bb2bf50e514e3f94a95
 #: ../../vector_analysis/reproject_transform.rst:10
 msgid "|basic| |FA| Projections"
-msgstr "|basic| Ikuti bersama: Proyeksi"
+msgstr "|basic| Ikuti Bersama: Proyeksi"
 
 # 924cf2688e6e481eac9b4238fb8ba2c5
 #: ../../vector_analysis/reproject_transform.rst:12
@@ -1585,14 +1608,14 @@ msgid ""
 "called WGS84. This is a very common Geographic Coordinate System (GCS) for "
 "representing data. But there's a problem, as we will see."
 msgstr ""
-"CRS semua data dan peta dalam latihan ini adalah WGS84. WGS84 adalah Sistem "
-"Koordinat Geografis (GCS) yang sangat umum untuk menyajikan data. Tetapi ada "
-"satu masalah yang akan kita lihat."
+"CRS dari semua data dan peta dalam latihan ini disebut sebagai WGS84. WGS84 "
+"adalah Sistem Koordinat Geografis (GCS) yang sangat umum digunakan dalam "
+"penyajian data. Namun ada satu masalah yang akan segera kita lihat."
 
 # f192d69b96b940608d9c697262363110
 #: ../../vector_analysis/reproject_transform.rst:16
 msgid "Save your current map."
-msgstr "Simpan peta Anda."
+msgstr "Simpan peta anda."
 
 # 294069667fb245c0918eac8571847b5c
 #: ../../vector_analysis/reproject_transform.rst:17
@@ -1600,33 +1623,31 @@ msgid ""
 "Then open the map of the world which you'll find under :kbd:`exercise_data/"
 "world/world.qgs`."
 msgstr ""
-"Kemudian buka peta dunia yang akan Anda temukan di :kbd:`exercise_data/world/"
-"world.qgs`."
+"Kemudian buka peta dunia yang dapat anda temukan di :kbd:`exercise_data/"
+"world/world.qgs`."
 
 # edff9f78e87f41beae488c14b85a299f
 #: ../../vector_analysis/reproject_transform.rst:19
-#, fuzzy
 msgid "Zoom in to Indonesia by using the :guilabel:`Zoom In` tool."
-msgstr ""
-"Perbesar peta ke bagian *South Africa* dengan menggunakan :guilabel:`Zoom "
-"In` ."
+msgstr "Perbesar peta Indonesia dengan menggunakan :guilabel:`Zoom In`."
 
 # 0dce4d3eaed94af8a74e1e2d3759c899
 #: ../../vector_analysis/reproject_transform.rst:20
-#, fuzzy
 msgid ""
 "Try setting a scale in the :guilabel:`Scale` field, which is in the :"
 "guilabel:`Status Bar` along the bottom of the screen. While over Indonesia, "
 "set this value to :kbd:`1:5000000` (one to five million)."
 msgstr ""
-"Cobalah pengaturan skala di field :guilabel:`Scale`, yang berada di dalam "
-"di :guilabel:`Status Bar` bagian bawah. Sementara di *South Africa*, set "
-"nilai ini menjadi `1:5000000` ( satu banding lima puluh juta)."
+"Cobalah mengatur skala dalam kolom :guilabel:`Scale` yang berada di bagian "
+"bawah :guilabel:`Status Bar`. Untuk Indonesia, atur nilai ini menjadi "
+"`1:5000000` (satu banding lima puluh juta)."
 
 # 42b82bcade05423d8d8fe1c15cb46f24
 #: ../../vector_analysis/reproject_transform.rst:23
 msgid "Pan around the map while keeping an eye on the :guilabel:`Scale` field."
-msgstr "•Geser sekitar peta sambil tetap mengawasi field :guilabel:`Scale` ."
+msgstr ""
+"Perhatikan seluruh bagian peta sambil tetap memperhatikan kolom :guilabel:"
+"`Scale`."
 
 # 2a6d838ca19e4d9c9c143357bd55a333
 #: ../../vector_analysis/reproject_transform.rst:25
@@ -1635,9 +1656,9 @@ msgid ""
 "point that you zoomed into at :kbd:`1:5000000`, which was at the center of "
 "your screen. All around that point, the scale is different."
 msgstr ""
-"Apakah skalanya berubah? Hal ini terjadi karena Anda berpindah dari satu "
-"titik yang Anda perbesar ke skala :kbd:`1:5000000` yang berada di tengah "
-"layar Anda. Di sekeliling titik itu, skalanya berbeda."
+"Apakah skalanya berubah? Hal ini terjadi karena anda berpindah dari satu "
+"titik yang diperbesar ke skala :kbd:`1:5000000` di tengah layar. Di "
+"sekeliling titik itu, skalanya berbeda."
 
 # 93398358d5a94595b6554b7690bbc7ae
 #: ../../vector_analysis/reproject_transform.rst:29
@@ -1646,13 +1667,12 @@ msgid ""
 "along it from North to South. These longitude lines are far apart at the "
 "equator, but they meet at the poles."
 msgstr ""
-"Untuk memahami alasannya, pikirkan tentang globe Bumi. Globe mempunyai garis "
-"melintang di sepanjang Utara ke Selatan. Garis-garis bujur terpisah jauh di "
-"khatulistiwa, tapi mereka bertemu di kutub."
+"Untuk memahami alasannya, bayangkan bentuk Bumi yang bulat. Bumi mempunyai "
+"garis melintang yang memanjang dari Utara ke Selatan. Garis-garis bujur ini "
+"terpisah jauh di khatulistiwa, tapi mereka bertemu di kutub."
 
 # 272ea670430d4b08b9c51a0082bb567c
 #: ../../vector_analysis/reproject_transform.rst:33
-#, fuzzy
 msgid ""
 "In a GCS, you're working on this sphere, but your screen is flat. When you "
 "try to represent the sphere on a flat surface, distortion occurs, similar to "
@@ -1663,35 +1683,33 @@ msgid ""
 "the objects that you see gets larger and larger. What this means for us, "
 "practically, is that there is no constant scale on our map."
 msgstr ""
-"Dalam GCS, Anda bekerja di atas bidang bumi ini, tetapi layar Anda adalah "
-"datar. Ketika Anda mencoba untuk menyajikan bola pada permukaan yang datar, "
-"akan terjadi distorsi, seperti yang terjadi jika Anda memotong terbuka bola "
-"tenis dan mencoba untuk meratakannya. Pada peta garis bujur tetap sama "
-"berjauhan satu sama lain, bahkan di kutub (dimana mereka seharusnya "
-"bertemu). Ini berarti bahwa, saat Anda melakukan perjalanan jauh dari "
-"khatulistiwa pada peta Anda, skala dari objek yang Anda lihat akan lebih "
-"besar dan lebih besar. Dengan kata lain, tidak ada skala konstan pada peta "
-"kita!"
+"Dalam GCS, anda bekerja dengan bentuk bumi yang bulat tetapi layar anda "
+"datar. Ketika anda mencoba menampilkan sebuah bola pada permukaan yang "
+"datar, maka akan terjadi distorsi; seperti ketika anda membelah bola tenis "
+"dan mencoba untuk meratakannya. Ini berarti garis bujur akan tetap berjauhan "
+"satu sama lain pada sebuah peta, bahkan di kutub (dimana mereka seharusnya "
+"bertemu). Artinya, jika anda menjauhi khatulistiwa pada peta maka skala dari "
+"objek yang anda lihat akan semakin bertambah besar. Dengan kata lain, secara "
+"praktis tidak ada skala konstan pada peta kita!"
 
 # d383a987415f4a2f92feb09abd2b80d1
 #: ../../vector_analysis/reproject_transform.rst:42
-#, fuzzy
 msgid ""
 "To solve this, we will use a Projected Coordinate System (PCS) instead. A "
 "PCS \"projects\" or converts the data in a way that makes allowance for the "
 "scale change and corrects it. Therefore, to keep the scale constant, we "
 "should reproject our data to use a PCS."
 msgstr ""
-"Untuk mengatasi ini, mari kita menggunakan Sistem Koordinat Proyeksi (PCS) "
-"sebagai gantinya. PCS memproyeksikan atau mengubah data dengan cara membuat "
-"penyisihan perubahan skala dan memperbaikinya. Oleh karena itu, untuk "
-"menjaga skala tetap konstan, kita harus melakukan proyeksi ulang data kita "
-"dengan menggunakan PCS."
+"Untuk mengatasi hal ini, mari kita gunakan Sistem Koordinat Proyeksi (PCS) "
+"sebagai gantinya. PCS \"memproyeksikan\" atau mengkonversikan data "
+"sedemikian rupa sehingga dapat menyediakan ruang untuk perubahan skala dan "
+"memperbaikinya. Oleh karena itu, untuk menjaga skala tetap konstan, kita "
+"harus memproyeksikan kembali data yang ada dengan menggunakan PCS."
 
 # 8905ab5df84d451a8cb7948b2516388b
 #: ../../vector_analysis/reproject_transform.rst:48
 msgid "|basic| |FA| \"On the Fly\" Reprojection"
-msgstr "|basic| Ikuti bersama: proyeksi ulang “**On the fly**”"
+msgstr "|basic| Ikuti Bersama: Proyeksi ulang \"On the Fly\""
 
 # 1a7abf6ac29547b59392f11d45f0ad58
 #: ../../vector_analysis/reproject_transform.rst:50
@@ -1700,9 +1718,9 @@ msgid ""
 "even if the data itself is in another CRS, QGIS can project it as if it were "
 "in a CRS of your choice."
 msgstr ""
-"QGIS memungkinkan Anda untuk data melakukan proyeksi ulang \"*On the fly*\". "
-"Artinya, jika data telah didefinisikan dalam suatu CRS, QGIS dapat "
-"memproyeksikan itu seolah-olah dalam CRS lain pilihan Anda."
+"QGIS memungkinkan anda untuk memproyeksikan ulang data secara \"On the Fly"
+"\". Artinya, walaupun data memiliki CRS yang berbeda, QGIS tetap dapat "
+"memproyeksikannya seolah-olah data tersebut berada dalam CRS pilihan Anda."
 
 # c4acf31da0f74e59800ccd736ea36149
 #: ../../vector_analysis/reproject_transform.rst:54
@@ -1710,8 +1728,8 @@ msgid ""
 "To enable \"on the fly\" projection, click on the :guilabel:`CRS Status` "
 "button in the :guilabel:`Status Bar` along the bottom of the QGIS window:"
 msgstr ""
-"Untuk mengaktifkan proyeksi \"*On the fly*\", klik tombol CRS Status di :"
-"guilabel:`Status Bar`bawah jendela QGIS:"
+"Untuk mengaktifkan proyeksi \"On the Fly\", klik tombol :guilabel:`CRS "
+"Status` pada :guilabel:`Status Bar` di bagian bawah jendela QGIS:"
 
 # dddc6185f8b64cc8b67e5fd0e44b82cb
 #: ../../vector_analysis/reproject_transform.rst:60
@@ -1719,8 +1737,8 @@ msgid ""
 "In the dialog that appears, check the box next to :guilabel:`Enable 'on the "
 "fly' CRS transformation`."
 msgstr ""
-"Pada dialog yang muncul, berilah tanda centang di kotak pilihan  :guilabel:"
-"`Enable '*On the fly*' CRS transformation`."
+"Pada kotak dialog yang muncul, berilah tanda centang di kotak pilihan :"
+"guilabel:`Enable 'on the fly' CRS transformation`."
 
 # 311321e1e40e431495fbb9ff02f538c9
 #: ../../vector_analysis/reproject_transform.rst:61
@@ -1728,38 +1746,37 @@ msgid ""
 "Type the word :kbd:`global` into the :guilabel:`Filter` field. One CRS (:"
 "guilabel:`NSIDC EASE-Grid Global`) will appear in the list below."
 msgstr ""
-"Ketik kata :kbd:`global` ke dalam bidang Filter. Satu CRS (:guilabel:`NSIDC "
-"EASE-Grid Global`) akan muncul dalam daftar."
+"Ketikkan kata :kbd:`global` ke dalam kolom :guilabel:`Filter`. Satu CRS (:"
+"guilabel:`NSIDC EASE-Grid Global`) akan muncul dalam daftar."
 
 # f404f87c8e834c8e8928d0fbd1e9d245
 #: ../../vector_analysis/reproject_transform.rst:63
 msgid "Click on it to select it, then click :kbd:`OK`."
-msgstr "Klik CRS tersebut, kemudian klik :kbd:`OK`."
+msgstr "Klik CRS tersebut untuk memilihnya, kemudian klik :kbd:`OK`."
 
 # 13b610fea92e454fa14aff3a8f2408f8
 #: ../../vector_analysis/reproject_transform.rst:64
-#, fuzzy
 msgid ""
 "Notice how the shape of Indonesia changes. All projections work by changing "
 "the apparent shapes of objects on Earth."
 msgstr ""
-"Perhatikan bagaimana bentuk perubahan *South Africa*. Semua proyeksi bekerja "
-"dengan mengubah bentuk tampilah obyek di permukaan bumi."
+"Perhatikan perubahan bentuk wilayah Indonesia. Semua proyeksi bekerja dengan "
+"mengubah bentuk tampilan obyek di permukaan bumi."
 
 # 269ba102554249a2ab3494fa2a607da2
 #: ../../vector_analysis/reproject_transform.rst:66
 msgid "Zoom in to a scale of :kbd:`1:5000000` again, as before."
-msgstr "Perbesar pada skala :kbd:`1:5000000` lagi, seperti sebelumnya."
+msgstr "Perbesar hingga skala :kbd:`1:5000000` seperti sebelumnya."
 
 # 67dfc0ff9b23435b895b164dfbe09084
 #: ../../vector_analysis/reproject_transform.rst:67
 msgid "Pan around the map."
-msgstr "Geser di sekitar peta."
+msgstr "Perhatikan seluruh bagian peta."
 
 # b05ec7e0532542a5a8abad006227aa44
 #: ../../vector_analysis/reproject_transform.rst:68
 msgid "Notice how the scale stays the same!"
-msgstr "Perhatikan bagaimana skala tetap sama!"
+msgstr "Perhatikan bagaimana skalanya tetap sama!"
 
 # 80b5600f637749e196ca6fb0caa2845e
 #: ../../vector_analysis/reproject_transform.rst:70
@@ -1767,24 +1784,24 @@ msgid ""
 "\"On the fly\" reprojection is also used for combining datasets that are in "
 "different CRSs."
 msgstr ""
-"Proyeksi “*On the fly* “ juga digunakan untuk menggabungkan *dataset* dengan "
-"CRS yang berbeda."
+"Proyeksi ulang \"On the Fly\" juga digunakan untuk menggabungkan set data "
+"dengan CRS yang berbeda."
 
 # 6791c603635340538495efa3cfd38794
 #: ../../vector_analysis/reproject_transform.rst:73
 msgid "Deactivate \"on the fly\" reprojection again:"
-msgstr "Nonaktifkan lagi proyeksi \"*On the fly*\":"
+msgstr "Matikan proyeksi \"On the Fly\":"
 
 # c149ba743fb449a8bd58ce75704be4ad
 #: ../../vector_analysis/reproject_transform.rst:75
 msgid "Click on the :guilabel:`CRS Status` button again."
-msgstr "Klik pada tombol :guilabel:`CRS Status` lagi."
+msgstr "Klik kembali tombol :guilabel:`CRS Status`."
 
 # fe29aedeb3fc4f08b7e3f6f7b3dc3a41
 #: ../../vector_analysis/reproject_transform.rst:76
 msgid "Uncheck the :guilabel:`Enable 'on the fly' CRS transformation` box."
 msgstr ""
-"Hilangkan tanda centang pada kotak :guilabel:`Enable '*On the fly*' CRS "
+"Hilangkan tanda centang pada kotak :guilabel:`Enable 'on the fly' CRS "
 "transformation`."
 
 # d198ebc5b15a446c95c4e3d8491d1aaf
@@ -1794,49 +1811,44 @@ msgstr "Klik :guilabel:`OK`."
 
 # b00f2e87171a4a739b6d284704f9f062
 #: ../../vector_analysis/reproject_transform.rst:79
-#, fuzzy
 msgid ""
 "Add another vector layer to your map which has the data for Indonesia only. "
 "You will find it as :kbd:`exercise_data/world/Indonesia_regions_32750.shp`."
 msgstr ""
-"Tambahkan satu layer vektor pada peta Anda yang memiliki data Afrika Selatan "
-"saja. Anda akan menemukannya di dalam direktori :kbd:`exercise_data/world/"
-"RSA.shp`."
+"Tambahkan satu layer vektor pada peta anda yang hanya berisi data Indonesia "
+"saja. Anda dapat menemukannya pada direktori :kbd:`exercise_data/world/"
+"Indonesia_regions_32750.shp`."
 
 # 5163f4c13f914f01956496029b3481cc
 #: ../../vector_analysis/reproject_transform.rst:82
 msgid "What do you notice?"
-msgstr "Apa yang Anda perhatikan?"
+msgstr "Apa yang anda perhatikan?"
 
 # 1b97e3451218411db9ec4b60fe024ddb
 #: ../../vector_analysis/reproject_transform.rst:84
-#, fuzzy
 msgid "The layer is not visible! But that is easy to fix, right?"
 msgstr ""
-"layer tersebut tidak terlihat! Untuk membuat layer tersebut terlihat cukup "
-"mudah?"
+"Layer tersebut tidak terlihat! Tetapi mudah untuk memperbaikinya, bukan?"
 
 # fa818112c9d04c03a564ce50768fd856
 #: ../../vector_analysis/reproject_transform.rst:86
 msgid "Right-click on the layer in the :guilabel:`Layers list`."
-msgstr "Klik kanan pada *layer* dalam :guilabel:`*layer*s list`."
+msgstr "Klik kanan pada layer di dalam :guilabel:`Layers List`."
 
 # 33b9a4beee3745a6a89c06423ff6c321
 #: ../../vector_analysis/reproject_transform.rst:87
 msgid "Select :guilabel:`Zoom to Layer Extent`."
-msgstr "Pilih :guilabel:`Zoom to *layer* Extent`."
+msgstr "Pilih :guilabel:`Zoom to Layer Extent`."
 
 # 4cd13ed6e17a4908847732c7033a4355
 #: ../../vector_analysis/reproject_transform.rst:89
-#, fuzzy
 msgid "So now we see Indonesia... but where is the rest of the world?"
 msgstr ""
-"Sekarang kita melihat *South Africa* ... tetapi tampilan seluruh dunia tidak "
-"terlihat?"
+"Sekarang kita dapat melihat Indonesia ... tetapi mengapa bagian dunia yang "
+"lain tidak terlihat?"
 
 # 8ac171f35b534fcdb1f5b27edf7e1f6f
 #: ../../vector_analysis/reproject_transform.rst:91
-#, fuzzy
 msgid ""
 "It turns out that we can zoom between these two layers, but we can not ever "
 "see them at the same time. That is because their Coordinate Reference "
@@ -1847,17 +1859,17 @@ msgid ""
 "the equator. But in the :guilabel:`continents` dataset, that same point is "
 "about :kbd:`6.3` degrees away from the equator."
 msgstr ""
-"Kita dapat memperbesar dua layer, tapi kita tidak bisa melihat kedua layer "
-"tersebut bersamaan. Penyebabnya adalah Sistem Koordinat Referensi yang "
-"berbeda. *dataset* :guilabel:`continents` adalah dalam system *derajat*, "
-"tetapi *dataset* :guilabel:`RSA` adalah dalam *meter*. Sebuah titik di Cape "
-"Town dalam *dataset* :guilabel:`RSA` berjarak sekitar :kbd:`4 100 000` meter "
-"dari katulistiwa. Namun dalam *dataset* :guilabel:`continents`, titik yang "
-"sama adalah terletak sekitar :kbd:`33.9` derajat dari katulistiwa."
+"Ternyata kita dapat memperbesar tampilan kedua layer tersebut, tetapi kita "
+"tidak bisa melihat keduanya secara bersamaan. Penyebabnya adalah Sistem "
+"Koordinat Referensi yang berbeda. Set data :guilabel:`continents` memiliki "
+"satuan *derajat*, tetapi set data :guilabel:`Indonesia_regions_32750` berada "
+"dalam satuan *meter*. Jadi, katakanlah sebuah titik di Jakarta dalam set "
+"data  :guilabel:`Indonesia_regions_32750` berjarak sekitar :kbd:`620 000` "
+"meter dari khatulistiwa. Namun, pada Set data :guilabel:`continents`, titik "
+"yang sama terletak sekitar :kbd:`6,3` derajat dari katulistiwa."
 
 # 00cbfdab17414362a61f0c48f7ede718
 #: ../../vector_analysis/reproject_transform.rst:99
-#, fuzzy
 msgid ""
 "This is the same distance - but QGIS doesn't know that. You haven't told it "
 "to reproject the data. So as far as it's concerned, the version of Indonesia "
@@ -1867,70 +1879,67 @@ msgid ""
 "from the equator! You can see why this is a problem."
 msgstr ""
 "Kedua jarak tersebut adalah sama - tapi QGIS tidak tahu itu! Anda belum "
-"memproyeksijan ulang kedua data tersebut. Pada versi *South Africa* yang "
-"kita lihat dalam *dataset* :guilabel:`RSA`, Cape Town berjarak :kbd:`4 100 "
-"000` meter dari katulistiwa. Namun dalam *dataset* :guilabel:`continents`, "
-"Cape Town hanya berjarak :kbd:`33.9` *meter* dari katulistiwa. "
+"memproyeksikan ulang kedua data tersebut. Pada versi Indonesia yang kita "
+"lihat dalam set data :guilabel:`Indonesia_regions_32750`, Jakarta berjarak :"
+"kbd:`620 000` meter dari khatulistiwa. Namun dalam Set data :guilabel:"
+"`continents`, Jakarta hanya berjarak :kbd:`6,3` *meter* dari khatulistiwa! "
+"Kini anda dapat melihat permasalahannya. "
 
 # 2ed2f373aec94fa18e03931e6dc4d858
 #: ../../vector_analysis/reproject_transform.rst:106
-#, fuzzy
 msgid ""
 "QGIS does not know where Jakarta is *supposed* to be - that is what the data "
 "should be telling it. If the data tells QGIS that Jakarta is :kbd:`6.3` "
 "meters away from the equator and that Indonesia is only about :kbd:`12` "
 "meters from north to south, then that is what QGIS will draw."
 msgstr ""
-"QGIS tidak tahu di mana Cape Town *seharusnya*. Jika data memberitahu QGIS "
-"bahwa Cape Town adalah :kbd:`34` meter dari garis khatulistiwa dan South "
-"Africa hanya sekitar :kbd:`12` meter dari utara ke selatan, maka itulah yang "
-"akan ditampilkan QGIS."
+"QGIS tidak tahu di mana Jakarta *seharusnya* berada - datalah yang harus "
+"menentukannya. Jika data memberitahu QGIS bahwa Jakarta berada :kbd:`6,3` "
+"meter dari garis khatulistiwa dan Indonesia hanya berukuran :kbd:`12` meter "
+"dari utara ke selatan, maka itulah yang akan ditampilkan QGIS."
 
 # bf53e70911d049c2b2bdc2af20c57957
 #: ../../vector_analysis/reproject_transform.rst:111
 msgid "To correct this:"
-msgstr "Untuk memperbaiki ini:"
+msgstr "Untuk memperbaiki masalah ini:"
 
 # 40db5ae12ad04ec7b9b8c2334b72d294
 #: ../../vector_analysis/reproject_transform.rst:113
 msgid ""
 "Switch :guilabel:`Enable 'on the fly' CRS transformation` on again as before."
 msgstr ""
-"Aktifkan :guilabel:`Enable '*On the fly*' CRS transformation` seperti "
+"Aktifkan kembali :guilabel:`Enable 'on the fly' CRS transformation` seperti "
 "sebelumnya."
 
 # dd90b1dd214f42e49f3050532453095e
 #: ../../vector_analysis/reproject_transform.rst:114
-#, fuzzy
 msgid "Zoom to the extents of the :guilabel:`Indonesia_regions_32750` dataset."
-msgstr "Zoom untuk menampilkan area dari *dataset* :guilabel:`RSA` ."
+msgstr "Perbesar tampilan set data :guilabel:`Indonesia_regions_32750`."
 
 # a29fe73e413148938152ec5e24a6c698
 #: ../../vector_analysis/reproject_transform.rst:116
-#, fuzzy
 msgid ""
 "Now, because they are made to project in the same CRS, the two datasets fit "
 "perfectly:"
 msgstr ""
-"Sekarang, karena telah dibuat pada sistem proyeksi CRS yang sama, kedua "
-"*dataset* tersebut bertampalan dengan baik:"
+"Sekarang, karena telah diproyeksikan dengan CRS yang sama, kedua set data "
+"tersebut cocok satu sama lain:"
 
 # 9501792af4084d159dd8acfdaaa41097
 #: ../../vector_analysis/reproject_transform.rst:122
-#, fuzzy
 msgid ""
 "When combining data from different sources, it is important to remember that "
 "they might not be in the same CRS. \"On the fly\" reprojection helps you to "
 "display them together."
 msgstr ""
 "Ketika menggabungkan data dari sumber yang berbeda, penting untuk mengingat "
-"bahwa mereka mungkin tidak dalam CRS yang sama. Proyeksi ulang “*On the fly* "
-"“ akan membantu Anda untuk menampilkan mereka bersama."
+"bahwa mereka mungkin tidak menggunakan CRS yang sama. Proyeksi ulang \"On "
+"the Fly\" dapat membantu anda untuk menampilkan mereka bersama-sama."
 
 # 839f235787ad4eb0abcba165c0ea19ba
 #: ../../vector_analysis/reproject_transform.rst:127
 msgid "|moderate| |FA| Saving a Dataset to Another CRS"
-msgstr "|moderate| Ikuti bersama: Menyimpan *dataset* untuk CRS lain "
+msgstr "|moderate| Ikuti Bersama: Menyimpan Set Data ke Bentuk CRS Lain "
 
 # 7c41ecf730374b62bdc83633785919db
 #: ../../vector_analysis/reproject_transform.rst:129
@@ -1939,6 +1948,10 @@ msgid ""
 "projections appear on the same map. But how can we reproject the layers so "
 "they are the same projection?"
 msgstr ""
+"Kita telah melihat bagaimana metode \"On the Fly\" dapat membuat layer-layer "
+"dengan proyeksi yang berbeda dapat ditampilkan pada peta yang sama. Tetapi "
+"bagaimana kita dapat memproyeksikan ulang layer-layer tersebut sehingga "
+"memiliki proyeksi yang sama?"
 
 # f6e3733487c649888e5f7d76019b985d
 #: ../../vector_analysis/reproject_transform.rst:132
@@ -1946,6 +1959,8 @@ msgid ""
 "To truly reproject the data itself, you need to export it to a new file "
 "using a new projection."
 msgstr ""
+"Untuk dapat memproyeksi ulang data itu sendiri, anda harus mengekspornya ke "
+"file baru dengan menggunakan proyeksi baru."
 
 # 16810d5270bd461db817d66a20316236
 #: ../../vector_analysis/reproject_transform.rst:134
@@ -1955,48 +1970,45 @@ msgid ""
 "do now is reproject this layer so it is the same as our :guilabel:"
 "`continents` layer."
 msgstr ""
+"Layer :guilabel:`Indonesian_regions_32750` diproyeksikan dengan CRS WGS 84 / "
+"UTM zona 50S yang sesuai untuk sebagian besar wilayah Indonesia. Yang akan "
+"kita lakukan sekarang adalah memproyeksi ulang layer ini sehingga sama "
+"dengan layer :guilabel:`continents`."
 
 # fa818112c9d04c03a564ce50768fd856
 #: ../../vector_analysis/reproject_transform.rst:138
-#, fuzzy
 msgid "Right-click on the :guilabel:`Indonesian_regions_32750`"
-msgstr "Klik kanan pada *layer* dalam :guilabel:`*layer*s list`."
+msgstr "Klik kanan pada :guilabel:`Indonesian_regions_32750`."
 
 # 9b1dff57f51140328e55e3c90ad1a232
 #: ../../vector_analysis/reproject_transform.rst:139
-#, fuzzy
 msgid "Click on :guilabel:`Save as`"
-msgstr "Klik tombol :guilabel:`Save`:"
+msgstr "Klik :guilabel:`Save as`."
 
 # eba6cb7723574c0c903c8bf8fd02349e
 #: ../../vector_analysis/reproject_transform.rst:140
-#, fuzzy
 msgid "A new window :guilabel:`Save vector layer as...` will appear"
-msgstr ""
-"Dialog :guilabel:`Save vector *layer* as...` akan tampak seperti berikut:"
+msgstr "Akan muncul kotak dialog :guilabel:`Save vector layer as...`."
 
 # ea4faffe9233499bb8affe8ad2c2b38b
 #: ../../vector_analysis/reproject_transform.rst:141
-#, fuzzy
 msgid ""
 "Click on the :guilabel:`Browse` button next to the :guilabel:`Save as` field"
-msgstr ""
-"Klik pada tombol :guilabel:`Browse` di sebelah field :guilabel:`Save as`."
+msgstr "Klik tombol :guilabel:`Browse` di sebelah kolom :guilabel:`Save as`."
 
 # 953e65dd0e6d480d96e7e67fe10e8235
 #: ../../vector_analysis/reproject_transform.rst:142
-#, fuzzy
 msgid ""
 "Navigate to your :kbd:`exercise_data/` folder, and call your new file :kbd:"
 "`Indonesia_regions_WGS84.shp`"
 msgstr ""
-"Arahkan ke :kbd:`exercise_data/`dan berilah nama *layer* baru sebagai :kbd:"
-"`rural_reprojected.shp`."
+"Buka folder :kbd:`exercise_data/` dan temukan file baru anda :kbd:"
+"`Indonesia_regions_WGS84.shp`."
 
 # 04ddd0f4db774f31b52045affb98f84d
 #: ../../vector_analysis/reproject_transform.rst:143
 msgid "Leave the :guilabel:`Encoding` unchanged."
-msgstr "Jangan ubah :guilabel:`Encoding` yang ada."
+msgstr "Jangan ubah :guilabel:`Encoding` yang sudah ada."
 
 # f3e031dea12a403a9beaa1270cd618e5
 #: ../../vector_analysis/reproject_transform.rst:144
@@ -2004,41 +2016,41 @@ msgid ""
 "Change the value of the :guilabel:`Layer CRS` dropdown to :guilabel:"
 "`Selected CRS`."
 msgstr ""
-"Ubah nilai dari :guilabel:`*layer* CRS` pada menu dropdown ke :guilabel:"
+"Ubah nilai :guilabel:`Layer CRS` pada menu yang muncul menjadi :guilabel:"
 "`Selected CRS`."
 
 # 82294cd85c1647ccb2d52f6044d47406
 #: ../../vector_analysis/reproject_transform.rst:145
 msgid "Click the :guilabel:`Browse` button beneath the dropdown."
-msgstr "Klik tombol :guilabel:`Browse` di bawah dropdown."
+msgstr "Klik tombol :guilabel:`Browse` di bagian bawah menu yang muncul."
 
 # 3639ec15f746450d8347c177632b10bf
 #: ../../vector_analysis/reproject_transform.rst:146
 msgid "The :guilabel:`CRS Selector` dialog will now appear."
-msgstr "Dialog :guilabel:`CRS Selector`sekarang akan muncul."
+msgstr "Kotak dialog :guilabel:`CRS Selector` akan muncul."
 
 # 10a73268669a477283ed308c0fe10c38
 #: ../../vector_analysis/reproject_transform.rst:147
 msgid "In its :guilabel:`Filter` field, search for :kbd:`33S`."
-msgstr "Dalam bidang :guilabel:`Filter`cari :kbd:`33S`."
+msgstr "Cari :kbd:`33S` pada kolom :guilabel:`Filter`."
 
 # 0d046018de434d17bd941b37fbbf9eef
 #: ../../vector_analysis/reproject_transform.rst:148
-#, fuzzy
 msgid "Choose :guilabel:`WGS 84 EPSG:4326` from the list."
-msgstr "Pilih :guilabel:`WGS 84 / UTM zone 33S`dari daftar."
+msgstr "Pilih :guilabel:`WGS 84 EPSG:4326` dari daftar."
 
 # eba6cb7723574c0c903c8bf8fd02349e
 #: ../../vector_analysis/reproject_transform.rst:151
 msgid "The :guilabel:`Save vector layer as...` dialog now looks like this:"
 msgstr ""
-"Dialog :guilabel:`Save vector *layer* as...` akan tampak seperti berikut:"
+"Kotak dialog :guilabel:`Save vector layer as...` akan tampak seperti berikut "
+"ini:"
 
 # c5bacaebda3a48df81e395d95dc25f63
 #: ../../vector_analysis/reproject_transform.rst:156
 msgid ""
 "Click :guilabel:`OK` and after an instant, you should be presented with:"
-msgstr "Klik :guilabel:`OK`dan tidak lama kemudian akan muncul:"
+msgstr "Klik :guilabel:`OK` dan tidak lama kemudian akan muncul:"
 
 # c0c6097b91ee44978f2705d8ce584fb6
 #: ../../vector_analysis/reproject_transform.rst:163
@@ -2046,6 +2058,8 @@ msgid ""
 "Now both layers have the same projection and are displayed correctly, "
 "without the need for \"On the fly\"."
 msgstr ""
+"Kini kedua layer memiliki proyeksi yang sama dan ditampilkan dengan benar "
+"tanpa harus menggunakan fitur  \"On the fly\"."
 
 # 731374199af743e0914660218feb1b57
 #: ../../vector_analysis/reproject_transform.rst:165
@@ -2054,6 +2068,9 @@ msgid ""
 "distance using units of length such as meters or kilometers, you will need "
 "to project the layers accordingly, using a different PCS."
 msgstr ""
+"Kedua layer sekarang diproyeksikan dalam derajat. Jika anda ingin mengukur "
+"jarak dengan satuan panjang seperti meter atau kilometer, anda harus "
+"menyesuaikan kembali proyeksi layer-layer tersebut dengan PCS yang berbeda."
 
 # 6ccd9118fde5463eb1a1fd1dc8e0385f
 #: ../../vector_analysis/reproject_transform.rst:170
@@ -2062,18 +2079,20 @@ msgid ""
 "as a new layer, with the new projection. You can not correctly change the "
 "projection of a layer using any other way."
 msgstr ""
+"Penting untuk diingat bahwa untuk memproyeksi ulang sebuah layer, anda harus "
+"menyimpannya terlebih dulu sebagai layer baru dengan proyeksi yang baru "
+"pula. Tidak ada cara lain untuk mengubah proyeksi sebuah layer dengan benar."
 
 # a1101ab3d4cf439d92a59f905595059d
 #: ../../vector_analysis/reproject_transform.rst:177
-#: ../../vector_analysis/reproject_transform.rst:258
 msgid ""
 "Different projections are useful for different purposes. By choosing the "
 "correct projection, you can ensure that the features on your map are being "
 "represented accurately."
 msgstr ""
-"Proyeksi-proyeksi yang berbeda berguna untuk tujuan yang berbeda. Dengan "
-"memilih proyeksi yang tepat Anda akan memastikan fitur pada peta Anda akan "
-"disajikan dengan akurat. "
+"Proyeksi yang berbeda berguna untuk tujuan yang berbeda pula. Dengan memilih "
+"proyeksi yang tepat, anda dapat memastikan fitur pada peta akan tersaji "
+"dengan akurat. "
 
 # b5249cbca5ba459b81520ee4a8635362
 #: ../../vector_analysis/reproject_transform.rst:263
@@ -2086,7 +2105,7 @@ msgid ""
 "Further information on Coordinate Reference Systems is available `here "
 "<http://linfiniti.com/dla/worksheets/7_CRS.pdf>`_."
 msgstr ""
-"Informasi lebih lanjut tentang Sistem Informasi Koordinat tersedia di `di "
+"Informasi lebih lanjut tentang Sistem Koordinat Referensi dapat dilihat `di "
 "sini <http://linfiniti.com/dla/worksheets/7_CRS.pdf>`_."
 
 # 27d3a0ca43614ab59ccc681065594197
@@ -2095,13 +2114,13 @@ msgid ""
 "In the next lesson you'll learn how to analyze vector data using QGIS' "
 "various vector analysis tools."
 msgstr ""
-"Pada pelajaran selanjutnya Anda akan belajar bagaimana menganalisis data "
-"vektor menggunakan QGIS dengan *tool*-*tool* analisis vektor yang bervariasi."
+"Pada pelajaran selanjutnya, anda akan belajar bagaimana menganalisis data "
+"vektor menggunakan berbagai alat bantu analisis vektor yang dimiliki QGIS."
 
 # 2dc48b70c4bc4d8d91ba6c3b1648933f
 #: ../../vector_analysis/spatial_statistics.rst:2
 msgid "|LS| Spatial Statistics"
-msgstr "Pelajaran: Spatial Statistics (Statistik Spasial)"
+msgstr "Pelajaran: Statistik Spasial "
 
 # a4f3c5edba454c16b6ffb8474290c9ac
 #: ../../vector_analysis/spatial_statistics.rst:4
@@ -2109,8 +2128,8 @@ msgid ""
 "Lesson developed by Linfiniti and S Motala (Cape Peninsula University of "
 "Technology)"
 msgstr ""
-"Latihan ini dikembangkan oleh Linfiniti dan S Motala (Cape Peninsula "
-"University of Technology"
+"Latihan ini dikembangkan oleh Linfiniti dan S Motala (Universitas Teknologi "
+"Cape Peninsula)"
 
 # 0d01c3544ff94a80b04c0bbd8cb3533e
 #: ../../vector_analysis/spatial_statistics.rst:7
@@ -2119,9 +2138,10 @@ msgid ""
 "given vector dataset. QGIS includes several standard tools for statistical "
 "analysis which prove useful in this regard."
 msgstr ""
-"Statistik spasial memungkinkan Anda untuk menganalisis dan memahami apa yang "
-"sedang terjadi dalam *dataset* vektor yang diberikan. Dalam hal ini QGIS "
-"mencakup beberapa *tool* standar untuk analisis statistik."
+"Statistik spasial memungkinkan anda untuk menganalisis dan memahami apa yang "
+"sedang terjadi dalam set data vektor tertentu. Dalam hal ini QGIS "
+"menyertakan beberapa alat bantu standar untuk analisis statistik yang sangat "
+"berguna."
 
 # 988aaafdb8a042e08a62d9004e3c36c3
 #: ../../vector_analysis/spatial_statistics.rst:11
@@ -2129,13 +2149,13 @@ msgid ""
 "**The goal for this lesson:** To know how to use QGIS' spatial statistics "
 "tools."
 msgstr ""
-"**Tujuan untuk pelajaran ini**: untuk mengetahui bagaimana menggunakan "
-"*tool* spatial statistics dalam QGIS."
+"**Tujuan dari pelajaran ini**: Memahami penggunaan alat bantu statistik "
+"spasial pada QGIS."
 
 # f8c46aec2f65495099adda8be373fc90
 #: ../../vector_analysis/spatial_statistics.rst:15
 msgid "|basic| |FA| Create a Test Dataset"
-msgstr "|basic| Ikuti bersama: Membuat *dataset* Uji"
+msgstr "|basic| Ikuti Bersama: Membuat Set Data Pengujian"
 
 # 033d17867af94b2a9fbc3a36c626b367
 #: ../../vector_analysis/spatial_statistics.rst:17
@@ -2143,9 +2163,8 @@ msgid ""
 "In order to get a point dataset to work with, we'll need a point dataset. In "
 "order to mimic a real dataset, let's create a random set of points."
 msgstr ""
-"Kita akan membuat *dataset* titik yang akan digunakan untuk latihan ini. "
-"Supaya *dataset* kita realistis, kita akan menggunakan fungsi random untuk "
-"membuatnya. "
+"Kita membutuhkan set data titik untuk dapat bekerja. Untuk dapat meniru "
+"suatu set data riil, mari kita buat satu set titik-titik secara acak."
 
 # 0b21a30580ce4d99be912c85ca8cc972
 #: ../../vector_analysis/spatial_statistics.rst:20
@@ -2153,18 +2172,19 @@ msgid ""
 "To do so, you'll need a polygon dataset defining the extents of the area you "
 "want to create the points in."
 msgstr ""
-"Untuk melakukannya, Anda membutuhkan *dataset* poligon yang menjelaskan "
-"luasan area yang Anda inginkan untuk memasukkan *dataset* titik tersebut."
+"Untuk dapat melakukannya, anda membutuhkan set data poligon untuk "
+"mendefinisikan luasan area yang ingin anda buat untuk menampung titik-titik "
+"tersebut."
 
 # 7b99cf16aab54bfc971ac78dd7ec4f8a
 #: ../../vector_analysis/spatial_statistics.rst:23
 msgid "We'll use the area covered by streets."
-msgstr "Kita akan menggunakan area yang dikelilingi oleh jalan-jalan."
+msgstr "Kita akan menggunakan area yang dipenuhi oleh jalan-jalan."
 
 # 603c5f61086649ccb2fb9d7deffed2e8
 #: ../../vector_analysis/spatial_statistics.rst:25
 msgid "Create a new empty map."
-msgstr "Buatlah peta kosong baru."
+msgstr "Buatlah peta kosong yang baru."
 
 # 73b5b5286b7f40b6a49102c0b36117fb
 #: ../../vector_analysis/spatial_statistics.rst:26
@@ -2173,9 +2193,9 @@ msgid ""
 "directory, as well as the :kbd:`srtm_41_19.tif` raster found in :kbd:"
 "`exercise_data/raster/SRTM/`."
 msgstr ""
-"Tambahkan *layer* :kbd:`roads_33S`dalam direktori folder :kbd:`exercise_data/"
-"projected_data`, begitu pula raster :kbd:`srtm_41_19.tif` dalam folder :kbd:"
-"`exercise_data/raster/SRTM/`."
+"Tambahkan layer :kbd:`roads_33S`dari direktori :kbd:`exercise_data/"
+"projected_data` dan raster :kbd:`srtm_41_19.tif` dari :kbd:`exercise_data/"
+"raster/SRTM/`."
 
 # 7ab4906454eb47a8a3d0f5a0d808be95
 #: ../../vector_analysis/spatial_statistics.rst:29
@@ -2184,9 +2204,9 @@ msgid ""
 "`Vector --> Geoprocessing Tools`) to generate an area enclosing all the "
 "roads:"
 msgstr ""
-"Gunakan *tool* :guilabel:`Convex hull(s)` (tersedia di dalam :menuselection:"
-"`Vector --> Geoprocessing *tool*s`) untuk membentuk daerah yang berada dalam "
-"lingkup jalan tersebut:"
+"Gunakan alat bantu :guilabel:`Convex hull(s)` (:menuselection:`Vector --> "
+"Geoprocessing Tools`) untuk membuat sebuah area yang melingkupi jalan-jalan "
+"tersebut:"
 
 # e42655fdb48d41508fc36e37e1d7f1ac
 #: ../../vector_analysis/spatial_statistics.rst:36
@@ -2194,8 +2214,8 @@ msgid ""
 "Save the output under :kbd:`exercise_data/spatial_statistics/` as :kbd:"
 "`roads_hull.shp`."
 msgstr ""
-"Simpan hasilnya di dalam folder :kbd:`exercise_data/spatial_statistics/` "
-"sebagai :kbd:`roads_hull.shp`."
+"Simpan keluaran dalam folder :kbd:`exercise_data/spatial_statistics/` dengan "
+"nama :kbd:`roads_hull.shp`."
 
 # 8922747e0a7746fd82c25e2f6a6731dd
 # 653ed08516b14198a0630328dba73d77
@@ -2203,7 +2223,7 @@ msgstr ""
 #: ../../vector_analysis/spatial_statistics.rst:77
 msgid "Add it to the TOC (:guilabel:`Layers list`) when prompted."
 msgstr ""
-"Tambahkan hasil tersebut dalam TOC (:guilabel:`*layer*s list`) ketika "
+"Tambahkan keluaran tersebut ke dalam TOC (:guilabel:`Layers list`) ketika "
 "diminta."
 
 # 3721ea3a1e8f4b06bd11f69f0f4a7f00
@@ -2217,8 +2237,8 @@ msgid ""
 "Create random points in this area using the tool at :menuselection:`Vector --"
 "> Research Tools --> Random points`:"
 msgstr ""
-"Buatlah titik titik acak di area tersebut menggunakan *tool*  :menuselection:"
-"`Vector --> Research *tool*s --> Random points`:"
+"Buatlah titik-titik acak pada area tersebut dengan menggunakan alat bantu :"
+"menuselection:`Vector --> Research Tools --> Random points`:"
 
 # bfc5551e1b20409392c2939502b61d34
 #: ../../vector_analysis/spatial_statistics.rst:49
@@ -2226,20 +2246,20 @@ msgid ""
 "Save the output under :kbd:`exercise_data/spatial_statistics/` as :kbd:"
 "`random_points.shp`."
 msgstr ""
-"Simpan hasilnya dalam folder :kbd:`exercise_data/spatial_statistics/` "
-"sebagai :kbd:`random_points.shp`."
+"Simpan keluaran dalam folder :kbd:`exercise_data/spatial_statistics/` dengan "
+"nama :kbd:`random_points.shp`."
 
 # e54341244d91471ab7572893e78a7cd0
 #: ../../vector_analysis/spatial_statistics.rst:51
 msgid "Add it to the TOC (:guilabel:`Layers list`) when prompted:"
 msgstr ""
-"Tambahkan *layer* tersebut ke dalam TOC ((:guilabel:`*layer*s list`) ketika "
+"Tambahkan keluaran tersebut ke dalam TOC (:guilabel:`Layers list`) ketika "
 "diminta:"
 
 # 30054880e6dd4413b68abc4dc04050eb
 #: ../../vector_analysis/spatial_statistics.rst:57
 msgid "Sampling the data"
-msgstr "Melakukan pengambilan sampel pada data"
+msgstr "Melakukan sampling data"
 
 # bcdaddc34e2e490ebd13263cb1f1e15f
 #: ../../vector_analysis/spatial_statistics.rst:59
@@ -2247,13 +2267,13 @@ msgid ""
 "To create a sample dataset from the raster, you'll need to use the :guilabel:"
 "`Point sampling tool` plugin."
 msgstr ""
-"Untuk membuat *dataset* sampel dari raster, Anda akan butuh menggunakan :"
-"guilabel:`Point sampling *tool*`."
+"Untuk membuat set data sampel dari raster, anda perlu menggunakan alat "
+"bantu :guilabel:`Point sampling tool`."
 
 # 010b9719850243ab8ab8afcf553a7402
 #: ../../vector_analysis/spatial_statistics.rst:61
 msgid "Refer ahead to the module on plugins if necessary."
-msgstr "Lihat ke bagian depan dalam modul tentang plugin jika perlu."
+msgstr "Silakan merujuk kembali pada modul tentang plugin jika perlu."
 
 # 6c7289f5f247442491128fc1e200a1c4
 #: ../../vector_analysis/spatial_statistics.rst:62
@@ -2261,8 +2281,8 @@ msgid ""
 "Search for the phrase :kbd:`point sampling` in the :guilabel:`Plugin "
 "Installer` and you will find the plugin."
 msgstr ""
-"Carilah frase :kbd:`point sampling` di :guilabel:`Plugin Installer` untuk "
-"menemukan plugin."
+"Carilah frase :kbd:`point sampling` pada :guilabel:`Plugin Installer` untuk "
+"menemukan plugin tersebut."
 
 # 08c9e5817cfc4f5d8d14e0c87b810926
 #: ../../vector_analysis/spatial_statistics.rst:64
@@ -2270,8 +2290,9 @@ msgid ""
 "Note that it is in a third-party repository at time of writing, so you'll "
 "need to have third-party repositories enabled."
 msgstr ""
-"Perhatikan bahwa dalam repositori pihak-ketiga pada saat panduan ini "
-"ditulis, sehingga Anda harus mengaktifkan repositori pihak ketiga."
+"Perhatikan bahwa plugin tersebut berada dalam repositori pihak ketiga pada "
+"saat panduan ini ditulis, sehingga anda perlu mengaktifkan pilihan "
+"repositori pihak ketiga."
 
 # 9945eadeeea747318f1ef87a2d7fecc3
 #: ../../vector_analysis/spatial_statistics.rst:66
@@ -2280,9 +2301,9 @@ msgid ""
 "will find the tool under :menuselection:`Plugins --> Analyses --> Point "
 "sampling tool`:"
 msgstr ""
-"Setelah diaktifkan dengan :guilabel:`Plugin Manager`, Anda akan menemukan "
-"*tool* ini di dalam :menuselection:`Plugins --> Analyses --> Point sampling "
-"*tool*`:"
+"Setelah diaktifkan dengan :guilabel:`Plugin Manager`, anda akan menemukan "
+"alat bantu ini dalam :menuselection:`Plugins --> Analyses --> Point sampling "
+"tool`:"
 
 # d06748c4b5dd4cf5954c1b1e5e9c45b5
 #: ../../vector_analysis/spatial_statistics.rst:73
@@ -2290,8 +2311,8 @@ msgid ""
 "Select :guilabel:`random_points` as the layer containing sampling points, "
 "and the SRTM raster as the band to get values from."
 msgstr ""
-"Pilih :guilabel:`random_points` sebagai *layer* yang berisi titik-titik "
-"sampel, dan raster SRTM sebagai band untuk mendapatkan nilai SRTM."
+"Pilih :guilabel:`random_points` sebagai layer yang berisi titik-titik "
+"sampel, dan raster SRTM sebagai pita untuk memperoleh nilai."
 
 # 88c25fcc164742828d8ca03410cbd989
 #: ../../vector_analysis/spatial_statistics.rst:75
@@ -2299,15 +2320,13 @@ msgid ""
 "Save the output under :kbd:`exercise_data/spatial_statistics/` as :kbd:"
 "`random_samples.shp`."
 msgstr ""
-"Simpan hasilnya dalam folder  :kbd:`exercise_data/spatial_statistics/` "
+"Simpan keluaran dalam folder  :kbd:`exercise_data/spatial_statistics/` "
 "sebagai :kbd:`random_samples.shp`."
 
 # e8c5d1b3d1594c0e984414b6935a5a7b
 #: ../../vector_analysis/spatial_statistics.rst:79
 msgid "A possible sample layer is shown here:"
-msgstr ""
-"Hasilnya ditunjukkan dalam gambar berikut. (hasil yang berbeda dimungkinkan "
-"karena penggunaan fungsi random):"
+msgstr "Berikut adalah contoh layer yang mungkin dihasilkan:"
 
 # 0738c3b416444dfa93432bc1cbc55c35
 #: ../../vector_analysis/spatial_statistics.rst:84
@@ -2315,25 +2334,26 @@ msgid ""
 "The sample points are classified by their value such that darker points are "
 "at a lower altitude."
 msgstr ""
-"Titik-titik sampel di klasifikasikan sesuai nilai ketinggiannya, dengan "
-"seperti titik yang lebih gelap memiliki nilai elevasi yang lebih rendah."
+"Titik-titik sampel di klasifikasikan sesuai dengan nilai masing-masing "
+"sehingga titik yang lebih gelap akan berada pada posisi yang lebih rendah."
 
 # 3dd08c02ad46482c84c2b44ab308a2ae
 #: ../../vector_analysis/spatial_statistics.rst:87
 msgid ""
 "You'll be using this sample layer for the rest of the statistical exercises."
 msgstr ""
-"Anda akan menggunakan *layer* sampel ini untuk latihan statistik lainnya."
+"Anda akan menggunakan layer sampel ini selama latihan statistik berlangsung."
 
 # 8b519292d2fe461182ddf1075d55a528
 #: ../../vector_analysis/spatial_statistics.rst:90
 msgid "|basic| |FA| Basic Statistics"
-msgstr "|basic| Ikuti bersama: Statistik dasar"
+msgstr "|basic| Ikuti Bersama: Statistik Dasar"
 
 # 1a53ca79479a4f60ae2ee02798995d82
 #: ../../vector_analysis/spatial_statistics.rst:92
 msgid "Now get the basic statistics for this layer."
-msgstr "Sekarang dapatkan informasi statistik dasar untuk *layer* tersebut."
+msgstr ""
+"Sekarang waktunya mendapatkan informasi statistik dasar untuk layer ini."
 
 # bea23a5faa324feea45943ab6dd32b30
 #: ../../vector_analysis/spatial_statistics.rst:94
@@ -2341,8 +2361,7 @@ msgid ""
 "Click on the :menuselection:`Vector --> Analysis Tools --> Basic statistics` "
 "menu entry."
 msgstr ""
-"Klik pada menu :menuselection:`Vector --> Analysis *tool*s --> Basic "
-"statistics`."
+"Klik menu :menuselection:`Vector --> Analysis Tools --> Basic statistics`."
 
 # def481819cd3451bb04c15e29d3d24c7
 #: ../../vector_analysis/spatial_statistics.rst:96
@@ -2350,13 +2369,13 @@ msgid ""
 "In the dialog that appears, specify the :guilabel:`random_samples` layer as "
 "the source."
 msgstr ""
-"Dalam kotak dialog yang muncul, atur *layer* :guilabel:`random_samples` "
+"Pada kotak dialog yang muncul, masukkan layer :guilabel:`random_samples` "
 "sebagai sumber."
 
 # 7c711e2083ac4aa99ff33939281e0d75
 #: ../../vector_analysis/spatial_statistics.rst:98
 msgid "Click :guilabel:`OK`. You'll get results like this:"
-msgstr "Klik :guilabel:`OK`. Anda akan medapatkan seperti berikut:"
+msgstr "Klik :guilabel:`OK`. Anda akan memperoleh hasil sebagai berikut:"
 
 # e9cbac4b722d415aa6507a9b94cb2d89
 # 75f1b86c495d4827ba823e144e8e7965
@@ -2366,8 +2385,8 @@ msgid ""
 "You can copy and paste the results into a spreadsheet. The data uses a "
 "(colon :kbd:`:`) separator."
 msgstr ""
-"Anda akan melakukan copy dan paste hasilnya ke dalam spreadsheet. Data "
-"menggunakan pemisah titik dua ( :kbd:`:`)."
+"Anda dapat menyalin dan menyisipkan hasilnya ke dalam lembar lajur "
+"(spreadsheet). Data ini  menggunakan pemisah titik dua ( :kbd:`:`)."
 
 # e7247d5c901b4b2a817cb368040208da
 #: ../../vector_analysis/spatial_statistics.rst:109
@@ -2378,13 +2397,13 @@ msgstr "Tutup kotak dialog plugin ketika selesai."
 #: ../../vector_analysis/spatial_statistics.rst:111
 msgid "To understand the statistics above, refer to this definition list:"
 msgstr ""
-"Untuk memahami statistik di atas, mari kita lihat kembali definisi ini dari "
-"dalam daftar:"
+"Untuk memahami statistik di atas, silakan merujuk pada daftar definisi "
+"berikut ini:"
 
 # 24ffc2a71eaf444f8732e6da620953d9
 #: ../../vector_analysis/spatial_statistics.rst:115
 msgid "Mean"
-msgstr ""
+msgstr "Mean"
 
 # 680804f0ca88437fa850a3999a99066f
 #: ../../vector_analysis/spatial_statistics.rst:114
@@ -2392,13 +2411,13 @@ msgid ""
 "The mean (average) value is simply the sum of the values divided by the "
 "amount of values."
 msgstr ""
-"Nilai rata-rata (average) adalah hitungan dari penjumlahan semua nilai "
-"dibagi banyaknya nilai."
+"Nilai Mean (rata-rata) adalah penjumlahan semua nilai dibagi banyaknya nilai "
+"tersebut."
 
 # 94508cfd5eb14541bd82ac5719f0119e
 #: ../../vector_analysis/spatial_statistics.rst:120
 msgid "StdDev"
-msgstr ""
+msgstr "StdDev"
 
 # ba70a0e34726438697fce5c5be03d348
 #: ../../vector_analysis/spatial_statistics.rst:118
@@ -2407,34 +2426,34 @@ msgid ""
 "clustered around the mean. The smaller the standard deviation, the closer "
 "values tend to be to the mean."
 msgstr ""
-"Standar deviasi. Mengindikasikan seberapa dekat nilai-nilai yang mengelompok "
-"di sekitar rata-rata. Semakin kecil nilai standar deviasinya, semakin dekat "
-"nilai relatif terhadap rata-ratanya."
+"Simpangan baku. Mengindikasikan seberapa dekat nilai-nilai yang berkelompok "
+"di sekitar nilai rata-rata. Semakin kecil nilai simpangan baku, semakin "
+"dekat suatu nilai dengan nilai rata-ratanya."
 
 # 5c2815272bd849119b3b143a32c325f2
 #: ../../vector_analysis/spatial_statistics.rst:123
 msgid "Sum"
-msgstr ""
+msgstr "Sum"
 
 # 274c49d4ebd8460faf49c2e71b1466a5
 #: ../../vector_analysis/spatial_statistics.rst:123
 msgid "All the values added together."
-msgstr "Semua nilai ditambahkan secara bersama-sama."
+msgstr "Penjumlahan semua nilai."
 
 # 582ef906ba9b401d92ace5efa0b4f887
 #: ../../vector_analysis/spatial_statistics.rst:126
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
 # 3b1b6fe054704b8abeafa9e70271ba1f
 #: ../../vector_analysis/spatial_statistics.rst:126
 msgid "The minimum value."
-msgstr "Nilai Minimal."
+msgstr "Nilai minimum."
 
 # 02f21bc6a46e46b49bb21d12d5375c2c
 #: ../../vector_analysis/spatial_statistics.rst:129
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 # 5b5fae7200874978bdb2ae5d90ec8cd1
 #: ../../vector_analysis/spatial_statistics.rst:129
@@ -2444,7 +2463,7 @@ msgstr "Nilai maksimal."
 # 7edac0d9674e4e33b1cbc3ba7a05b415
 #: ../../vector_analysis/spatial_statistics.rst:132
 msgid "N"
-msgstr ""
+msgstr "N"
 
 # 84a3b40dfeb24f0ba06bf8f0b5697907
 #: ../../vector_analysis/spatial_statistics.rst:132
@@ -2454,7 +2473,7 @@ msgstr "Jumlah sampel/nilai."
 # f2a289f7cc31498fa6509ffaa913b803
 #: ../../vector_analysis/spatial_statistics.rst:136
 msgid "CV"
-msgstr ""
+msgstr "CV"
 
 # 255214a2db594224be9f588a186dd932
 #: ../../vector_analysis/spatial_statistics.rst:135
@@ -2462,13 +2481,13 @@ msgid ""
 "The `spatial <http://en.wikipedia.org/wiki/Spatial_covariance>`_ `covariance "
 "<http://en.wikipedia.org/wiki/Covariance>`_ of the dataset."
 msgstr ""
-" `spasiial <http://en.wikipedia.org/wiki/Spatial_covariance>`_ `kovarian "
-"<http://en.wikipedia.org/wiki/Covariance>`_ dari *dataset*."
+" `Kovarian/peragam <http://en.wikipedia.org/wiki/Covariance>`_ `spasial "
+"<http://en.wikipedia.org/wiki/Spatial_covariance>`_ dari set data."
 
 # fcd32672ce7e4dd2976b639fa89553d1
 #: ../../vector_analysis/spatial_statistics.rst:141
 msgid "Number of unique values"
-msgstr ""
+msgstr "Jumlah nilai yang unik"
 
 # a49a005dd1f145f582f1225364b5dbf1
 #: ../../vector_analysis/spatial_statistics.rst:139
@@ -2477,24 +2496,24 @@ msgid ""
 "unique values in a dataset with N=100, then the 10 remaining values are the "
 "same as one or more of each other."
 msgstr ""
-"Jumlah nilai yang unik dalam *dataset*. Jika ada 90 nilai unik dalam sebuah "
-"*dataset* dengan N=100, kemudian 10 nilai lainnya bernilai sama dengan "
-"lainnya."
+"Jumlah nilai yang unik dalam set data. Jika terdapat 90 nilai unik dalam "
+"sebuah set data dengan N=100, maka 10 nilai sisanya adalah sama dengan satu "
+"atau lebih nilai sesamanya."
 
 # 6a6dad9d260642d9921c49f7a498d9b3
 #: ../../vector_analysis/spatial_statistics.rst:144
 msgid "Range"
-msgstr ""
+msgstr "Range"
 
 # 15f2635b81714de09c03e1ab2d064e1d
 #: ../../vector_analysis/spatial_statistics.rst:144
 msgid "The difference between the minimum and maximum values."
-msgstr "Perbedaan antara nilai minimal dan maksimal."
+msgstr "Selisih antara nilai minimal dan maksimal (kisaran)."
 
 # 594255592a794ee68735f205788a02a3
 #: ../../vector_analysis/spatial_statistics.rst:149
 msgid "Median"
-msgstr ""
+msgstr "Median"
 
 # 5ccfb43cde174c9b9d7a9c449e47c04a
 #: ../../vector_analysis/spatial_statistics.rst:147
@@ -2503,14 +2522,14 @@ msgid ""
 "the average of the two middle values, if N is an even number) is the median "
 "of the values."
 msgstr ""
-"Jika Anda menyusun semua nilai dari paling kecil atau paling besar, nilai "
-"tengah (atau rata-rata dari dua nilai tengah, jika N adalah jumlah nilai) "
-"adalah median dari nilai."
+"Jika anda menyusun semua nilai dari yang paling kecil hingga paling besar, "
+"nilai tengah (atau rata-rata dari dua nilai tengah, jika N adalah bilangan "
+"genap) adalah median dari nilai."
 
 # f316bac8bf3a41a09270e456e4cce76c
 #: ../../vector_analysis/spatial_statistics.rst:152
 msgid "|basic| |FA| Compute a Distance Matrix"
-msgstr "|basic| Ikuti bersama: menghitung matriks jarak"
+msgstr "|basic| Ikuti Bersama: Menghitung Matriks Jarak"
 
 # 748a699ff04b4ddeb3bbfe168f04dc73
 #: ../../vector_analysis/spatial_statistics.rst:154
@@ -2518,7 +2537,7 @@ msgid ""
 "Create a new point layer in the same projection as the other datasets (:kbd:"
 "`WGS 84 / UTM 33S`)."
 msgstr ""
-"Buat *layer* titik baru dalam proyeksi yang sama dengan *dataset* lain (:kbd:"
+"Buat layer titik baru pada proyeksi yang sama dengan set data lainnya (:kbd:"
 "`WGS 84 / UTM 33S`)."
 
 # b495992a19334339b79d435f3bd1119b
@@ -2526,8 +2545,8 @@ msgstr ""
 msgid ""
 "Enter edit mode and digitize three point somewhere among the other points."
 msgstr ""
-"Masuk ke mode edit dan digitasi tiga titik sembarang di antara titik-titik "
-"lainnya."
+"Masuk ke modus penyuntingan dan digitasi tiga titik sembarang di antara "
+"titik-titik lainnya."
 
 # 00a3e0b84cfa418ea7d8c685570a9975
 #: ../../vector_analysis/spatial_statistics.rst:157
@@ -2536,12 +2555,12 @@ msgid ""
 "specify only three points."
 msgstr ""
 "Anda juga dapat menggunakan metode pembentukan titik acak yang sama seperti "
-"sebelumnya, tapi tentukan hanya tiga titik."
+"sebelumnya, tetapi kali hanya tentukan tiga titik."
 
 # 1ae27ae792c54430ac88ce27cfcfbfe3
 #: ../../vector_analysis/spatial_statistics.rst:159
 msgid "Save your new layer as :kbd:`distance_points.shp`."
-msgstr "Simpan *layer* baru Anda sebagai :kbd:`distance_points.shp`."
+msgstr "Simpan layer baru anda sebagai :kbd:`distance_points.shp`."
 
 # d98fea466c4f492eb1f917299b90ee16
 #: ../../vector_analysis/spatial_statistics.rst:161
@@ -2549,24 +2568,24 @@ msgid ""
 "In order to compare layers using statistical tools, a layer needs to have a "
 "unique ID field. Let's create one for your :guilabel:`random_samples` layer."
 msgstr ""
-"Untuk membandingkan layer menggunakan tool statistik, layer perlu memiliki "
-"field ID yang unik. Mari kita membuat satu ID untuk layer :guilabel:"
+"Untuk membandingkan layer menggunakan alat bantu statistik, layer tersebut "
+"perlu memiliki kolom ID yang unik. Mari kita buat ID untuk layer :guilabel:"
 "`random_samples`."
 
 # 91673a5990794e09afafa8d6b3e15d0b
 #: ../../vector_analysis/spatial_statistics.rst:164
 msgid "Open the attribute table for this layer."
-msgstr "Buka tabel atribut untuk *layer* ini."
+msgstr "Buka tabel atribut untuk layer ini."
 
 # bd7d20e833724a7ba316a81813143bf0
 #: ../../vector_analysis/spatial_statistics.rst:165
 msgid "Enter edit mode."
-msgstr "Masuk ke mode edit."
+msgstr "Masuk ke modus penyuntingan."
 
 # f68dc4bbe3154ddfac442db04d3a4322
 #: ../../vector_analysis/spatial_statistics.rst:166
 msgid "Open the raster calculator."
-msgstr "Buka raster calculator."
+msgstr "Buka kalkulator raster."
 
 # a0915adbb22743f0ba957851f846c7ce
 #: ../../vector_analysis/spatial_statistics.rst:167
@@ -2574,8 +2593,8 @@ msgid ""
 "Create a new field called :kbd:`id`, with an integer field type and a width "
 "of :kbd:`3`."
 msgstr ""
-"Buat kolom baru yang diberi nama :kbd:`id`, dengan tipe kolom bilangan bulat "
-"dan lebar :kbd:`3`."
+"Buat kolom baru serta beri nama :kbd:`id` dengan jenis kolom bilangan bulat "
+"(integer) dan lebar :kbd:`3`."
 
 # 19dcebb512f541af98575ba21c538aec
 #: ../../vector_analysis/spatial_statistics.rst:169
@@ -2584,27 +2603,27 @@ msgid ""
 "and double-click on the item :guilabel:`$id`, so that it appears in the :"
 "guilabel:`Expression` field below."
 msgstr ""
-"Lihat di :guilabel:`Function list` di dalam kategori :guilabel:`Record`, dan "
-"double-klik pada item :guilabel:`$id`, sehingga muncul :guilabel:"
+"Lihat :guilabel:`Function list` di dalam kategori :guilabel:`Record` dan "
+"klik ganda pada item :guilabel:`$id` untuk memunculkan :guilabel:"
 "`Expression` seperti di bawah ini."
 
 # 86b73a5b44864bc98391b8a949c98cf2
 #: ../../vector_analysis/spatial_statistics.rst:172
 msgid "Click :guilabel:`OK` to generate a unique ID for this layer."
-msgstr ""
-"Klik :guilabel:`OK` untuk menghasilkan sebuah ID yang unik untuk *layer* ini."
+msgstr "Klik :guilabel:`OK` untuk membuat sebuah ID yang unik untuk layer ini."
 
 # 7b7ff0ed7ffb456d86234878d301ea99
 #: ../../vector_analysis/spatial_statistics.rst:174
 msgid "To generate a distance matrix using these points:"
-msgstr "Untuk membentuk matriks jarak menngunakan titik-titik ini:"
+msgstr "Untuk membuat matriks jarak dengan menggunakan titik-titik ini:"
 
 # 5a3a0eac11d1459eb091f4ec8b95d5a8
 #: ../../vector_analysis/spatial_statistics.rst:176
 msgid ""
 "Open the tool :menuselection:`Vector --> Analysis Tools --> Distance matrix`."
 msgstr ""
-"Buka *tool* :menuselection:`Vector --> Analysis *tool*s --> Distance matrix`."
+"Buka alat bantu :menuselection:`Vector --> Analysis Tools --> Distance "
+"matrix`."
 
 # da970771a91c4834af22f697db59baaa
 #: ../../vector_analysis/spatial_statistics.rst:177
@@ -2612,30 +2631,31 @@ msgid ""
 "Select the :guilabel:`distance_points` layer as the input layer, and the :"
 "guilabel:`random_samples` layer as the target layer."
 msgstr ""
-"pilih *layer* :guilabel:`distance_points` sebagai *layer* input dan :"
-"guilabel:`random_samples` sebagai *layer* target."
+"Pilih :guilabel:`distance_points` sebagai layer masukan dan :guilabel:"
+"`random_samples` sebagai layer target."
 
 # 0b8f980bbd5d445cafa7edf340298f3c
 #: ../../vector_analysis/spatial_statistics.rst:184
 msgid "Click :guilabel:`OK` to generate the distance matrix."
-msgstr "Klik :guilabel:`OK` untuk membentuk matrik jarak."
+msgstr "Klik :guilabel:`OK` untuk membuat matriks jarak."
 
 # ac9bcd25714242258e2eab34fcd49bdb
 #: ../../vector_analysis/spatial_statistics.rst:185
 msgid ""
 "Open it in a spreadsheet program to see the results. Here is an example:"
 msgstr ""
-"Buka pada program spreadsheet untuk melihat hasilnya. Berikut contohnya:"
+"Buka pada perangkat lunak lembar lajur (spreadsheet) untuk melihat hasilnya. "
+"Berikut adalah contohnya:"
 
 # 62c13eaeb7d64ba9ba4f7233c14c0323
 #: ../../vector_analysis/spatial_statistics.rst:191
 msgid "|basic| |FA| Nearest Neighbor Analysis"
-msgstr "|basic| Ikuti bersama: Analisis Nearest Neighbor"
+msgstr "|basic| Ikuti Bersama: Analisis Tetangga Terdekat"
 
 # f46f65441a3f4f289a6ffb7831f1c224
 #: ../../vector_analysis/spatial_statistics.rst:193
 msgid "To do a nearest neighbor analysis:"
-msgstr "Untuk melakukan analisis nearest neighbor:"
+msgstr "Untuk melakukan analisis tetangga terdekat:"
 
 # 4f726d56c2d74a91a7910913cb79313d
 #: ../../vector_analysis/spatial_statistics.rst:195
@@ -2643,7 +2663,7 @@ msgid ""
 "Click on the menu item :menuselection:`Vector --> Analysis Tools --> Nearest "
 "neighbor analysis`."
 msgstr ""
-"Klik pada item menu :menuselection:`Vector --> Analysis *tool*s --> Nearest "
+"Klik item menu :menuselection:`Vector --> Analysis Tools --> Nearest "
 "neighbor analysis`."
 
 # 823a0ef2438f47448a91bf27f26b2736
@@ -2652,23 +2672,24 @@ msgid ""
 "In the dialog that appears, select the :guilabel:`random_samples` layer and "
 "click :guilabel:`OK`."
 msgstr ""
-"Pada kotak dialog yang muncul, pilih *layer* :guilabel:`random_samples dan "
+"Pada kotak dialog yang muncul, pilih layer :guilabel:`random_samples dan "
 "klik :guilabel:`OK`."
 
 # bfbb68ca462d4e918f111354f8aa465f
 #: ../../vector_analysis/spatial_statistics.rst:199
 msgid "The results will appear in the dialog's text window, for example:"
-msgstr "Hasilnya akan muncul pada jendela teks dialog, sebagai contoh:"
+msgstr ""
+"Hasilnya akan muncul pada jendela teks dalam kotak dialog, sebagai contoh:"
 
 # 1cdc835cac0b4eb7a738b186fb3aa2c1
 #: ../../vector_analysis/spatial_statistics.rst:208
 msgid "|basic| |FA| Mean Coordinates"
-msgstr "|basic| Ikuti bersama : Mean Coordinate(s) (Koordinat rata-rata)"
+msgstr "|basic| Ikuti Bersama: Koordinat Mean (rata-rata)"
 
 # 4264bb6b3add43879b2dc0843fdb0f96
 #: ../../vector_analysis/spatial_statistics.rst:210
 msgid "To get the mean coordinates of a dataset:"
-msgstr "Untuk mendapatkan koordinat rata-rata dari sebuah datset:"
+msgstr "Untuk mendapatkan koordinat rata-rata dari sebuah set data:"
 
 # c5456b848e0d48678cb21a90a9537bfe
 #: ../../vector_analysis/spatial_statistics.rst:212
@@ -2676,7 +2697,7 @@ msgid ""
 "Click on the :menuselection:`Vector --> Analysis Tools --> Mean "
 "coordinate(s)` menu item."
 msgstr ""
-"Klik pada item menu :menuselection:`Vector --> Analysis *tool*s --> Mean "
+"Klik item menu :menuselection:`Vector --> Analysis Tools --> Mean "
 "coordinate(s)`."
 
 # 0dec5354f79844788e0de9a67c1930bd
@@ -2685,19 +2706,19 @@ msgid ""
 "In the dialog that appears, specify :guilabel:`random_samples` as the input "
 "layer, but leave the optional choices unchanged."
 msgstr ""
-"Pada dialog akan muncul , tentukan :guilabel:`random_samples` sebagai layer "
-"input, biarkan pilihan opsional yang lain tidak berubah."
+"Pada kotak dialog yang muncul, tentukan :guilabel:`random_samples` sebagai "
+"layer masukan dan biarkan pilihan lain tidak berubah."
 
 # f69914d733644a4189658d5a31429b79
 #: ../../vector_analysis/spatial_statistics.rst:216
 msgid "Specify the output layer as :kbd:`mean_coords.shp`."
-msgstr "Simpan *layer* hasil sebagai :kbd:`mean_coords.shp`."
+msgstr "Simpan layer keluaran sebagai :kbd:`mean_coords.shp`."
 
 # d6b6762b36f8450b891f9be12fc25c5b
 #: ../../vector_analysis/spatial_statistics.rst:218
 msgid "Add the layer to the :guilabel:`Layers list` when prompted."
 msgstr ""
-"Tambahkan *layer* tersebut ke dalam :guilabel:`*layer*s list`ketika diminta."
+"Tambahkan layer tersebut ke dalam :guilabel:`*Layers list`ketika diminta."
 
 # 655460e4718e49129a653f49ab15880d
 #: ../../vector_analysis/spatial_statistics.rst:220
@@ -2705,8 +2726,8 @@ msgid ""
 "Let's compare this to the central coordinate of the polygon that was used to "
 "create the random sample."
 msgstr ""
-"Mari kita bandingkan koordinat pusat dari poligon yang digunakan untuk "
-"membuat sampel acak."
+"Mari kita bandingkan dengan koordinat pusat dari poligon yang digunakan "
+"untuk membuat sampel acak."
 
 # f4009edc36fe4d958c119c93b371980b
 #: ../../vector_analysis/spatial_statistics.rst:223
@@ -2714,7 +2735,7 @@ msgid ""
 "Click on the :menuselection:`Vector --> Geometry Tools --> Polygon "
 "centroids` menu item."
 msgstr ""
-"Klik pada item menu :menuselection:`Vector --> Geometry *tool*s --> Polygon "
+"Klik item menu :menuselection:`Vector --> Geometry Tools --> Polygon "
 "centroids`."
 
 # f8b98c2150db4dbf99030d1164fed266
@@ -2722,8 +2743,8 @@ msgstr ""
 msgid ""
 "In the dialog that appears, select :guilabel:`roads_hull` as the input layer."
 msgstr ""
-"pada kotak dialog yang muncul, pilih :guilabel:`roads_hull` sebagai *layer* "
-"input."
+"Pada kotak dialog yang muncul, pilih :guilabel:`roads_hull` sebagai layer "
+"masukan."
 
 # b3caf10635c346b192f07734f0167ada
 #: ../../vector_analysis/spatial_statistics.rst:226
@@ -2733,7 +2754,8 @@ msgstr "Simpan hasilnya sebagai :kbd:`center_point`."
 # d23534463b724c85bc60a3255ff95e15
 #: ../../vector_analysis/spatial_statistics.rst:227
 msgid "Add it to the :guilabel:`Layers list` when prompted."
-msgstr "Tambahkan layer tersebut dalam :guilabel:`layers list`ketika diminta."
+msgstr ""
+"Tambahkan layer tersebut ke dalam :guilabel:`Layers list`ketika diminta."
 
 # 876cf5d36e8e4724aade2ccf36748dda
 #: ../../vector_analysis/spatial_statistics.rst:229
@@ -2741,13 +2763,13 @@ msgid ""
 "As you can see from the example below, the mean coordinates and the center "
 "of the study area (in orange) don't necessarily coincide:"
 msgstr ""
-"Sebagaimana yang Anda lihat di contoh berikut, koordinat rata-rata dan pusat "
-"dari area studi (berwarna oranye) :"
+"Seperti yang anda lihat pada contoh berikut ini, koordinat rata-rata dan "
+"pusat area studi (berwarna oranye) tidak harus berpotongan:"
 
 # 3a1558858973497194177d537060f10b
 #: ../../vector_analysis/spatial_statistics.rst:236
 msgid "|basic| |FA| Image Histograms"
-msgstr "|basic| Ikuti bersama: Histogram citra"
+msgstr "|basic| Ikuti Bersama: Gambar Histogram"
 
 # 09da60f73ef148f0b7cdb2e42e25881a
 #: ../../vector_analysis/spatial_statistics.rst:238
@@ -2756,20 +2778,20 @@ msgid ""
 "simplest way to demonstrate this in QGIS is via the image histogram, "
 "available in the :guilabel:`Layer Properties` dialog of any image layer."
 msgstr ""
-"Histogram dari sebuah *dataset* menunjukkan distribusi nilai-nilainya. Cara "
-"yang paling sederhana untuk menunjukkannya dalam QQGIS adalah dengan "
-"histogram citra, yang tersedia dalam dialog :guilabel:`*layer* Properties` "
-"dalam berbagai citra. "
+"Histogram dari suatu set data menunjukkan distribusi nilai-nilainya. Cara "
+"yang paling sederhana untuk mendemonstrasikannya melalui QGIS adalah dengan "
+"gambar histogram yang tersedia dalam kotak dialog :guilabel:`Layer "
+"Properties` pada layer gambar manapun. "
 
 # 6904c6f4e6994d269852498f89978e50
 #: ../../vector_analysis/spatial_statistics.rst:242
 msgid "In your :guilabel:`Layers list`, right-click on the SRTM DEM layer."
-msgstr "Pada :guilabel:`*layer*s list` Anda, klik kanan pada *layer* DEM SRTM."
+msgstr "Dalam :guilabel:`Layers list`, klik kanan pada layer DEM SRTM."
 
 # cf7aeda1574d4a34a0beffc90c4a80c2
 #: ../../vector_analysis/spatial_statistics.rst:243
 msgid "Select :menuselection:`Layer Properties`."
-msgstr "pilih :menuselection:`*layer* Properties`."
+msgstr "Pilih :menuselection:`Layer Properties`."
 
 # e51897a6d2234f12975097109be017b8
 #: ../../vector_analysis/spatial_statistics.rst:244
@@ -2777,20 +2799,19 @@ msgid ""
 "Choose the tab :guilabel:`Histogram`. You will see a graph describing the "
 "frequency of values in the image."
 msgstr ""
-"Pilih tab :guilabel:`Histogram`. Anda akan melihat gambar yang "
-"mendiskripsikan frekuensi kemunculan nilai-nilai dalam citra."
+"Pilih tab :guilabel:`Histogram`. Anda akan melihat grafik yang "
+"mendeskripsikan frekuensi kemunculan nilai-nilai dalam gambar."
 
 # bafa264fb5354e75b40d91920d9b190e
 #: ../../vector_analysis/spatial_statistics.rst:246
 msgid "You can export it as an image:"
-msgstr "Anda dapat mengekspornya sebagai sebuah gambar.:"
+msgstr "Anda dapat mengekspornya sebagai sebuah gambar:"
 
 # f3e08b02a713485eb4ad8572ea6ffddd
 #: ../../vector_analysis/spatial_statistics.rst:251
 msgid ""
 "Look at the metadata for this layer (under the :guilabel:`Metadata` tab)."
-msgstr ""
-"Lihat pada metadata untuk *layer* ini (di dalam tab :guilabel:`Metadata`)."
+msgstr "Lihat metadata untuk layer ini (di dalam tab :guilabel:`Metadata`)."
 
 # fa1f45e94a7744f5a5cb03a503185e5a
 #: ../../vector_analysis/spatial_statistics.rst:253
@@ -2802,12 +2823,12 @@ msgid ""
 "there is no visible red line marking the frequency of values higher than "
 "about :kbd:`250`."
 msgstr ""
-"Nilai rata-ratanya adalah :kbd:`332.8` dan nilai maksimumnya adalah :kbd:"
-"`1699`! Tetapi nilai-nilai tersebut tidak ditunjukkan dalam histogram. "
-"Kenapa tidak? Karena nilai tersebut begitu sedikit dibandingkan dengan "
-"banyaknya nilai piksel dengan nilai di bawah rata-rata. Hal tersebut juga "
-"menyebabkan histogram meluas jauh ke kanan, meskipun tidak ada garis merah "
-"yang terlihat menandai frekuensi nilai yang lebih tinggi dari :kbd:`250`."
+"Nilai rata-ratanya adalah :kbd:`332.8` dan nilai maksimumnya :kbd:`1699`! "
+"Tetapi nilai-nilai tersebut tidak ditunjukkan dalam histogram. Kenapa tidak? "
+"Karena nilai-nilai tersebut terlalu sedikit dibandingkan dengan banyaknya "
+"nilai piksel yang bernilai di bawah rata-rata. Itu juga mengapa histogram "
+"meluas begitu jauh ke kanan, meskipun tidak ada garis merah yang terlihat "
+"menandai frekuensi nilai yang lebih tinggi dari :kbd:`250`."
 
 # a5f58d32d9a641bbb6f6be11fbd27fcd
 #: ../../vector_analysis/spatial_statistics.rst:259
@@ -2816,17 +2837,17 @@ msgid ""
 "values, and not all values are necessarily visible on the graph."
 msgstr ""
 "Perlu diingat bahwa histogram menampilkan distribusi dari nilai, dimana "
-"tidak semua nilai perlu ditampilkan dalam gambar."
+"tidak semua nilai dapat terlihat pada gambar."
 
 # 2b02608eaa7e42889a0f3dfd52d099fb
 #: ../../vector_analysis/spatial_statistics.rst:262
 msgid "(You may now close :guilabel:`Layer Properties`.)"
-msgstr "(Sekarang Anda boleh menutup :guilabel:`*layer* Properties`.)"
+msgstr "(Sekarang anda dapat menutup :guilabel:`Layer Properties`.)"
 
 # 5559bc184e324fad9b9fc296746937e3
 #: ../../vector_analysis/spatial_statistics.rst:265
 msgid "|basic| |FA| Spatial Interpolation"
-msgstr "|basic| Ikuti bersama : Interpolasi Spasial"
+msgstr "|basic| Ikuti Bersama:  Interpolasi Spasial"
 
 # 4f4cb5e42e8d434cb84734bea320bc3d
 #: ../../vector_analysis/spatial_statistics.rst:267
@@ -2836,10 +2857,10 @@ msgid ""
 "`random_samples` dataset we created earlier, and would like to have some "
 "idea of what the terrain looks like."
 msgstr ""
-"Anda mempunyai sekumpulan titik-titik sampel dimana Anda ingin "
-"mengeksplorasi lebih jauh data tersebut. Sebagai contoh, Anda mungkin telah "
-"mengakses *dataset* :guilabel:`random_samples` yang telah kita buat "
-"sebelumnya, dan Anda ingin mempunyai beberapa ide tentang tampilan terain."
+"Katakanlah terdapat sekumpulan titik-titik sampel yang ingin anda "
+"ekstrapolasi datanya. Sebagai contoh, anda mungkin telah mengakses set data :"
+"guilabel:`random_samples` yang telah kita buat sebelumnya dan anda ingin "
+"mengetahui lebih jauh mengenai tampilan permukaan suatu daerah."
 
 # 80bb08d7c1574628b4017f0a591da6e5
 #: ../../vector_analysis/spatial_statistics.rst:272
@@ -2847,14 +2868,14 @@ msgid ""
 "To start, launch the :guilabel:`Grid (Interpolation)` tool by clicking on "
 "the :menuselection:`Raster --> Analysis --> Grid (Interpolation)` menu item."
 msgstr ""
-"Untuk memulainya, aktifkan *tool* :guilabel:`Grid (Interpolation)` dengan "
+"Pertama-tama, aktifkan alat bantu :guilabel:`Grid (Interpolation)` dengan "
 "mengklik item menu :menuselection:`Raster --> Analysis --> Grid "
 "(Interpolation)`."
 
 # 08ca36a270d842c8b53c7c2c76fcad3c
 #: ../../vector_analysis/spatial_statistics.rst:275
 msgid "In the :guilabel:`Input file` field, select :kbd:`random_samples`."
-msgstr "Pada field :guilabel:`Input file` pilih :kbd:`random_samples`."
+msgstr "Pada kolom :guilabel:`Input file`, pilih :kbd:`random_samples`."
 
 # 394db4a92d63440bbec520fff21a1b0a
 #: ../../vector_analysis/spatial_statistics.rst:276
@@ -2862,7 +2883,7 @@ msgid ""
 "Check the :guilabel:`Z Field` box, and select the value field (not the :kbd:"
 "`id` field)."
 msgstr ""
-"Periksa kotak :guilabel:`Z Field`, pilih field nilai (bukan field :kbd:`id`)."
+"Periksa kotak :guilabel:`Z Field`, pilih kolom nilai (bukan kolom :kbd:`id`)."
 
 # 2e082187a83146c88d378b1559e211ca
 #: ../../vector_analysis/spatial_statistics.rst:278
@@ -2870,7 +2891,7 @@ msgid ""
 "Set the :guilabel:`Output file` location to :kbd:`exercise_data/"
 "spatial_statistics/interpolation.tif`."
 msgstr ""
-"Atur lokasi :guilabel:`Output file`ke dalam folder :kbd:`exercise_data/"
+"Atur lokasi :guilabel:`Output file`ke folder :kbd:`exercise_data/"
 "spatial_statistics/interpolation.tif`."
 
 # 5880db9f9e9e40cc9ff2f385b5f03ebb
@@ -2889,7 +2910,7 @@ msgid ""
 "kbd:`2.0`. Leave the other values as-is."
 msgstr ""
 "Atur :guilabel:`Power` dengan nilai :kbd:`5.0` dan :guilabel:`Smoothing` "
-"dengan nilai :kbd:`2.0`.Abaikan nilai-nilai yang lainnya."
+"dengan nilai :kbd:`2.0`. Abaikan nilai-nilai yang lainnya."
 
 # 55b9b49911874a8ea79f63f5b29505e4
 #: ../../vector_analysis/spatial_statistics.rst:284
@@ -2907,10 +2928,10 @@ msgid ""
 "(if it has appeared), and click :guilabel:`Close` on the :guilabel:`Grid "
 "(Interpolation)` dialog."
 msgstr ""
-"Setelah selesai, klik :guilabel:`OK` pada dialog yang menyatakan :kbd:"
-"`Process completed`, klik :guilabel:`OK` pada dialog yang menunjukkan "
-"informasi feedback (jika muncul), dan klik :guilabel:`Close` pada dialog :"
-"guilabel:`Grid (Interpolation)`."
+"Setelah selesai, klik :guilabel:`OK` pada kotak dialog yang menyatakan :kbd:"
+"`Process completed`; klik :guilabel:`OK` pada kotak dialog yang menunjukkan "
+"informasi umpan balik (jika muncul), dan klik :guilabel:`Close` pada kotak "
+"dialog :guilabel:`Grid (Interpolation)`."
 
 # 19ccb129f7f2424ea09970f7a2a285af
 #: ../../vector_analysis/spatial_statistics.rst:291
@@ -2919,9 +2940,9 @@ msgid ""
 "from our sample points (right). Yours may look different due to the random "
 "nature of the location of the sample points."
 msgstr ""
-"Berikut perbandingan *dataset* asli (kiri) dengan hasil dari titik sampel "
-"kita (kanan).Hasil Anda mungkin terlihat berbeda dari karena lokasi titik-"
-"titik sampel yang acak."
+"Berikut adalah perbandingan set data asli (kiri) dan hasil dari titik sampel "
+"kita (kanan). Hasil yang anda peroleh mungkin terlihat berbeda karena lokasi "
+"titik-titik sampel yang acak."
 
 # 61871495c58d49779c7f04d11888f037
 #: ../../vector_analysis/spatial_statistics.rst:298
@@ -2934,14 +2955,14 @@ msgid ""
 "inspection, we can see that the sample dataset is not representative of the "
 "terrain."
 msgstr ""
-"Seperti yang Anda lihat, 100 titik sampel tidak benar-benar memadai untuk "
-"merepresentasikan nilai yang rinci dari terain. Hasilnya hanya dapat "
-"memberikan ide yang sangat umum, tetapi bisa menyesatkan juga. Sebagai "
-"contoh, pada gambar di atas, tidak jelas bahwa terdapat sesuatu yang tinggi, "
-"yaitu pegunungan yang melintas dari timur ke barat, melainkan hanya "
-"menunjukkan lembah, dengan puncak yang tinggi di sebelah barat. Dengan "
-"menggunakan penilaian secara visual, kita dapat melihat bahwa *dataset* "
-"sampel tidak mewakili terain."
+"Seperti yang dapat anda lihat, 100 titik sampel tidak sepenuhnya memadai "
+"untuk mendapatkan gambaran permukaan bumi yang terperinsi. Hasilnya berupa "
+"gambaran yang sangat umum, tetapi dapat menyesatkan. Sebagai contoh, pada "
+"gambar di atas tidak terlihat jelas adanya jajaran pegunungan tinggi yang "
+"membentang dari timur ke barat; yang terlihat hanya sebuah lembah dengan "
+"puncak yang tinggi di sebelah barat. Dengan hanya menggunakan penilaian "
+"secara visual, kita dapat melihat bahwa set data sampel yang sederhana tidak "
+"cukup untuk mewakili gambaran permukaan bumi."
 
 # edbf7a1ea854436b8663f8cee4e7519d
 #: ../../vector_analysis/spatial_statistics.rst:308
@@ -2949,21 +2970,21 @@ msgid ""
 "Use the processes shown above to create a new set of :kbd:`1000` random "
 "points."
 msgstr ""
-"Gunakan langkah di atas untuk membuat *dataset* baru dari :kbd:`1000` titik-"
-"titik acak. "
+"Gunakan proses yang ditunjukkan di atas untuk membuat set data baru yang "
+"terdiri dari :kbd:`1000` titik-titik acak. "
 
 # d9f1b70b1b004f1cb17a92f99530bfdb
 #: ../../vector_analysis/spatial_statistics.rst:309
 msgid "Use these points to sample the original DEM."
-msgstr "Gunakan titik-titik tersebut untuk sampel DEM awal."
+msgstr "Gunakan titik-titik tersebut untuk membuat sampel dari DEM semula."
 
 # 215258a048bf42b8a68d16c0add80487
 #: ../../vector_analysis/spatial_statistics.rst:310
 msgid ""
 "Use the :guilabel:`Spatial Interpolation` tool on this new dataset as above."
 msgstr ""
-"Gunakan *tool* :guilabel:`Spatial Interpolation` pada *dataset* baru seperti "
-"di atas."
+"Gunakan alat bantu :guilabel:`Spatial Interpolation` pada set data baru "
+"tersebut seperti ditunjukkan di atas."
 
 # 4183c15c204745af927dee1c67d30676
 #: ../../vector_analysis/spatial_statistics.rst:311
@@ -2972,9 +2993,9 @@ msgid ""
 "`Power` and :guilabel:`Smoothing` set to :kbd:`5.0` and :kbd:`2.0`, "
 "respectively."
 msgstr ""
-"Atur nama file hasil menjadi :kbd:`interpolation_1000.tif`, dengan :guilabel:"
-"`Power` dan :guilabel:`Smoothing` masing-masing berniali :kbd:`5.0` dan :kbd:"
-"`2.0`."
+"Atur nama file keluaran menjadi :kbd:`interpolation_1000.tif` dengan :"
+"guilabel:`Power` dan :guilabel:`Smoothing` masing-masing bernilai :kbd:`5.0` "
+"dan :kbd:`2.0`."
 
 # d24cbb9fd5be477a9efdb2802123e055
 #: ../../vector_analysis/spatial_statistics.rst:315
@@ -2982,8 +3003,8 @@ msgid ""
 "The results (depending on the positioning of your random points) will look "
 "more or less like this:"
 msgstr ""
-"Hasilnya ( tergantung pada posisi titik-titik acak Anda) akan tampak kurang "
-"lebih seperti berikut:"
+"Hasilnya (tergantung dari posisi titik-titik acak yang anda buat) akan "
+"tampak kurang lebih seperti berikut ini:"
 
 # 3e2610e1e5de47e39bceb67a4972bd37
 #: ../../vector_analysis/spatial_statistics.rst:321
@@ -2993,9 +3014,10 @@ msgid ""
 "beyond its edges. This is a much better representation of the terrain, due "
 "to the much greater density of sample points."
 msgstr ""
-"Garis hijau menunjukan layer :guilabel:`roads_hull` ( yang merepresentasikan "
-"batas dari titik-titik sampel acak) untuk menjelaskan kurangnya detail luar "
-"tepinya. Representasi tersebut jauh lebih baik untuk terain, karena "
+"Daerah perbatasan menampilkan layer :guilabel:`roads_hull` (yang mewakili "
+"batas dari titik-titik sampel acak) untuk menjelaskan tidak adanya "
+"karakteristik terperinci yang tiba-tiba di luar daerah tepiannya. Ini "
+"merupakan representasi permukaan bumi yang lebih baik karena memiliki "
 "kepadatan titik-titik sampel yang jauh lebih besar."
 
 # 0275c52b8f0c44bdb18c6b5c48dabb11
@@ -3003,8 +3025,8 @@ msgstr ""
 msgid ""
 "Here is an example of what it looks like with :kbd:`10 000` sample points:"
 msgstr ""
-"Berikut adalah contoh dari tampilan untuk titik-titik sampel sebanyak :kbd:"
-"`10 000`:"
+"Berikut adalah contoh tampilan dengan titik-titik sampel sebanyak :kbd:`10 "
+"000`:"
 
 # 3d6b77707ba24d54a8a21afdac092d1b
 #: ../../vector_analysis/spatial_statistics.rst:331
@@ -3013,15 +3035,15 @@ msgid ""
 "you are not working on a fast computer, as the size of the sample dataset "
 "requires a lot of processing time."
 msgstr ""
-"Anda tidak direkomendasikan untuk mencoba melakukan dengan titik-titik "
-"sampel sejumlah 10.000 jika Anda tidak bekerja dengan komputer yang mampu "
-"bekerja cepat, karena ukuran sampel *dataset* tersebut akan membutuhkan "
-"banyak waktu dalam prosesnya."
+"Tidak disarankan untuk mencoba melakukan langkah ini dengan titik sampel "
+"sebanyak 10.000 jika anda tidak memiliki komputer yang mampu bekerja dengan "
+"cepat karena ukuran set data sampel tersebut akan membutuhkan kemampuan "
+"pemrosesan yang besar."
 
 # 5696d6db547c43fdae62c2b95b39440a
 #: ../../vector_analysis/spatial_statistics.rst:336
 msgid "|moderate| |FA| Installing SEXTANTE"
-msgstr "|moderate| Ikuti bersama : Menginstal SEXTANTE"
+msgstr "|moderate| Ikuti Bersama: Menginstalasi SEXTANTE"
 
 # a390fc4d6e994345882fbdd7f2a1ddbb
 #: ../../vector_analysis/spatial_statistics.rst:338
@@ -3031,11 +3053,10 @@ msgid ""
 "you're unsure whether you have SEXTANTE, check if it's marked as installed "
 "in your :guilabel:`Plugin Installer`."
 msgstr ""
-"Plugin SEXTANTE memungkinkan Anda untuk mengakses berbagai *tool* plugin "
-"dari satu antarmuka. Plugin ini sudah menjadi bagian standar dalam QGIS "
-"versi 1.8. Jika Anda kurang yakin apakah Anda sudah mempunyai SEXTANTE, "
-"periksa apakah sudah ada tanda terinstal dalam :guilabel:`Plugin Installer` "
-"Anda."
+"Plugin SEXTANTE memungkinkan anda untuk mengakses berbagai alat bantu plugin "
+"dari satu antarmuka. Plugin ini sudah menjadi bagian standar dari QGIS versi "
+"1.8. Jika anda kurang yakin, periksa apakah sudah ada tanda terinstalasi "
+"pada :guilabel:`Plugin Installer`."
 
 # 152e13d4cb4f4c998f61a786ead84a72
 #: ../../vector_analysis/spatial_statistics.rst:343
@@ -3043,8 +3064,8 @@ msgid ""
 "Assuming you have it installed (and enabled in the :guilabel:`Plugin "
 "Manager`):"
 msgstr ""
-"Asumsikan Anda telah menginstalnya (dan tersedia dalam :guilabel:`Plugin "
-"Manager`):"
+"Dengan asumsi bahwa anda telah menginstalasinya (dan tersedia dalam :"
+"guilabel:`Plugin Manager`):"
 
 # 96d70cc282ab4ad59bca178be5dc3320
 #: ../../vector_analysis/spatial_statistics.rst:345
@@ -3052,8 +3073,8 @@ msgid ""
 "Activate SEXTANTE by enabling the :menuselection:`View --> Panels --> "
 "SEXTANTE Toolbox` menu entry. The toolbox looks like this:"
 msgstr ""
-"Aktifkan SEXTANTE dengan cara klik item menu :menuselection:`View --> Panels "
-"--> SEXTANTE *tool*box` . Tampilan *tool*box seperti berikut:"
+"Aktifkan SEXTANTE dengan cara mengklik item menu :menuselection:`View --> "
+"Panels --> SEXTANTE Toolbox`. Tampilan toolbox tampak seperti berikut ini:"
 
 # 9153797cfbad4bddb316e509f74fd24f
 #: ../../vector_analysis/spatial_statistics.rst:351
@@ -3063,16 +3084,16 @@ msgid ""
 "many tools of its own. To have access to spatial statistics tools, you will "
 "need to install the SAGA GIS program."
 msgstr ""
-"Anda mungkin melihat *tool*box tersebut masuk ke dalam QGIS pada peta yang "
-"benar. Ingat bahwa *tool*-*tool* yang terdaftar disini adalah penghubung ke "
-"*tool*-*tool* yang sudah ada. SEXTANTE sendiri tidak mempunyai banyak "
-"*tool*. Untuk memperoleh akses ke *tool* spatial statisctics, Anda akan "
-"perlu menginstal program SAGA GIS."
+"Anda dapat melihat toolbox tersebut terpasang pada QGIS di sebelah kanan "
+"peta. Ingatlah bahwa yang muncul disini adalah tautan menuju alat bantu yang "
+"sesungguhnya. SEXTANTE sendiri tidak mempunyai banyak alat bantu. Untuk "
+"mengakses alat bantu statistik spasial, anda perlu menginstalasi program "
+"SAGA GIS."
 
 # 3549157860cd46c18640c15777743b93
 #: ../../vector_analysis/spatial_statistics.rst:357
 msgid "|moderate| |FA| Installing SAGA"
-msgstr "|moderate| Ikuti Bersama : Menginstal SAGA"
+msgstr "|moderate| Ikuti Bersama: Menginstalasi SAGA"
 
 # 6036cde991134299a5a9b5a9cd0844be
 #: ../../vector_analysis/spatial_statistics.rst:359
@@ -3081,20 +3102,22 @@ msgid ""
 "these functions in QGIS via SEXTANTE, you need to install SAGA first."
 msgstr ""
 "SAGA adalah progam SIG dengan banyak fungsi analisis yang bermanfaat. Untuk "
-"membuat fungsi-fungsi tersebut dalam QGIS melalui SEXTANTE, Anda perlu "
-"menginstal SAGA terlebih dahulu."
+"memanfaatkan fungsi-fungsi tersebut melalui SEXTANTE dalam QGIS, anda perlu "
+"menginstalasi SAGA terlebih dahulu."
 
 # b02cda7bf100408aacad5250e7f902db
 #: ../../vector_analysis/spatial_statistics.rst:363
 msgid "On Windows"
-msgstr "Instalasi Dalam Windows"
+msgstr "Instalasi pada Windows"
 
 # 5534996f7f3242a3941e4d8c75974b75
 #: ../../vector_analysis/spatial_statistics.rst:365
 msgid ""
 "Included in your course materials you will find the SAGA installer for "
 "Windows."
-msgstr "Installer SAGA sudah dimasukkan ke dalam materi pelatihan Anda."
+msgstr ""
+"Penginstalasi SAGA untuk Windows sudah disertakan dalam materi pelatihan "
+"anda."
 
 # 1874e8aa28ac456784c0d85089c001bd
 #: ../../vector_analysis/spatial_statistics.rst:367
@@ -3102,8 +3125,8 @@ msgid ""
 "Start the program and follow its instructions to install SAGA on your "
 "Windows system. Take note of the path you are installing it under!"
 msgstr ""
-"Mulai program dan ikuti instruksi untuk menginstal SAGA pada sistem operasi "
-"Anda. Perhatikan lokasi direktori Anda menginstal!"
+"Mulai program dan ikuti instruksi untuk menginstalasi SAGA pada sistem "
+"operasi Windows anda. Perhatikan lokasi direktori instalasi anda!"
 
 # 4f08f21d7a984493a8a018e4f1a7a1e4
 #: ../../vector_analysis/spatial_statistics.rst:370
@@ -3111,8 +3134,8 @@ msgid ""
 "Once you have installed SAGA, you'll need to configure SEXTANTE to find the "
 "path it was installed under."
 msgstr ""
-"Setelah Anda menginstal SAGA, Anda perlu mengonfigurasi SEXTANTE untuk "
-"menemukan lokasi direktori yang telah terinstal."
+"Setelah menginstalasi SAGA, anda perlu mengonfigurasi SEXTANTE untuk "
+"menemukan lokasi direktori instalasinya."
 
 # 7e647b2665574ad1b8649e7bfe5d2cf5
 #: ../../vector_analysis/spatial_statistics.rst:373
@@ -3120,7 +3143,7 @@ msgid ""
 "Click on the menu entry :menuselection:`Analysis --> SAGA options and "
 "configuration`."
 msgstr ""
-"Klik pada menu :menuselection:`Analysis --> SAGA options and configuration`."
+"Klik menu :menuselection:`Analysis --> SAGA options and configuration`."
 
 # 8f8d3bb9f2de4d76b9827124d5c096bb
 #: ../../vector_analysis/spatial_statistics.rst:375
@@ -3128,18 +3151,18 @@ msgid ""
 "In the dialog that appears, expand the :guilabel:`SAGA` item and look for :"
 "guilabel:`SAGA folder`. Its value will be blank."
 msgstr ""
-"Pada kotak dialog yang muncul, perluas item :guilabel:`SAGA` dan lihat "
-"pada  :guilabel:`SAGA folder`. Nilainya akan kososng."
+"Pada kotak dialog yang muncul, perluas item :guilabel:`SAGA` dan cari :"
+"guilabel:`SAGA folder`. Nilainya masih kosong."
 
 # 87f62a9fb87449faa276d00966affd87
 #: ../../vector_analysis/spatial_statistics.rst:377
 msgid "In this space, insert the path where you installed SAGA."
-msgstr "Pada space ini, masukkan direktori dimana Anda menginstal SAGA."
+msgstr "Pada kolom ini, masukkan direktori dimana anda menginstalasi SAGA."
 
 # e1e155c5b9804a57b1caed91d017e263
 #: ../../vector_analysis/spatial_statistics.rst:380
 msgid "On Ubuntu"
-msgstr "Instalasi Dalam Ubuntu"
+msgstr "Instalasi pada Ubuntu"
 
 # e7ee2be8040b4e85bec271fe9e63ffea
 #: ../../vector_analysis/spatial_statistics.rst:382
@@ -3148,9 +3171,9 @@ msgid ""
 "the phrase :kbd:`sudo apt-get install saga-gis` in your terminal. (You may "
 "first need to add a SAGA repository to your sources.)"
 msgstr ""
-"Cari :guilabel:`SAGA GIS` dalam :guilabel:`Software Center`, atau enter pada "
-"frase :kbd:`sudo apt-get install saga-gis dalam terminal Anda. (Terlebih "
-"dahulu Anda perlu menambahkan repositori SAGA ke dalam sumber Anda.)"
+"Cari :guilabel:`SAGA GIS` dalam :guilabel:`Software Center`, atau ketikkan "
+"frase :kbd:`sudo apt-get install saga-gis` pada terminal anda. (Anda mungkin "
+"harus menambahkan repositori SAGA sebagai sumber instalasi terlebih dulu.)"
 
 # a3f7e6cdf30745c8a2fc7b9b5791af25
 #: ../../vector_analysis/spatial_statistics.rst:385
@@ -3158,8 +3181,8 @@ msgid ""
 "QGIS will find SAGA automatically, although you may need to restart QGIS if "
 "it doesn't work straight away."
 msgstr ""
-"QGIS akan menemukan SAGA secara otomatis, meskipun begitu Anda perlu "
-"merestart QGIS Anda, jika SAGA belum bekerja dengan baik."
+"QGIS akan menemukan SAGA secara otomatis, jika tidak anda mungkin harus  "
+"menutup dan buka kembali QGIS."
 
 # f09350cde75d4b4d8fea4ef8025703ec
 #: ../../vector_analysis/spatial_statistics.rst:389
@@ -3172,15 +3195,13 @@ msgid ""
 "Now that you have installed and configured SAGA, its functions will become "
 "accessible to you."
 msgstr ""
-"Sekarang Anda telah menginstal dan mengonfigurasi SAGA, sehingga dapat "
-"mengakses fungsi-fungsinya."
+"Setelah menginstalasi dan mengkonfigurasi SAGA, anda dapat mengakses semua "
+"fungsi-fungsinya."
 
 # 31937fb1f781426e8d5abe43356dd3be
 #: ../../vector_analysis/spatial_statistics.rst:395
 msgid "|moderate| |FA| Spatial Point Pattern Analysis"
-msgstr ""
-"|moderate| Ikuti bersama : Spatial Point Pattern Analysis (Analisis pola "
-"titik spatial)"
+msgstr "|moderate| Ikuti Bersama: Analisis Pola Titik Spasial"
 
 # 76682edee09c4dd6822dac06e74fb9a2
 #: ../../vector_analysis/spatial_statistics.rst:397
@@ -3189,9 +3210,9 @@ msgid ""
 "guilabel:`random_samples` dataset, we can make use of SAGA's :guilabel:"
 "`Spatial Point Pattern Analysis` tool."
 msgstr ""
-"Untuk mendapatkan petunjuk sederhana dari distribusi spasial titik-titik "
-"pada *dataset* :guilabel:`random_samples`, kita dapat menggunakan *tool* "
-"pada SAGA yaitu :guilabel:`Spatial Point Pattern Analysis`."
+"Untuk memperoleh indikasi sederhana mengenai distribusi spasial dari titik-"
+"titik pada set data :guilabel:`random_samples`, kita dapat menggunakan alat "
+"bantu :guilabel:`Spatial Point Pattern Analysis` pada SAGA."
 
 # f94f24f65e6e41d5b4ec5008847efc95
 #: ../../vector_analysis/spatial_statistics.rst:401
@@ -3199,18 +3220,20 @@ msgid ""
 "In the :guilabel:`SEXTANTE Toolbox`, find this tool under :menuselection:"
 "`SAGA --> Geostatistics --> Spatial Point Pattern Analysis`."
 msgstr ""
-"Pada SEXTANTE *tool*box, temukan *tool* di dalam :menuselection:`SAGA --> "
-"Geostatistics --> Spatial Point Pattern Analysis`."
+"Pada :guilabel:`SEXTANTE Toolbox`, temukan alat bantu ini pada :"
+"menuselection:`SAGA --> Geostatistics --> Spatial Point Pattern Analysis`."
 
 # b751634b8cdd4fc4a0c4720f283609d7
 #: ../../vector_analysis/spatial_statistics.rst:403
 msgid "Double-click on it to open its dialog."
-msgstr "Klik dua kali untuk membuka dialognya."
+msgstr "Klik ganda untuk membuka kotak dialognya."
 
 # 57356c363b4840c1bfe7fdf8e1fcfd81
 #: ../../vector_analysis/spatial_statistics.rst:404
 msgid "It produces three outputs, and so will require three output paths."
-msgstr "Hal tersebut menghasilkan 3 hasil dan akan membutuhkan 3 path hasil."
+msgstr ""
+"Langkah ini akan menghasilkan 3 keluaran sehingga membutuhkan 3 lokasi "
+"keluaran."
 
 # 1daf0e96674b43abb253c6c140c7ca7e
 #: ../../vector_analysis/spatial_statistics.rst:405
@@ -3218,17 +3241,16 @@ msgid ""
 "Save these three outputs under :kbd:`exercise_data/spatial_statistics/`, "
 "using whatever file names you find appropriate."
 msgstr ""
-"Simpan ketiga hasil tersebut dalam folder :kbd:`exercise_data/"
-"spatial_statistics/`, dengan menggunakan sembarang nama yang menurut Anda "
-"tepat."
+"Simpan ketiga keluaran tersebut dalam folder :kbd:`exercise_data/"
+"spatial_statistics/` dengan menggunakan sembarang nama yang anda inginkan."
 
 # 83efbcb185c942ccb4e4c3bde97733f8
 #: ../../vector_analysis/spatial_statistics.rst:411
 msgid ""
 "The output will look like this (the symbology was changed for this example):"
 msgstr ""
-"Hasilnya akan tampak seperti berikut (simbologinya sudah diubah untuk contoh "
-"ini):"
+"Keluarannya akan tampak seperti berikut ini (simbologinya diubah dalam "
+"contoh ini):"
 
 # a42072deaf994f039c1e3077e2c5a7d2
 #: ../../vector_analysis/spatial_statistics.rst:416
@@ -3238,17 +3260,15 @@ msgid ""
 "the mean center; and the rectangle is the bounding box, describing the "
 "smallest possible rectangle which will still enclose all the points."
 msgstr ""
-"Titik merah adalah pusat, lingkaran yang luas tersebut merupakan simpangan "
-"baku, yang memberikan petunjuk seberapa dekat titik-titik terdistribusi di "
-"sekeliling pusat rata-rata; dan persegi adalah kotak batas yang merupakan "
-"kotak terkecil yang masih bisa mencakup semua titik-titik."
+"Titik merah adalah pusat rata-rata; lingkaran besar merupakan simpangan baku "
+"yang mengindikasikan seberapa dekat titik-titik terdistribusi di sekitar "
+"pusat rata-rata; dan persegi panjang adalah kotak batas yang menggambarkan "
+"persegi panjang terkecil yang masih bisa mencakup semua titik."
 
 # 228bcba064b3400c88d5271498e03870
 #: ../../vector_analysis/spatial_statistics.rst:422
 msgid "|moderate| |FA| Minimum Distance Analysis"
-msgstr ""
-"|moderate| Ikuti bersama : Minimum Distance Analysis (Analisis Jarak "
-"terkecil)"
+msgstr "|moderate| Ikuti Bersama: Analisis Jarak Minimum"
 
 # f949e366657448668774857f45379c58
 #: ../../vector_analysis/spatial_statistics.rst:424
@@ -3257,9 +3277,9 @@ msgid ""
 "table summarizing the statistical properties of a dataset. One of these is "
 "the :guilabel:`Minimum Distance Analysis` tool."
 msgstr ""
-"Sering hasil dari algoritma tidak dalam bentuk shapefile, tetapi dalam "
-"bentuk tabel yang merangkum properti statistik dari sebuah *dataset*. Salah "
-"satunya adalah *tool* :guilabel:`Minimum Distance Analysis`."
+"Seringkali keluaran algoritma tidak berbentuk shapefile, tetapi dalam bentuk "
+"tabel yang merangkum properti statistik dari suatu set data. Salah satunya "
+"adalah alat bantu :guilabel:`Minimum Distance Analysis`."
 
 # d3eb10e8bcef49c78728c8d6fa4f4b6f
 #: ../../vector_analysis/spatial_statistics.rst:428
@@ -3267,8 +3287,8 @@ msgid ""
 "Find this tool in the :guilabel:`SEXTANTE Toolbox` as :menuselection:`SAGA --"
 "> Geostatistics --> Minimum Distance Analysis`."
 msgstr ""
-"Temukan *tool* SEXTANTE Tollbox sebagai :menuselection:`SAGA --> "
-"Geostatistics --> Minimum Distance Analysis`."
+"Temukan alat bantu ini pada :guilabel:`SEXTANTE Toolbox` melalui :"
+"menuselection:`SAGA --> Geostatistics --> Minimum Distance Analysis`."
 
 # 75e3ea6c66034215a8b8ae529994ad4f
 #: ../../vector_analysis/spatial_statistics.rst:431
@@ -3276,13 +3296,13 @@ msgid ""
 "It does not require any other input besides specifying the vector point "
 "dataset to be analyzed."
 msgstr ""
-"Proses ini tidak membutuhkan masukan yang lain selain *dataset* titik vektor "
+"Proses ini tidak membutuhkan masukan apapun selain set data titik vektor "
 "yang akan dianalisis."
 
 # c319d49c5b0a44caa101718c22fdb69d
 #: ../../vector_analysis/spatial_statistics.rst:434
 msgid "Choose the :guilabel:`random_points` dataset."
-msgstr "Pilih *dataset*  :guilabel:`random_points`."
+msgstr "Pilih set data  :guilabel:`random_points`."
 
 # dbc3382bfca941c690082339b93f7ea6
 #: ../../vector_analysis/spatial_statistics.rst:435
@@ -3290,8 +3310,8 @@ msgid ""
 "Click :guilabel:`OK`. On completion, a DBF table will appear in the :"
 "guilabel:`Layers list`."
 msgstr ""
-"Klik :guilabel:`OK`. Ketika selesaia, tabel PDF akan muncul dalam:guilabel:"
-"`*layer*s list`."
+"Klik :guilabel:`OK`. Ketika selesai, sebuah tabel PDF akan muncul pada:"
+"guilabel:`Layers list`."
 
 # 37973f9adf8342ec9f9ee05852abd172
 #: ../../vector_analysis/spatial_statistics.rst:437
@@ -3300,7 +3320,7 @@ msgid ""
 "your results will be in this format:"
 msgstr ""
 "Pilih tabel tersebut, kemudian buka atribut tabelnya. Meskipun tampilannya "
-"mungkin bervariasi, hasil Anda akan format seperti berikut:"
+"mungkin bervariasi, hasilnya akan berada dalam format berikut ini:"
 
 # 74ec936273974ddeadba561be4efc852
 #: ../../vector_analysis/spatial_statistics.rst:446
@@ -3308,8 +3328,8 @@ msgid ""
 "QGIS allows many possibilities for analyzing the spatial statistical "
 "properties of datasets."
 msgstr ""
-"QGIS memungkinkan banyak kemungkinan untuk analisis properti spatial "
-"statistics dari *dataset*."
+"QGIS memberikan banyak kemungkinan untuk menganalisis properti statistik "
+"spasial dari suatu set data."
 
 # c703ed25423d4716826afb4fd8304f4e
 #: ../../vector_analysis/spatial_statistics.rst:452
@@ -3317,8 +3337,9 @@ msgid ""
 "Now that we've covered vector analysis, why not see what can be done with "
 "rasters? That's what we'll do in the next module!"
 msgstr ""
-"Sekarang kita telah mencakup analisis vektor, selanjutnya kita akan "
-"melakukan hal yang sama untuk data raster.!"
+"Setelah membahas analisis vektor, selanjutnya kita akan membahas apa yang "
+"bisa dilakukan dengan raster. Itulah yang akan kita lakukan pada modul "
+"berikutnya!"
 
 # 81ab75575bd54c3895d975dd9dcf8d1f
 #~ msgid ""

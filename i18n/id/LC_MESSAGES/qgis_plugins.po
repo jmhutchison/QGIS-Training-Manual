@@ -3,25 +3,25 @@
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-02 14:39+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-10-17 12:09+1100\n"
+"PO-Revision-Date: 2014-10-20 14:41+1000\n"
+"Last-Translator: yusatya <yusatya@gmail.com>\n"
+"Language-Team: AIPEID\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Language: id\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # b763eb4f9be9403cb4b7249b23b624da
 #: ../../qgis_plugins/fetching_plugins.rst:2
 msgid "|LS| Installing and Managing Plugins"
-msgstr "Pelajaran: Menginstal dan mengatur Plugin"
+msgstr "Pelajaran: Menginstalasi dan Mengelola Plugin"
 
 # ded47a0a78da4961ab8fa84c8fa6a144
 #: ../../qgis_plugins/fetching_plugins.rst:4
@@ -30,22 +30,22 @@ msgid ""
 "activate them. To do this, you will learn how to use the :guilabel:`Plugin "
 "Installer` and :guilabel:`Plugin Manager`."
 msgstr ""
-"Untuk mulai menggunakan plugin, Anda perlu tahu cara mengunduh, menginstal "
-"dan mengaktifkannya. Untuk dapat melakukan ini, Anda akan belajar bagaimana "
-"menggunakan :guilabel:`Plugin Installer` dan :guilabel:`Plugin Manager`."
+"Untuk mulai menggunakan plugin, anda perlu mengetahui cara mengunduh, "
+"menginstalasi dan mengaktifkannya. Untuk dapat melakukan ini, anda akan "
+"belajar bagaimana menggunakan :guilabel:`Plugin Installer` dan :guilabel:"
+"`Plugin Manager`."
 
 # 337669334c5e492aa98b9ad844f6ba43
 #: ../../qgis_plugins/fetching_plugins.rst:8
 msgid ""
 "**The goal for this lesson:** To understand and use QGIS' plugin system."
 msgstr ""
-"**Tujuan dari pelajaran ini :** Untuk dapat mengerti dan menggunakan sistem "
-"Plugin QGIS."
+"**Tujuan dari pelajaran ini:** Memahami dan menggunakan sistem Plugin QGIS."
 
 # 1d98a9837e784b6795db3ff32a81d4b3
 #: ../../qgis_plugins/fetching_plugins.rst:11
 msgid "|basic| |FA| Managing Plugins"
-msgstr "|basic| Ikuti Bersama: Mengatur Plugin"
+msgstr "|basic| Ikuti bersama: Mengelola Plugin"
 
 # ,650fc78925ca44189cde04b99dcb3b7c
 #: ../../qgis_plugins/fetching_plugins.rst:13
@@ -53,8 +53,8 @@ msgid ""
 "To open the :guilabel:`Plugin Manager`, click on the menu item :"
 "menuselection:`Plugins --> Manage Plugins`."
 msgstr ""
-"Untuk membuka :guilabel:`Plugin Manager`, klik pada item menu Plugins :"
-"menuselection:`Plugins --> Manage Plugins`."
+"Untuk membuka :guilabel:`Plugin Manager`, klik item menu :menuselection:"
+"`Plugins --> Manage Plugins`."
 
 # 20a079121c464f3b922c20e1913ea834
 #: ../../qgis_plugins/fetching_plugins.rst:15
@@ -62,6 +62,8 @@ msgid ""
 "The following dialog will open, showing the different plugins already "
 "installed"
 msgstr ""
+"Kotak dialog berikut ini akan terbuka dan menampilkan plugin yang sudah "
+"terinstalasi"
 
 # ec2a684d52b84c2283c18d85deed648a
 #: ../../qgis_plugins/fetching_plugins.rst:16
@@ -69,6 +71,9 @@ msgid ""
 "in your QGIS software. What you see may differ slightly to the image below, "
 "depending upon what plugins you have installed:"
 msgstr ""
+"pada perangkat lunak QGIS anda. Apa yang anda lihat mungkin akan sedikit "
+"berbeda dengan gambar berikut ini, tergantung dari plugin apa yang sudah "
+"terinstalasi:"
 
 # e09f2c2e9db744a1a845802ed9d4bf82
 #: ../../qgis_plugins/fetching_plugins.rst:22
@@ -76,23 +81,24 @@ msgid ""
 "You can activate or deactivate these plugins by clicking on their "
 "corresponding check box."
 msgstr ""
+"Anda dapat mengaktifkan atau menonaktifkan plugin dengan mengklik kotak "
+"centang masing-masing."
 
 # da58c1c0855e4d29a5a4a0f4bffaffd5
 #: ../../qgis_plugins/fetching_plugins.rst:25
-#, fuzzy
 msgid ""
 "The list of plugins that you can activate and deactivate only draws from the "
 "plugins that you currently have installed. To install new plugins, you need "
 "to use the :guilabel:`Plugin Installer`."
 msgstr ""
-"Perlu diingat, daftar plugin yang bisa anda aktifkan dan non-aktifkan hanya "
-"muncul dari plugin yang sudah Anda instal. Untuk menginstal plugin baru, "
-"Anda harus menggunakan :guilabel:`Plugin Installer`."
+"Daftar plugin yang dapat anda aktifkan dan non-aktifkan bergantung pada "
+"plugin apa yang telah diinstalasi. Untuk menginstalasi plugin baru, anda "
+"dapat menggunakan :guilabel:`Plugin Installer`."
 
 # 34606df0d41741b2bd0d4c40c16dbf98
 #: ../../qgis_plugins/fetching_plugins.rst:30
 msgid "|basic| |FA| Installing New Plugins"
-msgstr "|Basic| Ikuti Bersama: Menginstal Plugin Baru"
+msgstr "|basic| Ikuti bersama: Menginstalasi Plugin Baru"
 
 # 4ed6bcde373a466883d77dcebb135812
 #: ../../qgis_plugins/fetching_plugins.rst:32
@@ -100,7 +106,7 @@ msgid ""
 "To start the :guilabel:`Plugin Installer`, click on the menu item :"
 "menuselection:`Plugins --> Fetch Python Plugins`."
 msgstr ""
-"Untuk memulai :guilabel:`Plugin Installer`, klik pada item menu :"
+"Untuk menjalankan :guilabel:`Plugin Installer`, klik item menu :"
 "menuselection:`Plugins --> Fetch Python Plugins`."
 
 # 2287fc99a71b4df4ae4976274b928ef8
@@ -109,8 +115,8 @@ msgid ""
 "A dialog will appear. The amount of plugins that you see here will differ, "
 "depending on your setup."
 msgstr ""
-"Selanjutnya kotak dialog akan muncul. .Jumlah plugin yang Anda lihat akan "
-"berbeda, tergantung dari pengaturan Anda."
+"Sebuah kotak dialog akan muncul. Jumlah plugin yang terdapat disini mungkin "
+"tidak sama, tergantung dari pengaturan yang anda miliki."
 
 # 250f6e7c99fe420eaa6c2e7daafdf425
 #: ../../qgis_plugins/fetching_plugins.rst:38
@@ -120,40 +126,36 @@ msgid ""
 "plugins. These are usually the first plugins you want, because they have "
 "been tested thoroughly and are often included in QGIS by default."
 msgstr ""
-"Plugins QGIS disimpan secara online dalam repositori. Secara default, hanya "
-"repositori resmi yang aktif, yang berarti bahwa Anda hanya dapat mengakses "
-"plugin resmi. Plugin-plugin ini biasanya , merupakan plugin awal yang Anda "
-"inginkan. Plugin-plugin tersebut telah diuji secara keseluruhan dan biasanya "
-"masuk dalam default QGIS."
+"Plugin QGIS disimpan secara daring di dalam lokasi repositori. Secara "
+"default, hanya repositori resmi yang aktif sehingga anda hanya dapat "
+"mengakses plugin resmi. Ini biasanya merupakan plugin awal yang anda "
+"inginkan karena telah diuji secara seksama dan seringkali telah disertakan "
+"dalam QGIS."
 
 # d83d08e669354d72abb10026c730ff87
 #: ../../qgis_plugins/fetching_plugins.rst:43
-#, fuzzy
 msgid ""
 "It is possible, however, to try out more plugins than the default ones. To "
 "do this:"
 msgstr ""
-"Walaupun demikian, Anda dapat mencari plugins yang lain selain plugin awal. "
-"Pertama, Anda perlu mengecek terlebih dahulu pada repositori yang tersedia. "
-"Untuk melakukan ini:"
+"Namun, anda tetap dapat mencoba plugin lain di samping yang telah "
+"disediakan. Untuk melakukan hal ini:"
 
 # ff30816d93c54f0da76e6ad14c973f89
 #: ../../qgis_plugins/fetching_plugins.rst:45
-#, fuzzy
 msgid ""
 "Open the :guilabel:`Options` tab on the :guilabel:`Plugin Installer` dialog:"
 msgstr ""
-"Buka tab :guilabel:`Repositories`pada kotak dialog guilabel:`Plugin "
-"Installer`:"
+"Buka tab :guilabel:`Options` pada kotak dialog :guilabel:`Plugin Installer`:"
 
 # a39b3abe7ccc44bf991de93317c9c99d
 #: ../../qgis_plugins/fetching_plugins.rst:51
-#, fuzzy
 msgid ""
 "Click the :guilabel:`Show all plugins except those marked as experimental` "
 "option."
 msgstr ""
-"Pilih opsi :guilabel:`Show all plugins except those marked as experimental`."
+"Klik pilihan :guilabel:`Show all plugins except those marked as "
+"experimental`."
 
 # 43e5969ac0e74a2781cc309e0cbbcbaf
 #: ../../qgis_plugins/fetching_plugins.rst:53
@@ -162,15 +164,17 @@ msgid ""
 "marked as experimental` option. Be aware that experimental plugins may not "
 "be fully tested."
 msgstr ""
+"Jika diinginkan, anda dapat mengklik pilihan :guilabel:`Show all plugins, "
+"even those marked as experimental`. Tetapi perlu diingat bahwa plugin "
+"eksperimental kemungkinan belum diuji secara seksama."
 
 # 141ebafe40524b65b039325ca47f33dd
 #: ../../qgis_plugins/fetching_plugins.rst:56
-#, fuzzy
 msgid ""
 "Now go back to the :guilabel:`Plugins` tab to find the available plugins."
 msgstr ""
-"Jika Anda beralih kembali ke tab :guilabel:`Plugins`,Anda akan melihat lebih "
-"banyak plugin yang tersedia untuk diinstal. "
+"Sekarang kembali ke tab :guilabel:`Plugins` untuk melihat plugin yang "
+"tersedia."
 
 # a76854dcbb0c40cd8f529e6bd5a37456
 #: ../../qgis_plugins/fetching_plugins.rst:61
@@ -178,8 +182,8 @@ msgid ""
 "To install a plugin, simply click on it in the list and then click the :"
 "guilabel:`Install plugin` button."
 msgstr ""
-"Untuk menginstall satu plugin, cukup dengan mengklik salah satu plugin pada "
-"daftar dan kemudian klik tombol :guilabel:`Install plugin`."
+"Untuk menginstall sebuah plugin, klik plugin tersebut pada daftar kemudian "
+"klik tombol :guilabel:`Install plugin`."
 
 # 41dd9042492945408e30a933674ee558
 # 61f2acba61064101bfc99a2a77fa7433
@@ -190,9 +194,8 @@ msgstr "Kesimpulan"
 
 # a3e62efb0e9b4b11912b6b0806a442e9
 #: ../../qgis_plugins/fetching_plugins.rst:67
-#, fuzzy
 msgid "Installing plugins in QGIS is simple."
-msgstr "Menginstal plugins dalam QGIS mudah dan efektif!"
+msgstr "Menginstalasi plugin pada QGIS merupakan proses yang cukup sederhana."
 
 # b3cd80e81d044e9fb22bd2f6c73219e8
 # da7b2faf82ab41afa4216ddaf0adb50b
@@ -203,10 +206,10 @@ msgstr "Apa Selanjutnya?"
 
 # d8c3300eed864fccbf3595200f5b46be
 #: ../../qgis_plugins/fetching_plugins.rst:72
-#, fuzzy
 msgid "Next we will introduce you to some useful plugins as examples."
 msgstr ""
-"Selanjutnya, Kami akan mengenalkan Anda beberapa contoh kegunaan plugin. "
+"Selanjutnya, anda akan diperkenalkan dengan beberapa contoh plugin yang "
+"bermanfaat."
 
 # eaded7b7ae794ada92438fe34d98e523
 #: ../../qgis_plugins/index.rst:3
@@ -219,13 +222,13 @@ msgid ""
 "Plugins allow you to extend the functionality QGIS offers. In this module, "
 "you'll be shown how to activate and use plugins."
 msgstr ""
-"Plugin memungkinkan Anda untuk memperbanyak fungsi dalam QGIS . Dalam modul "
-"ini, Anda akan ditunjukkan bagaimana mengaktifkan dan menggunakan plugin."
+"Plugin memungkinkan anda untuk memperluas fungsi yang dimiliki QGIS. Pada "
+"modul ini, anda akan melihat bagaimana mengaktifkan dan menggunakan plugin."
 
 # ea273ca9565e4efda43a103a8c7be5d0
 #: ../../qgis_plugins/plugin_examples.rst:2
 msgid "|LS| Useful QGIS Plugins"
-msgstr "Pelajaran: Kegunaan Plugins QGIS"
+msgstr "Pelajaran: Plugin QGIS yang Bermanfaat"
 
 # 75d9cfc48e9c41dcb8656a88dccea91e
 #: ../../qgis_plugins/plugin_examples.rst:4
@@ -233,9 +236,9 @@ msgid ""
 "Now you can install, enable and disable plugins. Let's see how this can help "
 "you in practice by looking at some examples of useful plugins."
 msgstr ""
-"Sekarang anda dapat menginstal, mengaktifkan dan menonaktifkan plugin. Mari "
-"kita lihat bagaimana hal ini dapat membantu Anda dalam melihat beberapa "
-"plugin yang bermanfaat."
+"Sekarang anda dapat menginstalasi, mengaktifkan dan menonaktifkan plugin. "
+"Mari kita lihat bagaimana hal ini dapat membantu anda secara praktek melalui "
+"beberapa contoh plugin yang bermanfaat."
 
 # 6c481b9f593844c18b981be2c7bada8f
 #: ../../qgis_plugins/plugin_examples.rst:7
@@ -243,39 +246,39 @@ msgid ""
 "**The goal for this lesson:** To familiarize yourself with the plugin "
 "interface and get acquainted with some useful plugins."
 msgstr ""
-"**Tujuan dari pelajaran ini :** Untuk membiasakan diri Anda dengan  "
-"antarmuka  plugin dan berkenalan dengan beberapa plugin yang bermanfaat."
+"**Tujuan dari pelajaran ini :** Membiasakan diri anda dengan antarmuka "
+"plugin dan berkenalan dengan beberapa plugin yang bermanfaat."
 
 # cc59b33da4094520a7b861b2914a1eda
 #: ../../qgis_plugins/plugin_examples.rst:61
-#, fuzzy
 msgid "|basic| |FA| The OpenLayers Plugin"
-msgstr "|basic| Ikuti bersama: Plugin Google Layers"
+msgstr "|basic| Ikuti bersama: Plugin OpenLayers"
 
 # 071ad5c3b7314393828b0db27f755a12
 #: ../../qgis_plugins/plugin_examples.rst:63
 msgid "Start a new map with only the :guilabel:`streets` layer in it."
-msgstr "Buatlah peta baru dengan hanya layer :guilabel:`streets` di dalamnya."
+msgstr ""
+"Buat peta baru dengan hanya menyertakan layer :guilabel:`streets` di "
+"dalamnya."
 
 # 03ec3a694f924a4d8c64d167f0c46613
 #: ../../qgis_plugins/plugin_examples.rst:64
-#, fuzzy
 msgid ""
 "Using the :guilabel:`Plugin Installer`, find the plugin by entering the "
 "word :kbd:`Open` in the :guilabel:`Filter` field."
 msgstr ""
-"Dengan mengunakan :guilabel:`Plugin Installer`, cari pluginnya dengan "
-"mengetik :kbd:`Google` pada field :guilabel:`Filter`."
+"Dengan mengunakan :guilabel:`Plugin Installer`, cari plugin tersebut dengan "
+"mengetikkan kata :kbd:`Open` pada kolom :guilabel:`Filter`."
 
 # 057c0c8479c54f77ab198d0f32dd658b
 #: ../../qgis_plugins/plugin_examples.rst:66
 msgid "Select the Google Layers plugin from the filtered list:"
-msgstr "Pilih plugin Google Layers dari daftar :"
+msgstr "Pilih plugin Google Layers dari daftar:"
 
 # bb636e44efa040c8afe45048ece850c1
 #: ../../qgis_plugins/plugin_examples.rst:71
 msgid "Click the :guilabel:`Install plugin` button to install."
-msgstr "Klik tombol :guilabel:`Install plugin` untuk menginstal. "
+msgstr "Klik tombol :guilabel:`Install plugin` untuk melakukan instalasi. "
 
 # cf0aa7befccc45bdaa419284ac4b3147
 #: ../../qgis_plugins/plugin_examples.rst:72
@@ -290,69 +293,64 @@ msgstr "Buka :guilabel:`Plugin Manager`."
 # 46977672e39d4652ae95d6ef43625cfb
 #: ../../qgis_plugins/plugin_examples.rst:74
 msgid "Enable the new plugin:"
-msgstr "Aktifkan plugin baru:"
+msgstr "Aktifkan plugin yang baru:"
 
 # 35c583d1500c438c92f5b44ebce83f03
 #: ../../qgis_plugins/plugin_examples.rst:79
 msgid "Check the box beside it."
-msgstr "Centang pada kotak yang ada disamping ."
+msgstr "Centang kotak yang ada disampingnya."
 
 # d0055edc375741aca9bf00a6d6a5eb72
 #: ../../qgis_plugins/plugin_examples.rst:80
 msgid "Now click :guilabel:`OK` to enable the plugin."
-msgstr "kemudian klik :guilabel:`OK` untuk dapat mengaktifkan plugin."
+msgstr "kemudian klik :guilabel:`OK` untuk mengaktifkan plugin."
 
 # 46977672e39d4652ae95d6ef43625cfb
 #: ../../qgis_plugins/plugin_examples.rst:82
-#, fuzzy
 msgid "To use the plugin:"
-msgstr "Aktifkan plugin baru:"
+msgstr "Untuk menggunakan plugin baru:"
 
 # baf35aa5f9a14cbfa6ced9b733611ec9
 #: ../../qgis_plugins/plugin_examples.rst:84
-#, fuzzy
 msgid ""
 "Open the plugin by clicking on :menuselection:`Plugins --> Open Layers --> "
 "Settings`."
 msgstr ""
-"Buka pengaturan plugin dengan mengklik pada :menuselection:`Plugins --> "
-"Google Layers --> Settings`."
+"Jalankan plugin dengan mengklik :menuselection:`Plugins --> Open Layers --> "
+"Settings`."
 
 # a44dc93ea7ab467d9655047f7589794d
 #: ../../qgis_plugins/plugin_examples.rst:85
-#, fuzzy
 msgid ""
 "Use the dialog to choose a map type you want. In this example, we'll use the "
 "\"Add Google Satellite Layer\" type map, but you can choose any others if "
 "you want."
 msgstr ""
-"Gunakan kotak dialog untuk memilih tipe peta mana yang Anda inginkan. Untuk "
-"contoh kali ini, kita akan menggunakan tipe peta “Hybrid”, tetapi Anda dapat "
-"memilih tipe yang lain sesuai keinginan Anda."
+"Gunakan kotak dialog untuk memilih jenis peta yang anda inginkan. Dalam "
+"contoh ini, kita akan menggunakan jenis peta “Hybrid”, tetapi anda dapat "
+"memilih jenis lain sesuai keinginan."
 
 # 0339bc2cdd73454c884c46d0f7de6e6e
 #: ../../qgis_plugins/plugin_examples.rst:88
 msgid ""
 "Enable \"on the fly\" projection and use the Google Mercator projection:"
-msgstr "Aktifkan proyeksi \"on the fly\" dan sistem proyeksi Google Mercator:"
+msgstr "Aktifkan proyeksi \"on the fly\" dan gunakan proyeksi Google Mercator:"
 
 # 596f246c75614b0880c13b8e5e5a8c2d
 #: ../../qgis_plugins/plugin_examples.rst:93
-#, fuzzy
 msgid ""
 "You should now have a new raster image in from Google that you can use as a "
 "backdrop, or to help you find out where you are on the map. Here is such a "
 "layer, with our own vector road layer as overlay:"
 msgstr ""
-"Plugin ini akan memuat tampilan raster baru dari Google yang dapat Anda "
-"gunakan sebagai  latar belakang peta, atau membantu Anda untuk mencari "
-"lokasi Anda barada pada peta. Dalam latihan kita, layer street akan "
-"ditampilkan sebagai overlay.:"
+"Sekarang anda memiliki gambar raster baru dari Google yang dapat digunakan "
+"sebagai latar belakang atau untuk membantu anda menentukan lokasi pada peta. "
+"Berikut adalah contohnya dengan layer vektor jalan kita sebagai overlay:"
 
 # 85b4908886e94eac977205209f66cb4e
 #: ../../qgis_plugins/plugin_examples.rst:101
 msgid "|moderate| |FA| The OpenStreetMap Plugin"
-msgstr "|moderate| Ikuti Bersama: Plugin OpenStreetMap"
+msgstr "|moderate| Ikuti bersama: Plugin OpenStreetMap"
 
 # ea1159594caf46fab1b48dd20ec133fe
 #: ../../qgis_plugins/plugin_examples.rst:103
@@ -361,9 +359,9 @@ msgid ""
 "instructive to know where it comes from. QGIS has a plugin that allows you "
 "to download and edit this kind of data easily."
 msgstr ""
-"Karena kita menggunakan data OpenStreetMap (OSM) sebagai contoh, akan  "
-"bermanfaat apabila kita mengetahui dari mana asalnya . QGIS memiliki plugin "
-"yang memungkinkan Anda untuk mendownload dan mengedit jenis data dengan "
+"Karena kita menggunakan data OpenStreetMap (OSM) sebagai contoh, akan "
+"bermanfaat apabila kita mengetahui dari mana asalnya. QGIS memiliki plugin "
+"yang memungkinkan anda untuk mengunduh dan menyunting jenis data ini dengan "
 "mudah."
 
 # 47b4f81bc93546fca97c6019a2a4d97a
@@ -372,8 +370,8 @@ msgid ""
 "First, ensure that you have the plugin installed by opening the :guilabel:"
 "`Plugin Installer` and filtering on the word :kbd:`street`:"
 msgstr ""
-"Pertama, Pastikan bahwa plugin Anda telah terinstal dengan cara membuka :"
-"guilabel:`Plugin Installer` dan seleksi dengan kata :kbd:`street`:"
+"Pertama-tama, pastikan bahwa plugin anda telah terinstalasi dengan cara "
+"membuka :guilabel:`Plugin Installer` dan menyeleksi kata :kbd:`street`:"
 
 # e08f525cfcbb4964a5814ed9145c6c11
 #: ../../qgis_plugins/plugin_examples.rst:113
@@ -381,14 +379,16 @@ msgid ""
 "The :guilabel:`OpenStreetMap plugin` should be installed by default, but if "
 "it isn't, you can get it by clicking the :guilabel:`Install plugin` button."
 msgstr ""
-"Secara default, seharusnya plugin :guilabel:`OpenStreetMap plugin` sudah "
-"terinstal, tetapi apabila belum, Anda bisa mendapatkannya dengan cara "
-"mengklik tombol :guilabel:`Install plugin`."
+"Seharusnya plugin :guilabel:`OpenStreetMap plugin` sudah terinstalasi, jika "
+"belum maka anda bisa mendapatkannya dengan cara mengklik tombol :guilabel:"
+"`Install plugin`."
 
 # 666d5c4ce006428b9f5c740714fde966
 #: ../../qgis_plugins/plugin_examples.rst:115
 msgid "Once it's installed, activate it via the :guilabel:`Plugin Manager`."
-msgstr "Setelah terinstal, aktifkan melalui :guilabel:`Plugin Manager`."
+msgstr ""
+"Setelah terinstalasi, aktifkan plugin tersebut melalui :guilabel:`Plugin "
+"Manager`."
 
 # cd4a9d2aed3f4a7daf128a95e8eb3ca7
 #: ../../qgis_plugins/plugin_examples.rst:116
@@ -396,22 +396,23 @@ msgid ""
 "A new buttons and, if activated in :menuselection:`View --> Panels --> OSM "
 "Feature`, a new panel will be added to your interface:"
 msgstr ""
+"Sebuah tombol baru akan muncul; jika diaktifkan melalui :menuselection:`View "
+"--> Panels --> OSM Feature`, sebuah panel baru juga akan ditambahkan pada "
+"tampilan antarmuka:"
 
 # 29b6efa0f71041b49428c90848ae6df2
 #: ../../qgis_plugins/plugin_examples.rst:121
-#, fuzzy
 msgid ""
 "Let us download data for Bandung. The plugin will download data for the area "
 "currently on your map."
 msgstr ""
-"Selanjutnyakita akan mendownload data untuk Swellendam. Plugin akan "
-"mendownload area yang saat ini ditampilkan di peta."
+"Mari kita mengunduh data untuk Bandung. Plugin ini akan mengunduh data untuk "
+"area yang saat ini ditampilkan pada peta anda."
 
 # ba9545c4230349c8b243f13ad3e21c2c
 #: ../../qgis_plugins/plugin_examples.rst:124
-#, fuzzy
 msgid "Zoom in to the Bandung area."
-msgstr "Perbesar ke area Swellendam."
+msgstr "Perbesar tampilan daerah Bandung."
 
 # dae9c6f4dcd54953bd316c4718aacdc7
 #: ../../qgis_plugins/plugin_examples.rst:125
@@ -429,12 +430,13 @@ msgid ""
 "you can download data. If you get one of these error messages, zoom in to a "
 "smaller area on the map."
 msgstr ""
-"Anda mungkin akan melihat pesan yang menyatakan bahwa garis lintang, bujur, "
-"atau kedua luasan terlalu besar. Hal ini terjadi karena server OSM tidak "
-"memiliki kapasitas untuk terus memberikan data kepada banyak pengguna data "
-"seluruh dunia. Untuk mencegah orang yang mencoba untuk men-download data "
-"terlalu banyak, ada batasan untuk ukuran area yang Anda download . Jika Anda "
-"mendapatkan  satu pesan error, perbesar pada area yang lebih kecil pada peta."
+"Anda mungkin akan mendapatkan pesan yang menyatakan bahwa garis lintang, "
+"bujur, atau kedua terlalu besar. Hal ini terjadi karena server OSM tidak "
+"memiliki kapasitas untuk terus menerus memberikan data dunia kepada "
+"penggunanya. Untuk mencegah pengguna mengunduh terlalu banyak data, ada "
+"batasan pada ukuran area yang dapat anda unduh datanya . Jika anda "
+"mendapatkan salah satu pesan kesalahan ini, perbesar tampilan pada area yang "
+"lebih kecil."
 
 # fde677a85520473698d34377641684dc
 #: ../../qgis_plugins/plugin_examples.rst:137
@@ -442,8 +444,8 @@ msgid ""
 "If you have an acceptable area, you can leave the other options as default "
 "and click the :guilabel:`Download` button."
 msgstr ""
-"Jika luas area  Anda dapat diterima, Anda dapat membiarkan opsi lain "
-"sebagaimana defaultnya dan klik tombol :guilabel:`Download`."
+"Jika anda telah mendapatkan area yang tepat, anda dapat membiarkan pilihan "
+"lain tanpa perubahan dan mengklik tombol :guilabel:`Download`."
 
 # 30c129c2a9204f32a3288b132c91867e
 #: ../../qgis_plugins/plugin_examples.rst:139
@@ -451,8 +453,8 @@ msgid ""
 "After a while, the data will be downloaded, and will be shown in your map "
 "automatically. Here's an example:"
 msgstr ""
-"Setelah beberapa saat, data akan diunduh, dan akan ditampilkan di peta Anda "
-"secara otomatis. Berikut ini contohnya:"
+"Setelah beberapa saat, data akan diunduh dan ditampilkan pada peta anda "
+"secara otomatis. Berikut adalah contohnya:"
 
 # 0c8ce578a861418488090b763938e558
 #: ../../qgis_plugins/plugin_examples.rst:147
@@ -460,12 +462,11 @@ msgid ""
 "With any of the OSM layers selected in your :guilabel:`Layers list`, the "
 "buttons in the plugin's dock panel will become active:"
 msgstr ""
-"Dengan salah satu layer OSM dalam keadaan terpilih pada :guilabel:`Layers "
-"list`,tombol-tombol di dock panel plugin akan menjadi aktif:"
+"Dengan memilih layer OSM manapun pada :guilabel:`Layers list`, tombol-tombol "
+"pada panel plugin akan menjadi aktif:"
 
 # a0292d81e57c4ce9b9b5d88a118cec27
 #: ../../qgis_plugins/plugin_examples.rst:153
-#, fuzzy
 msgid ""
 "Using the plugin's own :guilabel:`Identify feature` tool (at the far left of "
 "the above buttons), click on any feature in the OSM layers to retrieve its "
@@ -473,52 +474,53 @@ msgid ""
 "the polygon near the top of the screen in our example shows it is a golf "
 "course:"
 msgstr ""
-"Dengan menggunakan tool :guilabel:`Identify feature` (di bagian paling kiri "
-"dari tombol di atas), klik pada setiap fitur di layer OSM untuk mengambil "
-"data dan memanpilkannya dalam jendela plugin. Misalnya,  Dengan mengklik "
-"pada sungai yang mengalir melalui kota akan member Anda informasi berikut:"
+"Dengan menggunakan alat bantu :guilabel:`Identify feature` pada plugin "
+"tersebut (di ujung sebelah kiri dari tombol di atas), klik fitur manapun "
+"pada layer OSM untuk mengambil dan menampilkan datanya di dalam jendela "
+"plugin. Misalnya dengan mengklik poligon di dekat bagian atas layar pada "
+"contoh kita akan menunjukkan bahwa area tersebut merupakan lapangan golf:"
 
 # e15f363fe8af490cb47682688db258a5
 #: ../../qgis_plugins/plugin_examples.rst:161
-#, fuzzy
 msgid ""
 "You can create new features (point, lines, polygons) as well as edit a "
 "feature that you have identified. For example, using the plugin's :guilabel:"
 "`Identify feature` tool as before, you can click on this polygon and see "
 "that it is a forest without a name:"
 msgstr ""
-"Anda dapat membuat fitur baru (point, line, polygon) dan Anda dapat juga "
-"mengedit fitur yang sudah Anda identifikasi. Sebagai contoh,dengan "
-"menggunakan tool  plugin  yaitu tool :guilabel:`Identify feature`, Klik pada "
-"jalan ini:"
+"Anda dapat membuat fitur baru (titik, garis, poligon) maupun menyunting "
+"fitur yang telah diidentifikasi. Sebagai contoh, gunakan alat bantu :"
+"guilabel:`Identify feature` pada plugin tersebut seperti sebelumnya dan klik "
+"poligon ini untuk melihat bahwa area tersebut merupakan hutan yang belum "
+"diberi nama:"
 
 # 64d78d88c7ed412c8f7343fc2b16e783
 #: ../../qgis_plugins/plugin_examples.rst:174
 msgid "Double-click in the :guilabel:`<new tag here>` field."
-msgstr "Klik dua kali pada kolom :guilabel:`<new tag here>`."
+msgstr "Klik ganda pada kolom :guilabel:`<new tag here>`."
 
 # 0eb87dfb80a74df29d47ce3c0cac7045
 #: ../../qgis_plugins/plugin_examples.rst:175
 msgid ""
 "Select a new tag (attribute) from a list. Let's choose :guilabel:`name`:"
 msgstr ""
-"Pilih tag baru (attribut) dari daftar. Mari kita pilih :guilabel:`name`:"
+"Pilih penanda baru (attribut) dari daftar. Mari kita pilih :guilabel:`name`:"
 
 # 60a9d064a79845239c392c76581d77e5
 #: ../../qgis_plugins/plugin_examples.rst:181
 msgid "Double-click in the :guilabel:`Value` field:"
-msgstr "Klik dua kali pada field :guilabel:`Value`:"
+msgstr "Klik ganda pada kolom :guilabel:`Value`:"
 
 # 26ff29ea674440e3bc22febdb49a3651
 #: ../../qgis_plugins/plugin_examples.rst:186
-#, fuzzy
 msgid ""
 "You can now enter a name for the forest. You can save your changes to the "
 "original source data, too. This makes the changes available internationally "
 "on the OSM server."
 msgstr ""
-"Anda dapat menyimpan perubahan Anda  pada data aslinya juga. Perubahan yang "
-"Anda buat akan  tersedia secara internasional pada server OSM."
+"Kini anda dapat menambahkan nama pada area hutan tersebut. Anda juga dapat "
+"menyimpan perubahan tersebut pada data sumber aslinya. Ini akan membuat "
+"perubahan tersebut tersedia secara internasional melalui server OSM."
 
 # 1fa2c099dce94ea1bdc1c7871236f04f
 #: ../../qgis_plugins/plugin_examples.rst:189
@@ -528,7 +530,8 @@ msgstr "Klik tombol :guilabel:`Upload OSM data`:"
 # b70f153a81bb4d4ab6ea9d130cde0063
 #: ../../qgis_plugins/plugin_examples.rst:194
 msgid "This gives you a dialog, which you can fill in as needed."
-msgstr "Kemudian akan muncul dialog, yang dapat Anda isi sesuai kebutuhan."
+msgstr ""
+"Kemudian akan muncul kotak dialog yang dapat anda isi sesuai kebutuhan."
 
 # 5dd3b09299b94dd894e3b2b72e474f34
 #: ../../qgis_plugins/plugin_examples.rst:195
@@ -537,9 +540,9 @@ msgid ""
 "spaces provided and click the :guilabel:`Upload` button to save those "
 "changes."
 msgstr ""
-"Jika Anda memiliki akun pengguna OSM, Anda dapat memasukkan info Anda pada "
-"tempat yang disediakan dan klik tombol :guilabel:`Upload` untuk menyimpan "
-"perubahan tersebut."
+"Jika anda memiliki akun pengguna di OSM, anda dapat memasukkan informasi "
+"mengenai diri anda pada tempat yang disediakan dan klik tombol :guilabel:"
+"`Upload` untuk menyimpan perubahan tersebut."
 
 # e7319d1a93934e29be7ccf0df69d9237
 #: ../../qgis_plugins/plugin_examples.rst:199
@@ -548,9 +551,10 @@ msgid ""
 "save OSM layers to a local directory, load data from saved OSM layers, and "
 "export OSM data as shapefiles."
 msgstr ""
-"Sebagai catatan, plugin memiliki banyak fungsi : contohnya, Anda juga dapat "
-"menyimpan layer osm ke direktori lokal, memuat data dari layer OSM yang "
-"tersimpan, and mengekspor data OSM sebagai shapefile."
+"Perlu dicatat bahwa plugin ini juga memiliki banyak fungsi lainnya: Sebagai "
+"contoh, anda dapat menyimpan layer OSM ke dalam direktori lokal, memuat data "
+"dari layer OSM yang telah disimpan, dan mengekspor data OSM ke dalam bentuk "
+"shapefile."
 
 # 9b562d78dfeb47b59c31630d343ef798
 #: ../../qgis_plugins/plugin_examples.rst:203
@@ -559,8 +563,9 @@ msgid ""
 "Contributing data using this plugin allows you to help improve the quality "
 "of the OSM data you depend on."
 msgstr ""
-"Data OSM berasal dan dipelihara oleh semua pengguna. Memberi masukan data "
-"dengan menggunakan plugin ini dapat membantu meningkatkan kualitas data OSM."
+"Data OSM dibuat dan dipelihara oleh penggunanya. Kontribusi yang anda buat "
+"dengan plugin ini akan membantu meningkatkan kualitas data OSM yang anda "
+"gunakan."
 
 # 96f672e53d574defbc947560ab7cef2d
 #: ../../qgis_plugins/plugin_examples.rst:210
@@ -569,9 +574,9 @@ msgid ""
 "for installing and managing these plugins, you can find new plugins and make "
 "optimum use of them."
 msgstr ""
-"Terdapat banyak plugin yang bermanfaat yang tersedia untuk QGIS. Dengan "
-"menggunakan tool built-in untuk menginstal dan mengelola plugin, Anda dapat "
-"menemukan plugin baru dan memanfaatkan plugin tersebut secara optimal."
+"Terdapat banyak plugin QGIS yang bermanfaat. Dengan menggunakan alat bantu "
+"yang telah disertakan untuk menginstalasi dan mengelola plugin, anda dapat "
+"mencari dan mengoptimalkan penggunaan plugin baru."
 
 # c3676f8dad444dbcad6d8447d14b0418
 #: ../../qgis_plugins/plugin_examples.rst:217
@@ -579,6 +584,8 @@ msgid ""
 "Now we will look at combining some of the skills you have learnt in a "
 "practical exercise involving data from iSIKHNAS."
 msgstr ""
+"Sekarang kita akan mempelajari bagaimana mengkombinasikan keahlian yang "
+"telah anda pelajari dalam sebuah latihan yang menggunakan data dari iSIKHNAS."
 
 # 7347bb56f0234f68baa99f5cdc65cf90
 #~ msgid "In the dialog that opens, find the :guilabel:`GdalTools` plugin:"
