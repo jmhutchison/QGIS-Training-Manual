@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-02 14:39+1000\n"
+"POT-Creation-Date: 2014-10-23 15:36+1100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -472,7 +472,7 @@ msgstr ""
 
 #: ../../animal_health/exercise1.rst:223
 # 86fde64795c44e8cbba1896f2b1314f5
-msgid "|moderate| |FA| Selecting records using SQL (Simple Query Language)"
+msgid "|moderate| |FA| Selecting records using SQL (Structured Query Language)"
 msgstr ""
 
 #: ../../animal_health/exercise1.rst:224
@@ -581,7 +581,7 @@ msgstr ""
 
 #: ../../animal_health/exercise2.rst:4
 # 94ca86b0297d4a608e4e83a083a6c0a0
-msgid "We have created a map showing all the cases of poultry mortality in poultry in the Sulawesi Selatan region. Now we need to consider our approach to creating the required 15 kilometre buffer zone around these cases."
+msgid "We have created a map showing all the cases of mortality in poultry in the Sulawesi Selatan region. Now we need to consider our approach to creating the required 15 kilometre buffer zone around these cases."
 msgstr ""
 
 #: ../../animal_health/exercise2.rst:10
@@ -716,7 +716,7 @@ msgstr ""
 
 #: ../../animal_health/exercise3.rst:13
 # 666ee1209cc146be8f0d632d23fa34e7
-msgid "If you look at your map you will notice that the cases of sudden death in poultry occur mostly in the districts of Barru and Sinjai."
+msgid "If you look at your map you will notice that the cases of mortality in poultry occur mostly in the districts of Barru and Sinjai."
 msgstr ""
 
 #: ../../animal_health/exercise3.rst:16
@@ -757,7 +757,7 @@ msgstr ""
 
 #: ../../animal_health/exercise3.rst:38
 # 1485c1fd826f4ea59dc7b1b8b25650f8
-msgid "For this buffering exercise we will use the :kbd:`PoultrySuddenDeath_32750` file we created. Select this layer, and go to the *Vector* menu. Hover over *Geoprocessing Tools* and select *Buffer(s)*."
+msgid "For this buffering exercise we will use the :kbd:`PoultryMortality_32750` file we created. Select this layer, and go to the *Vector* menu. Hover over *Geoprocessing Tools* and select *Buffer(s)*."
 msgstr ""
 
 #: ../../animal_health/exercise3.rst:45
@@ -767,7 +767,7 @@ msgstr ""
 
 #: ../../animal_health/exercise3.rst:50
 # 682fdd7092974ce7a54e533d11d1a055
-msgid "Choose :kbd:`PoultrySuddenDeath_32750` as the input vector layer, and use a buffer distance of 15000 (remember your layer units are metres)."
+msgid "Choose :kbd:`PoultryMortality_32750` as the input vector layer, and use a buffer distance of 15000 (remember your layer units are metres)."
 msgstr ""
 
 #: ../../animal_health/exercise3.rst:53
@@ -872,7 +872,7 @@ msgstr ""
 
 #: ../../animal_health/exercise3.rst:112
 # a232cfda147e4e10a3aebfd03854961f
-msgid "Using the same skills you have learnt above to buffer and clip layers, create a 15 kilometre buffer zone around the village polygons containing cases of sudden death in poultry. Clip your new layer and add it to your map, naming it :kbd:`PoultrySD15kmBufferPolyClip_32750`."
+msgid "Using the same skills you have learnt above to buffer and clip layers, create a 15 kilometre buffer zone around the village polygons containing cases of mortality in poultry. Clip your new layer and add it to your map, naming it :kbd:`PoultrySD15kmBufferPolyClip_32750`."
 msgstr ""
 
 #: ../../animal_health/exercise3.rst:116
@@ -917,7 +917,7 @@ msgstr ""
 
 #: ../../animal_health/exercise4.rst:15
 # e112af946152446bb66dfbe226ab577a
-msgid "Open the :kbd:`PoultrySuddenDeath_32750` attribute table and have a look at the columns. What do you notice? What information can you easily display on your map?"
+msgid "Open the :kbd:`PoultryMortality_32750` attribute table and have a look at the columns. What do you notice? What information can you easily display on your map?"
 msgstr ""
 
 #: ../../animal_health/exercise4.rst:18
@@ -927,7 +927,7 @@ msgstr ""
 
 #: ../../animal_health/exercise4.rst:21
 # 3434fa31953149d49c735d6f39bcc515
-msgid "To do this, open the layer properties for :kbd:`PoultrySuddenDeath_32750` and click on the *Style* tab."
+msgid "To do this, open the layer properties for :kbd:`PoultryMortality_32750` and click on the *Style* tab."
 msgstr ""
 
 #: ../../animal_health/exercise4.rst:24
@@ -957,7 +957,7 @@ msgstr ""
 
 #: ../../animal_health/exercise4.rst:43
 # 8c553fab0c2944189fe592d7bcbbf156
-msgid "To do this, open the layer properties for :kbd:`PoultrySuddenDeath_32750` and click on the *Style* tab again. This time, click on the change button next to *Symbol*. Experiment with the size of the point until you think it is large enough to show the varying shades."
+msgid "To do this, open the layer properties for :kbd:`PoultryMortality_32750` and click on the *Style* tab again. This time, click on the change button next to *Symbol*. Experiment with the size of the point until you think it is large enough to show the varying shades."
 msgstr ""
 
 #: ../../animal_health/exercise4.rst:47
@@ -972,7 +972,7 @@ msgstr ""
 
 #: ../../animal_health/exercise4.rst:58
 # 89deada0ce3e46e9a658b875b3b11ed3
-msgid "In our next lesson, we will learn how to join layers together by their location. This will enable us to create a new file that combines attributes such as the case numbers from the :kbd:`PoultrySuddenDeath_32750` shapefile and the village boundaries from the :kbd:`VillagePolyBarSin_32750` shapefile."
+msgid "In our next lesson, we will learn how to join layers together by their location. This will enable us to create a new file that combines attributes such as the case numbers from the :kbd:`PoultryMortality_32750` shapefile and the village boundaries from the :kbd:`VillagePolyBarSin_32750` shapefile."
 msgstr ""
 
 #: ../../animal_health/exercise5.rst:2
@@ -1677,6 +1677,6 @@ msgstr ""
 
 #: ../../animal_health/index.rst:5
 # 0fc8da2b4f7a4cbeb92312c63fd6923b
-msgid "The purpose of this module is to show how QGIS can be used to assist in animal health scenarios. In order to do this, you will have needed to study, and be familiar with, the previous chapters of this manual, but in particular you need to be familiar with chapters 3 - *Creating a basic map*, and chapter 6 - *Vector analysis*."
+msgid "The purpose of this module is to show how QGIS can be used to assist in animal health scenarios. In order to do this, you will have needed to study, and be familiar with, the previous chapters of this manual, but in particular you need to be familiar with chapters 3 - *Creating a basic map*, and chapter 7 - *Vector analysis*."
 msgstr ""
 

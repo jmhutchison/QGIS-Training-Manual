@@ -1,5 +1,5 @@
 |LS| Styling to show density
-===============================================================================
+============================
 A good map is able to convey information quickly and clearly. For example, we can 
 use colour to indicate the number of cases in each village of the particular syndrome 
 we are investigating.
@@ -10,15 +10,15 @@ To review ways of styling our maps so the information is displayed in the cleare
 possible way.
 
 |basic| |FA| Styling to show density
---------------------------------------------------------------------------------
+------------------------------------
 
-Open the :kbd:`PoultrySuddenDeath_32750` attribute table and have a look at the columns. 
+Open the :kbd:`PoultryMortality_32750` attribute table and have a look at the columns. 
 What do you notice? What information can you easily display on your map?
 
 Take a look at the *cases* column. It tells you the number of cases recorded in 
 each village. We can use colour coding to display this information on our map.
 
-To do this, open the layer properties for :kbd:`PoultrySuddenDeath_32750` and click on the 
+To do this, open the layer properties for :kbd:`PoultryMortality_32750` and click on the 
 *Style* tab.
 
 Select *Graduated* from the pull-down rendering menu. This spreads our chosen colours 
@@ -40,7 +40,7 @@ What do you notice?
 Our points on the map are very small, and it is difficult to distinguish the colour variation. 
 One way to change this is to experiment with the size of the points. 
 
-To do this, open the layer properties for :kbd:`PoultrySuddenDeath_32750` and click on the 
+To do this, open the layer properties for :kbd:`PoultryMortality_32750` and click on the 
 *Style* tab again. This time, click on the change button next to *Symbol*. Experiment with 
 the size of the point until you think it is large enough to show the varying shades.
 
@@ -50,12 +50,12 @@ This is what it looks like when the size is set to 5 millimetres:
    :align: center
 
 |WN|
---------------------------------------------------------------------------------
+----
 
 This improves our map for showing which villages have recorded the most cases, but it would be 
 better if we could show this using the village boundaries. 
 
 In our next lesson, we will learn how to join layers together by their location. This will enable 
 us to create a new file that combines attributes such as the case numbers from the 
-:kbd:`PoultrySuddenDeath_32750` shapefile and the village boundaries from the :kbd:`VillagePolyBarSin_32750` 
+:kbd:`PoultryMortality_32750` shapefile and the village boundaries from the :kbd:`VillagePolyBarSin_32750` 
 shapefile. 

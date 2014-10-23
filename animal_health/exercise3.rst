@@ -1,5 +1,5 @@
-|LS| Buffering 
-===============================================================================
+|LS| Buffering
+==============
 Now we have have our layers necessary to create our 15 kilometre buffer. Or do we? 
 
 **The goal for this lesson:**
@@ -8,9 +8,9 @@ To consider and understand point data versus polygon data, and how what effect e
 will have when creating a buffer zone.
 
 |basic| |FA| Point data, centroids and polygons
---------------------------------------------------------------------------------
+-----------------------------------------------
 
-If you look at your map you will notice that the cases of sudden death in poultry occur mostly 
+If you look at your map you will notice that the cases of mortality in poultry occur mostly 
 in the districts of Barru and Sinjai.
 
 For this exercise we are going to add a new vector layer, :kbd:`VillagePolyBarSin_32750`, which shows the 
@@ -33,9 +33,9 @@ using the centroid of the village polygon.
 How will this affect our 15 kilometre buffer zone? Let's find out.
 
 |basic| |FA| Buffering from the village centroid
---------------------------------------------------------------------------------
+------------------------------------------------
 
-For this buffering exercise we will use the :kbd:`PoultrySuddenDeath_32750` file we created. 
+For this buffering exercise we will use the :kbd:`PoultryMortality_32750` file we created. 
 Select this layer, and go to the *Vector* menu. Hover over *Geoprocessing Tools* and select 
 *Buffer(s)*.
 
@@ -47,7 +47,7 @@ The following window will open:
 .. image:: ../_static/ISIKHNAS/017.png
    :align: center
 
-Choose :kbd:`PoultrySuddenDeath_32750` as the input vector layer, and use a buffer distance of  
+Choose :kbd:`PoultryMortality_32750` as the input vector layer, and use a buffer distance of  
 15000 (remember your layer units are metres).
 
 Click on *Dissolve buffer results*.
@@ -63,7 +63,7 @@ Do you see that the buffers naturally extend into the sea? We will now use the *
 fix this.
 
 |basic| |FA| **Clipping** datasets
---------------------------------------------------------------------------------
+----------------------------------
 
 We can use one dataset to cut through another dataset, leaving us with only the 
 information we want.
@@ -107,10 +107,10 @@ This means our 15 kilometre buffers are not going to be as accurate as they migh
 In the next section we will create the buffer using the village polygon layer and compare the two results.
 
 |basic| |TY| Buffering using the village polygon
---------------------------------------------------------------------------------
+------------------------------------------------
 
 Using the same skills you have learnt above to buffer and clip layers, create a 15 kilometre 
-buffer zone around the village polygons containing cases of sudden death in poultry. Clip your new
+buffer zone around the village polygons containing cases of mortality in poultry. Clip your new
 layer and add it to your map, naming it :kbd:`PoultrySD15kmBufferPolyClip_32750`.
 
 Rearrange the layers, so that the buffer zone created with the village centroids is visible over the 
@@ -127,7 +127,7 @@ Since we don't know exactly where each case occurred, it is a good idea to consi
 village polygons when creating a buffer zone, not the village centroids.
 
 |WN|
---------------------------------------------------------------------------------
+----
 
 It would be useful if we could estimate by looking at our map how many cases have been 
 recorded in each village. In our next lesson we will review more styling, and how to colour 

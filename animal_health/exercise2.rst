@@ -1,7 +1,7 @@
-|LS| Projecting layers 
-===============================================================================
+|LS| Projecting layers
+======================
 
-We have created a map showing all the cases of poultry mortality in poultry in the 
+We have created a map showing all the cases of mortality in poultry in the 
 Sulawesi Selatan region. Now we need to consider our approach to creating the required 
 15 kilometre buffer zone around these cases.
 
@@ -10,7 +10,7 @@ Sulawesi Selatan region. Now we need to consider our approach to creating the re
 To review map projections 
 
 |basic| |FA| Projecting the layers
---------------------------------------------------------------------------------
+----------------------------------
 Think back to Chapter 7 where you learnt about projections, and now take a look at the layers 
 on your map. Is their CRS (Coordinate Reference System) a Geographic Coordinate Reference 
 System (GCS) or a Projected Coordinate System (PCS)? How can you tell?
@@ -44,7 +44,7 @@ For this exercise we will use the Universal Transverse Mercator (UTM) zone 50s (
 * Click :guilabel:`OK`.
 
 |basic| |TY| Project the remaining layers
---------------------------------------------------------------------------------
+-----------------------------------------
 
 Repeat these steps for your remaining layers, adding the new, projected layers to your map. You can 
 now remove the original, unprojected layers from your map. As we have determined that we are only 
