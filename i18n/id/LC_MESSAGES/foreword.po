@@ -2,21 +2,21 @@
 # Copyright (C) 2012, Linfiniti Consulting CC
 # This file is distributed under the same license as the The Free Quantum GIS Training Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-17 12:09+1100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2014-11-04 15:51+1100\n"
+"PO-Revision-Date: 2014-11-04 15:52+1000\n"
 "Last-Translator: yusatya <yusatya@gmail.com>\n"
 "Language-Team: AIPEID\n"
-"Language: \n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Language: id\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # b59ae6e97a9a4a408ec0c9932448ed85
 #: ../../foreword/foreword.rst:2
@@ -324,14 +324,21 @@ msgstr ""
 # 19bec6ecdd9241b7a9987b1881157ba2
 #: ../../foreword/foreword.rst:109
 msgid ""
-"Horst Düster (horst.duester@kappasys.ch ) - Horst co-authored the PostgreSQL "
-"and PostGIS parts"
+"Horst Düster (horst.duester@kappasys.ch) - Horst co-authored the PostgreSQL "
+"and PostGIS parts."
 msgstr ""
 "Horst Düster (horst.duester@kappasys.ch ) - Horst ikut menulis bagian-bagian "
 "materi PostgreSQL dan PostGIS."
 
-# 10407e092f264facb53a86dd4a85acb7
+# f45dcb0198ef402f874c75d6d33ded13
 #: ../../foreword/foreword.rst:111
+msgid ""
+"Rachel Gordon (rachel@ausvet.com.au) - Rachel wrote the Animal Health part."
+msgstr ""
+"Rachel Gordon (rachel@ausvet.com.au) -Rachel menulis bagian Kesehatan Hewan."
+
+# 10407e092f264facb53a86dd4a85acb7
+#: ../../foreword/foreword.rst:112
 msgid ""
 "Marcelle Sutton (marcelle@linfiniti.com) - Marcelle provided proof reading "
 "and editorial advice during the creation of this work."
@@ -341,12 +348,12 @@ msgstr ""
 "materi ini."
 
 # 1767b6e16ac84348889607f80ef3e03e
-#: ../../foreword/foreword.rst:115
+#: ../../foreword/foreword.rst:116
 msgid "Individual Contributors"
 msgstr "Para Kontributor"
 
 # d8c5953aadaa49778d48db33da09c86f
-#: ../../foreword/foreword.rst:117
+#: ../../foreword/foreword.rst:118
 msgid "Your name here!"
 msgstr ""
 "Trias Aditya K. M., ST, M.Sc, Ph.D\n"
@@ -359,22 +366,22 @@ msgstr ""
 "I Made Diky Ade Hermawan"
 
 # 61a3dc10b8f94cbfa865de7143347998
-#: ../../foreword/foreword.rst:120
+#: ../../foreword/foreword.rst:121
 msgid "Sponsors"
 msgstr "Sponsor"
 
 # 5d4477dc8e244e92bec53db4f9f637bf
-#: ../../foreword/foreword.rst:122
+#: ../../foreword/foreword.rst:123
 msgid "Cape Peninsula University of Technology"
 msgstr "Universitas Teknologi Cape Peninsula"
 
 # b77b104b995148019d1a6a26e5ef04c6
-#: ../../foreword/foreword.rst:125
+#: ../../foreword/foreword.rst:126
 msgid "Data"
 msgstr "Data"
 
 # fc827f73e8d0457395561d7e89098f94
-#: ../../foreword/foreword.rst:127
+#: ../../foreword/foreword.rst:128
 msgid ""
 "The sample data that accompanies this resource is freely available and comes "
 "from the following sources:"
@@ -383,7 +390,7 @@ msgstr ""
 "sumber-sumber di bawah ini:"
 
 # 7961e222c1654bc09cc94dbbfec61011
-#: ../../foreword/foreword.rst:130
+#: ../../foreword/foreword.rst:131
 msgid ""
 "Streets and Places datasets from OpenStreetMap (http://www.openstreetmap."
 "org/)"
@@ -391,7 +398,7 @@ msgstr ""
 "Set data jalan dan lokasi dari OpenStreetMap (http://www.openstreetmap.org/)"
 
 # b98c2a6033ad4609a14c2d02ed70c4b4
-#: ../../foreword/foreword.rst:131
+#: ../../foreword/foreword.rst:132
 msgid ""
 "Property boundaries (urban and rural), water bodies from NGI (http://www.ngi."
 "gov.za/)"
@@ -400,17 +407,17 @@ msgstr ""
 "(http://www.ngi.gov.za/)"
 
 # 58c45c63d8c24b8ca22b4a9be77ab332
-#: ../../foreword/foreword.rst:132
+#: ../../foreword/foreword.rst:133
 msgid "SRTM DEM from the CGIAR-CGI (http://srtm.csi.cgiar.org/)"
 msgstr "SRTM DEM dari CGIAR-CGI (http://srtm.csi.cgiar.org/)"
 
 # 7024fef5723d415299588735f938436c
-#: ../../foreword/foreword.rst:136
+#: ../../foreword/foreword.rst:137
 msgid "Latest Version"
 msgstr "Versi Terbaru"
 
 # 55efa066d58d49c4ad966f8f657268b2
-#: ../../foreword/foreword.rst:138
+#: ../../foreword/foreword.rst:139
 msgid ""
 "You can always obtain the latest version of this document by visiting our "
 "`home page <http://readthedocs.org/builds/the-free-qgis-training-manual/>`_ "
@@ -421,7 +428,7 @@ msgstr ""
 "training-manual/>`_ yang beralamat di http://readthedocs.org."
 
 # 47733b831ac24be8b49d5672dc980aa5
-#: ../../foreword/foreword.rst:142
+#: ../../foreword/foreword.rst:143
 msgid ""
 "There are links to PDF and epub versions of the documentation in the lower "
 "right hand corner of the above mentioned home page."
@@ -430,7 +437,7 @@ msgstr ""
 "sudut kanan bawah dari situs web yang kami sebutkan di atas."
 
 # 7852d4ab73704e9cb332f7d54ce5b14a
-#: ../../foreword/foreword.rst:147
+#: ../../foreword/foreword.rst:148
 msgid "Tim Sutton, May 2012"
 msgstr "Tim Sutton, Mei 2012"
 

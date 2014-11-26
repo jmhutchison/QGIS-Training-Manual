@@ -2,7 +2,7 @@ Foreword
 ========
 
 About this course
-----------
+-----------------
 
 This course has adopted and modified an existing QGIS course developed by Linfiniti 
 Consulting CC. We have adopted their exercises using Indonesian data. We have also 
@@ -106,8 +106,9 @@ Authors
 * Tim Sutton (tim@linfiniti.com) - Tim has overseen and guided the project and
   co-authored the PostgreSQL and PostGIS parts. Tim also authored the custom
   sphinx theme used for this manual.
-* Horst Düster (horst.duester@kappasys.ch ) - Horst co-authored the PostgreSQL
-  and PostGIS parts
+* Horst Düster (horst.duester@kappasys.ch) - Horst co-authored the PostgreSQL
+  and PostGIS parts.
+* Rachel Gordon (rachel@ausvet.com.au) - Rachel wrote the Animal Health part.
 * Marcelle Sutton (marcelle@linfiniti.com) - Marcelle provided proof reading
   and editorial advice during the creation of this work.
 

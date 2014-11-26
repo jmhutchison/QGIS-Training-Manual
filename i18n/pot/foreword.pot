@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Free Quantum GIS Training Manual 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-23 15:36+1100\n"
+"POT-Creation-Date: 2014-11-04 15:51+1100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -148,75 +148,80 @@ msgstr ""
 
 #: ../../foreword/foreword.rst:109
 # 89262ac98eb14b1e8b7073b71b7c2d3b
-msgid "Horst Düster (horst.duester@kappasys.ch ) - Horst co-authored the PostgreSQL and PostGIS parts"
+msgid "Horst Düster (horst.duester@kappasys.ch) - Horst co-authored the PostgreSQL and PostGIS parts."
 msgstr ""
 
 #: ../../foreword/foreword.rst:111
+# f45dcb0198ef402f874c75d6d33ded13
+msgid "Rachel Gordon (rachel@ausvet.com.au) - Rachel wrote the Animal Health part."
+msgstr ""
+
+#: ../../foreword/foreword.rst:112
 # ab7a2d49ebb243f783055349263fd2ae
 msgid "Marcelle Sutton (marcelle@linfiniti.com) - Marcelle provided proof reading and editorial advice during the creation of this work."
 msgstr ""
 
-#: ../../foreword/foreword.rst:115
+#: ../../foreword/foreword.rst:116
 # 274e3bb45a0f47aba7cc04a392ef14a7
 msgid "Individual Contributors"
 msgstr ""
 
-#: ../../foreword/foreword.rst:117
+#: ../../foreword/foreword.rst:118
 # c7aeb178bc3b43d3b324e8d9d1933c1c
 msgid "Your name here!"
 msgstr ""
 
-#: ../../foreword/foreword.rst:120
+#: ../../foreword/foreword.rst:121
 # 9aa1e21fb25f40539d67031cc3524392
 msgid "Sponsors"
 msgstr ""
 
-#: ../../foreword/foreword.rst:122
+#: ../../foreword/foreword.rst:123
 # 4d10928d64dd4c72a30419467f567844
 msgid "Cape Peninsula University of Technology"
 msgstr ""
 
-#: ../../foreword/foreword.rst:125
+#: ../../foreword/foreword.rst:126
 # 3f40c7917c47409c8fb21ecf2d4e3434
 msgid "Data"
 msgstr ""
 
-#: ../../foreword/foreword.rst:127
+#: ../../foreword/foreword.rst:128
 # 21fa456e0eff4c75979bcd0eb08f9f88
 msgid "The sample data that accompanies this resource is freely available and comes from the following sources:"
 msgstr ""
 
-#: ../../foreword/foreword.rst:130
+#: ../../foreword/foreword.rst:131
 # 9bac40017abe4f7f8f1867e430743c15
 msgid "Streets and Places datasets from OpenStreetMap (http://www.openstreetmap.org/)"
 msgstr ""
 
-#: ../../foreword/foreword.rst:131
+#: ../../foreword/foreword.rst:132
 # 70ed958b70fc4933a8be928484823b68
 msgid "Property boundaries (urban and rural), water bodies from NGI (http://www.ngi.gov.za/)"
 msgstr ""
 
-#: ../../foreword/foreword.rst:132
+#: ../../foreword/foreword.rst:133
 # a20789e14a5c4952bba6e5736d24033e
 msgid "SRTM DEM from the CGIAR-CGI (http://srtm.csi.cgiar.org/)"
 msgstr ""
 
-#: ../../foreword/foreword.rst:136
+#: ../../foreword/foreword.rst:137
 # 26c449138ad043a8a70dcb6dc2589a41
 msgid "Latest Version"
 msgstr ""
 
-#: ../../foreword/foreword.rst:138
+#: ../../foreword/foreword.rst:139
 # 909396f7c93f4b8a9be5b1ad6652cd2f
 msgid "You can always obtain the latest version of this document by visiting our `home page <http://readthedocs.org/builds/the-free-qgis-training-manual/>`_ which is kindly hosted by http://readthedocs.org."
 msgstr ""
 
-#: ../../foreword/foreword.rst:142
+#: ../../foreword/foreword.rst:143
 # cc05817071074470a703eaeb7322c432
 msgid "There are links to PDF and epub versions of the documentation in the lower right hand corner of the above mentioned home page."
 msgstr ""
 
-#: ../../foreword/foreword.rst:147
+#: ../../foreword/foreword.rst:148
 # 01375c6fe040493ebbd88d9c97edca63
 msgid "Tim Sutton, May 2012"
 msgstr ""

@@ -1,5 +1,5 @@
 |LS| Classification
-===============================================================================
+===================
 
 Labels are a good way to communicate information such as the names of
 individual places, but they can't be used for everything. For example, let's
@@ -15,7 +15,7 @@ lesson is about!
 **The goal for this lesson:** To learn how to classify vector data effectively.
 
 |basic| |FA| Classifying nominal data
--------------------------------------------------------------------------------
+-------------------------------------
 
 
 * Open :guilabel:`Layer Properties` for :guilabel:`bandung_districts`
@@ -106,14 +106,14 @@ Remember to save your map now so that you don't lose all your hard-earned
 changes!
 
 |basic| |TY| More classification
--------------------------------------------------------------------------------
+--------------------------------
 
 If you're only following the basic-level content, use the knowledge you gained
 above to classify the :guilabel:`urban` areas. Use darker colors to set them
 apart from the farms.
 
 |moderate| |FA| Ratio classification
--------------------------------------------------------------------------------
+------------------------------------
 
 There are four types of classification: *nominal*, *ordinal*, *interval* and
 *ratio*.
@@ -258,7 +258,7 @@ Leave everything as-is.
 .. _backlink-classification-refine-1:
 
 |moderate| |TY| Refine the classification
--------------------------------------------------------------------------------
+-----------------------------------------
 
 * Get rid of the lines between the classes.
 * Change the values of :guilabel:`Mode` and :guilabel:`Classes` until you get a
@@ -267,7 +267,7 @@ Leave everything as-is.
 :ref:`Check your results <classification-refine-1>`
 
 |hard| |FA| Rule-based classification
--------------------------------------------------------------------------------
+-------------------------------------
 
 It's often useful to combine multiple criteria for a classification, but
 unfortunately normal classification only takes one attribute into account.
@@ -285,7 +285,7 @@ That's where rule-based classification comes in handy.
 * Click the ellipsis :guilabel:`...` button next to the :guilabel:`Filter` text area.
 * Using the query builder that appears, enter the criterion :kbd:`AREA >= 30000000` and choose a light color for it.
 * Add the criterion :kbd:`AREA <= 30000000` and choose a dark color.
-* Add the criterion :kbd:`DESA = 'Ajakkang'` and assign it the color black, with transparency at :kbd:`35%`.
+* Add the criterion :kbd:`DESA = 'Ajakkang'` and assign it the color red, with transparency at :kbd:`35%`.
 * Use the :guilabel:`Rendering order` to render the layers correctly so Ajakkang is visible.
 
 Your dialog should look like this:
@@ -303,16 +303,16 @@ Your map will look like this:
 Now you have two area classes, with the village Ajakkang highlighted.
 
 |IC|
--------------------------------------------------------------------------------
+----
 
 Symbology allows us to represent the attributes of a layer in an easy-to-read
 way. It allows us as well as the map reader to understand the significance of
-features, using any relevat attributes that we choose. Depending on the
+features, using any relevant attributes that we choose. Depending on the
 problems you face, you'll apply different classification techniques to solve
 them.
 
 |WN|
--------------------------------------------------------------------------------
+----
 
 Now we have a nice-looking map, but how are we going to get it out of QGIS and
 into a format we can print out, or make into an image or PDF? That's the topic
